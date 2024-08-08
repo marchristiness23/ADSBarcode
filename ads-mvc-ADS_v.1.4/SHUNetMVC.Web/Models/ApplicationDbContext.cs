@@ -1,4 +1,5 @@
-﻿using Kataandi.Models;
+﻿/*
+using Kataandi.Models;
 using Kataandi.Models.dto;
 using Kendo.Mvc.UI;
 using Microsoft.EntityFrameworkCore;
@@ -17,3 +18,4 @@ namespace Kataandi.Models
         public DbSet<MD_Aset> MD_Aset { get; set; }
     }
 }
+*/

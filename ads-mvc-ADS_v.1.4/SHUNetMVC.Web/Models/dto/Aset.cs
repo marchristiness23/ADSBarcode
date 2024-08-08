@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿/*
+using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
 namespace Kataandi.Models.dto
@@ -26,3 +27,4 @@ namespace Kataandi.Models.dto
         public string PathFotoKeseluruhan { get; set; }
     }
 }
+*/

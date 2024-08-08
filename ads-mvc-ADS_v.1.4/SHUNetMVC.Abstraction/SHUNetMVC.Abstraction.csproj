@@ -119,7 +119,11 @@
   <ItemGroup>
     <Compile Include="Enum\FilterBuilderEnum.cs" />
     <Compile Include="Extensions\AutoMapper.cs" />
+    <Compile Include="Model\Dto\BarcodeChangeRequest.cs" />
+    <Compile Include="Model\Dto\ErrorViewModel.cs" />
     <Compile Include="Model\Dto\BaseDtoAutoMapper.cs" />
+    <Compile Include="Model\Dto\AsetView.cs" />
+    <Compile Include="Model\Dto\MD_Aset.cs" />
     <Compile Include="Model\Dto\CustomerDto.cs" />
     <Compile Include="Model\Dto\TerritoryDto.cs" />
     <Compile Include="Model\Dto\WorkerDto.cs" />
@@ -155,16 +159,25 @@
     <Compile Include="Model\Entities\EmployeeEducation.cs">
       <DependentUpon>ADSContext.tt</DependentUpon>
     </Compile>
+    <Compile Include="Model\Entities\MD_Aset.cs">
+      <DependentUpon>ADSContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Entities\MD_Location.cs">
+      <DependentUpon>ADSContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Model\Entities\Project.cs">
       <DependentUpon>ADSContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\Entities\Region.cs">
       <DependentUpon>ADSContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\Entities\Student.cs">
+    <Compile Include="Model\Entities\Territory.cs">
       <DependentUpon>ADSContext.tt</DependentUpon>
     </Compile>
-    <Compile Include="Model\Entities\Territory.cs">
+    <Compile Include="Model\Entities\TR_History.cs">
+      <DependentUpon>ADSContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Entities\TR_HistoryFoto.cs">
       <DependentUpon>ADSContext.tt</DependentUpon>
     </Compile>
     <Compile Include="Model\Entities\Worker.cs">

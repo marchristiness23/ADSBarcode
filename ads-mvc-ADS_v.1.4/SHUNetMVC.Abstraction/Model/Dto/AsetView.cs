@@ -1,11 +1,8 @@
-﻿
-
-/*
-using DocumentFormat.OpenXml.Spreadsheet;
-using Microsoft.EntityFrameworkCore;
+﻿using SHUNetMVC.Abstraction.Extensions;
+using SHUNetMVC.Abstraction.Model.Entities;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-namespace Kataandi.Models.dto
+
+namespace SHUNetMVC.Abstraction.Model.Dto
 {
     public class AsetView
     {
@@ -13,4 +10,3 @@ namespace Kataandi.Models.dto
         public MD_Aset newAset { get; set; }
     }
 }
-*/

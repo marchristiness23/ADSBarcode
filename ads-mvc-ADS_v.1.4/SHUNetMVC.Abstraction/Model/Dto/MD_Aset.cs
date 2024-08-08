@@ -1,12 +1,10 @@
-﻿/*
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using SHUNetMVC.Abstraction.Extensions;
+using SHUNetMVC.Abstraction.Model.Entities;
 
-namespace Kataandi.Models.dto
+namespace SHUNetMVC.Abstraction.Model.Dto
 {
-    public class MD_Aset
+    public class MD_AsetDto : BaseDtoAutoMapper<MD_Aset>
     {
-        [Key]
         public string AsetNo { get; set; }
         public int LineNo { get; set; }
         public int LocationId { get; set; }
@@ -25,6 +23,14 @@ namespace Kataandi.Models.dto
         public string LokasiAset { get; set; }
         public string PathFotoTagging { get; set; }
         public string PathFotoKeseluruhan { get; set; }
+
+        public MD_AsetDto()
+        {
+
+        }
+
+        public MD_AsetDto(MD_Aset entity) : base(entity)
+        {
+        }
     }
 }
-*/

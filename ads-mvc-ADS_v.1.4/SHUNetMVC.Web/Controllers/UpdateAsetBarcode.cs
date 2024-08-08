@@ -1,9 +1,32 @@
-﻿using System;
+﻿using iText.Kernel.Events;
+using iText.Kernel.Geom;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Borders;
+using iText.Layout.Element;
+using iText.Layout.Properties;
+using Kendo.Mvc.Extensions;
+using Kendo.Mvc.UI;
+using SHUNetMVC.Abstraction.Model.Dto;
+using SHUNetMVC.Abstraction.Services;
+using SHUNetMVC.Infrastructure.Helpers;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Web;
+using System.Web.Mvc;
+
+#region 'Old'
+/*
+
+using System;
 using System.Data.Entity;
 using System.Linq;
 using System.Web.Mvc;
-using Kataandi.Models;
-using Kataandi.Models.dto;
+//using Kataandi.Models;
+//using Kataandi.Models.dto;
 //using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SHUNetMVC.Web.Models;
@@ -13,11 +36,13 @@ namespace Kataandi.Controllers
 {
     public class BarcodeScannerController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        //private readonly ApplicationDbContext _context;
 
-        public BarcodeScannerController(ApplicationDbContext context)
+        //public BarcodeScannerController(ApplicationDbContext context)
+
+        public BarcodeScannerController()
         {
-            _context = context;
+            //_context = context;
         }
 
         public ActionResult Index()
@@ -53,6 +78,40 @@ namespace Kataandi.Controllers
                 _context.Dispose();
             }
             base.Dispose(disposing);
+        }
+    }
+}
+*/
+#endregion
+
+namespace SHUNetMVC.Web.Controllers
+{
+    public class UpdateAsetBarcodeController : Controller
+    {
+        private IEmployeeKendoService _employeeKendoService;
+        private IUserService _userService;
+        private ICrudEmployeeKendoService _crudEmployeeKendoService;
+
+        public UpdateAsetBarcodeController(IEmployeeKendoService employeeKendoService, IUserService userService, ICrudEmployeeKendoService crudEmployeeKendoService)
+        {
+            _employeeKendoService = employeeKendoService;
+            _userService = userService;
+            _crudEmployeeKendoService = crudEmployeeKendoService;
+        }
+        // GET: EmployeeKendo
+        public async Task<ActionResult> Index()
+        {
+            if (HttpContext.User.Identity.IsAuthenticated)
+            {
+                var currentUser = await _userService.GetCurrentUserInfo();
+                if (currentUser.Roles == null)
+                {
+                    return View("NotAuthorized");
+                }
+                ViewBag.Roles = currentUser.Roles.FirstOrDefault().Value;
+                return View();
+            }
+            return RedirectToAction("Index", "Home");
         }
     }
 }

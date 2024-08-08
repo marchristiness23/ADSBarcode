@@ -1,16 +1,40 @@
-﻿using System;
+﻿using iText.Kernel.Events;
+using iText.Kernel.Geom;
+using iText.Kernel.Pdf;
+using iText.Layout;
+using iText.Layout.Borders;
+using iText.Layout.Element;
+using iText.Layout.Properties;
+using Kendo.Mvc.Extensions;
+using Kendo.Mvc.UI;
+using SHUNetMVC.Abstraction.Model.Dto;
+using SHUNetMVC.Abstraction.Model.Entities;
+using SHUNetMVC.Abstraction.Services;
+using SHUNetMVC.Infrastructure.Helpers;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Web;
+using System.Web.Mvc;
+
+#region 'Old'
+/*
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 using DocumentFormat.OpenXml.Spreadsheet;
 using System.Web.Mvc;
-using Kataandi.Models;
-using Kataandi.Models.dto;
+//using Kataandi.Models;
+//using Kataandi.Models.dto;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SHUNetMVC.Web.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
+using SHUNetMVC.Abstraction.Model.Entities;
+//using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace Kataandi.Controllers
 {
     public class AsetController : Controller
@@ -207,6 +231,104 @@ namespace Kataandi.Controllers
         private bool AssetExists(string id)
         {
             return _context.MD_Aset.Any(e => e.AsetNo == id);
+        }
+    }
+}
+*/
+#endregion
+
+namespace SHUNetMVC.Web.Controllers
+{
+    public class AsetController : Controller
+    {
+        private DbContextMapper _context = new DbContextMapper();
+
+        public AsetController()
+        {
+        }
+        // GET: EmployeeKendo
+        public async Task<ActionResult> Index()
+        {
+            AsetView viewAsset = new AsetView() {
+                assets = await _context.MD_Aset.ToListAsync(),
+                newAset = new MD_Aset()
+            };
+
+            return View(viewAsset);
+        }
+        public async Task<ActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return View("Error");
+            }
+
+            var asset = await _context.MD_Aset.FirstOrDefaultAsync(m => m.LineNo == id);
+            if (asset == null)
+            {
+                return View("Error");
+            }
+
+            return View(asset);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> EditConfirmation(MD_Aset asetParam)
+        {
+            if (asetParam == null)
+            {
+                return View("Error");
+            }
+
+            // Fetch the existing record from the database
+            var aset = await _context.MD_Aset.FindAsync(asetParam.AsetNo);
+            if (aset == null)
+            {
+                return Json("Asset not found");
+            }
+
+            // Apply the updated values from asetParam to the existing asset
+            aset.AsetNo = asetParam.AsetNo;
+            aset.LineNo = asetParam.LineNo;
+            aset.LocationId = asetParam.LocationId;
+            aset.NomorAsetMySAP = asetParam.NomorAsetMySAP;
+            aset.MySAPLineNo = asetParam.MySAPLineNo;
+            aset.HarmoniNo = asetParam.HarmoniNo;
+            aset.SinasNo = asetParam.SinasNo;
+            aset.Deskripsi = asetParam.Deskripsi;
+            aset.Merk = asetParam.Merk;
+            aset.KategoriAset = asetParam.KategoriAset;
+            aset.TahunPerolehan = asetParam.TahunPerolehan;
+            aset.Amount = asetParam.Amount;
+            aset.StatusPenggunaan = asetParam.StatusPenggunaan;
+            aset.Level = asetParam.Level;
+            aset.KondisiAset = asetParam.KondisiAset;
+            aset.LokasiAset = asetParam.LokasiAset;
+            aset.PathFotoTagging = asetParam.PathFotoTagging;
+            aset.PathFotoKeseluruhan = asetParam.PathFotoKeseluruhan;
+
+            // Update the entity in the context
+            //_context.MD_Aset.Update(aset);
+
+            try
+            {
+                // Save changes to the database
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                //if (!AssetExists(asetParam.AsetNo))
+                //{
+                //    return NotFound();
+                //}
+                //else
+                //{
+                //    throw;
+                //}
+                return View("Error");
+            }
         }
     }
 }

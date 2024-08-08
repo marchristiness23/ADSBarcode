@@ -12,15 +12,12 @@ namespace SHUNetMVC.Abstraction.Model.Entities
     using System;
     using System.Collections.Generic;
     
-    public partial class Student
+    public partial class TR_HistoryFoto
     {
-        public int StudentId { get; set; }
-        public string StudentName { get; set; }
-        public string Address { get; set; }
-        public string City { get; set; }
-        public string PostalCode { get; set; }
-        public string Phone { get; set; }
-        public string Email { get; set; }
-        public Nullable<bool> IsActive { get; set; }
+        public int HistoryFotoId { get; set; }
+        public Nullable<int> HistoryId { get; set; }
+        public string NamaFoto { get; set; }
+        public string PathFotoTagging { get; set; }
+        public string PathFotoKeseluruhan { get; set; }
     }
 }

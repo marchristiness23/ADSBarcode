@@ -602,7 +602,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\FileModel.cs" />
-    <Compile Include="Models\ErrorViewModel.cs" />
     <Compile Include="Models\Barcode.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\dto\MD_Aset.cs" />
@@ -3142,6 +3141,9 @@
     <None Include="Styles\Layout-mobile.scss" />
     <Content Include="Styles\LoginForm.css" />
     <Content Include="Styles\toastr.min.css" />
+    <Content Include="Views\Aset\Delete.cshtml" />
+    <Content Include="Views\HomeBarcode\Index.cshtml" />
+    <Content Include="Views\ScanBarcodePage\Index.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -3227,18 +3229,15 @@
     <Content Include="Views\Shared\NotAuthorized.cshtml" />
     <Content Include="Views\EmployeeKendo\FormEmployeeKendo.cshtml" />
     <Content Include="Views\EmployeeKendo\ViewData.cshtml" />
-    <Content Include="Views\HomePageBarcode\Index.cshtml" />
-    <Content Include="Views\ScanBarcodePage\Index.cshtml" />
-    <Content Include="Views\DetailPageBarcode\Index.cshtml" />
-    <Content Include="Views\Aset\Index.cshtml" />
-    <Content Include="Views\Aset\Delete.cshtml" />
-    <Content Include="Views\Aset\Edit.cshtml" />
-    <Content Include="Views\HomeBarcode\Privacy.cshtml" />
-    <Content Include="Views\HomeBarcode\Index.cshtml" />
     <Content Include="Views\Home - Copy\Index.cshtml" />
     <Content Include="Views\Home - Copy\LoginForm.cshtml" />
     <Content Include="Views\Home - Copy\RunAs.cshtml" />
+    <Content Include="Views\Aset\Edit.cshtml" />
+    <Content Include="Views\Aset\Index.cshtml" />
+    <Content Include="Views\DetailPageBarcode\Index.cshtml" />
+    <Content Include="Views\HomePageBarcode\Index.cshtml" />
     <Content Include="Views\TakePhoto\Index.cshtml" />
+    <Content Include="Views\HomeBarcode\Privacy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

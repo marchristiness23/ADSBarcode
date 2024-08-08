@@ -1,4 +1,4 @@
-﻿namespace Kataandi.Models.dto
+﻿/* namespace Kataandi.Models.dto
 {
     public class EditConfirmation
     {
@@ -21,3 +21,4 @@
         public string Path_Foto_Keseluruhan { get; set; }
     }
 }
+*/

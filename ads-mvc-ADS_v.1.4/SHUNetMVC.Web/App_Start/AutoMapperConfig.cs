@@ -13,6 +13,7 @@ namespace SHUNetMVC.Web
                 cfg.CreateMap<Departement, DepartementDto>().ReverseMap();
                 cfg.CreateMap<EmployeeEducation, EmployeeEducationDto>().ReverseMap();
                 cfg.CreateMap<Worker, WorkerDto>().ReverseMap();
+                cfg.CreateMap<MD_Aset, MD_AsetDto>().ReverseMap();
             });
         }
     }

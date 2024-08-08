@@ -33,6 +33,9 @@ namespace SHUNetMVC.Abstraction.Model.Entities
         public virtual DbSet<Region> Regions { get; set; }
         public virtual DbSet<Territory> Territories { get; set; }
         public virtual DbSet<Worker> Workers { get; set; }
-        public virtual DbSet<Student> Students { get; set; }
+        public virtual DbSet<MD_Aset> MD_Aset { get; set; }
+        public virtual DbSet<MD_Location> MD_Location { get; set; }
+        public virtual DbSet<TR_History> TR_History { get; set; }
+        public virtual DbSet<TR_HistoryFoto> TR_HistoryFoto { get; set; }
     }
 }

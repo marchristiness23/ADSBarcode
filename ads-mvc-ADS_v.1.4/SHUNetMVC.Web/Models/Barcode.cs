@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿/*
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Kataandi.Models
@@ -21,3 +22,4 @@ namespace Kataandi.Models
     }
 
 }
+*/

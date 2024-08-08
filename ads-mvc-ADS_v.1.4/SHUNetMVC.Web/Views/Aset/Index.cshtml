@@ -1,4 +1,4 @@
-﻿﻿@model Kataandi.Models.dto.AsetView
+﻿﻿@model SHUNetMVC.Abstraction.Model.Dto.AsetView
 
 @{
     ViewData["Title"] = "Assets Index and Create";
@@ -62,10 +62,10 @@
                     <a asp-action="Delete" asp-route-Aset_No="@item.AsetNo" class="btn btn-danger">
                         Delete
                     </a>
-                    @* <form asp-action="Delete" asp-route-id="@item.Line_No" method="post" style="display:inline;">
+                     <form asp-action="Delete" asp-route-id="@item.LineNo" method="post" style="display:inline;">
                          @Html.AntiForgeryToken()
                         <button type="submit" class="btn btn-danger">Delete</button>
-                        </form> *@
+                        </form> 
                 </td>
             </tr>
         }
@@ -177,6 +177,6 @@
     </div>
 </div>
 
-@section Scripts {
+@*@section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+}*@

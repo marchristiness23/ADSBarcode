@@ -59,6 +59,44 @@
           <Property Name="StartDate" Type="datetime" />
           <Property Name="EndDate" Type="datetime" />
         </EntityType>
+        <EntityType Name="MD_Aset">
+          <Key>
+            <PropertyRef Name="AsetNo" />
+          </Key>
+          <Property Name="AsetNo" Type="char" MaxLength="13" Nullable="false" />
+          <Property Name="LineNo" Type="int" />
+          <Property Name="LocationId" Type="int" />
+          <Property Name="NomorAsetMySAP" Type="varchar" MaxLength="100" />
+          <Property Name="MySAPLineNo" Type="varchar" MaxLength="100" />
+          <Property Name="HarmoniNo" Type="varchar" MaxLength="100" />
+          <Property Name="SinasNo" Type="char" MaxLength="15" />
+          <Property Name="Deskripsi" Type="varchar" MaxLength="256" />
+          <Property Name="Merk" Type="varchar" MaxLength="50" />
+          <Property Name="KategoriAset" Type="varchar" MaxLength="5" />
+          <Property Name="TahunPerolehan" Type="int" />
+          <Property Name="Amount" Type="decimal" Precision="18" Scale="4" />
+          <Property Name="StatusPenggunaan" Type="varchar" MaxLength="100" />
+          <Property Name="Level" Type="int" />
+          <Property Name="KondisiAset" Type="int" />
+          <Property Name="LokasiAset" Type="varchar" MaxLength="32" />
+          <Property Name="PathFotoTagging" Type="varchar" MaxLength="256" />
+          <Property Name="PathFotoKeseluruhan" Type="varchar" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="MD_Location">
+          <Key>
+            <PropertyRef Name="LocationId" />
+          </Key>
+          <Property Name="LocationId" Type="int" Nullable="false" />
+          <Property Name="Regional" Type="varchar" MaxLength="32" />
+          <Property Name="Zona" Type="varchar" MaxLength="32" />
+          <Property Name="WilayahKerja" Type="varchar" MaxLength="32" />
+          <Property Name="LokasiAset" Type="varchar" MaxLength="32" />
+          <Property Name="Lon" Type="float" />
+          <Property Name="Lat" Type="float" />
+          <Property Name="NamaPlant" Type="varchar" MaxLength="100" />
+          <Property Name="Ditemukan" Type="bit" />
+          <Property Name="Sistem" Type="varchar" MaxLength="32" />
+        </EntityType>
         <EntityType Name="Project">
           <Key>
             <PropertyRef Name="ProjectId" />
@@ -73,19 +111,6 @@
           <Property Name="RegionID" Type="int" Nullable="false" />
           <Property Name="RegionDescription" Type="nchar" MaxLength="50" Nullable="false" />
         </EntityType>
-        <EntityType Name="Students">
-          <Key>
-            <PropertyRef Name="StudentId" />
-          </Key>
-          <Property Name="StudentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="StudentName" Type="varchar" MaxLength="255" />
-          <Property Name="Address" Type="varchar" MaxLength="255" />
-          <Property Name="City" Type="varchar" MaxLength="255" />
-          <Property Name="PostalCode" Type="varchar" MaxLength="255" />
-          <Property Name="Phone" Type="varchar" MaxLength="255" />
-          <Property Name="Email" Type="varchar" MaxLength="255" />
-          <Property Name="IsActive" Type="bit" />
-        </EntityType>
         <EntityType Name="Territories">
           <Key>
             <PropertyRef Name="TerritoryID" />
@@ -93,6 +118,30 @@
           <Property Name="TerritoryID" Type="nvarchar" MaxLength="20" Nullable="false" />
           <Property Name="TerritoryDescription" Type="nchar" MaxLength="50" Nullable="false" />
           <Property Name="RegionID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TR_History">
+          <Key>
+            <PropertyRef Name="HistoryId" />
+          </Key>
+          <Property Name="HistoryId" Type="int" Nullable="false" />
+          <Property Name="TanggalUpdate" Type="datetime" />
+          <Property Name="Description" Type="varchar" MaxLength="256" />
+          <Property Name="KategoriAset" Type="varchar" MaxLength="5" />
+          <Property Name="KondisiAset" Type="varchar" MaxLength="256" />
+          <Property Name="UserName" Type="int" />
+          <Property Name="AsetNo" Type="char" MaxLength="13" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'DEV_BUSOLDB.dbo.TR_HistoryFoto' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="TR_HistoryFoto">
+          <Key>
+            <PropertyRef Name="HistoryFotoId" />
+          </Key>
+          <Property Name="HistoryFotoId" Type="int" Nullable="false" />
+          <Property Name="HistoryId" Type="int" />
+          <Property Name="NamaFoto" Type="varchar" MaxLength="256" />
+          <Property Name="PathFotoTagging" Type="varchar" MaxLength="256" />
+          <Property Name="PathFotoKeseluruhan" Type="varchar" MaxLength="256" />
         </EntityType>
         <EntityType Name="Workers">
           <Key>
@@ -155,11 +204,22 @@
           <EntitySet Name="Departement" EntityType="Self.Departement" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="EmployeeEducation" EntityType="Self.EmployeeEducation" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MD_Aset" EntityType="Self.MD_Aset" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MD_Location" EntityType="Self.MD_Location" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Project" EntityType="Self.Project" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Region" EntityType="Self.Region" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Territories" EntityType="Self.Territories" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TR_History" EntityType="Self.TR_History" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Workers" EntityType="Self.Workers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TR_HistoryFoto" EntityType="Self.TR_HistoryFoto" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [TR_HistoryFoto].[HistoryFotoId] AS [HistoryFotoId], 
+    [TR_HistoryFoto].[HistoryId] AS [HistoryId], 
+    [TR_HistoryFoto].[NamaFoto] AS [NamaFoto], 
+    [TR_HistoryFoto].[PathFotoTagging] AS [PathFotoTagging], 
+    [TR_HistoryFoto].[PathFotoKeseluruhan] AS [PathFotoKeseluruhan]
+    FROM [dbo].[TR_HistoryFoto] AS [TR_HistoryFoto]</DefiningQuery>
+          </EntitySet>
           <AssociationSet Name="FK_Employee_Departement" Association="Self.FK_Employee_Departement">
             <End Role="Departement" EntitySet="Departement" />
             <End Role="Employee" EntitySet="Employee" />
@@ -336,20 +396,70 @@
             <End Role="Region" EntitySet="Regions" />
             <End Role="Territories" EntitySet="Territories" />
           </AssociationSet>
-          <EntitySet Name="Students" EntityType="DB_PHE_ADSModel.Student" />
+          <EntitySet Name="MD_Aset" EntityType="DB_PHE_ADSModel.MD_Aset" />
+          <EntitySet Name="MD_Location" EntityType="DB_PHE_ADSModel.MD_Location" />
+          <EntitySet Name="TR_History" EntityType="DB_PHE_ADSModel.TR_History" />
+          <EntitySet Name="TR_HistoryFoto" EntityType="DB_PHE_ADSModel.TR_HistoryFoto" />
         </EntityContainer>
-        <EntityType Name="Student">
+        <EntityType Name="MD_Aset">
           <Key>
-            <PropertyRef Name="StudentId" />
+            <PropertyRef Name="AsetNo" />
           </Key>
-          <Property Name="StudentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="StudentName" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="Address" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="City" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="PostalCode" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="Phone" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="Email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
-          <Property Name="IsActive" Type="Boolean" />
+          <Property Name="AsetNo" Type="String" Nullable="false" MaxLength="13" FixedLength="true" Unicode="false" />
+          <Property Name="LineNo" Type="Int32" />
+          <Property Name="LocationId" Type="Int32" />
+          <Property Name="NomorAsetMySAP" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="MySAPLineNo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="HarmoniNo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SinasNo" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+          <Property Name="Deskripsi" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="Merk" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="KategoriAset" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="TahunPerolehan" Type="Int32" />
+          <Property Name="Amount" Type="Decimal" Precision="18" Scale="4" />
+          <Property Name="StatusPenggunaan" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Level" Type="Int32" />
+          <Property Name="KondisiAset" Type="Int32" />
+          <Property Name="LokasiAset" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="PathFotoTagging" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="PathFotoKeseluruhan" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="MD_Location">
+          <Key>
+            <PropertyRef Name="LocationId" />
+          </Key>
+          <Property Name="LocationId" Type="Int32" Nullable="false" />
+          <Property Name="Regional" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="Zona" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="WilayahKerja" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="LokasiAset" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+          <Property Name="Lon" Type="Double" />
+          <Property Name="Lat" Type="Double" />
+          <Property Name="NamaPlant" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="Ditemukan" Type="Boolean" />
+          <Property Name="Sistem" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TR_History">
+          <Key>
+            <PropertyRef Name="HistoryId" />
+          </Key>
+          <Property Name="HistoryId" Type="Int32" Nullable="false" />
+          <Property Name="TanggalUpdate" Type="DateTime" Precision="3" />
+          <Property Name="Description" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="KategoriAset" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="KondisiAset" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="UserName" Type="Int32" />
+          <Property Name="AsetNo" Type="String" MaxLength="13" FixedLength="true" Unicode="false" />
+        </EntityType>
+        <EntityType Name="TR_HistoryFoto">
+          <Key>
+            <PropertyRef Name="HistoryFotoId" />
+          </Key>
+          <Property Name="HistoryFotoId" Type="Int32" Nullable="false" />
+          <Property Name="HistoryId" Type="Int32" />
+          <Property Name="NamaFoto" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="PathFotoTagging" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
+          <Property Name="PathFotoKeseluruhan" Type="String" MaxLength="256" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -461,17 +571,67 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Students">
-            <EntityTypeMapping TypeName="DB_PHE_ADSModel.Student">
-              <MappingFragment StoreEntitySet="Students">
-                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
-                <ScalarProperty Name="Email" ColumnName="Email" />
-                <ScalarProperty Name="Phone" ColumnName="Phone" />
-                <ScalarProperty Name="PostalCode" ColumnName="PostalCode" />
-                <ScalarProperty Name="City" ColumnName="City" />
-                <ScalarProperty Name="Address" ColumnName="Address" />
-                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
-                <ScalarProperty Name="StudentId" ColumnName="StudentId" />
+          <EntitySetMapping Name="MD_Aset">
+            <EntityTypeMapping TypeName="DB_PHE_ADSModel.MD_Aset">
+              <MappingFragment StoreEntitySet="MD_Aset">
+                <ScalarProperty Name="PathFotoKeseluruhan" ColumnName="PathFotoKeseluruhan" />
+                <ScalarProperty Name="PathFotoTagging" ColumnName="PathFotoTagging" />
+                <ScalarProperty Name="LokasiAset" ColumnName="LokasiAset" />
+                <ScalarProperty Name="KondisiAset" ColumnName="KondisiAset" />
+                <ScalarProperty Name="Level" ColumnName="Level" />
+                <ScalarProperty Name="StatusPenggunaan" ColumnName="StatusPenggunaan" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+                <ScalarProperty Name="TahunPerolehan" ColumnName="TahunPerolehan" />
+                <ScalarProperty Name="KategoriAset" ColumnName="KategoriAset" />
+                <ScalarProperty Name="Merk" ColumnName="Merk" />
+                <ScalarProperty Name="Deskripsi" ColumnName="Deskripsi" />
+                <ScalarProperty Name="SinasNo" ColumnName="SinasNo" />
+                <ScalarProperty Name="HarmoniNo" ColumnName="HarmoniNo" />
+                <ScalarProperty Name="MySAPLineNo" ColumnName="MySAPLineNo" />
+                <ScalarProperty Name="NomorAsetMySAP" ColumnName="NomorAsetMySAP" />
+                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+                <ScalarProperty Name="LineNo" ColumnName="LineNo" />
+                <ScalarProperty Name="AsetNo" ColumnName="AsetNo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MD_Location">
+            <EntityTypeMapping TypeName="DB_PHE_ADSModel.MD_Location">
+              <MappingFragment StoreEntitySet="MD_Location">
+                <ScalarProperty Name="Sistem" ColumnName="Sistem" />
+                <ScalarProperty Name="Ditemukan" ColumnName="Ditemukan" />
+                <ScalarProperty Name="NamaPlant" ColumnName="NamaPlant" />
+                <ScalarProperty Name="Lat" ColumnName="Lat" />
+                <ScalarProperty Name="Lon" ColumnName="Lon" />
+                <ScalarProperty Name="LokasiAset" ColumnName="LokasiAset" />
+                <ScalarProperty Name="WilayahKerja" ColumnName="WilayahKerja" />
+                <ScalarProperty Name="Zona" ColumnName="Zona" />
+                <ScalarProperty Name="Regional" ColumnName="Regional" />
+                <ScalarProperty Name="LocationId" ColumnName="LocationId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TR_History">
+            <EntityTypeMapping TypeName="DB_PHE_ADSModel.TR_History">
+              <MappingFragment StoreEntitySet="TR_History">
+                <ScalarProperty Name="AsetNo" ColumnName="AsetNo" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="KondisiAset" ColumnName="KondisiAset" />
+                <ScalarProperty Name="KategoriAset" ColumnName="KategoriAset" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="TanggalUpdate" ColumnName="TanggalUpdate" />
+                <ScalarProperty Name="HistoryId" ColumnName="HistoryId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TR_HistoryFoto">
+            <EntityTypeMapping TypeName="DB_PHE_ADSModel.TR_HistoryFoto">
+              <MappingFragment StoreEntitySet="TR_HistoryFoto">
+                <ScalarProperty Name="PathFotoKeseluruhan" ColumnName="PathFotoKeseluruhan" />
+                <ScalarProperty Name="PathFotoTagging" ColumnName="PathFotoTagging" />
+                <ScalarProperty Name="NamaFoto" ColumnName="NamaFoto" />
+                <ScalarProperty Name="HistoryId" ColumnName="HistoryId" />
+                <ScalarProperty Name="HistoryFotoId" ColumnName="HistoryFotoId" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

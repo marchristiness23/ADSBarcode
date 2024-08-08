@@ -16,7 +16,10 @@
         <AssociationConnector Association="DB_PHE_ADSModel.FK_Employee_Departement" ManuallyRouted="false" />
         <AssociationConnector Association="DB_PHE_ADSModel.FK_EmployeeEducation_Employee" ManuallyRouted="false" />
         <AssociationConnector Association="DB_PHE_ADSModel.FK_Territories_Region" ManuallyRouted="false" />
-        <EntityTypeShape EntityType="DB_PHE_ADSModel.Student" Width="1.5" PointX="5.375" PointY="8.75" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.MD_Aset" Width="1.5" PointX="7.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.MD_Location" Width="1.5" PointX="9.75" PointY="8.75" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.TR_History" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.TR_HistoryFoto" Width="1.5" PointX="0.75" PointY="10.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
