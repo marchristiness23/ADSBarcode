@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-12';
+  src: url('../fonts/fabric-icons-12-88257a2f.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-12';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--MailReplyMirrored { content: "\EA57"; }
+@mixin ms-Icon--MailSchedule { content: "\F72E"; }
+@mixin ms-Icon--MailSecure { content: "\E4D4"; }
+@mixin ms-Icon--MailSolid { content: "\F343"; }
+@mixin ms-Icon--MailTentative { content: "\F416"; }
+@mixin ms-Icon--MailTentativeMirrored { content: "\F417"; }
+@mixin ms-Icon--MailUndelivered { content: "\F415"; }
+@mixin ms-Icon--ManagerSelfService { content: "\EE23"; }
+@mixin ms-Icon--Manufacturing { content: "\E99C"; }
+@mixin ms-Icon--MapDirections { content: "\E816"; }
+@mixin ms-Icon--MapLayers { content: "\E81E"; }
+@mixin ms-Icon--MapPin { content: "\E707"; }
+@mixin ms-Icon--MapPin12 { content: "\E3AE"; }
+@mixin ms-Icon--MapPinSolid { content: "\F52E"; }
+@mixin ms-Icon--MarkAsProtected { content: "\F6AE"; }
+@mixin ms-Icon--MarkDownLanguage { content: "\F2FB"; }
+@mixin ms-Icon--Market { content: "\EAFC"; }
+@mixin ms-Icon--MarketDown { content: "\EF42"; }
+@mixin ms-Icon--MasterDatabase { content: "\F5BA"; }
+@mixin ms-Icon--MaximumValue { content: "\F5BC"; }
+@mixin ms-Icon--Medal { content: "\EE38"; }
+@mixin ms-Icon--MedalSolid { content: "\F6B9"; }
+@mixin ms-Icon--Media { content: "\EA69"; }
+@mixin ms-Icon--MediaAdd { content: "\F510"; }
+@mixin ms-Icon--Medical { content: "\EAD4"; }
+@mixin ms-Icon--MedicalCare { content: "\E54D"; }
+@mixin ms-Icon--MedicationAdmin { content: "\E54E"; }
+@mixin ms-Icon--MedicationRequest { content: "\E54F"; }
+@mixin ms-Icon--Megaphone { content: "\E789"; }
+@mixin ms-Icon--MegaphoneSolid { content: "\F332"; }
+@mixin ms-Icon--Memo { content: "\E77C"; }
+@mixin ms-Icon--Merge { content: "\E7D5"; }
+@mixin ms-Icon--MergeCase { content: "\EFC9"; }
+@mixin ms-Icon--MergeDuplicate { content: "\F29A"; }
+@mixin ms-Icon--Message { content: "\E8BD"; }
+@mixin ms-Icon--MessageFill { content: "\EC70"; }
+@mixin ms-Icon--MessageFriendRequest { content: "\F055"; }
+@mixin ms-Icon--MetricsFailure { content: "\E4CE"; }
+@mixin ms-Icon--MetricsInstall { content: "\E4CD"; }
+@mixin ms-Icon--MetricsUsage { content: "\E4CC"; }
+@mixin ms-Icon--MicOff { content: "\EC54"; }
+@mixin ms-Icon--MicOff2 { content: "\F781"; }
+@mixin ms-Icon--Microphone { content: "\E720"; }
+@mixin ms-Icon--MicrosoftStaffhubLogo { content: "\F130"; }
+@mixin ms-Icon--MicrosoftTranslatorLogo { content: "\F782"; }
+@mixin ms-Icon--MicrosoftTranslatorLogoBlue { content: "\F853"; }
+@mixin ms-Icon--MicrosoftTranslatorLogoGreen { content: "\F852"; }
+@mixin ms-Icon--MiniContract { content: "\E93B"; }
+@mixin ms-Icon--MiniContractMirrored { content: "\EA59"; }
+@mixin ms-Icon--MiniExpand { content: "\E93A"; }
+@mixin ms-Icon--MiniExpandMirrored { content: "\EA5A"; }
+@mixin ms-Icon--MiniLink { content: "\E732"; }
+@mixin ms-Icon--MinimumValue { content: "\F5BD"; }
+@mixin ms-Icon--MobileAngled { content: "\E463"; }
+@mixin ms-Icon--MobileReport { content: "\F18A"; }
+@mixin ms-Icon--MobileSelected { content: "\EC75"; }
+@mixin ms-Icon--ModelAppTemplate32 { content: "\E5FD"; }
+@mixin ms-Icon--ModelingView { content: "\F871"; }
+@mixin ms-Icon--Money { content: "\EAFD"; }
+@mixin ms-Icon--More { content: "\E712"; }
+@mixin ms-Icon--MoreSports { content: "\EB22"; }
+@mixin ms-Icon--MoreVertical { content: "\F2BC"; }
+@mixin ms-Icon--MostyClearNight { content: "\E476"; }
+@mixin ms-Icon--MostyCloudyFlurriesDay { content: "\E471"; }
+@mixin ms-Icon--MostyCloudyFlurriesNight { content: "\E47D"; }
+@mixin ms-Icon--MostyCloudyShowersDay { content: "\E46D"; }
+@mixin ms-Icon--MostyCloudyTStormsDay { content: "\E46F"; }
+@mixin ms-Icon--MostyCloudyTStormsNight { content: "\E47B"; }
+@mixin ms-Icon--MostySunnyDay { content: "\E468"; }
+@mixin ms-Icon--MountainClimbing { content: "\F6DB"; }
+@mixin ms-Icon--Move { content: "\E7C2"; }
+@mixin ms-Icon--Movers { content: "\EBCD"; }
+@mixin ms-Icon--MoveToFolder { content: "\E8DE"; }
+@mixin ms-Icon--MSListsConnected { content: "\E601"; }
+@mixin ms-Icon--MSNLogo { content: "\EB6C"; }
+@mixin ms-Icon--MSNVideos { content: "\EB1C"; }
+@mixin ms-Icon--MSNVideosSolid { content: "\F2DA"; }
+@mixin ms-Icon--MSNVolume { content: "\EB15"; }
+@mixin ms-Icon--MultiSelect { content: "\E762"; }
+@mixin ms-Icon--MultiSelectMirrored { content: "\EA98"; }
+@mixin ms-Icon--MusicInCollection { content: "\E940"; }
+@mixin ms-Icon--MusicInCollectionFill { content: "\EA36"; }
+@mixin ms-Icon--MusicNote { content: "\EC4F"; }
+@mixin ms-Icon--MuteChat { content: "\F17A"; }
+@mixin ms-Icon--MyMoviesTV { content: "\EE6C"; }
+@mixin ms-Icon--MyNetwork { content: "\EC27"; }
+@mixin ms-Icon--Nav2DMapView { content: "\E800"; }
+@mixin ms-Icon--NavigateBack { content: "\F2DD"; }
+@mixin ms-Icon--NavigateBackMirrored { content: "\F2DE"; }
+@mixin ms-Icon--NavigateExternalInline { content: "\F35F"; }
+@mixin ms-Icon--NavigateForward { content: "\F2DF"; }
+@mixin ms-Icon--NavigateForwardMirrored { content: "\F2E0"; }
+@mixin ms-Icon--NavigationFlipper { content: "\F51D"; }
+@mixin ms-Icon--NetworkDeviceScanning { content: "\E4F6"; }
+@mixin ms-Icon--NetworkTower { content: "\EC05"; }
+@mixin ms-Icon--NewAnalyticsQuery { content: "\F1E0"; }
+@mixin ms-Icon--NewFolder { content: "\E8F4"; }
+@mixin ms-Icon--NewMail { content: "\F7EA"; }
+@mixin ms-Icon--News { content: "\E900"; }
+@mixin ms-Icon--NewsSearch { content: "\F4E9"; }
+
+
+// Classes
+.ms-Icon--MailReplyMirrored:before { @include ms-Icon--MailReplyMirrored }
+.ms-Icon--MailSchedule:before { @include ms-Icon--MailSchedule }
+.ms-Icon--MailSecure:before { @include ms-Icon--MailSecure }
+.ms-Icon--MailSolid:before { @include ms-Icon--MailSolid }
+.ms-Icon--MailTentative:before { @include ms-Icon--MailTentative }
+.ms-Icon--MailTentativeMirrored:before { @include ms-Icon--MailTentativeMirrored }
+.ms-Icon--MailUndelivered:before { @include ms-Icon--MailUndelivered }
+.ms-Icon--ManagerSelfService:before { @include ms-Icon--ManagerSelfService }
+.ms-Icon--Manufacturing:before { @include ms-Icon--Manufacturing }
+.ms-Icon--MapDirections:before { @include ms-Icon--MapDirections }
+.ms-Icon--MapLayers:before { @include ms-Icon--MapLayers }
+.ms-Icon--MapPin:before { @include ms-Icon--MapPin }
+.ms-Icon--MapPin12:before { @include ms-Icon--MapPin12 }
+.ms-Icon--MapPinSolid:before { @include ms-Icon--MapPinSolid }
+.ms-Icon--MarkAsProtected:before { @include ms-Icon--MarkAsProtected }
+.ms-Icon--MarkDownLanguage:before { @include ms-Icon--MarkDownLanguage }
+.ms-Icon--Market:before { @include ms-Icon--Market }
+.ms-Icon--MarketDown:before { @include ms-Icon--MarketDown }
+.ms-Icon--MasterDatabase:before { @include ms-Icon--MasterDatabase }
+.ms-Icon--MaximumValue:before { @include ms-Icon--MaximumValue }
+.ms-Icon--Medal:before { @include ms-Icon--Medal }
+.ms-Icon--MedalSolid:before { @include ms-Icon--MedalSolid }
+.ms-Icon--Media:before { @include ms-Icon--Media }
+.ms-Icon--MediaAdd:before { @include ms-Icon--MediaAdd }
+.ms-Icon--Medical:before { @include ms-Icon--Medical }
+.ms-Icon--MedicalCare:before { @include ms-Icon--MedicalCare }
+.ms-Icon--MedicationAdmin:before { @include ms-Icon--MedicationAdmin }
+.ms-Icon--MedicationRequest:before { @include ms-Icon--MedicationRequest }
+.ms-Icon--Megaphone:before { @include ms-Icon--Megaphone }
+.ms-Icon--MegaphoneSolid:before { @include ms-Icon--MegaphoneSolid }
+.ms-Icon--Memo:before { @include ms-Icon--Memo }
+.ms-Icon--Merge:before { @include ms-Icon--Merge }
+.ms-Icon--MergeCase:before { @include ms-Icon--MergeCase }
+.ms-Icon--MergeDuplicate:before { @include ms-Icon--MergeDuplicate }
+.ms-Icon--Message:before { @include ms-Icon--Message }
+.ms-Icon--MessageFill:before { @include ms-Icon--MessageFill }
+.ms-Icon--MessageFriendRequest:before { @include ms-Icon--MessageFriendRequest }
+.ms-Icon--MetricsFailure:before { @include ms-Icon--MetricsFailure }
+.ms-Icon--MetricsInstall:before { @include ms-Icon--MetricsInstall }
+.ms-Icon--MetricsUsage:before { @include ms-Icon--MetricsUsage }
+.ms-Icon--MicOff:before { @include ms-Icon--MicOff }
+.ms-Icon--MicOff2:before { @include ms-Icon--MicOff2 }
+.ms-Icon--Microphone:before { @include ms-Icon--Microphone }
+.ms-Icon--MicrosoftStaffhubLogo:before { @include ms-Icon--MicrosoftStaffhubLogo }
+.ms-Icon--MicrosoftTranslatorLogo:before { @include ms-Icon--MicrosoftTranslatorLogo }
+.ms-Icon--MicrosoftTranslatorLogoBlue:before { @include ms-Icon--MicrosoftTranslatorLogoBlue }
+.ms-Icon--MicrosoftTranslatorLogoGreen:before { @include ms-Icon--MicrosoftTranslatorLogoGreen }
+.ms-Icon--MiniContract:before { @include ms-Icon--MiniContract }
+.ms-Icon--MiniContractMirrored:before { @include ms-Icon--MiniContractMirrored }
+.ms-Icon--MiniExpand:before { @include ms-Icon--MiniExpand }
+.ms-Icon--MiniExpandMirrored:before { @include ms-Icon--MiniExpandMirrored }
+.ms-Icon--MiniLink:before { @include ms-Icon--MiniLink }
+.ms-Icon--MinimumValue:before { @include ms-Icon--MinimumValue }
+.ms-Icon--MobileAngled:before { @include ms-Icon--MobileAngled }
+.ms-Icon--MobileReport:before { @include ms-Icon--MobileReport }
+.ms-Icon--MobileSelected:before { @include ms-Icon--MobileSelected }
+.ms-Icon--ModelAppTemplate32:before { @include ms-Icon--ModelAppTemplate32 }
+.ms-Icon--ModelingView:before { @include ms-Icon--ModelingView }
+.ms-Icon--Money:before { @include ms-Icon--Money }
+.ms-Icon--More:before { @include ms-Icon--More }
+.ms-Icon--MoreSports:before { @include ms-Icon--MoreSports }
+.ms-Icon--MoreVertical:before { @include ms-Icon--MoreVertical }
+.ms-Icon--MostyClearNight:before { @include ms-Icon--MostyClearNight }
+.ms-Icon--MostyCloudyFlurriesDay:before { @include ms-Icon--MostyCloudyFlurriesDay }
+.ms-Icon--MostyCloudyFlurriesNight:before { @include ms-Icon--MostyCloudyFlurriesNight }
+.ms-Icon--MostyCloudyShowersDay:before { @include ms-Icon--MostyCloudyShowersDay }
+.ms-Icon--MostyCloudyTStormsDay:before { @include ms-Icon--MostyCloudyTStormsDay }
+.ms-Icon--MostyCloudyTStormsNight:before { @include ms-Icon--MostyCloudyTStormsNight }
+.ms-Icon--MostySunnyDay:before { @include ms-Icon--MostySunnyDay }
+.ms-Icon--MountainClimbing:before { @include ms-Icon--MountainClimbing }
+.ms-Icon--Move:before { @include ms-Icon--Move }
+.ms-Icon--Movers:before { @include ms-Icon--Movers }
+.ms-Icon--MoveToFolder:before { @include ms-Icon--MoveToFolder }
+.ms-Icon--MSListsConnected:before { @include ms-Icon--MSListsConnected }
+.ms-Icon--MSNLogo:before { @include ms-Icon--MSNLogo }
+.ms-Icon--MSNVideos:before { @include ms-Icon--MSNVideos }
+.ms-Icon--MSNVideosSolid:before { @include ms-Icon--MSNVideosSolid }
+.ms-Icon--MSNVolume:before { @include ms-Icon--MSNVolume }
+.ms-Icon--MultiSelect:before { @include ms-Icon--MultiSelect }
+.ms-Icon--MultiSelectMirrored:before { @include ms-Icon--MultiSelectMirrored }
+.ms-Icon--MusicInCollection:before { @include ms-Icon--MusicInCollection }
+.ms-Icon--MusicInCollectionFill:before { @include ms-Icon--MusicInCollectionFill }
+.ms-Icon--MusicNote:before { @include ms-Icon--MusicNote }
+.ms-Icon--MuteChat:before { @include ms-Icon--MuteChat }
+.ms-Icon--MyMoviesTV:before { @include ms-Icon--MyMoviesTV }
+.ms-Icon--MyNetwork:before { @include ms-Icon--MyNetwork }
+.ms-Icon--Nav2DMapView:before { @include ms-Icon--Nav2DMapView }
+.ms-Icon--NavigateBack:before { @include ms-Icon--NavigateBack }
+.ms-Icon--NavigateBackMirrored:before { @include ms-Icon--NavigateBackMirrored }
+.ms-Icon--NavigateExternalInline:before { @include ms-Icon--NavigateExternalInline }
+.ms-Icon--NavigateForward:before { @include ms-Icon--NavigateForward }
+.ms-Icon--NavigateForwardMirrored:before { @include ms-Icon--NavigateForwardMirrored }
+.ms-Icon--NavigationFlipper:before { @include ms-Icon--NavigationFlipper }
+.ms-Icon--NetworkDeviceScanning:before { @include ms-Icon--NetworkDeviceScanning }
+.ms-Icon--NetworkTower:before { @include ms-Icon--NetworkTower }
+.ms-Icon--NewAnalyticsQuery:before { @include ms-Icon--NewAnalyticsQuery }
+.ms-Icon--NewFolder:before { @include ms-Icon--NewFolder }
+.ms-Icon--NewMail:before { @include ms-Icon--NewMail }
+.ms-Icon--News:before { @include ms-Icon--News }
+.ms-Icon--NewsSearch:before { @include ms-Icon--NewsSearch }
+

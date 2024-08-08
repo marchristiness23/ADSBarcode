@@ -1,0 +1,81 @@
+﻿
+<style>
+    .k-grid .k-grid-search {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+        width: max-content;
+    }
+
+    .k-grid-header, .k-grid-header .k-header {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+    }
+
+    .k-grid-toolbar {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .k-button-text {
+        background-color: transparent;
+    }
+
+    .k-button-solid-base {
+        border-radius: 4px;
+    }
+
+    .k-grid.k-grid-display-block {
+        display: block;
+        border: none;
+    }
+
+    .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+        color: #ADB5BD;
+        pointer-events: none;
+        background-color: #E9ECEF;
+        border-color: #ADB5BD;
+        cursor: not-allowed;
+    }
+
+    .k-button-md.k-icon-button > .k-button-icon {
+        min-width: 1.5rem;
+        min-height: 0rem;
+    }
+
+    .text-container {
+        border: 1px solid #A5CAE6;
+        padding: 20px;
+        margin-top: 60px;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 324px;
+        height: 112px;
+        border-radius: 20px;
+    }
+    .barcode-logo {
+        width: 59px;
+        height: 54px;
+    }
+    .custom-link {
+        text-decoration: none;
+        color: black; 
+    }
+    .custom-link:hover{
+        text-decoration: none;
+        color: black;
+    }
+
+    /*HomePage*/
+</style>
+<div class="container" style=" float: inline-start; padding: 0 2%; max-width: 100% ; margin-bottom: 20px">
+    <h1>Scan Barcode</h1>
+</div>
+<a href="@Url.Action("Index","ScanBarcodePage")"  class="custom-link">
+    <div class="text-container" style="border: 1px solid #000000;">
+        <p style="font-weight: bolder; font-size:20px; margin-top: 0px;">Scan Barcode</p>
+        <img class="barcode-logo" src="~/Assets/Barcode_Read.svg" style="display: block; margin-left: 20px; width:33px; height:29px; margin-left:30px" />
+    </div>
+</a>

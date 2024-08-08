@@ -1,0 +1,17 @@
+﻿@using SHUNetMVC.Abstraction.Model.View
+@model CrudPage
+
+@{
+    ViewBag.Title = "Departement";
+    Model.Title = "Departement";
+    Model.GridParam.FilterList.OrderBy = "DepartementName asc";
+
+}
+
+@Html.Partial("Component/CrudPage/Crud", Model)
+
+@Styles.Render("~/Styles/GridList.css")
+
+@section scripts {
+    @Html.Partial("Component/CrudPage/CrudScript", Model)
+}

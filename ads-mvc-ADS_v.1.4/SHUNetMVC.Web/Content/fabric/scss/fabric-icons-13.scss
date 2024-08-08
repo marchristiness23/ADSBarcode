@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-13';
+  src: url('../fonts/fabric-icons-13-739e2787.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-13';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--NewTeamProject { content: "\F2B2"; }
+@mixin ms-Icon--Next { content: "\E893"; }
+@mixin ms-Icon--NormalWeight { content: "\F4EF"; }
+@mixin ms-Icon--NoteForward { content: "\ED99"; }
+@mixin ms-Icon--NotePinned { content: "\ED9A"; }
+@mixin ms-Icon--NoteReply { content: "\ED98"; }
+@mixin ms-Icon--NotExecuted { content: "\F440"; }
+@mixin ms-Icon--NotImpactedSolid { content: "\F441"; }
+@mixin ms-Icon--NugetLogo { content: "\F44C"; }
+@mixin ms-Icon--NUIFace { content: "\EB68"; }
+@mixin ms-Icon--Number { content: "\F691"; }
+@mixin ms-Icon--NumberedList { content: "\EA1C"; }
+@mixin ms-Icon--NumberedListMirrored { content: "\E398"; }
+@mixin ms-Icon--NumberedListNumber { content: "\F797"; }
+@mixin ms-Icon--NumberedListNumberMirrored { content: "\F799"; }
+@mixin ms-Icon--NumberedListText { content: "\F796"; }
+@mixin ms-Icon--NumberedListTextMirrored { content: "\F798"; }
+@mixin ms-Icon--NumberField { content: "\EDC4"; }
+@mixin ms-Icon--NumberSequence { content: "\F52A"; }
+@mixin ms-Icon--NumberSymbol { content: "\F7AC"; }
+@mixin ms-Icon--Oauth { content: "\E5C3"; }
+@mixin ms-Icon--ObjectRecognition { content: "\E4EE"; }
+@mixin ms-Icon--Octagon { content: "\F4FD"; }
+@mixin ms-Icon--ODLink { content: "\E4BB"; }
+@mixin ms-Icon--ODLink12 { content: "\E4BC"; }
+@mixin ms-Icon--ODSharedChannel { content: "\E649"; }
+@mixin ms-Icon--ODSharedChannel12 { content: "\E64A"; }
+@mixin ms-Icon--OEM { content: "\E74C"; }
+@mixin ms-Icon--OfficeAddinsLogo { content: "\EEC7"; }
+@mixin ms-Icon--OfficeAssistantLogo { content: "\EDCE"; }
+@mixin ms-Icon--OfficeCatchUp { content: "\E490"; }
+@mixin ms-Icon--OfficeChat { content: "\F70F"; }
+@mixin ms-Icon--OfficeChatSolid { content: "\F710"; }
+@mixin ms-Icon--OfficeFormsLogo { content: "\F434"; }
+@mixin ms-Icon--OfficeFormsLogo16 { content: "\F436"; }
+@mixin ms-Icon--OfficeFormsLogo24 { content: "\F43B"; }
+@mixin ms-Icon--OfficeFormsLogoInverse { content: "\EF86"; }
+@mixin ms-Icon--OfficeFormsLogoInverse16 { content: "\F433"; }
+@mixin ms-Icon--OfficeFormsLogoInverse24 { content: "\F43A"; }
+@mixin ms-Icon--OfficeLogo { content: "\EB6E"; }
+@mixin ms-Icon--OfficeStoreLogo { content: "\EDCF"; }
+@mixin ms-Icon--OfficeVideoLogo { content: "\F282"; }
+@mixin ms-Icon--OfficeVideoLogoFill { content: "\F283"; }
+@mixin ms-Icon--OfficeVideoLogoInverse { content: "\ED7A"; }
+@mixin ms-Icon--OfflineOneDriveParachute { content: "\EEC8"; }
+@mixin ms-Icon--OfflineOneDriveParachuteDisabled { content: "\EEC9"; }
+@mixin ms-Icon--OfflineStorage { content: "\EC8C"; }
+@mixin ms-Icon--OfflineStorageSolid { content: "\F34E"; }
+@mixin ms-Icon--Onboarding { content: "\F3BA"; }
+@mixin ms-Icon--OneDriveAdd { content: "\EF32"; }
+@mixin ms-Icon--OneDriveFolder16 { content: "\F53B"; }
+@mixin ms-Icon--OneDriveLogo { content: "\E941"; }
+@mixin ms-Icon--OneNoteDocType { content: "\F04F"; }
+@mixin ms-Icon--OneNoteEduLogoInverse { content: "\EDD0"; }
+@mixin ms-Icon--OneNoteLogo { content: "\F1E7"; }
+@mixin ms-Icon--OneNoteLogo16 { content: "\F39A"; }
+@mixin ms-Icon--OneNoteLogoInverse { content: "\EC0D"; }
+@mixin ms-Icon--OneNoteLogoInverse16 { content: "\F399"; }
+@mixin ms-Icon--OpenEnrollment { content: "\EF1C"; }
+@mixin ms-Icon--OpenFile { content: "\E8E5"; }
+@mixin ms-Icon--OpenFolderHorizontal { content: "\ED25"; }
+@mixin ms-Icon--OpenInNewTab { content: "\F6AB"; }
+@mixin ms-Icon--OpenInNewWindow { content: "\E8A7"; }
+@mixin ms-Icon--OpenPane { content: "\E8A0"; }
+@mixin ms-Icon--OpenPaneMirrored { content: "\EA5B"; }
+@mixin ms-Icon--OpenSource { content: "\EBC2"; }
+@mixin ms-Icon--OpenWith { content: "\E7AC"; }
+@mixin ms-Icon--OpenWithMirrored { content: "\EA5C"; }
+@mixin ms-Icon--Opportunities { content: "\F05F"; }
+@mixin ms-Icon--OrderLock { content: "\E4CB"; }
+@mixin ms-Icon--Org { content: "\ECA6"; }
+@mixin ms-Icon--Orientation { content: "\E8B4"; }
+@mixin ms-Icon--Orientation2 { content: "\F7E1"; }
+@mixin ms-Icon--OutlookLogo { content: "\F1E9"; }
+@mixin ms-Icon--OutlookLogo16 { content: "\F39D"; }
+@mixin ms-Icon--OutlookLogoInverse { content: "\EB6D"; }
+@mixin ms-Icon--OutlookLogoInverse16 { content: "\F39C"; }
+@mixin ms-Icon--OutlookSpacesBucket { content: "\E481"; }
+@mixin ms-Icon--OutOfOffice { content: "\ED34"; }
+@mixin ms-Icon--PAAction { content: "\E60B"; }
+@mixin ms-Icon--Package { content: "\E7B8"; }
+@mixin ms-Icon--Packages { content: "\F318"; }
+@mixin ms-Icon--Padding { content: "\F518"; }
+@mixin ms-Icon--PaddingBottom { content: "\F51A"; }
+@mixin ms-Icon--PaddingLeft { content: "\F51B"; }
+@mixin ms-Icon--PaddingRight { content: "\F51C"; }
+@mixin ms-Icon--PaddingTop { content: "\F519"; }
+@mixin ms-Icon--Page { content: "\E7C3"; }
+@mixin ms-Icon--PageAdd { content: "\EA1A"; }
+@mixin ms-Icon--PageArrowRight { content: "\EFB8"; }
+@mixin ms-Icon--PageBlock { content: "\EFB5"; }
+@mixin ms-Icon--PageCheckedin { content: "\F104"; }
+@mixin ms-Icon--PageCheckedOut { content: "\F02C"; }
+@mixin ms-Icon--PageData { content: "\E31C"; }
+@mixin ms-Icon--PageEdit { content: "\EFB6"; }
+@mixin ms-Icon--PageHeader { content: "\ECEE"; }
+@mixin ms-Icon--PageHeaderEdit { content: "\E31D"; }
+@mixin ms-Icon--PageLeft { content: "\E760"; }
+@mixin ms-Icon--PageLink { content: "\E302"; }
+@mixin ms-Icon--PageList { content: "\F106"; }
+
+
+// Classes
+.ms-Icon--NewTeamProject:before { @include ms-Icon--NewTeamProject }
+.ms-Icon--Next:before { @include ms-Icon--Next }
+.ms-Icon--NormalWeight:before { @include ms-Icon--NormalWeight }
+.ms-Icon--NoteForward:before { @include ms-Icon--NoteForward }
+.ms-Icon--NotePinned:before { @include ms-Icon--NotePinned }
+.ms-Icon--NoteReply:before { @include ms-Icon--NoteReply }
+.ms-Icon--NotExecuted:before { @include ms-Icon--NotExecuted }
+.ms-Icon--NotImpactedSolid:before { @include ms-Icon--NotImpactedSolid }
+.ms-Icon--NugetLogo:before { @include ms-Icon--NugetLogo }
+.ms-Icon--NUIFace:before { @include ms-Icon--NUIFace }
+.ms-Icon--Number:before { @include ms-Icon--Number }
+.ms-Icon--NumberedList:before { @include ms-Icon--NumberedList }
+.ms-Icon--NumberedListMirrored:before { @include ms-Icon--NumberedListMirrored }
+.ms-Icon--NumberedListNumber:before { @include ms-Icon--NumberedListNumber }
+.ms-Icon--NumberedListNumberMirrored:before { @include ms-Icon--NumberedListNumberMirrored }
+.ms-Icon--NumberedListText:before { @include ms-Icon--NumberedListText }
+.ms-Icon--NumberedListTextMirrored:before { @include ms-Icon--NumberedListTextMirrored }
+.ms-Icon--NumberField:before { @include ms-Icon--NumberField }
+.ms-Icon--NumberSequence:before { @include ms-Icon--NumberSequence }
+.ms-Icon--NumberSymbol:before { @include ms-Icon--NumberSymbol }
+.ms-Icon--Oauth:before { @include ms-Icon--Oauth }
+.ms-Icon--ObjectRecognition:before { @include ms-Icon--ObjectRecognition }
+.ms-Icon--Octagon:before { @include ms-Icon--Octagon }
+.ms-Icon--ODLink:before { @include ms-Icon--ODLink }
+.ms-Icon--ODLink12:before { @include ms-Icon--ODLink12 }
+.ms-Icon--ODSharedChannel:before { @include ms-Icon--ODSharedChannel }
+.ms-Icon--ODSharedChannel12:before { @include ms-Icon--ODSharedChannel12 }
+.ms-Icon--OEM:before { @include ms-Icon--OEM }
+.ms-Icon--OfficeAddinsLogo:before { @include ms-Icon--OfficeAddinsLogo }
+.ms-Icon--OfficeAssistantLogo:before { @include ms-Icon--OfficeAssistantLogo }
+.ms-Icon--OfficeCatchUp:before { @include ms-Icon--OfficeCatchUp }
+.ms-Icon--OfficeChat:before { @include ms-Icon--OfficeChat }
+.ms-Icon--OfficeChatSolid:before { @include ms-Icon--OfficeChatSolid }
+.ms-Icon--OfficeFormsLogo:before { @include ms-Icon--OfficeFormsLogo }
+.ms-Icon--OfficeFormsLogo16:before { @include ms-Icon--OfficeFormsLogo16 }
+.ms-Icon--OfficeFormsLogo24:before { @include ms-Icon--OfficeFormsLogo24 }
+.ms-Icon--OfficeFormsLogoInverse:before { @include ms-Icon--OfficeFormsLogoInverse }
+.ms-Icon--OfficeFormsLogoInverse16:before { @include ms-Icon--OfficeFormsLogoInverse16 }
+.ms-Icon--OfficeFormsLogoInverse24:before { @include ms-Icon--OfficeFormsLogoInverse24 }
+.ms-Icon--OfficeLogo:before { @include ms-Icon--OfficeLogo }
+.ms-Icon--OfficeStoreLogo:before { @include ms-Icon--OfficeStoreLogo }
+.ms-Icon--OfficeVideoLogo:before { @include ms-Icon--OfficeVideoLogo }
+.ms-Icon--OfficeVideoLogoFill:before { @include ms-Icon--OfficeVideoLogoFill }
+.ms-Icon--OfficeVideoLogoInverse:before { @include ms-Icon--OfficeVideoLogoInverse }
+.ms-Icon--OfflineOneDriveParachute:before { @include ms-Icon--OfflineOneDriveParachute }
+.ms-Icon--OfflineOneDriveParachuteDisabled:before { @include ms-Icon--OfflineOneDriveParachuteDisabled }
+.ms-Icon--OfflineStorage:before { @include ms-Icon--OfflineStorage }
+.ms-Icon--OfflineStorageSolid:before { @include ms-Icon--OfflineStorageSolid }
+.ms-Icon--Onboarding:before { @include ms-Icon--Onboarding }
+.ms-Icon--OneDriveAdd:before { @include ms-Icon--OneDriveAdd }
+.ms-Icon--OneDriveFolder16:before { @include ms-Icon--OneDriveFolder16 }
+.ms-Icon--OneDriveLogo:before { @include ms-Icon--OneDriveLogo }
+.ms-Icon--OneNoteDocType:before { @include ms-Icon--OneNoteDocType }
+.ms-Icon--OneNoteEduLogoInverse:before { @include ms-Icon--OneNoteEduLogoInverse }
+.ms-Icon--OneNoteLogo:before { @include ms-Icon--OneNoteLogo }
+.ms-Icon--OneNoteLogo16:before { @include ms-Icon--OneNoteLogo16 }
+.ms-Icon--OneNoteLogoInverse:before { @include ms-Icon--OneNoteLogoInverse }
+.ms-Icon--OneNoteLogoInverse16:before { @include ms-Icon--OneNoteLogoInverse16 }
+.ms-Icon--OpenEnrollment:before { @include ms-Icon--OpenEnrollment }
+.ms-Icon--OpenFile:before { @include ms-Icon--OpenFile }
+.ms-Icon--OpenFolderHorizontal:before { @include ms-Icon--OpenFolderHorizontal }
+.ms-Icon--OpenInNewTab:before { @include ms-Icon--OpenInNewTab }
+.ms-Icon--OpenInNewWindow:before { @include ms-Icon--OpenInNewWindow }
+.ms-Icon--OpenPane:before { @include ms-Icon--OpenPane }
+.ms-Icon--OpenPaneMirrored:before { @include ms-Icon--OpenPaneMirrored }
+.ms-Icon--OpenSource:before { @include ms-Icon--OpenSource }
+.ms-Icon--OpenWith:before { @include ms-Icon--OpenWith }
+.ms-Icon--OpenWithMirrored:before { @include ms-Icon--OpenWithMirrored }
+.ms-Icon--Opportunities:before { @include ms-Icon--Opportunities }
+.ms-Icon--OrderLock:before { @include ms-Icon--OrderLock }
+.ms-Icon--Org:before { @include ms-Icon--Org }
+.ms-Icon--Orientation:before { @include ms-Icon--Orientation }
+.ms-Icon--Orientation2:before { @include ms-Icon--Orientation2 }
+.ms-Icon--OutlookLogo:before { @include ms-Icon--OutlookLogo }
+.ms-Icon--OutlookLogo16:before { @include ms-Icon--OutlookLogo16 }
+.ms-Icon--OutlookLogoInverse:before { @include ms-Icon--OutlookLogoInverse }
+.ms-Icon--OutlookLogoInverse16:before { @include ms-Icon--OutlookLogoInverse16 }
+.ms-Icon--OutlookSpacesBucket:before { @include ms-Icon--OutlookSpacesBucket }
+.ms-Icon--OutOfOffice:before { @include ms-Icon--OutOfOffice }
+.ms-Icon--PAAction:before { @include ms-Icon--PAAction }
+.ms-Icon--Package:before { @include ms-Icon--Package }
+.ms-Icon--Packages:before { @include ms-Icon--Packages }
+.ms-Icon--Padding:before { @include ms-Icon--Padding }
+.ms-Icon--PaddingBottom:before { @include ms-Icon--PaddingBottom }
+.ms-Icon--PaddingLeft:before { @include ms-Icon--PaddingLeft }
+.ms-Icon--PaddingRight:before { @include ms-Icon--PaddingRight }
+.ms-Icon--PaddingTop:before { @include ms-Icon--PaddingTop }
+.ms-Icon--Page:before { @include ms-Icon--Page }
+.ms-Icon--PageAdd:before { @include ms-Icon--PageAdd }
+.ms-Icon--PageArrowRight:before { @include ms-Icon--PageArrowRight }
+.ms-Icon--PageBlock:before { @include ms-Icon--PageBlock }
+.ms-Icon--PageCheckedin:before { @include ms-Icon--PageCheckedin }
+.ms-Icon--PageCheckedOut:before { @include ms-Icon--PageCheckedOut }
+.ms-Icon--PageData:before { @include ms-Icon--PageData }
+.ms-Icon--PageEdit:before { @include ms-Icon--PageEdit }
+.ms-Icon--PageHeader:before { @include ms-Icon--PageHeader }
+.ms-Icon--PageHeaderEdit:before { @include ms-Icon--PageHeaderEdit }
+.ms-Icon--PageLeft:before { @include ms-Icon--PageLeft }
+.ms-Icon--PageLink:before { @include ms-Icon--PageLink }
+.ms-Icon--PageList:before { @include ms-Icon--PageList }
+

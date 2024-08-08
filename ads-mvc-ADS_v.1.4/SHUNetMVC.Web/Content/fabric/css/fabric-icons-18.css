@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-18';
+  src: url('../fonts/fabric-icons-18-701fed0c.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-18';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--SettingsSecure:before { content: "\E4D2"; }
+.ms-Icon--SettingsSync:before { content: "\E359"; }
+.ms-Icon--ShakeDevice:before { content: "\F80A"; }
+.ms-Icon--Shapes:before { content: "\EC7C"; }
+.ms-Icon--ShapeSolid:before { content: "\E422"; }
+.ms-Icon--Share:before { content: "\E72D"; }
+.ms-Icon--SharedDatabase:before { content: "\E3D9"; }
+.ms-Icon--SharedNotes:before { content: "\F481"; }
+.ms-Icon--ShareiOS:before { content: "\EF79"; }
+.ms-Icon--Sharepoint2013LogoInverse:before { content: "\E480"; }
+.ms-Icon--SharepointAppIcon16:before { content: "\E365"; }
+.ms-Icon--SharepointLogo:before { content: "\F27E"; }
+.ms-Icon--SharepointLogoInverse:before { content: "\ED18"; }
+.ms-Icon--Shield:before { content: "\EA18"; }
+.ms-Icon--ShieldAlert:before { content: "\F7D7"; }
+.ms-Icon--ShieldSolid:before { content: "\F340"; }
+.ms-Icon--Shirt:before { content: "\ED00"; }
+.ms-Icon--Shop:before { content: "\E719"; }
+.ms-Icon--ShopBrand:before { content: "\F478"; }
+.ms-Icon--ShoppingCart:before { content: "\E7BF"; }
+.ms-Icon--ShoppingCartSolid:before { content: "\F342"; }
+.ms-Icon--ShopServer:before { content: "\F2B6"; }
+.ms-Icon--Showers:before { content: "\E46C"; }
+.ms-Icon--ShowGrid:before { content: "\F7DE"; }
+.ms-Icon--ShowResults:before { content: "\E8BC"; }
+.ms-Icon--ShowResultsMirrored:before { content: "\EA65"; }
+.ms-Icon--ShowTimeAs:before { content: "\F787"; }
+.ms-Icon--ShowVisualFilter:before { content: "\F4DE"; }
+.ms-Icon--SidePanel:before { content: "\EF52"; }
+.ms-Icon--SidePanelMirrored:before { content: "\F221"; }
+.ms-Icon--Signin:before { content: "\F286"; }
+.ms-Icon--SignOut:before { content: "\F3B1"; }
+.ms-Icon--SimplifiedView:before { content: "\E5C1"; }
+.ms-Icon--SingleBookmark:before { content: "\EDFF"; }
+.ms-Icon--SingleBookmarkSolid:before { content: "\EE00"; }
+.ms-Icon--SingleColumn:before { content: "\F1D3"; }
+.ms-Icon--SingleColumnEdit:before { content: "\F321"; }
+.ms-Icon--SIPMove:before { content: "\E759"; }
+.ms-Icon--SiteScan:before { content: "\EBEC"; }
+.ms-Icon--SizeLegacy:before { content: "\E2B2"; }
+.ms-Icon--SkipBack10:before { content: "\ED3C"; }
+.ms-Icon--SkipForward30:before { content: "\ED3D"; }
+.ms-Icon--SkiResorts:before { content: "\EB45"; }
+.ms-Icon--SkypeArrow:before { content: "\F748"; }
+.ms-Icon--SkypeCheck:before { content: "\EF80"; }
+.ms-Icon--SkypeCircleArrow:before { content: "\F747"; }
+.ms-Icon--SkypeCircleCheck:before { content: "\EF7D"; }
+.ms-Icon--SkypeCircleClock:before { content: "\EF7E"; }
+.ms-Icon--SkypeCircleMinus:before { content: "\EF7F"; }
+.ms-Icon--SkypeCircleSlash:before { content: "\F825"; }
+.ms-Icon--SkypeClock:before { content: "\EF81"; }
+.ms-Icon--SkypeForBusinessLogo:before { content: "\F0FC"; }
+.ms-Icon--SkypeForBusinessLogo16:before { content: "\F40F"; }
+.ms-Icon--SkypeForBusinessLogoFill:before { content: "\F27D"; }
+.ms-Icon--SkypeForBusinessLogoFill16:before { content: "\F410"; }
+.ms-Icon--SkypeLogo:before { content: "\EB6F"; }
+.ms-Icon--SkypeLogo16:before { content: "\F40E"; }
+.ms-Icon--SkypeMessage:before { content: "\EF83"; }
+.ms-Icon--SkypeMinus:before { content: "\EF82"; }
+.ms-Icon--SkypeSlash:before { content: "\F826"; }
+.ms-Icon--Sleet:before { content: "\E474"; }
+.ms-Icon--Slider:before { content: "\F527"; }
+.ms-Icon--SliderHandleSize:before { content: "\F528"; }
+.ms-Icon--SliderThumb:before { content: "\EC13"; }
+.ms-Icon--Slideshow:before { content: "\E786"; }
+.ms-Icon--SmartGlassRemote:before { content: "\F80B"; }
+.ms-Icon--SnapToGrid:before { content: "\F7E4"; }
+.ms-Icon--Snooze:before { content: "\F4BD"; }
+.ms-Icon--Snow:before { content: "\E9C8"; }
+.ms-Icon--Snowflake:before { content: "\EB46"; }
+.ms-Icon--SnowShowerDay:before { content: "\E9FD"; }
+.ms-Icon--SnowShowerNight:before { content: "\EA11"; }
+.ms-Icon--Soccer:before { content: "\EB21"; }
+.ms-Icon--SocialListeningLogo:before { content: "\ED7C"; }
+.ms-Icon--Sort:before { content: "\E8CB"; }
+.ms-Icon--SortDown:before { content: "\EE69"; }
+.ms-Icon--SortLines:before { content: "\E9D0"; }
+.ms-Icon--SortLinesAscending:before { content: "\E43A"; }
+.ms-Icon--SortUp:before { content: "\EE68"; }
+.ms-Icon--Source:before { content: "\EB1B"; }
+.ms-Icon--Spacer:before { content: "\F40D"; }
+.ms-Icon--Speakers:before { content: "\E7F5"; }
+.ms-Icon--SpecialEvent:before { content: "\F536"; }
+.ms-Icon--Speech:before { content: "\EFA9"; }
+.ms-Icon--SpeechOff:before { content: "\F8BA"; }
+.ms-Icon--SpeedHigh:before { content: "\EC4A"; }
+.ms-Icon--Spelling:before { content: "\F87B"; }
+.ms-Icon--Split:before { content: "\EDBC"; }
+.ms-Icon--SplitObject:before { content: "\F547"; }
+.ms-Icon--Sprint:before { content: "\F3B0"; }
+.ms-Icon--SQLAnalyticsPool:before { content: "\E434"; }
+.ms-Icon--SQLServerLogo:before { content: "\E61A"; }
+.ms-Icon--Squalls:before { content: "\E9CC"; }
+.ms-Icon--SquareShape:before { content: "\F1A6"; }
+.ms-Icon--SquareShapeSolid:before { content: "\F63D"; }
+.ms-Icon--SSLCertificate:before { content: "\F4CB"; }
+.ms-Icon--Stack:before { content: "\F26F"; }
+.ms-Icon--StackColumnChart:before { content: "\E9FC"; }
+.ms-Icon--StackedBarChart:before { content: "\F24D"; }
+.ms-Icon--StackedBarChartFull:before { content: "\F668"; }

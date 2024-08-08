@@ -1,0 +1,263 @@
+﻿@using SHUNetMVC.Abstraction.Model.Response
+@model User
+
+@{
+    string email = Model.Email;
+    if (!string.IsNullOrEmpty(email) && email[0] == '_')
+    {
+        email = email.Substring(1);
+    }
+
+    string imgProfile = "https://identity.idaman.pertamina.com/Master/Account/Photo/?id=" + email + "&size=360x360";
+    string appName = string.Empty;
+    string colorTheme = string.Empty;
+    string Header = string.Empty;
+    string HeaderSidebar = string.Empty;
+    string colorFont = "White";
+
+    try
+    {
+        string currentUrl = Request.Url.AbsoluteUri;
+         
+        Uri uri = new Uri(currentUrl);
+        string[] segments = uri.AbsolutePath.Split('/');
+        appName = segments.Length > 1 ? segments[1] : string.Empty;
+
+        colorTheme = System.Web.Configuration.WebConfigurationManager.AppSettings["ColorTheme"].ToString();
+
+        if (!string.IsNullOrEmpty(colorTheme))
+        {
+            colorTheme = colorTheme.Trim();
+        }
+
+        Header = string.Concat(colorTheme, ".png");
+        HeaderSidebar = string.Concat(colorTheme, "-Slice.png");
+
+        if (colorTheme == "Red")
+        {
+            colorTheme = "#BA313B";
+
+        }
+        else if (colorTheme == "Blue")
+        {
+            colorTheme = "#3c6db2";
+        }
+        else if (colorTheme == "Green")
+        {
+            colorTheme = "#ADC52D";
+        }
+        else
+        {
+            colorFont = "Black";
+            colorTheme = "Black";
+        }
+    }
+    catch (Exception)
+    {
+        colorFont = "Black";
+        colorTheme = "Black";
+    }
+
+}
+
+<style>
+    header .mobile-menu, header > .right-side {
+        border-bottom-color: @colorTheme !important;
+    }
+
+    #UserSection {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .floatingUserBar {
+        width: 100%;
+        display: none;
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        z-index: 1000;
+        border-radius: 0px 0px 8px 8px;
+    }
+
+    #UserSection:hover .floatingUserBar {
+        display: block;
+    }
+
+    #logoutButton {
+        background-color: #ff4c4c;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+        #logoutButton:hover {
+            background-color: #ff1a1a;
+        }
+
+    @@media screen and (max-width: 768px) {
+       /* #UserSection:hover .floatingUserBar {
+            display: none;
+        }*/
+        .floatingUserBar {
+            width: 80%;
+            position:fixed;
+            top:9%;
+            left:60%
+        }
+        }
+
+
+
+
+    .nav-header-mobile {
+        background-image: url('../../@appName/Assets/Header/@HeaderSidebar') !important;
+        background-size: 100% 100% !important;
+        background-repeat: no-repeat !important;
+        border: 0px;
+    }
+
+    .right-side {
+        background-image: url('../../@appName/Assets/Header/@Header') !important;
+        background-size: 70% 100% !important;
+        background-repeat: no-repeat !important;
+    }
+</style>
+
+
+<header>
+    <div class="mobile-menu">
+        <a href="#" class="btn btn-menu toggle-main-menu-mobile">
+            <i class="fa-solid fa-bars layout-icon-bars-color"></i>
+        </a>
+    </div>
+    <div class="right-side">
+        @*<img src="~/Assets/logo_white.png" />*@
+        @*<img src="~/Assets/Logo PHE.svg" />*@
+        @*<div class="d-flex" style="height: 60%;">
+                <div class="vr" style="opacity: 1;"></div>
+            </div>*@
+        <div class="brand-name" style="color:@colorFont !important">
+            Application Development Standarization
+        </div>
+
+        @if (Model != null)
+        { 
+
+            <div id="UserSection" class="user-section">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="user-info">
+                                <div class="user-fullname">
+                                    @Model.Name
+                                </div>
+                                <div class="user-id">
+                                    @*@role*@
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="avatar" style="background: white !important; border-color: white !important">
+                                <img class="Img" style="display:inline !important;width: 45px; height: 45px; border-radius: 9999px" src="@imgProfile " />
+                            </div>
+                        </td>
+                        @*<td>
+                            <div class="mobile-div" style="display:none">
+                                <div>
+                                    <a href="@Url.Action("LogOff", "Account")" class="btn btn-logout" title="Logout">
+                                        <i class="fa-solid fa-arrow-right-from-bracket layout-icon-bars-color"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </td>*@
+                    </tr>
+                </table>
+
+
+                <div class="floatingUserBar" id="floatingLogout">
+
+                    <div class="DropdownProfile">
+                        <div class="Frame">
+                            <div class="Frame">
+                                <div class="Avatar" style="width: 32px; height: 32px; padding-left: 2px; padding-right: 2px; padding-top: 6px; padding-bottom: 8px; background: @colorTheme; border-radius: 8px; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                                    <div class="AtomText" style="width: 28px; height: 16px; justify-content: center; align-items: center; display: inline-flex">
+                                        <div class="InitialName" style="width: 28px; height: 18px; text-align: center; color: white; font-size: 10px; font-family: 'Inter'; font-weight: 700; line-height: 16px; word-wrap: break-word">
+                                            @Model.Name[0]
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="Frame" style="flex: 1 1 0; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+                                    <div class="Label" style="color: #101410; font-size: 14px; font-family: 'Inter'; font-weight: 700; line-height: 20px; letter-spacing: 0.30px; word-wrap: break-word">
+                                        @Model.Name
+                                    </div>
+                                    <div class="Label" style="color: #868E96; font-size: 10px; font-family: 'Inter'; font-weight: 400; line-height: 16px; word-wrap: break-word">
+                                        @Model.EmpId
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @if (Model.RoleGroup != null)
+                        {
+
+
+                            <div class="Frame" style="padding-top: 8px; background: white; box-shadow: 0px 1px 0px #E9ECEF inset; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                                <div class="Label" style="color: #868E96; font-size: 10px; font-family: 'Inter'; font-weight: 400; line-height: 16px; word-wrap: break-word">
+                                    Roles :
+                                    <div>
+                                        @{
+                                            var roleValues = Model.RoleGroup.Select(r => r.Value).ToList();
+                                            var concatenatedRoles = string.Join(", ", roleValues);
+                                        }
+
+                                        @concatenatedRoles
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="Frame" style="padding-top: 8px; background: white; box-shadow: 0px 1px 0px #E9ECEF inset; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: flex">
+                            <a href="@Url.Action("LogOff", "Account")">
+                                <div class="Frame btn" style="width: 150px; padding: 8px; justify-content: flex-start; align-items: center; gap: 8px; display: inline-flex">
+                                    <div class="IconSetup" style="width: 20px; height: 20px; padding: 2px; justify-content: center; align-items: center; display: flex">
+                                        <div class="Logout2" style="width: 16px; height: 16px; justify-content: center; align-items: center; display: inline-flex">
+                                            <img src="~/Assets/IconLogout.png" style="display:inline !important;width:15px;height:15px !important" />
+                                        </div>
+                                    </div>
+                                    <div class="Label" style="color: #B00020; font-size: 12px; font-family: 'Inter'; font-weight: 600; line-height: 20px; letter-spacing: 0.30px; word-wrap: break-word">
+                                        Log Out
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        @*<a href="@Url.Action("LogOff", "Account")" class="btn btn-logout" title="Logout">
+                                <i style="color: #BA313B;font-size:10px" class="fa-solid fa-arrow-right-from-bracket layout-icon-bars-color"></i>
+                            </a>*@
+
+                    </div>
+
+                </div>
+            </div>
+
+            @*<div class="avatar">@Model.Name[0]</div>*@
+
+
+            <div style="margin-right: 15px; width: 0px; height: 44px; background: #CED4DA; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                <div style="width: 0px; align-self: stretch; border: 1px #DEE2E6 solid"></div>
+            </div>
+            <img src="~/Assets/Logo PHE.svg" style="display:block" />
+        }
+
+
+    </div>
+</header>

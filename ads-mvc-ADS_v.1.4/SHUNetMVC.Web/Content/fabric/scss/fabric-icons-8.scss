@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-8';
+  src: url('../fonts/fabric-icons-8-4745398a.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-8';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--ExportMirrored { content: "\EDE2"; }
+@mixin ms-Icon--ExpressRouteCircuits { content: "\E557"; }
+@mixin ms-Icon--ExternalBuild { content: "\F445"; }
+@mixin ms-Icon--ExternalTFVC { content: "\F446"; }
+@mixin ms-Icon--ExternalUser { content: "\E4CA"; }
+@mixin ms-Icon--ExternalXAML { content: "\F447"; }
+@mixin ms-Icon--Eyedropper { content: "\EF3C"; }
+@mixin ms-Icon--EyeShadow { content: "\F7EB"; }
+@mixin ms-Icon--F12DevTools { content: "\EBEE"; }
+@mixin ms-Icon--FabricAssetLibrary { content: "\F09C"; }
+@mixin ms-Icon--FabricChannelFolder { content: "\E4FA"; }
+@mixin ms-Icon--FabricDataConnectionLibrary { content: "\F09D"; }
+@mixin ms-Icon--FabricDocLibrary { content: "\F09E"; }
+@mixin ms-Icon--FabricFolder { content: "\F0A9"; }
+@mixin ms-Icon--FabricFolderConfirm { content: "\F7FF"; }
+@mixin ms-Icon--FabricFolderFill { content: "\F0AA"; }
+@mixin ms-Icon--FabricFolderLink { content: "\E45C"; }
+@mixin ms-Icon--FabricFolderSearch { content: "\F0A4"; }
+@mixin ms-Icon--FabricFolderUpload { content: "\E3AC"; }
+@mixin ms-Icon--FabricFormLibrary { content: "\F09F"; }
+@mixin ms-Icon--FabricFormLibraryMirrored { content: "\F0A0"; }
+@mixin ms-Icon--FabricMovetoFolder { content: "\F0A5"; }
+@mixin ms-Icon--FabricNetworkFolder { content: "\F5E6"; }
+@mixin ms-Icon--FabricNewFolder { content: "\F0AB"; }
+@mixin ms-Icon--FabricOpenFolderHorizontal { content: "\F0A8"; }
+@mixin ms-Icon--FabricPictureLibrary { content: "\F0AC"; }
+@mixin ms-Icon--FabricPublicFolder { content: "\F0A3"; }
+@mixin ms-Icon--FabricReportLibrary { content: "\F0A1"; }
+@mixin ms-Icon--FabricReportLibraryMirrored { content: "\F0A2"; }
+@mixin ms-Icon--FabricSyncFolder { content: "\F0A7"; }
+@mixin ms-Icon--FabricTextHighlight { content: "\F79C"; }
+@mixin ms-Icon--FabricTextHighlightComposite { content: "\F7DA"; }
+@mixin ms-Icon--FabricUnsyncFolder { content: "\F0A6"; }
+@mixin ms-Icon--FabricUserFolder { content: "\F5E5"; }
+@mixin ms-Icon--Factory { content: "\E60E"; }
+@mixin ms-Icon--Family { content: "\EBDA"; }
+@mixin ms-Icon--FangBody { content: "\ECEB"; }
+@mixin ms-Icon--FastForward { content: "\EB9D"; }
+@mixin ms-Icon--FastForwardEightX { content: "\E443"; }
+@mixin ms-Icon--FastForwardFourX { content: "\E442"; }
+@mixin ms-Icon--FastForwardOneFiveX { content: "\E440"; }
+@mixin ms-Icon--FastForwardOneX { content: "\E43F"; }
+@mixin ms-Icon--FastForwardPointFiveX { content: "\E43E"; }
+@mixin ms-Icon--FastForwardTwoX { content: "\E441"; }
+@mixin ms-Icon--FastMode { content: "\F19A"; }
+@mixin ms-Icon--Favicon { content: "\E737"; }
+@mixin ms-Icon--FavoriteBlock { content: "\E67E"; }
+@mixin ms-Icon--FavoriteList { content: "\E728"; }
+@mixin ms-Icon--FavoriteStar { content: "\E734"; }
+@mixin ms-Icon--FavoriteStarFill { content: "\E735"; }
+@mixin ms-Icon--Fax { content: "\EF5C"; }
+@mixin ms-Icon--Feedback { content: "\ED15"; }
+@mixin ms-Icon--FeedbackRequestMirroredSolid { content: "\F35A"; }
+@mixin ms-Icon--FeedbackRequestSolid { content: "\F359"; }
+@mixin ms-Icon--FeedbackResponseSolid { content: "\F35B"; }
+@mixin ms-Icon--Ferry { content: "\E7E3"; }
+@mixin ms-Icon--FerrySolid { content: "\EB48"; }
+@mixin ms-Icon--FieldChanged { content: "\F2C3"; }
+@mixin ms-Icon--FieldEmpty { content: "\F2C1"; }
+@mixin ms-Icon--FieldFilled { content: "\F2C2"; }
+@mixin ms-Icon--FieldNotChanged { content: "\F2C4"; }
+@mixin ms-Icon--FieldReadOnly { content: "\F442"; }
+@mixin ms-Icon--FieldRequired { content: "\F443"; }
+@mixin ms-Icon--FileASPX { content: "\F2E9"; }
+@mixin ms-Icon--FileBug { content: "\F30D"; }
+@mixin ms-Icon--FileCode { content: "\F30E"; }
+@mixin ms-Icon--FileComment { content: "\F30F"; }
+@mixin ms-Icon--FileCSS { content: "\F2EA"; }
+@mixin ms-Icon--FileHTML { content: "\F2ED"; }
+@mixin ms-Icon--FileImage { content: "\F311"; }
+@mixin ms-Icon--FileJAVA { content: "\F2E8"; }
+@mixin ms-Icon--FileLess { content: "\F2EC"; }
+@mixin ms-Icon--FileOff { content: "\E3FC"; }
+@mixin ms-Icon--FilePDB { content: "\F2E5"; }
+@mixin ms-Icon--FileRequest { content: "\F789"; }
+@mixin ms-Icon--FileSass { content: "\F2EB"; }
+@mixin ms-Icon--FileSQL { content: "\F2E7"; }
+@mixin ms-Icon--FileSymlink { content: "\F312"; }
+@mixin ms-Icon--FileSystem { content: "\E433"; }
+@mixin ms-Icon--FileTemplate { content: "\F2E6"; }
+@mixin ms-Icon--FileTypeSolution { content: "\F387"; }
+@mixin ms-Icon--FileYML { content: "\F5DA"; }
+@mixin ms-Icon--Filter { content: "\E71C"; }
+@mixin ms-Icon--FilterAscending { content: "\F21A"; }
+@mixin ms-Icon--FilterDescending { content: "\F21B"; }
+@mixin ms-Icon--Filters { content: "\E795"; }
+@mixin ms-Icon--FilterSettings { content: "\F76C"; }
+@mixin ms-Icon--FilterSolid { content: "\F412"; }
+@mixin ms-Icon--FiltersSolid { content: "\F353"; }
+@mixin ms-Icon--Financial { content: "\E7BB"; }
+@mixin ms-Icon--FinancialMirroredSolid { content: "\F347"; }
+@mixin ms-Icon--FinancialSolid { content: "\F346"; }
+@mixin ms-Icon--Fingerprint { content: "\E928"; }
+@mixin ms-Icon--FitPage { content: "\E9A6"; }
+@mixin ms-Icon--FitWidth { content: "\E9A7"; }
+@mixin ms-Icon--FiveTileGrid { content: "\F274"; }
+@mixin ms-Icon--FixedAssetManagement { content: "\EF93"; }
+@mixin ms-Icon--FixedColumnWidth { content: "\E3EA"; }
+@mixin ms-Icon--Flag { content: "\E7C1"; }
+@mixin ms-Icon--FlameSolid { content: "\F1F3"; }
+
+
+// Classes
+.ms-Icon--ExportMirrored:before { @include ms-Icon--ExportMirrored }
+.ms-Icon--ExpressRouteCircuits:before { @include ms-Icon--ExpressRouteCircuits }
+.ms-Icon--ExternalBuild:before { @include ms-Icon--ExternalBuild }
+.ms-Icon--ExternalTFVC:before { @include ms-Icon--ExternalTFVC }
+.ms-Icon--ExternalUser:before { @include ms-Icon--ExternalUser }
+.ms-Icon--ExternalXAML:before { @include ms-Icon--ExternalXAML }
+.ms-Icon--Eyedropper:before { @include ms-Icon--Eyedropper }
+.ms-Icon--EyeShadow:before { @include ms-Icon--EyeShadow }
+.ms-Icon--F12DevTools:before { @include ms-Icon--F12DevTools }
+.ms-Icon--FabricAssetLibrary:before { @include ms-Icon--FabricAssetLibrary }
+.ms-Icon--FabricChannelFolder:before { @include ms-Icon--FabricChannelFolder }
+.ms-Icon--FabricDataConnectionLibrary:before { @include ms-Icon--FabricDataConnectionLibrary }
+.ms-Icon--FabricDocLibrary:before { @include ms-Icon--FabricDocLibrary }
+.ms-Icon--FabricFolder:before { @include ms-Icon--FabricFolder }
+.ms-Icon--FabricFolderConfirm:before { @include ms-Icon--FabricFolderConfirm }
+.ms-Icon--FabricFolderFill:before { @include ms-Icon--FabricFolderFill }
+.ms-Icon--FabricFolderLink:before { @include ms-Icon--FabricFolderLink }
+.ms-Icon--FabricFolderSearch:before { @include ms-Icon--FabricFolderSearch }
+.ms-Icon--FabricFolderUpload:before { @include ms-Icon--FabricFolderUpload }
+.ms-Icon--FabricFormLibrary:before { @include ms-Icon--FabricFormLibrary }
+.ms-Icon--FabricFormLibraryMirrored:before { @include ms-Icon--FabricFormLibraryMirrored }
+.ms-Icon--FabricMovetoFolder:before { @include ms-Icon--FabricMovetoFolder }
+.ms-Icon--FabricNetworkFolder:before { @include ms-Icon--FabricNetworkFolder }
+.ms-Icon--FabricNewFolder:before { @include ms-Icon--FabricNewFolder }
+.ms-Icon--FabricOpenFolderHorizontal:before { @include ms-Icon--FabricOpenFolderHorizontal }
+.ms-Icon--FabricPictureLibrary:before { @include ms-Icon--FabricPictureLibrary }
+.ms-Icon--FabricPublicFolder:before { @include ms-Icon--FabricPublicFolder }
+.ms-Icon--FabricReportLibrary:before { @include ms-Icon--FabricReportLibrary }
+.ms-Icon--FabricReportLibraryMirrored:before { @include ms-Icon--FabricReportLibraryMirrored }
+.ms-Icon--FabricSyncFolder:before { @include ms-Icon--FabricSyncFolder }
+.ms-Icon--FabricTextHighlight:before { @include ms-Icon--FabricTextHighlight }
+.ms-Icon--FabricTextHighlightComposite:before { @include ms-Icon--FabricTextHighlightComposite }
+.ms-Icon--FabricUnsyncFolder:before { @include ms-Icon--FabricUnsyncFolder }
+.ms-Icon--FabricUserFolder:before { @include ms-Icon--FabricUserFolder }
+.ms-Icon--Factory:before { @include ms-Icon--Factory }
+.ms-Icon--Family:before { @include ms-Icon--Family }
+.ms-Icon--FangBody:before { @include ms-Icon--FangBody }
+.ms-Icon--FastForward:before { @include ms-Icon--FastForward }
+.ms-Icon--FastForwardEightX:before { @include ms-Icon--FastForwardEightX }
+.ms-Icon--FastForwardFourX:before { @include ms-Icon--FastForwardFourX }
+.ms-Icon--FastForwardOneFiveX:before { @include ms-Icon--FastForwardOneFiveX }
+.ms-Icon--FastForwardOneX:before { @include ms-Icon--FastForwardOneX }
+.ms-Icon--FastForwardPointFiveX:before { @include ms-Icon--FastForwardPointFiveX }
+.ms-Icon--FastForwardTwoX:before { @include ms-Icon--FastForwardTwoX }
+.ms-Icon--FastMode:before { @include ms-Icon--FastMode }
+.ms-Icon--Favicon:before { @include ms-Icon--Favicon }
+.ms-Icon--FavoriteBlock:before { @include ms-Icon--FavoriteBlock }
+.ms-Icon--FavoriteList:before { @include ms-Icon--FavoriteList }
+.ms-Icon--FavoriteStar:before { @include ms-Icon--FavoriteStar }
+.ms-Icon--FavoriteStarFill:before { @include ms-Icon--FavoriteStarFill }
+.ms-Icon--Fax:before { @include ms-Icon--Fax }
+.ms-Icon--Feedback:before { @include ms-Icon--Feedback }
+.ms-Icon--FeedbackRequestMirroredSolid:before { @include ms-Icon--FeedbackRequestMirroredSolid }
+.ms-Icon--FeedbackRequestSolid:before { @include ms-Icon--FeedbackRequestSolid }
+.ms-Icon--FeedbackResponseSolid:before { @include ms-Icon--FeedbackResponseSolid }
+.ms-Icon--Ferry:before { @include ms-Icon--Ferry }
+.ms-Icon--FerrySolid:before { @include ms-Icon--FerrySolid }
+.ms-Icon--FieldChanged:before { @include ms-Icon--FieldChanged }
+.ms-Icon--FieldEmpty:before { @include ms-Icon--FieldEmpty }
+.ms-Icon--FieldFilled:before { @include ms-Icon--FieldFilled }
+.ms-Icon--FieldNotChanged:before { @include ms-Icon--FieldNotChanged }
+.ms-Icon--FieldReadOnly:before { @include ms-Icon--FieldReadOnly }
+.ms-Icon--FieldRequired:before { @include ms-Icon--FieldRequired }
+.ms-Icon--FileASPX:before { @include ms-Icon--FileASPX }
+.ms-Icon--FileBug:before { @include ms-Icon--FileBug }
+.ms-Icon--FileCode:before { @include ms-Icon--FileCode }
+.ms-Icon--FileComment:before { @include ms-Icon--FileComment }
+.ms-Icon--FileCSS:before { @include ms-Icon--FileCSS }
+.ms-Icon--FileHTML:before { @include ms-Icon--FileHTML }
+.ms-Icon--FileImage:before { @include ms-Icon--FileImage }
+.ms-Icon--FileJAVA:before { @include ms-Icon--FileJAVA }
+.ms-Icon--FileLess:before { @include ms-Icon--FileLess }
+.ms-Icon--FileOff:before { @include ms-Icon--FileOff }
+.ms-Icon--FilePDB:before { @include ms-Icon--FilePDB }
+.ms-Icon--FileRequest:before { @include ms-Icon--FileRequest }
+.ms-Icon--FileSass:before { @include ms-Icon--FileSass }
+.ms-Icon--FileSQL:before { @include ms-Icon--FileSQL }
+.ms-Icon--FileSymlink:before { @include ms-Icon--FileSymlink }
+.ms-Icon--FileSystem:before { @include ms-Icon--FileSystem }
+.ms-Icon--FileTemplate:before { @include ms-Icon--FileTemplate }
+.ms-Icon--FileTypeSolution:before { @include ms-Icon--FileTypeSolution }
+.ms-Icon--FileYML:before { @include ms-Icon--FileYML }
+.ms-Icon--Filter:before { @include ms-Icon--Filter }
+.ms-Icon--FilterAscending:before { @include ms-Icon--FilterAscending }
+.ms-Icon--FilterDescending:before { @include ms-Icon--FilterDescending }
+.ms-Icon--Filters:before { @include ms-Icon--Filters }
+.ms-Icon--FilterSettings:before { @include ms-Icon--FilterSettings }
+.ms-Icon--FilterSolid:before { @include ms-Icon--FilterSolid }
+.ms-Icon--FiltersSolid:before { @include ms-Icon--FiltersSolid }
+.ms-Icon--Financial:before { @include ms-Icon--Financial }
+.ms-Icon--FinancialMirroredSolid:before { @include ms-Icon--FinancialMirroredSolid }
+.ms-Icon--FinancialSolid:before { @include ms-Icon--FinancialSolid }
+.ms-Icon--Fingerprint:before { @include ms-Icon--Fingerprint }
+.ms-Icon--FitPage:before { @include ms-Icon--FitPage }
+.ms-Icon--FitWidth:before { @include ms-Icon--FitWidth }
+.ms-Icon--FiveTileGrid:before { @include ms-Icon--FiveTileGrid }
+.ms-Icon--FixedAssetManagement:before { @include ms-Icon--FixedAssetManagement }
+.ms-Icon--FixedColumnWidth:before { @include ms-Icon--FixedColumnWidth }
+.ms-Icon--Flag:before { @include ms-Icon--Flag }
+.ms-Icon--FlameSolid:before { @include ms-Icon--FlameSolid }
+

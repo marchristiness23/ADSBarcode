@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-18';
+  src: url('../fonts/fabric-icons-18-701fed0c.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-18';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--SettingsSecure { content: "\E4D2"; }
+@mixin ms-Icon--SettingsSync { content: "\E359"; }
+@mixin ms-Icon--ShakeDevice { content: "\F80A"; }
+@mixin ms-Icon--Shapes { content: "\EC7C"; }
+@mixin ms-Icon--ShapeSolid { content: "\E422"; }
+@mixin ms-Icon--Share { content: "\E72D"; }
+@mixin ms-Icon--SharedDatabase { content: "\E3D9"; }
+@mixin ms-Icon--SharedNotes { content: "\F481"; }
+@mixin ms-Icon--ShareiOS { content: "\EF79"; }
+@mixin ms-Icon--Sharepoint2013LogoInverse { content: "\E480"; }
+@mixin ms-Icon--SharepointAppIcon16 { content: "\E365"; }
+@mixin ms-Icon--SharepointLogo { content: "\F27E"; }
+@mixin ms-Icon--SharepointLogoInverse { content: "\ED18"; }
+@mixin ms-Icon--Shield { content: "\EA18"; }
+@mixin ms-Icon--ShieldAlert { content: "\F7D7"; }
+@mixin ms-Icon--ShieldSolid { content: "\F340"; }
+@mixin ms-Icon--Shirt { content: "\ED00"; }
+@mixin ms-Icon--Shop { content: "\E719"; }
+@mixin ms-Icon--ShopBrand { content: "\F478"; }
+@mixin ms-Icon--ShoppingCart { content: "\E7BF"; }
+@mixin ms-Icon--ShoppingCartSolid { content: "\F342"; }
+@mixin ms-Icon--ShopServer { content: "\F2B6"; }
+@mixin ms-Icon--Showers { content: "\E46C"; }
+@mixin ms-Icon--ShowGrid { content: "\F7DE"; }
+@mixin ms-Icon--ShowResults { content: "\E8BC"; }
+@mixin ms-Icon--ShowResultsMirrored { content: "\EA65"; }
+@mixin ms-Icon--ShowTimeAs { content: "\F787"; }
+@mixin ms-Icon--ShowVisualFilter { content: "\F4DE"; }
+@mixin ms-Icon--SidePanel { content: "\EF52"; }
+@mixin ms-Icon--SidePanelMirrored { content: "\F221"; }
+@mixin ms-Icon--Signin { content: "\F286"; }
+@mixin ms-Icon--SignOut { content: "\F3B1"; }
+@mixin ms-Icon--SimplifiedView { content: "\E5C1"; }
+@mixin ms-Icon--SingleBookmark { content: "\EDFF"; }
+@mixin ms-Icon--SingleBookmarkSolid { content: "\EE00"; }
+@mixin ms-Icon--SingleColumn { content: "\F1D3"; }
+@mixin ms-Icon--SingleColumnEdit { content: "\F321"; }
+@mixin ms-Icon--SIPMove { content: "\E759"; }
+@mixin ms-Icon--SiteScan { content: "\EBEC"; }
+@mixin ms-Icon--SizeLegacy { content: "\E2B2"; }
+@mixin ms-Icon--SkipBack10 { content: "\ED3C"; }
+@mixin ms-Icon--SkipForward30 { content: "\ED3D"; }
+@mixin ms-Icon--SkiResorts { content: "\EB45"; }
+@mixin ms-Icon--SkypeArrow { content: "\F748"; }
+@mixin ms-Icon--SkypeCheck { content: "\EF80"; }
+@mixin ms-Icon--SkypeCircleArrow { content: "\F747"; }
+@mixin ms-Icon--SkypeCircleCheck { content: "\EF7D"; }
+@mixin ms-Icon--SkypeCircleClock { content: "\EF7E"; }
+@mixin ms-Icon--SkypeCircleMinus { content: "\EF7F"; }
+@mixin ms-Icon--SkypeCircleSlash { content: "\F825"; }
+@mixin ms-Icon--SkypeClock { content: "\EF81"; }
+@mixin ms-Icon--SkypeForBusinessLogo { content: "\F0FC"; }
+@mixin ms-Icon--SkypeForBusinessLogo16 { content: "\F40F"; }
+@mixin ms-Icon--SkypeForBusinessLogoFill { content: "\F27D"; }
+@mixin ms-Icon--SkypeForBusinessLogoFill16 { content: "\F410"; }
+@mixin ms-Icon--SkypeLogo { content: "\EB6F"; }
+@mixin ms-Icon--SkypeLogo16 { content: "\F40E"; }
+@mixin ms-Icon--SkypeMessage { content: "\EF83"; }
+@mixin ms-Icon--SkypeMinus { content: "\EF82"; }
+@mixin ms-Icon--SkypeSlash { content: "\F826"; }
+@mixin ms-Icon--Sleet { content: "\E474"; }
+@mixin ms-Icon--Slider { content: "\F527"; }
+@mixin ms-Icon--SliderHandleSize { content: "\F528"; }
+@mixin ms-Icon--SliderThumb { content: "\EC13"; }
+@mixin ms-Icon--Slideshow { content: "\E786"; }
+@mixin ms-Icon--SmartGlassRemote { content: "\F80B"; }
+@mixin ms-Icon--SnapToGrid { content: "\F7E4"; }
+@mixin ms-Icon--Snooze { content: "\F4BD"; }
+@mixin ms-Icon--Snow { content: "\E9C8"; }
+@mixin ms-Icon--Snowflake { content: "\EB46"; }
+@mixin ms-Icon--SnowShowerDay { content: "\E9FD"; }
+@mixin ms-Icon--SnowShowerNight { content: "\EA11"; }
+@mixin ms-Icon--Soccer { content: "\EB21"; }
+@mixin ms-Icon--SocialListeningLogo { content: "\ED7C"; }
+@mixin ms-Icon--Sort { content: "\E8CB"; }
+@mixin ms-Icon--SortDown { content: "\EE69"; }
+@mixin ms-Icon--SortLines { content: "\E9D0"; }
+@mixin ms-Icon--SortLinesAscending { content: "\E43A"; }
+@mixin ms-Icon--SortUp { content: "\EE68"; }
+@mixin ms-Icon--Source { content: "\EB1B"; }
+@mixin ms-Icon--Spacer { content: "\F40D"; }
+@mixin ms-Icon--Speakers { content: "\E7F5"; }
+@mixin ms-Icon--SpecialEvent { content: "\F536"; }
+@mixin ms-Icon--Speech { content: "\EFA9"; }
+@mixin ms-Icon--SpeechOff { content: "\F8BA"; }
+@mixin ms-Icon--SpeedHigh { content: "\EC4A"; }
+@mixin ms-Icon--Spelling { content: "\F87B"; }
+@mixin ms-Icon--Split { content: "\EDBC"; }
+@mixin ms-Icon--SplitObject { content: "\F547"; }
+@mixin ms-Icon--Sprint { content: "\F3B0"; }
+@mixin ms-Icon--SQLAnalyticsPool { content: "\E434"; }
+@mixin ms-Icon--SQLServerLogo { content: "\E61A"; }
+@mixin ms-Icon--Squalls { content: "\E9CC"; }
+@mixin ms-Icon--SquareShape { content: "\F1A6"; }
+@mixin ms-Icon--SquareShapeSolid { content: "\F63D"; }
+@mixin ms-Icon--SSLCertificate { content: "\F4CB"; }
+@mixin ms-Icon--Stack { content: "\F26F"; }
+@mixin ms-Icon--StackColumnChart { content: "\E9FC"; }
+@mixin ms-Icon--StackedBarChart { content: "\F24D"; }
+@mixin ms-Icon--StackedBarChartFull { content: "\F668"; }
+
+
+// Classes
+.ms-Icon--SettingsSecure:before { @include ms-Icon--SettingsSecure }
+.ms-Icon--SettingsSync:before { @include ms-Icon--SettingsSync }
+.ms-Icon--ShakeDevice:before { @include ms-Icon--ShakeDevice }
+.ms-Icon--Shapes:before { @include ms-Icon--Shapes }
+.ms-Icon--ShapeSolid:before { @include ms-Icon--ShapeSolid }
+.ms-Icon--Share:before { @include ms-Icon--Share }
+.ms-Icon--SharedDatabase:before { @include ms-Icon--SharedDatabase }
+.ms-Icon--SharedNotes:before { @include ms-Icon--SharedNotes }
+.ms-Icon--ShareiOS:before { @include ms-Icon--ShareiOS }
+.ms-Icon--Sharepoint2013LogoInverse:before { @include ms-Icon--Sharepoint2013LogoInverse }
+.ms-Icon--SharepointAppIcon16:before { @include ms-Icon--SharepointAppIcon16 }
+.ms-Icon--SharepointLogo:before { @include ms-Icon--SharepointLogo }
+.ms-Icon--SharepointLogoInverse:before { @include ms-Icon--SharepointLogoInverse }
+.ms-Icon--Shield:before { @include ms-Icon--Shield }
+.ms-Icon--ShieldAlert:before { @include ms-Icon--ShieldAlert }
+.ms-Icon--ShieldSolid:before { @include ms-Icon--ShieldSolid }
+.ms-Icon--Shirt:before { @include ms-Icon--Shirt }
+.ms-Icon--Shop:before { @include ms-Icon--Shop }
+.ms-Icon--ShopBrand:before { @include ms-Icon--ShopBrand }
+.ms-Icon--ShoppingCart:before { @include ms-Icon--ShoppingCart }
+.ms-Icon--ShoppingCartSolid:before { @include ms-Icon--ShoppingCartSolid }
+.ms-Icon--ShopServer:before { @include ms-Icon--ShopServer }
+.ms-Icon--Showers:before { @include ms-Icon--Showers }
+.ms-Icon--ShowGrid:before { @include ms-Icon--ShowGrid }
+.ms-Icon--ShowResults:before { @include ms-Icon--ShowResults }
+.ms-Icon--ShowResultsMirrored:before { @include ms-Icon--ShowResultsMirrored }
+.ms-Icon--ShowTimeAs:before { @include ms-Icon--ShowTimeAs }
+.ms-Icon--ShowVisualFilter:before { @include ms-Icon--ShowVisualFilter }
+.ms-Icon--SidePanel:before { @include ms-Icon--SidePanel }
+.ms-Icon--SidePanelMirrored:before { @include ms-Icon--SidePanelMirrored }
+.ms-Icon--Signin:before { @include ms-Icon--Signin }
+.ms-Icon--SignOut:before { @include ms-Icon--SignOut }
+.ms-Icon--SimplifiedView:before { @include ms-Icon--SimplifiedView }
+.ms-Icon--SingleBookmark:before { @include ms-Icon--SingleBookmark }
+.ms-Icon--SingleBookmarkSolid:before { @include ms-Icon--SingleBookmarkSolid }
+.ms-Icon--SingleColumn:before { @include ms-Icon--SingleColumn }
+.ms-Icon--SingleColumnEdit:before { @include ms-Icon--SingleColumnEdit }
+.ms-Icon--SIPMove:before { @include ms-Icon--SIPMove }
+.ms-Icon--SiteScan:before { @include ms-Icon--SiteScan }
+.ms-Icon--SizeLegacy:before { @include ms-Icon--SizeLegacy }
+.ms-Icon--SkipBack10:before { @include ms-Icon--SkipBack10 }
+.ms-Icon--SkipForward30:before { @include ms-Icon--SkipForward30 }
+.ms-Icon--SkiResorts:before { @include ms-Icon--SkiResorts }
+.ms-Icon--SkypeArrow:before { @include ms-Icon--SkypeArrow }
+.ms-Icon--SkypeCheck:before { @include ms-Icon--SkypeCheck }
+.ms-Icon--SkypeCircleArrow:before { @include ms-Icon--SkypeCircleArrow }
+.ms-Icon--SkypeCircleCheck:before { @include ms-Icon--SkypeCircleCheck }
+.ms-Icon--SkypeCircleClock:before { @include ms-Icon--SkypeCircleClock }
+.ms-Icon--SkypeCircleMinus:before { @include ms-Icon--SkypeCircleMinus }
+.ms-Icon--SkypeCircleSlash:before { @include ms-Icon--SkypeCircleSlash }
+.ms-Icon--SkypeClock:before { @include ms-Icon--SkypeClock }
+.ms-Icon--SkypeForBusinessLogo:before { @include ms-Icon--SkypeForBusinessLogo }
+.ms-Icon--SkypeForBusinessLogo16:before { @include ms-Icon--SkypeForBusinessLogo16 }
+.ms-Icon--SkypeForBusinessLogoFill:before { @include ms-Icon--SkypeForBusinessLogoFill }
+.ms-Icon--SkypeForBusinessLogoFill16:before { @include ms-Icon--SkypeForBusinessLogoFill16 }
+.ms-Icon--SkypeLogo:before { @include ms-Icon--SkypeLogo }
+.ms-Icon--SkypeLogo16:before { @include ms-Icon--SkypeLogo16 }
+.ms-Icon--SkypeMessage:before { @include ms-Icon--SkypeMessage }
+.ms-Icon--SkypeMinus:before { @include ms-Icon--SkypeMinus }
+.ms-Icon--SkypeSlash:before { @include ms-Icon--SkypeSlash }
+.ms-Icon--Sleet:before { @include ms-Icon--Sleet }
+.ms-Icon--Slider:before { @include ms-Icon--Slider }
+.ms-Icon--SliderHandleSize:before { @include ms-Icon--SliderHandleSize }
+.ms-Icon--SliderThumb:before { @include ms-Icon--SliderThumb }
+.ms-Icon--Slideshow:before { @include ms-Icon--Slideshow }
+.ms-Icon--SmartGlassRemote:before { @include ms-Icon--SmartGlassRemote }
+.ms-Icon--SnapToGrid:before { @include ms-Icon--SnapToGrid }
+.ms-Icon--Snooze:before { @include ms-Icon--Snooze }
+.ms-Icon--Snow:before { @include ms-Icon--Snow }
+.ms-Icon--Snowflake:before { @include ms-Icon--Snowflake }
+.ms-Icon--SnowShowerDay:before { @include ms-Icon--SnowShowerDay }
+.ms-Icon--SnowShowerNight:before { @include ms-Icon--SnowShowerNight }
+.ms-Icon--Soccer:before { @include ms-Icon--Soccer }
+.ms-Icon--SocialListeningLogo:before { @include ms-Icon--SocialListeningLogo }
+.ms-Icon--Sort:before { @include ms-Icon--Sort }
+.ms-Icon--SortDown:before { @include ms-Icon--SortDown }
+.ms-Icon--SortLines:before { @include ms-Icon--SortLines }
+.ms-Icon--SortLinesAscending:before { @include ms-Icon--SortLinesAscending }
+.ms-Icon--SortUp:before { @include ms-Icon--SortUp }
+.ms-Icon--Source:before { @include ms-Icon--Source }
+.ms-Icon--Spacer:before { @include ms-Icon--Spacer }
+.ms-Icon--Speakers:before { @include ms-Icon--Speakers }
+.ms-Icon--SpecialEvent:before { @include ms-Icon--SpecialEvent }
+.ms-Icon--Speech:before { @include ms-Icon--Speech }
+.ms-Icon--SpeechOff:before { @include ms-Icon--SpeechOff }
+.ms-Icon--SpeedHigh:before { @include ms-Icon--SpeedHigh }
+.ms-Icon--Spelling:before { @include ms-Icon--Spelling }
+.ms-Icon--Split:before { @include ms-Icon--Split }
+.ms-Icon--SplitObject:before { @include ms-Icon--SplitObject }
+.ms-Icon--Sprint:before { @include ms-Icon--Sprint }
+.ms-Icon--SQLAnalyticsPool:before { @include ms-Icon--SQLAnalyticsPool }
+.ms-Icon--SQLServerLogo:before { @include ms-Icon--SQLServerLogo }
+.ms-Icon--Squalls:before { @include ms-Icon--Squalls }
+.ms-Icon--SquareShape:before { @include ms-Icon--SquareShape }
+.ms-Icon--SquareShapeSolid:before { @include ms-Icon--SquareShapeSolid }
+.ms-Icon--SSLCertificate:before { @include ms-Icon--SSLCertificate }
+.ms-Icon--Stack:before { @include ms-Icon--Stack }
+.ms-Icon--StackColumnChart:before { @include ms-Icon--StackColumnChart }
+.ms-Icon--StackedBarChart:before { @include ms-Icon--StackedBarChart }
+.ms-Icon--StackedBarChartFull:before { @include ms-Icon--StackedBarChartFull }
+

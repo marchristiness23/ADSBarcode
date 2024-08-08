@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-19",
+  "fontFamilyName": "FabricMDL2Icons-19",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "StackedBarChartFullSettings",
+      "unicode": "F1E6"
+    },
+    {
+      "name": "StackedColumnChart2",
+      "unicode": "F666"
+    },
+    {
+      "name": "StackedColumnChart2Fill",
+      "unicode": "F831"
+    },
+    {
+      "name": "StackedLineChart",
+      "unicode": "F24E"
+    },
+    {
+      "name": "StackIndicator",
+      "unicode": "E7FF"
+    },
+    {
+      "name": "StaffNotebookLogo16",
+      "unicode": "F48E"
+    },
+    {
+      "name": "StaffNotebookLogo32",
+      "unicode": "F48C"
+    },
+    {
+      "name": "StaffNotebookLogoFill16",
+      "unicode": "F48F"
+    },
+    {
+      "name": "StaffNotebookLogoFill32",
+      "unicode": "F48D"
+    },
+    {
+      "name": "StaffNotebookLogoInverted16",
+      "unicode": "F491"
+    },
+    {
+      "name": "StaffNotebookLogoInverted32",
+      "unicode": "F490"
+    },
+    {
+      "name": "Starburst",
+      "unicode": "EF78"
+    },
+    {
+      "name": "StarburstSolid",
+      "unicode": "F33C"
+    },
+    {
+      "name": "StatusCircleBlock",
+      "unicode": "F140"
+    },
+    {
+      "name": "StatusCircleBlock2",
+      "unicode": "F141"
+    },
+    {
+      "name": "StatusCircleCheckmark",
+      "unicode": "F13E"
+    },
+    {
+      "name": "StatusCircleErrorX",
+      "unicode": "F13D"
+    },
+    {
+      "name": "StatusCircleExclamation",
+      "unicode": "F13C"
+    },
+    {
+      "name": "StatusCircleInfo",
+      "unicode": "F13F"
+    },
+    {
+      "name": "StatusCircleInner",
+      "unicode": "F137"
+    },
+    {
+      "name": "StatusCircleOuter",
+      "unicode": "F136"
+    },
+    {
+      "name": "StatusCircleQuestionMark",
+      "unicode": "F142"
+    },
+    {
+      "name": "StatusCircleRing",
+      "unicode": "F138"
+    },
+    {
+      "name": "StatusCircleSync",
+      "unicode": "F143"
+    },
+    {
+      "name": "StatusErrorFull",
+      "unicode": "EB90"
+    },
+    {
+      "name": "StatusTriangle",
+      "unicode": "EA82"
+    },
+    {
+      "name": "StatusTriangleExclamation",
+      "unicode": "F13B"
+    },
+    {
+      "name": "StatusTriangleInner",
+      "unicode": "F13A"
+    },
+    {
+      "name": "StatusTriangleOuter",
+      "unicode": "F139"
+    },
+    {
+      "name": "Step",
+      "unicode": "F241"
+    },
+    {
+      "name": "StepBackward",
+      "unicode": "E68E"
+    },
+    {
+      "name": "StepInsert",
+      "unicode": "F242"
+    },
+    {
+      "name": "StepInto",
+      "unicode": "E690"
+    },
+    {
+      "name": "StepOut",
+      "unicode": "E691"
+    },
+    {
+      "name": "StepOver",
+      "unicode": "E68F"
+    },
+    {
+      "name": "StepShared",
+      "unicode": "F243"
+    },
+    {
+      "name": "StepSharedAdd",
+      "unicode": "F244"
+    },
+    {
+      "name": "StepSharedInsert",
+      "unicode": "F245"
+    },
+    {
+      "name": "StickyNotesOutlineAppIcon",
+      "unicode": "E36A"
+    },
+    {
+      "name": "StickyNotesSolidAppIcon",
+      "unicode": "E36B"
+    },
+    {
+      "name": "StockDown",
+      "unicode": "EB0F"
+    },
+    {
+      "name": "StockUp",
+      "unicode": "EB11"
+    },
+    {
+      "name": "Stop",
+      "unicode": "E71A"
+    },
+    {
+      "name": "StopSolid",
+      "unicode": "EE95"
+    },
+    {
+      "name": "Stopwatch",
+      "unicode": "E916"
+    },
+    {
+      "name": "StorageAcount",
+      "unicode": "E435"
+    },
+    {
+      "name": "StorageOptical",
+      "unicode": "E958"
+    },
+    {
+      "name": "StoreLogo16",
+      "unicode": "EA96"
+    },
+    {
+      "name": "StoreLogoMed20",
+      "unicode": "EA04"
+    },
+    {
+      "name": "Storyboard",
+      "unicode": "F308"
+    },
+    {
+      "name": "StreamDiscover",
+      "unicode": "F7D9"
+    },
+    {
+      "name": "Streaming",
+      "unicode": "E93E"
+    },
+    {
+      "name": "StreamingDataflow",
+      "unicode": "E668"
+    },
+    {
+      "name": "StreamingDataset",
+      "unicode": "E667"
+    },
+    {
+      "name": "StreamingOff",
+      "unicode": "F2BB"
+    },
+    {
+      "name": "StreamLogo",
+      "unicode": "F329"
+    },
+    {
+      "name": "StreamPlaylist",
+      "unicode": "E669"
+    },
+    {
+      "name": "Street",
+      "unicode": "E913"
+    },
+    {
+      "name": "StreetsideSplitMinimize",
+      "unicode": "E802"
+    },
+    {
+      "name": "Strikethrough",
+      "unicode": "EDE0"
+    },
+    {
+      "name": "StrikethroughKorean",
+      "unicode": "E5D4"
+    },
+    {
+      "name": "Subscribe",
+      "unicode": "EDA1"
+    },
+    {
+      "name": "Subscript",
+      "unicode": "EDDF"
+    },
+    {
+      "name": "SubstitutionsIn",
+      "unicode": "EB31"
+    },
+    {
+      "name": "SubtractShape",
+      "unicode": "F8FC"
+    },
+    {
+      "name": "Suitcase",
+      "unicode": "EDD3"
+    },
+    {
+      "name": "SummaryChart",
+      "unicode": "E9FE"
+    },
+    {
+      "name": "SunAdd",
+      "unicode": "EF69"
+    },
+    {
+      "name": "Sunny",
+      "unicode": "E9BD"
+    },
+    {
+      "name": "SunQuestionMark",
+      "unicode": "EF6A"
+    },
+    {
+      "name": "Superscript",
+      "unicode": "EDDE"
+    },
+    {
+      "name": "SurveyQuestionResponse",
+      "unicode": "E4F2"
+    },
+    {
+      "name": "SurveyQuestions",
+      "unicode": "F01B"
+    },
+    {
+      "name": "SwayLogo16",
+      "unicode": "F484"
+    },
+    {
+      "name": "SwayLogo32",
+      "unicode": "F482"
+    },
+    {
+      "name": "SwayLogoFill16",
+      "unicode": "F485"
+    },
+    {
+      "name": "SwayLogoFill32",
+      "unicode": "F483"
+    },
+    {
+      "name": "SwayLogoInverse",
+      "unicode": "ED29"
+    },
+    {
+      "name": "Switch",
+      "unicode": "E8AB"
+    },
+    {
+      "name": "SwitcherStartEnd",
+      "unicode": "E810"
+    },
+    {
+      "name": "SwitchUser",
+      "unicode": "E748"
+    },
+    {
+      "name": "Sync",
+      "unicode": "E895"
+    },
+    {
+      "name": "SyncError",
+      "unicode": "EA6A"
+    },
+    {
+      "name": "SyncFolder",
+      "unicode": "E8F7"
+    },
+    {
+      "name": "SyncOccurence",
+      "unicode": "F4A3"
+    },
+    {
+      "name": "SyncOccurenceCancel",
+      "unicode": "F7E7"
+    },
+    {
+      "name": "SyncStatus",
+      "unicode": "F751"
+    },
+    {
+      "name": "SyncStatusSolid",
+      "unicode": "F752"
+    },
+    {
+      "name": "SyncToPC",
+      "unicode": "EE6E"
+    },
+    {
+      "name": "System",
+      "unicode": "E770"
+    },
+    {
+      "name": "Tab",
+      "unicode": "E7E9"
+    },
+    {
+      "name": "TabCenter",
+      "unicode": "F100"
+    },
+    {
+      "name": "Table",
+      "unicode": "ED86"
+    },
+    {
+      "name": "TableBrandedColumn",
+      "unicode": "E3F1"
+    },
+    {
+      "name": "TableBrandedRow",
+      "unicode": "E3EE"
+    },
+    {
+      "name": "TableColumn",
+      "unicode": "E4BD"
+    },
+    {
+      "name": "TableComputed",
+      "unicode": "F8F5"
+    },
+    {
+      "name": "TableFirstColumn",
+      "unicode": "E3EF"
+    },
+    {
+      "name": "TableGroup",
+      "unicode": "F6D9"
+    },
+    {
+      "name": "TableHeaderRow",
+      "unicode": "E3EC"
+    }
+  ]
+}

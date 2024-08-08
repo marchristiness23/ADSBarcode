@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-7",
+  "fontFamilyName": "FabricMDL2Icons-7",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "DoubleChevronLeftMed",
+      "unicode": "E991"
+    },
+    {
+      "name": "DoubleChevronLeftMedMirrored",
+      "unicode": "EA4D"
+    },
+    {
+      "name": "DoubleChevronRight",
+      "unicode": "EDBF"
+    },
+    {
+      "name": "DoubleChevronRight12",
+      "unicode": "EE99"
+    },
+    {
+      "name": "DoubleChevronRight8",
+      "unicode": "F36E"
+    },
+    {
+      "name": "DoubleChevronUp",
+      "unicode": "EDBD"
+    },
+    {
+      "name": "DoubleChevronUp12",
+      "unicode": "EE96"
+    },
+    {
+      "name": "DoubleChevronUp8",
+      "unicode": "F36C"
+    },
+    {
+      "name": "DoubleColumn",
+      "unicode": "F1D4"
+    },
+    {
+      "name": "DoubleColumnEdit",
+      "unicode": "F322"
+    },
+    {
+      "name": "DoubleDownArrow",
+      "unicode": "F769"
+    },
+    {
+      "name": "Down",
+      "unicode": "E74B"
+    },
+    {
+      "name": "DownKey",
+      "unicode": "F3E1"
+    },
+    {
+      "name": "Download",
+      "unicode": "E896"
+    },
+    {
+      "name": "DownloadDocument",
+      "unicode": "F549"
+    },
+    {
+      "name": "DragObject",
+      "unicode": "F553"
+    },
+    {
+      "name": "DrillDown",
+      "unicode": "F532"
+    },
+    {
+      "name": "DrillDownSolid",
+      "unicode": "F533"
+    },
+    {
+      "name": "DrillExpand",
+      "unicode": "F534"
+    },
+    {
+      "name": "DrillShow",
+      "unicode": "F535"
+    },
+    {
+      "name": "DrillThrough",
+      "unicode": "F5B9"
+    },
+    {
+      "name": "DriverOff",
+      "unicode": "E3FB"
+    },
+    {
+      "name": "DRM",
+      "unicode": "ECA8"
+    },
+    {
+      "name": "Drop",
+      "unicode": "EB42"
+    },
+    {
+      "name": "Dropdown",
+      "unicode": "EDC5"
+    },
+    {
+      "name": "DropShape",
+      "unicode": "F1A8"
+    },
+    {
+      "name": "DropShapeSolid",
+      "unicode": "F63F"
+    },
+    {
+      "name": "DuplicateRow",
+      "unicode": "F82A"
+    },
+    {
+      "name": "Duststorm",
+      "unicode": "E9CD"
+    },
+    {
+      "name": "DynamicList",
+      "unicode": "E491"
+    },
+    {
+      "name": "Dynamics365Logo",
+      "unicode": "EDCC"
+    },
+    {
+      "name": "DynamicSMBLogo",
+      "unicode": "EDCD"
+    },
+    {
+      "name": "EaseOfAccess",
+      "unicode": "E776"
+    },
+    {
+      "name": "EatDrink",
+      "unicode": "E807"
+    },
+    {
+      "name": "EdgeLogo",
+      "unicode": "E3AB"
+    },
+    {
+      "name": "EdgeLogo16",
+      "unicode": "E3AA"
+    },
+    {
+      "name": "EdgeOldLogo",
+      "unicode": "EC60"
+    },
+    {
+      "name": "eDiscovery",
+      "unicode": "E370"
+    },
+    {
+      "name": "Edit",
+      "unicode": "E70F"
+    },
+    {
+      "name": "EditContact",
+      "unicode": "EFD3"
+    },
+    {
+      "name": "EditCreate",
+      "unicode": "F3C9"
+    },
+    {
+      "name": "EditEvent",
+      "unicode": "F05B"
+    },
+    {
+      "name": "EditListPencil",
+      "unicode": "E61B"
+    },
+    {
+      "name": "EditMail",
+      "unicode": "EF61"
+    },
+    {
+      "name": "EditMirrored",
+      "unicode": "EB7E"
+    },
+    {
+      "name": "EditNote",
+      "unicode": "ED9D"
+    },
+    {
+      "name": "EditPhoto",
+      "unicode": "EF77"
+    },
+    {
+      "name": "EditSolid12",
+      "unicode": "F4B5"
+    },
+    {
+      "name": "EditSolidMirrored12",
+      "unicode": "F4B6"
+    },
+    {
+      "name": "EditStyle",
+      "unicode": "EF60"
+    },
+    {
+      "name": "EditTable",
+      "unicode": "E4C4"
+    },
+    {
+      "name": "Education",
+      "unicode": "E7BE"
+    },
+    {
+      "name": "Ellipse",
+      "unicode": "F4FB"
+    },
+    {
+      "name": "Embed",
+      "unicode": "ECCE"
+    },
+    {
+      "name": "EMI",
+      "unicode": "E731"
+    },
+    {
+      "name": "Emoji",
+      "unicode": "E899"
+    },
+    {
+      "name": "Emoji2",
+      "unicode": "E76E"
+    },
+    {
+      "name": "EmojiDisappointed",
+      "unicode": "EA88"
+    },
+    {
+      "name": "EmojiNeutral",
+      "unicode": "EA87"
+    },
+    {
+      "name": "EmojiTabSymbols",
+      "unicode": "ED58"
+    },
+    {
+      "name": "EmployeeSelfService",
+      "unicode": "EE24"
+    },
+    {
+      "name": "EmptyRecycleBin",
+      "unicode": "EF88"
+    },
+    {
+      "name": "Encounter",
+      "unicode": "E54C"
+    },
+    {
+      "name": "Encryption",
+      "unicode": "F69D"
+    },
+    {
+      "name": "EndPointSolid",
+      "unicode": "EB4B"
+    },
+    {
+      "name": "EngineeringGroup",
+      "unicode": "F362"
+    },
+    {
+      "name": "EntitlementPolicy",
+      "unicode": "E346"
+    },
+    {
+      "name": "EntitlementRedemption",
+      "unicode": "E347"
+    },
+    {
+      "name": "EntityExtraction",
+      "unicode": "E467"
+    },
+    {
+      "name": "EntryDecline",
+      "unicode": "F555"
+    },
+    {
+      "name": "EntryView",
+      "unicode": "F554"
+    },
+    {
+      "name": "Equalizer",
+      "unicode": "E9E9"
+    },
+    {
+      "name": "EraseTool",
+      "unicode": "E75C"
+    },
+    {
+      "name": "Error",
+      "unicode": "E783"
+    },
+    {
+      "name": "ErrorBadge",
+      "unicode": "EA39"
+    },
+    {
+      "name": "ErrorBadge12",
+      "unicode": "E558"
+    },
+    {
+      "name": "Event",
+      "unicode": "ECA3"
+    },
+    {
+      "name": "Event12",
+      "unicode": "F763"
+    },
+    {
+      "name": "EventAccepted",
+      "unicode": "F422"
+    },
+    {
+      "name": "EventDate",
+      "unicode": "F059"
+    },
+    {
+      "name": "EventDateMissed12",
+      "unicode": "F764"
+    },
+    {
+      "name": "EventDeclined",
+      "unicode": "F425"
+    },
+    {
+      "name": "EventInfo",
+      "unicode": "ED8B"
+    },
+    {
+      "name": "EventTentative",
+      "unicode": "F423"
+    },
+    {
+      "name": "EventTentativeMirrored",
+      "unicode": "F424"
+    },
+    {
+      "name": "EventToDoLogo",
+      "unicode": "F869"
+    },
+    {
+      "name": "ExcelDocument",
+      "unicode": "EF73"
+    },
+    {
+      "name": "ExcelLogo",
+      "unicode": "F1E5"
+    },
+    {
+      "name": "ExcelLogo16",
+      "unicode": "F397"
+    },
+    {
+      "name": "ExcelLogoInverse",
+      "unicode": "EC28"
+    },
+    {
+      "name": "ExcelLogoInverse16",
+      "unicode": "F396"
+    },
+    {
+      "name": "ExchangeLogo",
+      "unicode": "F284"
+    },
+    {
+      "name": "ExchangeLogoInverse",
+      "unicode": "ED78"
+    },
+    {
+      "name": "ExerciseTracker",
+      "unicode": "EACC"
+    },
+    {
+      "name": "ExpandAll",
+      "unicode": "F859"
+    },
+    {
+      "name": "ExpandMenu",
+      "unicode": "EF67"
+    },
+    {
+      "name": "ExploreContent",
+      "unicode": "ECCD"
+    },
+    {
+      "name": "ExploreContentSingle",
+      "unicode": "F164"
+    },
+    {
+      "name": "ExploreData",
+      "unicode": "F5B6"
+    },
+    {
+      "name": "Export",
+      "unicode": "EDE1"
+    }
+  ]
+}

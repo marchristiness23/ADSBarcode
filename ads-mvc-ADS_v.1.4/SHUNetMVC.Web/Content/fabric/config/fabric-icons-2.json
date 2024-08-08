@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-2",
+  "fontFamilyName": "FabricMDL2Icons-2",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "BoxAdditionSolid",
+      "unicode": "F2D4"
+    },
+    {
+      "name": "BoxCheckmarkSolid",
+      "unicode": "F2D7"
+    },
+    {
+      "name": "BoxMultiplySolid",
+      "unicode": "F2D5"
+    },
+    {
+      "name": "BoxPlaySolid",
+      "unicode": "F2D6"
+    },
+    {
+      "name": "BoxSubtractSolid",
+      "unicode": "F2D3"
+    },
+    {
+      "name": "BranchCommit",
+      "unicode": "F293"
+    },
+    {
+      "name": "BranchCompare",
+      "unicode": "F294"
+    },
+    {
+      "name": "BranchFork",
+      "unicode": "F173"
+    },
+    {
+      "name": "BranchFork2",
+      "unicode": "F291"
+    },
+    {
+      "name": "BranchLocked",
+      "unicode": "F292"
+    },
+    {
+      "name": "BranchMerge",
+      "unicode": "F295"
+    },
+    {
+      "name": "BranchPullRequest",
+      "unicode": "F296"
+    },
+    {
+      "name": "BranchSearch",
+      "unicode": "F297"
+    },
+    {
+      "name": "BranchShelveset",
+      "unicode": "F298"
+    },
+    {
+      "name": "Breadcrumb",
+      "unicode": "EF8C"
+    },
+    {
+      "name": "Breakfast",
+      "unicode": "F49C"
+    },
+    {
+      "name": "BreakpointsRemove",
+      "unicode": "E692"
+    },
+    {
+      "name": "Brightness",
+      "unicode": "E706"
+    },
+    {
+      "name": "Broom",
+      "unicode": "EA99"
+    },
+    {
+      "name": "BrowserScreenShot",
+      "unicode": "EBED"
+    },
+    {
+      "name": "BrowserTab",
+      "unicode": "F5D7"
+    },
+    {
+      "name": "BrowserTabScreenshot",
+      "unicode": "F5D8"
+    },
+    {
+      "name": "Brunch",
+      "unicode": "F49D"
+    },
+    {
+      "name": "Brush",
+      "unicode": "ECFF"
+    },
+    {
+      "name": "BucketColor",
+      "unicode": "F1B6"
+    },
+    {
+      "name": "BucketColorFill",
+      "unicode": "F1B7"
+    },
+    {
+      "name": "BufferTimeAfter",
+      "unicode": "F0D0"
+    },
+    {
+      "name": "BufferTimeBefore",
+      "unicode": "F0CF"
+    },
+    {
+      "name": "BufferTimeBoth",
+      "unicode": "F0D1"
+    },
+    {
+      "name": "Bug",
+      "unicode": "EBE8"
+    },
+    {
+      "name": "BugAction",
+      "unicode": "E358"
+    },
+    {
+      "name": "BugBlock",
+      "unicode": "E400"
+    },
+    {
+      "name": "BugSolid",
+      "unicode": "F335"
+    },
+    {
+      "name": "BugSync",
+      "unicode": "E3FF"
+    },
+    {
+      "name": "BugWarning",
+      "unicode": "E357"
+    },
+    {
+      "name": "Build",
+      "unicode": "F28F"
+    },
+    {
+      "name": "BuildDefinition",
+      "unicode": "F6E9"
+    },
+    {
+      "name": "BuildIssue",
+      "unicode": "F319"
+    },
+    {
+      "name": "BuildQueue",
+      "unicode": "F24F"
+    },
+    {
+      "name": "BuildQueueNew",
+      "unicode": "F250"
+    },
+    {
+      "name": "BulkPageBlock",
+      "unicode": "E553"
+    },
+    {
+      "name": "BulkUpload",
+      "unicode": "F548"
+    },
+    {
+      "name": "BulletedList",
+      "unicode": "E8FD"
+    },
+    {
+      "name": "BulletedList2",
+      "unicode": "F2C7"
+    },
+    {
+      "name": "BulletedList2Mirrored",
+      "unicode": "F2C8"
+    },
+    {
+      "name": "BulletedListBullet",
+      "unicode": "F793"
+    },
+    {
+      "name": "BulletedListBulletMirrored",
+      "unicode": "F795"
+    },
+    {
+      "name": "BulletedListMirrored",
+      "unicode": "EA42"
+    },
+    {
+      "name": "BulletedListText",
+      "unicode": "F792"
+    },
+    {
+      "name": "BulletedListTextMirrored",
+      "unicode": "F794"
+    },
+    {
+      "name": "BulletedTreeList",
+      "unicode": "F84C"
+    },
+    {
+      "name": "Bullseye",
+      "unicode": "F272"
+    },
+    {
+      "name": "BullseyeTarget",
+      "unicode": "F5F0"
+    },
+    {
+      "name": "BullseyeTargetAdd",
+      "unicode": "E664"
+    },
+    {
+      "name": "BullseyeTargetDelete",
+      "unicode": "F6C1"
+    },
+    {
+      "name": "BullseyeTargetEdit",
+      "unicode": "E319"
+    },
+    {
+      "name": "Bus",
+      "unicode": "E806"
+    },
+    {
+      "name": "BusinessCard",
+      "unicode": "E5FB"
+    },
+    {
+      "name": "BusinessCenterLogo",
+      "unicode": "F4B2"
+    },
+    {
+      "name": "BusinessHoursSign",
+      "unicode": "F310"
+    },
+    {
+      "name": "BusinessRule",
+      "unicode": "E562"
+    },
+    {
+      "name": "BusSolid",
+      "unicode": "EB47"
+    },
+    {
+      "name": "ButtonControl",
+      "unicode": "F6C0"
+    },
+    {
+      "name": "Cafe",
+      "unicode": "EC32"
+    },
+    {
+      "name": "Cake",
+      "unicode": "ECA4"
+    },
+    {
+      "name": "CalculatedTable",
+      "unicode": "E4BE"
+    },
+    {
+      "name": "Calculator",
+      "unicode": "E8EF"
+    },
+    {
+      "name": "CalculatorAddition",
+      "unicode": "E948"
+    },
+    {
+      "name": "CalculatorDelta",
+      "unicode": "E406"
+    },
+    {
+      "name": "CalculatorEqualTo",
+      "unicode": "E94E"
+    },
+    {
+      "name": "CalculatorGroup",
+      "unicode": "E462"
+    },
+    {
+      "name": "CalculatorMultiply",
+      "unicode": "E947"
+    },
+    {
+      "name": "CalculatorNotEqualTo",
+      "unicode": "F2D2"
+    },
+    {
+      "name": "CalculatorPercentage",
+      "unicode": "E94C"
+    },
+    {
+      "name": "CalculatorSubtract",
+      "unicode": "E949"
+    },
+    {
+      "name": "Calendar",
+      "unicode": "E787"
+    },
+    {
+      "name": "CalendarAgenda",
+      "unicode": "EE9A"
+    },
+    {
+      "name": "CalendarDay",
+      "unicode": "E8BF"
+    },
+    {
+      "name": "CalendarMirrored",
+      "unicode": "ED28"
+    },
+    {
+      "name": "CalendarReply",
+      "unicode": "E8F5"
+    },
+    {
+      "name": "CalendarSettings",
+      "unicode": "F558"
+    },
+    {
+      "name": "CalendarSettingsMirrored",
+      "unicode": "F559"
+    },
+    {
+      "name": "CalendarWeek",
+      "unicode": "E8C0"
+    },
+    {
+      "name": "CalendarWorkWeek",
+      "unicode": "EF51"
+    },
+    {
+      "name": "CalendarYear",
+      "unicode": "E371"
+    },
+    {
+      "name": "Calories",
+      "unicode": "ECAD"
+    },
+    {
+      "name": "CaloriesAdd",
+      "unicode": "F172"
+    },
+    {
+      "name": "Camera",
+      "unicode": "E722"
+    },
+    {
+      "name": "CampaignTemplate",
+      "unicode": "F811"
+    },
+    {
+      "name": "Cancel",
+      "unicode": "E711"
+    },
+    {
+      "name": "CannedChat",
+      "unicode": "F0F2"
+    },
+    {
+      "name": "CanvasAppTemplate32",
+      "unicode": "E5FE"
+    },
+    {
+      "name": "Car",
+      "unicode": "E804"
+    },
+    {
+      "name": "CareActivity",
+      "unicode": "E549"
+    },
+    {
+      "name": "CarePlan",
+      "unicode": "E54A"
+    },
+    {
+      "name": "CarePlanTemplate",
+      "unicode": "E61E"
+    },
+    {
+      "name": "CaretBottomLeftCenter8",
+      "unicode": "F365"
+    },
+    {
+      "name": "CaretBottomLeftSolid8",
+      "unicode": "F121"
+    },
+    {
+      "name": "CaretBottomRightCenter8",
+      "unicode": "F364"
+    },
+    {
+      "name": "CaretBottomRightSolid8",
+      "unicode": "F122"
+    }
+  ]
+}

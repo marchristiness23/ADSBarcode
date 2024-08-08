@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-15",
+  "fontFamilyName": "FabricMDL2Icons-15",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "PinToTab",
+      "unicode": "E5E5"
+    },
+    {
+      "name": "PivotChart",
+      "unicode": "F24C"
+    },
+    {
+      "name": "PlainText",
+      "unicode": "F834"
+    },
+    {
+      "name": "PlannerLogo",
+      "unicode": "EDD1"
+    },
+    {
+      "name": "PlanView",
+      "unicode": "F360"
+    },
+    {
+      "name": "Play",
+      "unicode": "E768"
+    },
+    {
+      "name": "PlaybackRate1x",
+      "unicode": "EC57"
+    },
+    {
+      "name": "PlayerSettings",
+      "unicode": "EF58"
+    },
+    {
+      "name": "PlaylistMusic",
+      "unicode": "E93F"
+    },
+    {
+      "name": "PlayResume",
+      "unicode": "F2C6"
+    },
+    {
+      "name": "PlayReverse",
+      "unicode": "F3E5"
+    },
+    {
+      "name": "PlayReverseResume",
+      "unicode": "F3E4"
+    },
+    {
+      "name": "PlaySolid",
+      "unicode": "F5B0"
+    },
+    {
+      "name": "Plug",
+      "unicode": "F300"
+    },
+    {
+      "name": "PlugConnected",
+      "unicode": "F302"
+    },
+    {
+      "name": "PlugDisconnected",
+      "unicode": "F303"
+    },
+    {
+      "name": "PlugSolid",
+      "unicode": "F301"
+    },
+    {
+      "name": "POI",
+      "unicode": "ECAF"
+    },
+    {
+      "name": "POISolid",
+      "unicode": "F2D1"
+    },
+    {
+      "name": "PollResults",
+      "unicode": "F8A0"
+    },
+    {
+      "name": "PopExpand",
+      "unicode": "E49A"
+    },
+    {
+      "name": "PortalAppTemplate32",
+      "unicode": "E5FC"
+    },
+    {
+      "name": "PostUpdate",
+      "unicode": "E8F3"
+    },
+    {
+      "name": "PowerApps",
+      "unicode": "EDD2"
+    },
+    {
+      "name": "PowerApps2Logo",
+      "unicode": "F092"
+    },
+    {
+      "name": "PowerAppsLogo",
+      "unicode": "F091"
+    },
+    {
+      "name": "PowerAppsTemplate",
+      "unicode": "E4AC"
+    },
+    {
+      "name": "PowerAutomateLogo",
+      "unicode": "F4B1"
+    },
+    {
+      "name": "PowerBILogo",
+      "unicode": "EA1E"
+    },
+    {
+      "name": "PowerBILogo16",
+      "unicode": "F790"
+    },
+    {
+      "name": "PowerBILogoBackplate16",
+      "unicode": "F791"
+    },
+    {
+      "name": "PowerButton",
+      "unicode": "E7E8"
+    },
+    {
+      "name": "PowerPointDocument",
+      "unicode": "EF72"
+    },
+    {
+      "name": "PowerPointLogo",
+      "unicode": "F1EB"
+    },
+    {
+      "name": "PowerPointLogo16",
+      "unicode": "F394"
+    },
+    {
+      "name": "PowerPointLogoInverse",
+      "unicode": "EC2A"
+    },
+    {
+      "name": "PowerPointLogoInverse16",
+      "unicode": "F393"
+    },
+    {
+      "name": "PowerShell",
+      "unicode": "F1FD"
+    },
+    {
+      "name": "PowerShell2",
+      "unicode": "F730"
+    },
+    {
+      "name": "PowerStandby",
+      "unicode": "E55C"
+    },
+    {
+      "name": "PowerVirtualAgentsLogo",
+      "unicode": "E484"
+    },
+    {
+      "name": "Precipitation",
+      "unicode": "E9CF"
+    },
+    {
+      "name": "PresenceChickletVideo",
+      "unicode": "E979"
+    },
+    {
+      "name": "Presentation",
+      "unicode": "F6E4"
+    },
+    {
+      "name": "Presentation12",
+      "unicode": "F6E5"
+    },
+    {
+      "name": "Preview",
+      "unicode": "E8FF"
+    },
+    {
+      "name": "PreviewBelow",
+      "unicode": "E5D5"
+    },
+    {
+      "name": "PreviewLink",
+      "unicode": "E8A1"
+    },
+    {
+      "name": "PreviewSideBySide",
+      "unicode": "E5D6"
+    },
+    {
+      "name": "Previous",
+      "unicode": "E892"
+    },
+    {
+      "name": "PrimaryCalendar",
+      "unicode": "F4AE"
+    },
+    {
+      "name": "Print",
+      "unicode": "E749"
+    },
+    {
+      "name": "PrintfaxPrinterFile",
+      "unicode": "E956"
+    },
+    {
+      "name": "Priority",
+      "unicode": "E8D0"
+    },
+    {
+      "name": "Process",
+      "unicode": "E9F3"
+    },
+    {
+      "name": "ProcessAdvisor",
+      "unicode": "E5E4"
+    },
+    {
+      "name": "Processing",
+      "unicode": "E9F5"
+    },
+    {
+      "name": "ProcessingCancel",
+      "unicode": "E403"
+    },
+    {
+      "name": "ProcessingPause",
+      "unicode": "E405"
+    },
+    {
+      "name": "ProcessingRun",
+      "unicode": "E404"
+    },
+    {
+      "name": "ProcessMap",
+      "unicode": "E9F6"
+    },
+    {
+      "name": "ProcessMetaTask",
+      "unicode": "F290"
+    },
+    {
+      "name": "Product",
+      "unicode": "ECDC"
+    },
+    {
+      "name": "ProductCatalog",
+      "unicode": "EFE8"
+    },
+    {
+      "name": "ProductionFloorManagement",
+      "unicode": "EE29"
+    },
+    {
+      "name": "ProductList",
+      "unicode": "E31E"
+    },
+    {
+      "name": "ProductRelease",
+      "unicode": "EE2E"
+    },
+    {
+      "name": "ProductVariant",
+      "unicode": "EE30"
+    },
+    {
+      "name": "ProductWarning",
+      "unicode": "E5C0"
+    },
+    {
+      "name": "ProfileSearch",
+      "unicode": "EF35"
+    },
+    {
+      "name": "ProFootball",
+      "unicode": "EB27"
+    },
+    {
+      "name": "ProgressLoopInner",
+      "unicode": "ECDE"
+    },
+    {
+      "name": "ProgressLoopOuter",
+      "unicode": "ECDF"
+    },
+    {
+      "name": "ProgressRing5",
+      "unicode": "EDF6"
+    },
+    {
+      "name": "ProgressRingDots",
+      "unicode": "F16A"
+    },
+    {
+      "name": "ProHockey",
+      "unicode": "EB28"
+    },
+    {
+      "name": "ProjectCollection",
+      "unicode": "F363"
+    },
+    {
+      "name": "ProjectDocument",
+      "unicode": "F759"
+    },
+    {
+      "name": "ProjectLogo16",
+      "unicode": "F480"
+    },
+    {
+      "name": "ProjectLogo32",
+      "unicode": "F47E"
+    },
+    {
+      "name": "ProjectLogoInverse",
+      "unicode": "EDD4"
+    },
+    {
+      "name": "ProjectManagement",
+      "unicode": "E9DE"
+    },
+    {
+      "name": "PromotedDatabase",
+      "unicode": "F77D"
+    },
+    {
+      "name": "Pronouns",
+      "unicode": "E556"
+    },
+    {
+      "name": "ProtectedDocument",
+      "unicode": "E8A6"
+    },
+    {
+      "name": "ProtectionCenterLogo32",
+      "unicode": "F494"
+    },
+    {
+      "name": "ProtectRestrict",
+      "unicode": "F22A"
+    },
+    {
+      "name": "ProvisioningPackage",
+      "unicode": "E835"
+    },
+    {
+      "name": "PublicCalendar",
+      "unicode": "EF6D"
+    },
+    {
+      "name": "PublicContactCard",
+      "unicode": "EF6E"
+    },
+    {
+      "name": "PublicContactCardMirrored",
+      "unicode": "F230"
+    },
+    {
+      "name": "PublicEmail",
+      "unicode": "EF6F"
+    },
+    {
+      "name": "PublicFolder",
+      "unicode": "EF70"
+    },
+    {
+      "name": "PublishContent",
+      "unicode": "F0D4"
+    },
+    {
+      "name": "PublishCourse",
+      "unicode": "F699"
+    },
+    {
+      "name": "PublisherLogo",
+      "unicode": "F1ED"
+    },
+    {
+      "name": "PublisherLogo16",
+      "unicode": "F3A0"
+    },
+    {
+      "name": "PublisherLogoInverse16",
+      "unicode": "F39F"
+    },
+    {
+      "name": "Puzzle",
+      "unicode": "EA86"
+    },
+    {
+      "name": "PY",
+      "unicode": "F2F9"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-3';
+  src: url('../fonts/fabric-icons-3-734e02ad.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-3';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--CaretDown8 { content: "\EDD8"; }
+@mixin ms-Icon--CaretDownSolid8 { content: "\EDDC"; }
+@mixin ms-Icon--CaretHollow { content: "\E817"; }
+@mixin ms-Icon--CaretHollowMirrored { content: "\EA45"; }
+@mixin ms-Icon--CaretLeft8 { content: "\EDD5"; }
+@mixin ms-Icon--CaretLeftSolid8 { content: "\EDD9"; }
+@mixin ms-Icon--CaretRight { content: "\F06B"; }
+@mixin ms-Icon--CaretRight8 { content: "\EDD6"; }
+@mixin ms-Icon--CaretRightSolid8 { content: "\EDDA"; }
+@mixin ms-Icon--CaretSolid { content: "\E818"; }
+@mixin ms-Icon--CaretSolid16 { content: "\EE62"; }
+@mixin ms-Icon--CaretSolidAlt { content: "\E483"; }
+@mixin ms-Icon--CaretSolidDown { content: "\F08E"; }
+@mixin ms-Icon--CaretSolidLeft { content: "\F08D"; }
+@mixin ms-Icon--CaretSolidMirrored { content: "\EA46"; }
+@mixin ms-Icon--CaretSolidRight { content: "\F08F"; }
+@mixin ms-Icon--CaretSolidUp { content: "\F090"; }
+@mixin ms-Icon--CaretTopLeftCenter8 { content: "\F367"; }
+@mixin ms-Icon--CaretTopLeftSolid8 { content: "\EF54"; }
+@mixin ms-Icon--CaretTopRightCenter8 { content: "\F366"; }
+@mixin ms-Icon--CaretTopRightSolid8 { content: "\EF55"; }
+@mixin ms-Icon--CaretUp8 { content: "\EDD7"; }
+@mixin ms-Icon--CaretUpSolid8 { content: "\EDDB"; }
+@mixin ms-Icon--CaseSetting { content: "\F675"; }
+@mixin ms-Icon--Cat { content: "\ED7F"; }
+@mixin ms-Icon--CategoryClassification { content: "\E48C"; }
+@mixin ms-Icon--CC { content: "\E7F0"; }
+@mixin ms-Icon--CCSolid { content: "\E4F4"; }
+@mixin ms-Icon--CellPhone { content: "\E8EA"; }
+@mixin ms-Icon--CellSplitVertical { content: "\E66C"; }
+@mixin ms-Icon--Certificate { content: "\EB95"; }
+@mixin ms-Icon--CertifiedDatabase { content: "\F5BB"; }
+@mixin ms-Icon--ChangeEntitlements { content: "\E310"; }
+@mixin ms-Icon--Chart { content: "\E999"; }
+@mixin ms-Icon--CharticulatorArrangePolar { content: "\E632"; }
+@mixin ms-Icon--CharticulatorArrangePolarAngles { content: "\E633"; }
+@mixin ms-Icon--CharticulatorBand { content: "\E634"; }
+@mixin ms-Icon--CharticulatorGuideCoordinator { content: "\E635"; }
+@mixin ms-Icon--CharticulatorGuideX { content: "\E636"; }
+@mixin ms-Icon--CharticulatorGuideY { content: "\E637"; }
+@mixin ms-Icon--CharticulatorLegend { content: "\E638"; }
+@mixin ms-Icon--CharticulatorLine { content: "\E639"; }
+@mixin ms-Icon--CharticulatorLineStyleDashed { content: "\E63A"; }
+@mixin ms-Icon--CharticulatorLineStyleDotted { content: "\E63B"; }
+@mixin ms-Icon--CharticulatorLinkingData { content: "\E63C"; }
+@mixin ms-Icon--CharticulatorLinkingSequence { content: "\E63D"; }
+@mixin ms-Icon--CharticulatorOrderColumn { content: "\E63E"; }
+@mixin ms-Icon--CharticulatorOrderRow { content: "\E63F"; }
+@mixin ms-Icon--CharticulatorPlotCartesian { content: "\E640"; }
+@mixin ms-Icon--CharticulatorPlotCurve { content: "\E641"; }
+@mixin ms-Icon--CharticulatorPolarCoordinates { content: "\E642"; }
+@mixin ms-Icon--CharticulatorSpiral { content: "\E643"; }
+@mixin ms-Icon--CharticulatorStackRadial { content: "\E644"; }
+@mixin ms-Icon--CharticulatorStackY { content: "\E645"; }
+@mixin ms-Icon--ChartSeries { content: "\F513"; }
+@mixin ms-Icon--ChartTemplate { content: "\F812"; }
+@mixin ms-Icon--ChartXAngle { content: "\F514"; }
+@mixin ms-Icon--ChartYAngle { content: "\F515"; }
+@mixin ms-Icon--Chat { content: "\E901"; }
+@mixin ms-Icon--ChatBot { content: "\F08B"; }
+@mixin ms-Icon--ChatInviteFriend { content: "\ECFE"; }
+@mixin ms-Icon--ChatSettings { content: "\E600"; }
+@mixin ms-Icon--ChatSolid { content: "\F344"; }
+@mixin ms-Icon--Checkbox { content: "\E739"; }
+@mixin ms-Icon--CheckboxComposite { content: "\E73A"; }
+@mixin ms-Icon--CheckboxCompositeReversed { content: "\E73D"; }
+@mixin ms-Icon--CheckboxFill { content: "\E73B"; }
+@mixin ms-Icon--CheckboxIndeterminate { content: "\E73C"; }
+@mixin ms-Icon--CheckboxIndeterminateCombo { content: "\F16E"; }
+@mixin ms-Icon--CheckedOutByOther12 { content: "\F630"; }
+@mixin ms-Icon--CheckedOutByYou12 { content: "\F631"; }
+@mixin ms-Icon--CheckList { content: "\E9D5"; }
+@mixin ms-Icon--CheckListCheck { content: "\F7A9"; }
+@mixin ms-Icon--CheckListCheckMirrored { content: "\F7AB"; }
+@mixin ms-Icon--CheckListText { content: "\F7A8"; }
+@mixin ms-Icon--CheckListTextMirrored { content: "\F7AA"; }
+@mixin ms-Icon--CheckMark { content: "\E73E"; }
+@mixin ms-Icon--ChevronDown { content: "\E70D"; }
+@mixin ms-Icon--ChevronDownEnd { content: "\F5E4"; }
+@mixin ms-Icon--ChevronDownEnd6 { content: "\F36F"; }
+@mixin ms-Icon--ChevronDownMed { content: "\E972"; }
+@mixin ms-Icon--ChevronDownSmall { content: "\E96E"; }
+@mixin ms-Icon--ChevronFold10 { content: "\F36A"; }
+@mixin ms-Icon--ChevronLeft { content: "\E76B"; }
+@mixin ms-Icon--ChevronLeftEnd6 { content: "\F371"; }
+@mixin ms-Icon--ChevronLeftMed { content: "\E973"; }
+@mixin ms-Icon--ChevronLeftSmall { content: "\E96F"; }
+@mixin ms-Icon--ChevronRight { content: "\E76C"; }
+@mixin ms-Icon--ChevronRightEnd6 { content: "\F372"; }
+@mixin ms-Icon--ChevronRightMed { content: "\E974"; }
+@mixin ms-Icon--ChevronRightSmall { content: "\E970"; }
+@mixin ms-Icon--ChevronUnfold10 { content: "\F369"; }
+@mixin ms-Icon--ChevronUp { content: "\E70E"; }
+@mixin ms-Icon--ChevronUpEnd { content: "\E55B"; }
+@mixin ms-Icon--ChevronUpEnd6 { content: "\F370"; }
+@mixin ms-Icon--ChevronUpMed { content: "\E971"; }
+@mixin ms-Icon--ChevronUpSmall { content: "\E96D"; }
+@mixin ms-Icon--Childof { content: "\F82D"; }
+@mixin ms-Icon--ChoiceColumn { content: "\E4AE"; }
+@mixin ms-Icon--Chopsticks { content: "\F4A2"; }
+
+
+// Classes
+.ms-Icon--CaretDown8:before { @include ms-Icon--CaretDown8 }
+.ms-Icon--CaretDownSolid8:before { @include ms-Icon--CaretDownSolid8 }
+.ms-Icon--CaretHollow:before { @include ms-Icon--CaretHollow }
+.ms-Icon--CaretHollowMirrored:before { @include ms-Icon--CaretHollowMirrored }
+.ms-Icon--CaretLeft8:before { @include ms-Icon--CaretLeft8 }
+.ms-Icon--CaretLeftSolid8:before { @include ms-Icon--CaretLeftSolid8 }
+.ms-Icon--CaretRight:before { @include ms-Icon--CaretRight }
+.ms-Icon--CaretRight8:before { @include ms-Icon--CaretRight8 }
+.ms-Icon--CaretRightSolid8:before { @include ms-Icon--CaretRightSolid8 }
+.ms-Icon--CaretSolid:before { @include ms-Icon--CaretSolid }
+.ms-Icon--CaretSolid16:before { @include ms-Icon--CaretSolid16 }
+.ms-Icon--CaretSolidAlt:before { @include ms-Icon--CaretSolidAlt }
+.ms-Icon--CaretSolidDown:before { @include ms-Icon--CaretSolidDown }
+.ms-Icon--CaretSolidLeft:before { @include ms-Icon--CaretSolidLeft }
+.ms-Icon--CaretSolidMirrored:before { @include ms-Icon--CaretSolidMirrored }
+.ms-Icon--CaretSolidRight:before { @include ms-Icon--CaretSolidRight }
+.ms-Icon--CaretSolidUp:before { @include ms-Icon--CaretSolidUp }
+.ms-Icon--CaretTopLeftCenter8:before { @include ms-Icon--CaretTopLeftCenter8 }
+.ms-Icon--CaretTopLeftSolid8:before { @include ms-Icon--CaretTopLeftSolid8 }
+.ms-Icon--CaretTopRightCenter8:before { @include ms-Icon--CaretTopRightCenter8 }
+.ms-Icon--CaretTopRightSolid8:before { @include ms-Icon--CaretTopRightSolid8 }
+.ms-Icon--CaretUp8:before { @include ms-Icon--CaretUp8 }
+.ms-Icon--CaretUpSolid8:before { @include ms-Icon--CaretUpSolid8 }
+.ms-Icon--CaseSetting:before { @include ms-Icon--CaseSetting }
+.ms-Icon--Cat:before { @include ms-Icon--Cat }
+.ms-Icon--CategoryClassification:before { @include ms-Icon--CategoryClassification }
+.ms-Icon--CC:before { @include ms-Icon--CC }
+.ms-Icon--CCSolid:before { @include ms-Icon--CCSolid }
+.ms-Icon--CellPhone:before { @include ms-Icon--CellPhone }
+.ms-Icon--CellSplitVertical:before { @include ms-Icon--CellSplitVertical }
+.ms-Icon--Certificate:before { @include ms-Icon--Certificate }
+.ms-Icon--CertifiedDatabase:before { @include ms-Icon--CertifiedDatabase }
+.ms-Icon--ChangeEntitlements:before { @include ms-Icon--ChangeEntitlements }
+.ms-Icon--Chart:before { @include ms-Icon--Chart }
+.ms-Icon--CharticulatorArrangePolar:before { @include ms-Icon--CharticulatorArrangePolar }
+.ms-Icon--CharticulatorArrangePolarAngles:before { @include ms-Icon--CharticulatorArrangePolarAngles }
+.ms-Icon--CharticulatorBand:before { @include ms-Icon--CharticulatorBand }
+.ms-Icon--CharticulatorGuideCoordinator:before { @include ms-Icon--CharticulatorGuideCoordinator }
+.ms-Icon--CharticulatorGuideX:before { @include ms-Icon--CharticulatorGuideX }
+.ms-Icon--CharticulatorGuideY:before { @include ms-Icon--CharticulatorGuideY }
+.ms-Icon--CharticulatorLegend:before { @include ms-Icon--CharticulatorLegend }
+.ms-Icon--CharticulatorLine:before { @include ms-Icon--CharticulatorLine }
+.ms-Icon--CharticulatorLineStyleDashed:before { @include ms-Icon--CharticulatorLineStyleDashed }
+.ms-Icon--CharticulatorLineStyleDotted:before { @include ms-Icon--CharticulatorLineStyleDotted }
+.ms-Icon--CharticulatorLinkingData:before { @include ms-Icon--CharticulatorLinkingData }
+.ms-Icon--CharticulatorLinkingSequence:before { @include ms-Icon--CharticulatorLinkingSequence }
+.ms-Icon--CharticulatorOrderColumn:before { @include ms-Icon--CharticulatorOrderColumn }
+.ms-Icon--CharticulatorOrderRow:before { @include ms-Icon--CharticulatorOrderRow }
+.ms-Icon--CharticulatorPlotCartesian:before { @include ms-Icon--CharticulatorPlotCartesian }
+.ms-Icon--CharticulatorPlotCurve:before { @include ms-Icon--CharticulatorPlotCurve }
+.ms-Icon--CharticulatorPolarCoordinates:before { @include ms-Icon--CharticulatorPolarCoordinates }
+.ms-Icon--CharticulatorSpiral:before { @include ms-Icon--CharticulatorSpiral }
+.ms-Icon--CharticulatorStackRadial:before { @include ms-Icon--CharticulatorStackRadial }
+.ms-Icon--CharticulatorStackY:before { @include ms-Icon--CharticulatorStackY }
+.ms-Icon--ChartSeries:before { @include ms-Icon--ChartSeries }
+.ms-Icon--ChartTemplate:before { @include ms-Icon--ChartTemplate }
+.ms-Icon--ChartXAngle:before { @include ms-Icon--ChartXAngle }
+.ms-Icon--ChartYAngle:before { @include ms-Icon--ChartYAngle }
+.ms-Icon--Chat:before { @include ms-Icon--Chat }
+.ms-Icon--ChatBot:before { @include ms-Icon--ChatBot }
+.ms-Icon--ChatInviteFriend:before { @include ms-Icon--ChatInviteFriend }
+.ms-Icon--ChatSettings:before { @include ms-Icon--ChatSettings }
+.ms-Icon--ChatSolid:before { @include ms-Icon--ChatSolid }
+.ms-Icon--Checkbox:before { @include ms-Icon--Checkbox }
+.ms-Icon--CheckboxComposite:before { @include ms-Icon--CheckboxComposite }
+.ms-Icon--CheckboxCompositeReversed:before { @include ms-Icon--CheckboxCompositeReversed }
+.ms-Icon--CheckboxFill:before { @include ms-Icon--CheckboxFill }
+.ms-Icon--CheckboxIndeterminate:before { @include ms-Icon--CheckboxIndeterminate }
+.ms-Icon--CheckboxIndeterminateCombo:before { @include ms-Icon--CheckboxIndeterminateCombo }
+.ms-Icon--CheckedOutByOther12:before { @include ms-Icon--CheckedOutByOther12 }
+.ms-Icon--CheckedOutByYou12:before { @include ms-Icon--CheckedOutByYou12 }
+.ms-Icon--CheckList:before { @include ms-Icon--CheckList }
+.ms-Icon--CheckListCheck:before { @include ms-Icon--CheckListCheck }
+.ms-Icon--CheckListCheckMirrored:before { @include ms-Icon--CheckListCheckMirrored }
+.ms-Icon--CheckListText:before { @include ms-Icon--CheckListText }
+.ms-Icon--CheckListTextMirrored:before { @include ms-Icon--CheckListTextMirrored }
+.ms-Icon--CheckMark:before { @include ms-Icon--CheckMark }
+.ms-Icon--ChevronDown:before { @include ms-Icon--ChevronDown }
+.ms-Icon--ChevronDownEnd:before { @include ms-Icon--ChevronDownEnd }
+.ms-Icon--ChevronDownEnd6:before { @include ms-Icon--ChevronDownEnd6 }
+.ms-Icon--ChevronDownMed:before { @include ms-Icon--ChevronDownMed }
+.ms-Icon--ChevronDownSmall:before { @include ms-Icon--ChevronDownSmall }
+.ms-Icon--ChevronFold10:before { @include ms-Icon--ChevronFold10 }
+.ms-Icon--ChevronLeft:before { @include ms-Icon--ChevronLeft }
+.ms-Icon--ChevronLeftEnd6:before { @include ms-Icon--ChevronLeftEnd6 }
+.ms-Icon--ChevronLeftMed:before { @include ms-Icon--ChevronLeftMed }
+.ms-Icon--ChevronLeftSmall:before { @include ms-Icon--ChevronLeftSmall }
+.ms-Icon--ChevronRight:before { @include ms-Icon--ChevronRight }
+.ms-Icon--ChevronRightEnd6:before { @include ms-Icon--ChevronRightEnd6 }
+.ms-Icon--ChevronRightMed:before { @include ms-Icon--ChevronRightMed }
+.ms-Icon--ChevronRightSmall:before { @include ms-Icon--ChevronRightSmall }
+.ms-Icon--ChevronUnfold10:before { @include ms-Icon--ChevronUnfold10 }
+.ms-Icon--ChevronUp:before { @include ms-Icon--ChevronUp }
+.ms-Icon--ChevronUpEnd:before { @include ms-Icon--ChevronUpEnd }
+.ms-Icon--ChevronUpEnd6:before { @include ms-Icon--ChevronUpEnd6 }
+.ms-Icon--ChevronUpMed:before { @include ms-Icon--ChevronUpMed }
+.ms-Icon--ChevronUpSmall:before { @include ms-Icon--ChevronUpSmall }
+.ms-Icon--Childof:before { @include ms-Icon--Childof }
+.ms-Icon--ChoiceColumn:before { @include ms-Icon--ChoiceColumn }
+.ms-Icon--Chopsticks:before { @include ms-Icon--Chopsticks }
+

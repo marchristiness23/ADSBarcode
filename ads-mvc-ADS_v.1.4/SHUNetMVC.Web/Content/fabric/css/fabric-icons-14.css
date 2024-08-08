@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-14';
+  src: url('../fonts/fabric-icons-14-df06278b.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-14';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--PageListFilter:before { content: "\F813"; }
+.ms-Icon--PageListMirroredSolid:before { content: "\F33B"; }
+.ms-Icon--PageListSolid:before { content: "\F33A"; }
+.ms-Icon--PageLock:before { content: "\F43F"; }
+.ms-Icon--PagePermission:before { content: "\E618"; }
+.ms-Icon--PageRemove:before { content: "\EFBA"; }
+.ms-Icon--PageRight:before { content: "\E761"; }
+.ms-Icon--PageShared:before { content: "\F02D"; }
+.ms-Icon--PageSolid:before { content: "\E729"; }
+.ms-Icon--PanoIndicator:before { content: "\E7B0"; }
+.ms-Icon--Parachute:before { content: "\F351"; }
+.ms-Icon--ParachuteSolid:before { content: "\F352"; }
+.ms-Icon--Parameter:before { content: "\F306"; }
+.ms-Icon--ParkingLocation:before { content: "\E811"; }
+.ms-Icon--ParkingLocationMirrored:before { content: "\EA5E"; }
+.ms-Icon--ParkingMirroredSolid:before { content: "\F34B"; }
+.ms-Icon--ParkingSolid:before { content: "\F34A"; }
+.ms-Icon--PartlyClearNight:before { content: "\E477"; }
+.ms-Icon--PartlyCloudyDay:before { content: "\E9C0"; }
+.ms-Icon--PartlyCloudyNight:before { content: "\E9C1"; }
+.ms-Icon--PartlySunnyDay:before { content: "\E469"; }
+.ms-Icon--PartlySunnyFlurriesDay:before { content: "\E472"; }
+.ms-Icon--PartlySunnyShowersDay:before { content: "\E46E"; }
+.ms-Icon--PartlySunnyShowersNight:before { content: "\E47A"; }
+.ms-Icon--PartlySunnyTStormsDay:before { content: "\E470"; }
+.ms-Icon--PartlySunnyTStormsNight:before { content: "\E47C"; }
+.ms-Icon--PartyLeader:before { content: "\ECA7"; }
+.ms-Icon--PassiveAuthentication:before { content: "\F32A"; }
+.ms-Icon--PasswordField:before { content: "\F6AA"; }
+.ms-Icon--Paste:before { content: "\E77F"; }
+.ms-Icon--PasteAsCode:before { content: "\F5D6"; }
+.ms-Icon--PasteAsText:before { content: "\F5D5"; }
+.ms-Icon--Pause:before { content: "\E769"; }
+.ms-Icon--PaymentCard:before { content: "\E8C7"; }
+.ms-Icon--PBIAnomaliesMarker:before { content: "\E554"; }
+.ms-Icon--PBIAnomaly:before { content: "\E548"; }
+.ms-Icon--PBIColumn:before { content: "\E67A"; }
+.ms-Icon--PBIConnectPoints:before { content: "\E67B"; }
+.ms-Icon--PBIDirectQuery:before { content: "\E4E9"; }
+.ms-Icon--PBIDual:before { content: "\E4EA"; }
+.ms-Icon--PBIGap:before { content: "\E67C"; }
+.ms-Icon--PBIGoalEntry:before { content: "\E615"; }
+.ms-Icon--PBIGoalEntryAdd:before { content: "\E616"; }
+.ms-Icon--PBIHomeLayoutDefault:before { content: "\E65B"; }
+.ms-Icon--PBIHomeLayoutExpanded:before { content: "\E65C"; }
+.ms-Icon--PBIImport:before { content: "\E4EB"; }
+.ms-Icon--PBILiveConnect:before { content: "\E4EC"; }
+.ms-Icon--PBIPerspective:before { content: "\E658"; }
+.ms-Icon--PBIReportTemplate:before { content: "\E5EC"; }
+.ms-Icon--PBIZero:before { content: "\E67D"; }
+.ms-Icon--PC1:before { content: "\E977"; }
+.ms-Icon--PDF:before { content: "\EA90"; }
+.ms-Icon--PencilReply:before { content: "\EF7B"; }
+.ms-Icon--Pentagon:before { content: "\F4FF"; }
+.ms-Icon--PenWorkspace:before { content: "\EDC6"; }
+.ms-Icon--People:before { content: "\E716"; }
+.ms-Icon--PeopleAdd:before { content: "\EA15"; }
+.ms-Icon--PeopleAlert:before { content: "\ED93"; }
+.ms-Icon--PeopleBlock:before { content: "\ED91"; }
+.ms-Icon--PeopleExternalShare:before { content: "\E5EF"; }
+.ms-Icon--PeoplePause:before { content: "\ED94"; }
+.ms-Icon--PeopleRepeat:before { content: "\ED92"; }
+.ms-Icon--PeopleSettings:before { content: "\F72C"; }
+.ms-Icon--Permissions:before { content: "\E8D7"; }
+.ms-Icon--PermissionsSolid:before { content: "\F349"; }
+.ms-Icon--Personalize:before { content: "\E771"; }
+.ms-Icon--Phishing:before { content: "\F679"; }
+.ms-Icon--PhishingCampaign:before { content: "\E48D"; }
+.ms-Icon--PhishingHook:before { content: "\E48E"; }
+.ms-Icon--Phone:before { content: "\E717"; }
+.ms-Icon--Photo:before { content: "\E91B"; }
+.ms-Icon--Photo2:before { content: "\EB9F"; }
+.ms-Icon--Photo2Add:before { content: "\ECAB"; }
+.ms-Icon--Photo2Fill:before { content: "\F79F"; }
+.ms-Icon--Photo2Remove:before { content: "\ECAC"; }
+.ms-Icon--PhotoBlock:before { content: "\E4C3"; }
+.ms-Icon--PhotoCollection:before { content: "\E7AA"; }
+.ms-Icon--PhotoError:before { content: "\E3F7"; }
+.ms-Icon--PhotoVideoMedia:before { content: "\F0B1"; }
+.ms-Icon--Picture:before { content: "\E8B9"; }
+.ms-Icon--PictureCenter:before { content: "\F522"; }
+.ms-Icon--PictureFill:before { content: "\F523"; }
+.ms-Icon--PictureLibrary:before { content: "\EEC2"; }
+.ms-Icon--PicturePosition:before { content: "\F524"; }
+.ms-Icon--PictureStretch:before { content: "\F525"; }
+.ms-Icon--PictureTile:before { content: "\F526"; }
+.ms-Icon--PieDouble:before { content: "\EB04"; }
+.ms-Icon--PieSingle:before { content: "\EB05"; }
+.ms-Icon--PieSingleSolid:before { content: "\F530"; }
+.ms-Icon--Pill:before { content: "\EACB"; }
+.ms-Icon--Pin:before { content: "\E718"; }
+.ms-Icon--PinNavMenu:before { content: "\E682"; }
+.ms-Icon--Pinned:before { content: "\E840"; }
+.ms-Icon--PinnedFill:before { content: "\E842"; }
+.ms-Icon--PinnedSolid:before { content: "\F676"; }
+.ms-Icon--PinOff:before { content: "\E683"; }
+.ms-Icon--PinOffSolid:before { content: "\E694"; }
+.ms-Icon--PinSolid:before { content: "\F1DB"; }
+.ms-Icon--PinSolid12:before { content: "\E352"; }
+.ms-Icon--PinSolidOff12:before { content: "\E353"; }

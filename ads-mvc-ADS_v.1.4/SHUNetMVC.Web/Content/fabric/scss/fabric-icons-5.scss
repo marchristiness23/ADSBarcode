@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-5';
+  src: url('../fonts/fabric-icons-5-accd4f4b.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-5';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--CommentUrgent { content: "\F307"; }
+@mixin ms-Icon--Commitments { content: "\EC4D"; }
+@mixin ms-Icon--CommonDataServiceCDS { content: "\E377"; }
+@mixin ms-Icon--CommunicationDetails { content: "\E4CF"; }
+@mixin ms-Icon--CommunicationDetailsMirrored { content: "\E4D0"; }
+@mixin ms-Icon--Communications { content: "\E95A"; }
+@mixin ms-Icon--CompactColumnList { content: "\F1EE"; }
+@mixin ms-Icon--CompactViewList { content: "\F1EA"; }
+@mixin ms-Icon--CompanyDirectory { content: "\EF0D"; }
+@mixin ms-Icon--CompanyDirectoryMirrored { content: "\EF2B"; }
+@mixin ms-Icon--Compare { content: "\F057"; }
+@mixin ms-Icon--CompareUneven { content: "\E42E"; }
+@mixin ms-Icon--CompassNW { content: "\E942"; }
+@mixin ms-Icon--Completed { content: "\E930"; }
+@mixin ms-Icon--Completed12 { content: "\E559"; }
+@mixin ms-Icon--CompletedSolid { content: "\EC61"; }
+@mixin ms-Icon--ComplianceAudit { content: "\E369"; }
+@mixin ms-Icon--ConfigurationSolid { content: "\F334"; }
+@mixin ms-Icon--ConfirmEvent { content: "\E680"; }
+@mixin ms-Icon--ConnectContacts { content: "\EFD4"; }
+@mixin ms-Icon--ConnectVirtualMachine { content: "\EE9D"; }
+@mixin ms-Icon--ConstructionCone { content: "\E98F"; }
+@mixin ms-Icon--ConstructionConeSolid { content: "\F339"; }
+@mixin ms-Icon--Contact { content: "\E77B"; }
+@mixin ms-Icon--ContactCard { content: "\EEBD"; }
+@mixin ms-Icon--ContactCardSettings { content: "\F556"; }
+@mixin ms-Icon--ContactCardSettingsMirrored { content: "\F557"; }
+@mixin ms-Icon--ContactHeart { content: "\F862"; }
+@mixin ms-Icon--ContactInfo { content: "\E779"; }
+@mixin ms-Icon--ContactInfoMirrored { content: "\EA4A"; }
+@mixin ms-Icon--ContactLink { content: "\F25F"; }
+@mixin ms-Icon--ContactList { content: "\F7E5"; }
+@mixin ms-Icon--ContactLock { content: "\F400"; }
+@mixin ms-Icon--ContentFeed { content: "\E428"; }
+@mixin ms-Icon--ContentSettings { content: "\F647"; }
+@mixin ms-Icon--ContentUnderstandingApp { content: "\E4FB"; }
+@mixin ms-Icon--ContextMenu { content: "\F37C"; }
+@mixin ms-Icon--Contrast { content: "\E7A1"; }
+@mixin ms-Icon--Copy { content: "\E8C8"; }
+@mixin ms-Icon--CopyEdit { content: "\E464"; }
+@mixin ms-Icon--CopyPath { content: "\E62F"; }
+@mixin ms-Icon--CortanaLogoBeckonInner { content: "\F4C6"; }
+@mixin ms-Icon--CortanaLogoBeckonOuter { content: "\F4C7"; }
+@mixin ms-Icon--CortanaLogoInner { content: "\E832"; }
+@mixin ms-Icon--CortanaLogoOuter { content: "\E831"; }
+@mixin ms-Icon--CortanaLogoReadyInner { content: "\F4C8"; }
+@mixin ms-Icon--CortanaLogoReadyOuter { content: "\F4C9"; }
+@mixin ms-Icon--CostContralLedgerAdmin { content: "\F208"; }
+@mixin ms-Icon--CostControl { content: "\F207"; }
+@mixin ms-Icon--Cotton { content: "\EAF3"; }
+@mixin ms-Icon--Count { content: "\E9EE"; }
+@mixin ms-Icon--Coupon { content: "\F7BC"; }
+@mixin ms-Icon--CPlusPlus { content: "\F2F4"; }
+@mixin ms-Icon--CPlusPlusLanguage { content: "\F2F3"; }
+@mixin ms-Icon--CreateMailRule { content: "\F67A"; }
+@mixin ms-Icon--CreditCardBill { content: "\ECD6"; }
+@mixin ms-Icon--Cricket { content: "\EB1E"; }
+@mixin ms-Icon--CriticalErrorSolid { content: "\F5C9"; }
+@mixin ms-Icon--CRMLead { content: "\EFD6"; }
+@mixin ms-Icon--CRMProcesses { content: "\EFB1"; }
+@mixin ms-Icon--CRMReport { content: "\EFFE"; }
+@mixin ms-Icon--CRMResourceOptimizationApp32 { content: "\F6EF"; }
+@mixin ms-Icon--CRMServices { content: "\EFD2"; }
+@mixin ms-Icon--Crop { content: "\E7A8"; }
+@mixin ms-Icon--Crown { content: "\ED01"; }
+@mixin ms-Icon--CrownSolid { content: "\F336"; }
+@mixin ms-Icon--CSharp { content: "\F2F0"; }
+@mixin ms-Icon--CSharpLanguage { content: "\F2EF"; }
+@mixin ms-Icon--CSS { content: "\EBEF"; }
+@mixin ms-Icon--CtrlButton { content: "\E4B8"; }
+@mixin ms-Icon--CubeShape { content: "\F1AA"; }
+@mixin ms-Icon--CubeShapeSolid { content: "\E421"; }
+@mixin ms-Icon--Currency { content: "\EAF5"; }
+@mixin ms-Icon--CustomActivity { content: "\EFF0"; }
+@mixin ms-Icon--CustomEntity { content: "\EFF7"; }
+@mixin ms-Icon--CustomerAssets { content: "\F426"; }
+@mixin ms-Icon--CustomizeToolbar { content: "\F828"; }
+@mixin ms-Icon--CustomList { content: "\EEBE"; }
+@mixin ms-Icon--CustomListMirrored { content: "\EEBF"; }
+@mixin ms-Icon--Cut { content: "\E8C6"; }
+@mixin ms-Icon--Cycling { content: "\EAC7"; }
+@mixin ms-Icon--D365BusinessCentral { content: "\F833"; }
+@mixin ms-Icon--D365CoreHR { content: "\F6BD"; }
+@mixin ms-Icon--D365CustomerInsights { content: "\F3C8"; }
+@mixin ms-Icon--D365CustomerVoiceApp { content: "\E4F7"; }
+@mixin ms-Icon--D365ProjectOperations { content: "\E432"; }
+@mixin ms-Icon--D365TalentInsight { content: "\F6BC"; }
+@mixin ms-Icon--D365TalentLearn { content: "\F6BB"; }
+@mixin ms-Icon--DashboardAdd { content: "\F52D"; }
+@mixin ms-Icon--DataAnalysis { content: "\F731"; }
+@mixin ms-Icon--Database { content: "\EFC7"; }
+@mixin ms-Icon--DatabaseActivity { content: "\E670"; }
+@mixin ms-Icon--DatabaseBlock { content: "\E617"; }
+@mixin ms-Icon--DatabaseRefresh { content: "\E67F"; }
+@mixin ms-Icon--DatabaseSource { content: "\E30A"; }
+@mixin ms-Icon--DatabaseSwap { content: "\E671"; }
+@mixin ms-Icon--DatabaseSync { content: "\F842"; }
+@mixin ms-Icon--DatabaseView { content: "\E437"; }
+@mixin ms-Icon--DataConnectionLibrary { content: "\EEB7"; }
+@mixin ms-Icon--DataEnrichment { content: "\E4F5"; }
+
+
+// Classes
+.ms-Icon--CommentUrgent:before { @include ms-Icon--CommentUrgent }
+.ms-Icon--Commitments:before { @include ms-Icon--Commitments }
+.ms-Icon--CommonDataServiceCDS:before { @include ms-Icon--CommonDataServiceCDS }
+.ms-Icon--CommunicationDetails:before { @include ms-Icon--CommunicationDetails }
+.ms-Icon--CommunicationDetailsMirrored:before { @include ms-Icon--CommunicationDetailsMirrored }
+.ms-Icon--Communications:before { @include ms-Icon--Communications }
+.ms-Icon--CompactColumnList:before { @include ms-Icon--CompactColumnList }
+.ms-Icon--CompactViewList:before { @include ms-Icon--CompactViewList }
+.ms-Icon--CompanyDirectory:before { @include ms-Icon--CompanyDirectory }
+.ms-Icon--CompanyDirectoryMirrored:before { @include ms-Icon--CompanyDirectoryMirrored }
+.ms-Icon--Compare:before { @include ms-Icon--Compare }
+.ms-Icon--CompareUneven:before { @include ms-Icon--CompareUneven }
+.ms-Icon--CompassNW:before { @include ms-Icon--CompassNW }
+.ms-Icon--Completed:before { @include ms-Icon--Completed }
+.ms-Icon--Completed12:before { @include ms-Icon--Completed12 }
+.ms-Icon--CompletedSolid:before { @include ms-Icon--CompletedSolid }
+.ms-Icon--ComplianceAudit:before { @include ms-Icon--ComplianceAudit }
+.ms-Icon--ConfigurationSolid:before { @include ms-Icon--ConfigurationSolid }
+.ms-Icon--ConfirmEvent:before { @include ms-Icon--ConfirmEvent }
+.ms-Icon--ConnectContacts:before { @include ms-Icon--ConnectContacts }
+.ms-Icon--ConnectVirtualMachine:before { @include ms-Icon--ConnectVirtualMachine }
+.ms-Icon--ConstructionCone:before { @include ms-Icon--ConstructionCone }
+.ms-Icon--ConstructionConeSolid:before { @include ms-Icon--ConstructionConeSolid }
+.ms-Icon--Contact:before { @include ms-Icon--Contact }
+.ms-Icon--ContactCard:before { @include ms-Icon--ContactCard }
+.ms-Icon--ContactCardSettings:before { @include ms-Icon--ContactCardSettings }
+.ms-Icon--ContactCardSettingsMirrored:before { @include ms-Icon--ContactCardSettingsMirrored }
+.ms-Icon--ContactHeart:before { @include ms-Icon--ContactHeart }
+.ms-Icon--ContactInfo:before { @include ms-Icon--ContactInfo }
+.ms-Icon--ContactInfoMirrored:before { @include ms-Icon--ContactInfoMirrored }
+.ms-Icon--ContactLink:before { @include ms-Icon--ContactLink }
+.ms-Icon--ContactList:before { @include ms-Icon--ContactList }
+.ms-Icon--ContactLock:before { @include ms-Icon--ContactLock }
+.ms-Icon--ContentFeed:before { @include ms-Icon--ContentFeed }
+.ms-Icon--ContentSettings:before { @include ms-Icon--ContentSettings }
+.ms-Icon--ContentUnderstandingApp:before { @include ms-Icon--ContentUnderstandingApp }
+.ms-Icon--ContextMenu:before { @include ms-Icon--ContextMenu }
+.ms-Icon--Contrast:before { @include ms-Icon--Contrast }
+.ms-Icon--Copy:before { @include ms-Icon--Copy }
+.ms-Icon--CopyEdit:before { @include ms-Icon--CopyEdit }
+.ms-Icon--CopyPath:before { @include ms-Icon--CopyPath }
+.ms-Icon--CortanaLogoBeckonInner:before { @include ms-Icon--CortanaLogoBeckonInner }
+.ms-Icon--CortanaLogoBeckonOuter:before { @include ms-Icon--CortanaLogoBeckonOuter }
+.ms-Icon--CortanaLogoInner:before { @include ms-Icon--CortanaLogoInner }
+.ms-Icon--CortanaLogoOuter:before { @include ms-Icon--CortanaLogoOuter }
+.ms-Icon--CortanaLogoReadyInner:before { @include ms-Icon--CortanaLogoReadyInner }
+.ms-Icon--CortanaLogoReadyOuter:before { @include ms-Icon--CortanaLogoReadyOuter }
+.ms-Icon--CostContralLedgerAdmin:before { @include ms-Icon--CostContralLedgerAdmin }
+.ms-Icon--CostControl:before { @include ms-Icon--CostControl }
+.ms-Icon--Cotton:before { @include ms-Icon--Cotton }
+.ms-Icon--Count:before { @include ms-Icon--Count }
+.ms-Icon--Coupon:before { @include ms-Icon--Coupon }
+.ms-Icon--CPlusPlus:before { @include ms-Icon--CPlusPlus }
+.ms-Icon--CPlusPlusLanguage:before { @include ms-Icon--CPlusPlusLanguage }
+.ms-Icon--CreateMailRule:before { @include ms-Icon--CreateMailRule }
+.ms-Icon--CreditCardBill:before { @include ms-Icon--CreditCardBill }
+.ms-Icon--Cricket:before { @include ms-Icon--Cricket }
+.ms-Icon--CriticalErrorSolid:before { @include ms-Icon--CriticalErrorSolid }
+.ms-Icon--CRMLead:before { @include ms-Icon--CRMLead }
+.ms-Icon--CRMProcesses:before { @include ms-Icon--CRMProcesses }
+.ms-Icon--CRMReport:before { @include ms-Icon--CRMReport }
+.ms-Icon--CRMResourceOptimizationApp32:before { @include ms-Icon--CRMResourceOptimizationApp32 }
+.ms-Icon--CRMServices:before { @include ms-Icon--CRMServices }
+.ms-Icon--Crop:before { @include ms-Icon--Crop }
+.ms-Icon--Crown:before { @include ms-Icon--Crown }
+.ms-Icon--CrownSolid:before { @include ms-Icon--CrownSolid }
+.ms-Icon--CSharp:before { @include ms-Icon--CSharp }
+.ms-Icon--CSharpLanguage:before { @include ms-Icon--CSharpLanguage }
+.ms-Icon--CSS:before { @include ms-Icon--CSS }
+.ms-Icon--CtrlButton:before { @include ms-Icon--CtrlButton }
+.ms-Icon--CubeShape:before { @include ms-Icon--CubeShape }
+.ms-Icon--CubeShapeSolid:before { @include ms-Icon--CubeShapeSolid }
+.ms-Icon--Currency:before { @include ms-Icon--Currency }
+.ms-Icon--CustomActivity:before { @include ms-Icon--CustomActivity }
+.ms-Icon--CustomEntity:before { @include ms-Icon--CustomEntity }
+.ms-Icon--CustomerAssets:before { @include ms-Icon--CustomerAssets }
+.ms-Icon--CustomizeToolbar:before { @include ms-Icon--CustomizeToolbar }
+.ms-Icon--CustomList:before { @include ms-Icon--CustomList }
+.ms-Icon--CustomListMirrored:before { @include ms-Icon--CustomListMirrored }
+.ms-Icon--Cut:before { @include ms-Icon--Cut }
+.ms-Icon--Cycling:before { @include ms-Icon--Cycling }
+.ms-Icon--D365BusinessCentral:before { @include ms-Icon--D365BusinessCentral }
+.ms-Icon--D365CoreHR:before { @include ms-Icon--D365CoreHR }
+.ms-Icon--D365CustomerInsights:before { @include ms-Icon--D365CustomerInsights }
+.ms-Icon--D365CustomerVoiceApp:before { @include ms-Icon--D365CustomerVoiceApp }
+.ms-Icon--D365ProjectOperations:before { @include ms-Icon--D365ProjectOperations }
+.ms-Icon--D365TalentInsight:before { @include ms-Icon--D365TalentInsight }
+.ms-Icon--D365TalentLearn:before { @include ms-Icon--D365TalentLearn }
+.ms-Icon--DashboardAdd:before { @include ms-Icon--DashboardAdd }
+.ms-Icon--DataAnalysis:before { @include ms-Icon--DataAnalysis }
+.ms-Icon--Database:before { @include ms-Icon--Database }
+.ms-Icon--DatabaseActivity:before { @include ms-Icon--DatabaseActivity }
+.ms-Icon--DatabaseBlock:before { @include ms-Icon--DatabaseBlock }
+.ms-Icon--DatabaseRefresh:before { @include ms-Icon--DatabaseRefresh }
+.ms-Icon--DatabaseSource:before { @include ms-Icon--DatabaseSource }
+.ms-Icon--DatabaseSwap:before { @include ms-Icon--DatabaseSwap }
+.ms-Icon--DatabaseSync:before { @include ms-Icon--DatabaseSync }
+.ms-Icon--DatabaseView:before { @include ms-Icon--DatabaseView }
+.ms-Icon--DataConnectionLibrary:before { @include ms-Icon--DataConnectionLibrary }
+.ms-Icon--DataEnrichment:before { @include ms-Icon--DataEnrichment }
+

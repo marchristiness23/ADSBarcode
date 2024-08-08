@@ -1,0 +1,41 @@
+﻿
+<link href="~/Scripts/kendo/2022.3.1109/styles/kendo.bootstrap-main.min.css" rel="stylesheet" type="text/css" />
+<script src="~/Scripts/kendo/2022.3.1109/js/jquery.min.js"></script>
+<script src="~/Scripts/kendo/2022.3.1109/js/jszip.min.js"></script>
+<script src="~/Scripts/kendo/2022.3.1109/js/kendo.all.min.js"></script>
+<script src="~/Scripts/kendo/2022.3.1109/js/kendo.aspnetmvc.min.js"></script>
+
+@using SHUNetMVC.Abstraction.Model.View
+    @model CrudPage
+
+    @{
+        ViewBag.Title = "Worker";
+        Model.Title = "Worker";
+        Model.GridParam.FilterList.OrderBy = "FirstName asc";
+
+    } 
+
+    @*@Html.Partial("Component/CrudPage/Crud", Model)*@
+
+
+    @{
+        if (ViewBag.Message != null)
+        {
+            <div>
+                @ViewBag.Message
+            </div>
+        }
+    }
+
+
+
+    @Styles.Render("~/Styles/GridList.css")
+
+    @*<hr />
+    <br />*@
+
+    @{Html.RenderAction("Index", "Grid");}
+
+    @section scripts {
+        @Html.Partial("Component/CrudPage/CrudScript", Model)
+    }

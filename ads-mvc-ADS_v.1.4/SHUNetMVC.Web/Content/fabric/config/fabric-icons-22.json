@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-22",
+  "fontFamilyName": "FabricMDL2Icons-22",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "Variable3",
+      "unicode": "E4D1"
+    },
+    {
+      "name": "VariableGroup",
+      "unicode": "F31B"
+    },
+    {
+      "name": "VB",
+      "unicode": "F2F2"
+    },
+    {
+      "name": "VennDiagram",
+      "unicode": "F273"
+    },
+    {
+      "name": "VerifiedBrand",
+      "unicode": "F7BD"
+    },
+    {
+      "name": "VerifiedBrandSolid",
+      "unicode": "F6AD"
+    },
+    {
+      "name": "VersionControlPush",
+      "unicode": "F664"
+    },
+    {
+      "name": "VerticalDistributeCenter",
+      "unicode": "F4FA"
+    },
+    {
+      "name": "Video",
+      "unicode": "E714"
+    },
+    {
+      "name": "Video360Generic",
+      "unicode": "F609"
+    },
+    {
+      "name": "VideoAdd",
+      "unicode": "E430"
+    },
+    {
+      "name": "VideoLightOff",
+      "unicode": "EA74"
+    },
+    {
+      "name": "VideoOff",
+      "unicode": "F4B0"
+    },
+    {
+      "name": "VideoOff2",
+      "unicode": "E43C"
+    },
+    {
+      "name": "VideoSearch",
+      "unicode": "F4EA"
+    },
+    {
+      "name": "VideoSolid",
+      "unicode": "EA0C"
+    },
+    {
+      "name": "View",
+      "unicode": "E890"
+    },
+    {
+      "name": "ViewAll",
+      "unicode": "E8A9"
+    },
+    {
+      "name": "ViewAll2",
+      "unicode": "EF56"
+    },
+    {
+      "name": "ViewDashboard",
+      "unicode": "F246"
+    },
+    {
+      "name": "ViewInAR",
+      "unicode": "E41F"
+    },
+    {
+      "name": "ViewList",
+      "unicode": "F247"
+    },
+    {
+      "name": "ViewListGroup",
+      "unicode": "F248"
+    },
+    {
+      "name": "ViewListTree",
+      "unicode": "F249"
+    },
+    {
+      "name": "ViewOriginal",
+      "unicode": "E7B4"
+    },
+    {
+      "name": "VirtualNetwork",
+      "unicode": "F815"
+    },
+    {
+      "name": "VisioDiagram",
+      "unicode": "F2A0"
+    },
+    {
+      "name": "VisioDiagramSync",
+      "unicode": "F762"
+    },
+    {
+      "name": "VisioDocument",
+      "unicode": "F2A9"
+    },
+    {
+      "name": "VisioLogo",
+      "unicode": "F2A7"
+    },
+    {
+      "name": "VisioLogo16",
+      "unicode": "F3A3"
+    },
+    {
+      "name": "VisioLogoInverse",
+      "unicode": "ED7D"
+    },
+    {
+      "name": "VisioLogoInverse16",
+      "unicode": "F3A2"
+    },
+    {
+      "name": "VisualBasicLanguage",
+      "unicode": "F2F1"
+    },
+    {
+      "name": "VisuallyImpaired",
+      "unicode": "F866"
+    },
+    {
+      "name": "VisualsFolder",
+      "unicode": "F520"
+    },
+    {
+      "name": "VisualsStore",
+      "unicode": "F521"
+    },
+    {
+      "name": "VisualStudioForWindows",
+      "unicode": "F5D0"
+    },
+    {
+      "name": "VisualStudioForWindowsAlt",
+      "unicode": "EC22"
+    },
+    {
+      "name": "VivaTopicApp",
+      "unicode": "E687"
+    },
+    {
+      "name": "VoicemailForward",
+      "unicode": "ED87"
+    },
+    {
+      "name": "VoicemailIRM",
+      "unicode": "F421"
+    },
+    {
+      "name": "VoicemailReply",
+      "unicode": "ED88"
+    },
+    {
+      "name": "Volume0",
+      "unicode": "E992"
+    },
+    {
+      "name": "Volume1",
+      "unicode": "E993"
+    },
+    {
+      "name": "Volume2",
+      "unicode": "E994"
+    },
+    {
+      "name": "Volume3",
+      "unicode": "E995"
+    },
+    {
+      "name": "VolumeDisabled",
+      "unicode": "EA85"
+    },
+    {
+      "name": "VSTSAltLogo1",
+      "unicode": "F382"
+    },
+    {
+      "name": "VSTSAltLogo2",
+      "unicode": "F383"
+    },
+    {
+      "name": "VSTSLogo",
+      "unicode": "F381"
+    },
+    {
+      "name": "Waffle",
+      "unicode": "ED89"
+    },
+    {
+      "name": "WaffleOffice365",
+      "unicode": "F4E0"
+    },
+    {
+      "name": "WaitlistConfirm",
+      "unicode": "F550"
+    },
+    {
+      "name": "WaitlistConfirmMirrored",
+      "unicode": "F551"
+    },
+    {
+      "name": "Warning",
+      "unicode": "E7BA"
+    },
+    {
+      "name": "Warning12",
+      "unicode": "F62F"
+    },
+    {
+      "name": "WarningSolid",
+      "unicode": "F736"
+    },
+    {
+      "name": "WavingHand",
+      "unicode": "F807"
+    },
+    {
+      "name": "WebAppBuilderFragment",
+      "unicode": "E314"
+    },
+    {
+      "name": "WebAppBuilderFragmentCreate",
+      "unicode": "E31B"
+    },
+    {
+      "name": "WebAppBuilderFragmentLock",
+      "unicode": "E4DD"
+    },
+    {
+      "name": "WebAppBuilderFragmentTest",
+      "unicode": "E4DE"
+    },
+    {
+      "name": "WebAppBuilderModule",
+      "unicode": "E313"
+    },
+    {
+      "name": "WebAppBuilderModuleLock",
+      "unicode": "E4DF"
+    },
+    {
+      "name": "WebAppBuilderModuleTest",
+      "unicode": "E4E0"
+    },
+    {
+      "name": "WebAppBuilderSlot",
+      "unicode": "E315"
+    },
+    {
+      "name": "Webcam2",
+      "unicode": "E960"
+    },
+    {
+      "name": "Webcam2Off",
+      "unicode": "E36D"
+    },
+    {
+      "name": "WebComponents",
+      "unicode": "EC8B"
+    },
+    {
+      "name": "WebEnvironment",
+      "unicode": "E3DB"
+    },
+    {
+      "name": "WebPublish",
+      "unicode": "F52F"
+    },
+    {
+      "name": "WebSearch",
+      "unicode": "F6FA"
+    },
+    {
+      "name": "Website",
+      "unicode": "EB41"
+    },
+    {
+      "name": "WebTemplate",
+      "unicode": "F6B2"
+    },
+    {
+      "name": "Weights",
+      "unicode": "EADB"
+    },
+    {
+      "name": "Wheelchair",
+      "unicode": "F31F"
+    },
+    {
+      "name": "Whiteboard",
+      "unicode": "F784"
+    },
+    {
+      "name": "WhiteBoardApp16",
+      "unicode": "F673"
+    },
+    {
+      "name": "WhiteBoardApp32",
+      "unicode": "F674"
+    },
+    {
+      "name": "WifiEthernet",
+      "unicode": "EE77"
+    },
+    {
+      "name": "WifiWarning4",
+      "unicode": "EB63"
+    },
+    {
+      "name": "WindDirection",
+      "unicode": "EBE6"
+    },
+    {
+      "name": "WindowEdit",
+      "unicode": "F50E"
+    },
+    {
+      "name": "WindowsLogo",
+      "unicode": "E782"
+    },
+    {
+      "name": "Wines",
+      "unicode": "EABF"
+    },
+    {
+      "name": "WipePhone",
+      "unicode": "ED8D"
+    },
+    {
+      "name": "WordDocument",
+      "unicode": "EF71"
+    },
+    {
+      "name": "WordLogo",
+      "unicode": "F1E3"
+    },
+    {
+      "name": "WordLogo16",
+      "unicode": "F391"
+    },
+    {
+      "name": "WordLogoInverse",
+      "unicode": "EC29"
+    },
+    {
+      "name": "WordLogoInverse16",
+      "unicode": "F390"
+    },
+    {
+      "name": "Work",
+      "unicode": "E821"
+    },
+    {
+      "name": "WorkFlow",
+      "unicode": "EA01"
+    },
+    {
+      "name": "WorkforceManagement",
+      "unicode": "EE0F"
+    },
+    {
+      "name": "WorkItem",
+      "unicode": "F314"
+    },
+    {
+      "name": "WorkItemAlert",
+      "unicode": "F78F"
+    },
+    {
+      "name": "WorkItemBar",
+      "unicode": "F35C"
+    },
+    {
+      "name": "WorkItemBarSolid",
+      "unicode": "F35D"
+    },
+    {
+      "name": "WorkItemBug",
+      "unicode": "F315"
+    }
+  ]
+}

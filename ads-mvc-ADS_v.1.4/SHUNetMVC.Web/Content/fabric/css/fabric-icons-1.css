@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-1';
+  src: url('../fonts/fabric-icons-1-667b2ff0.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-1';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--ArrowUpRight:before { content: "\F069"; }
+.ms-Icon--ArrowUpRight8:before { content: "\EED4"; }
+.ms-Icon--ArrowUpRightMirrored8:before { content: "\EEEF"; }
+.ms-Icon--Articles:before { content: "\EAC1"; }
+.ms-Icon--Ascending:before { content: "\EDC0"; }
+.ms-Icon--AspectRatio:before { content: "\E799"; }
+.ms-Icon--AssessmentGroup:before { content: "\F31A"; }
+.ms-Icon--AssessmentGroupTemplate:before { content: "\F2B1"; }
+.ms-Icon--AssetLibrary:before { content: "\EEB6"; }
+.ms-Icon--Assign:before { content: "\E9D3"; }
+.ms-Icon--AssignPolicy:before { content: "\E461"; }
+.ms-Icon--Asterisk:before { content: "\EA38"; }
+.ms-Icon--AsteriskSolid:before { content: "\F34D"; }
+.ms-Icon--ATPLogo:before { content: "\EF85"; }
+.ms-Icon--Attach:before { content: "\E723"; }
+.ms-Icon--AustralianRules:before { content: "\EE70"; }
+.ms-Icon--AuthenticatorApp:before { content: "\F6B1"; }
+.ms-Icon--AutoDeploySettings:before { content: "\F3FA"; }
+.ms-Icon--AutoEnhanceOff:before { content: "\E78E"; }
+.ms-Icon--AutoEnhanceOn:before { content: "\E78D"; }
+.ms-Icon--AutoFillTemplate:before { content: "\F313"; }
+.ms-Icon--AutoFitContents:before { content: "\E3E8"; }
+.ms-Icon--AutoFitWindow:before { content: "\E3E9"; }
+.ms-Icon--AutoHeight:before { content: "\F512"; }
+.ms-Icon--AutomateFlow:before { content: "\E3F5"; }
+.ms-Icon--AutoRacing:before { content: "\EB24"; }
+.ms-Icon--AwayStatus:before { content: "\EE6A"; }
+.ms-Icon--AzureAPIManagement:before { content: "\F37F"; }
+.ms-Icon--AzureDataExplorer:before { content: "\E439"; }
+.ms-Icon--AzureIcon:before { content: "\EB6A"; }
+.ms-Icon--AzureKeyVault:before { content: "\F3B4"; }
+.ms-Icon--AzureServiceEndpoint:before { content: "\F380"; }
+.ms-Icon--Back:before { content: "\E72B"; }
+.ms-Icon--BackgroundColor:before { content: "\F42B"; }
+.ms-Icon--Backlog:before { content: "\F2AC"; }
+.ms-Icon--BacklogBoard:before { content: "\F444"; }
+.ms-Icon--BacklogList:before { content: "\F6BF"; }
+.ms-Icon--BackToWindow:before { content: "\E73F"; }
+.ms-Icon--Badge:before { content: "\EC1B"; }
+.ms-Icon--Balloons:before { content: "\ED7E"; }
+.ms-Icon--Bank:before { content: "\E825"; }
+.ms-Icon--BankSolid:before { content: "\F34F"; }
+.ms-Icon--BarChart3:before { content: "\EAE6"; }
+.ms-Icon--BarChart3One:before { content: "\E68C"; }
+.ms-Icon--BarChart3Two:before { content: "\E68D"; }
+.ms-Icon--BarChart3Zero:before { content: "\E68B"; }
+.ms-Icon--BarChart4:before { content: "\EAE7"; }
+.ms-Icon--BarChartHorizontal:before { content: "\E9EB"; }
+.ms-Icon--BarChartVertical:before { content: "\E9EC"; }
+.ms-Icon--BarChartVerticalEdit:before { content: "\F89D"; }
+.ms-Icon--BarChartVerticalFill:before { content: "\F830"; }
+.ms-Icon--BarChartVerticalFilter:before { content: "\F77E"; }
+.ms-Icon--BarChartVerticalFilterSolid:before { content: "\F77F"; }
+.ms-Icon--Baseball:before { content: "\EB20"; }
+.ms-Icon--BeerMug:before { content: "\F49E"; }
+.ms-Icon--BIDashboard:before { content: "\F543"; }
+.ms-Icon--BidiLtr:before { content: "\E9AA"; }
+.ms-Icon--Bidirectional:before { content: "\E688"; }
+.ms-Icon--BidiRtl:before { content: "\E9AB"; }
+.ms-Icon--Bill:before { content: "\E5FA"; }
+.ms-Icon--BingLogo:before { content: "\EB6B"; }
+.ms-Icon--BirthdayCake:before { content: "\EF8D"; }
+.ms-Icon--BlobStorage:before { content: "\E436"; }
+.ms-Icon--BlockContact:before { content: "\E8F8"; }
+.ms-Icon--Blocked:before { content: "\E733"; }
+.ms-Icon--Blocked12:before { content: "\F62E"; }
+.ms-Icon--Blocked2:before { content: "\ECE4"; }
+.ms-Icon--Blocked2Solid:before { content: "\F737"; }
+.ms-Icon--BlockedSite:before { content: "\E72F"; }
+.ms-Icon--BlockedSiteSolid12:before { content: "\F70A"; }
+.ms-Icon--BlockedSolid:before { content: "\F531"; }
+.ms-Icon--Blog:before { content: "\F22B"; }
+.ms-Icon--BlowingSnow:before { content: "\E9C9"; }
+.ms-Icon--Blur:before { content: "\F28E"; }
+.ms-Icon--Boards:before { content: "\EF68"; }
+.ms-Icon--Bold:before { content: "\E8DD"; }
+.ms-Icon--BoldBulgarian:before { content: "\E5C5"; }
+.ms-Icon--BoldF:before { content: "\E5B5"; }
+.ms-Icon--BoldG:before { content: "\E5B3"; }
+.ms-Icon--BoldK:before { content: "\E5C6"; }
+.ms-Icon--BoldKazakh:before { content: "\E5C9"; }
+.ms-Icon--BoldKorean:before { content: "\E5BD"; }
+.ms-Icon--BoldN:before { content: "\E5B7"; }
+.ms-Icon--BoldP:before { content: "\E5C7"; }
+.ms-Icon--BoldRussion:before { content: "\E5B9"; }
+.ms-Icon--BoldSerbian:before { content: "\E5CA"; }
+.ms-Icon--BoldT:before { content: "\E5C8"; }
+.ms-Icon--BookAnswers:before { content: "\F8A4"; }
+.ms-Icon--BookingsLogo:before { content: "\EDC7"; }
+.ms-Icon--BookmarkReport:before { content: "\F76B"; }
+.ms-Icon--Bookmarks:before { content: "\E8A4"; }
+.ms-Icon--BookmarksMirrored:before { content: "\EA41"; }
+.ms-Icon--BooleanData:before { content: "\E678"; }
+.ms-Icon--BorderAll:before { content: "\E5F4"; }
+.ms-Icon--BorderDash:before { content: "\F50A"; }
+.ms-Icon--BorderDot:before { content: "\F50B"; }
+.ms-Icon--BorderInside:before { content: "\E5F3"; }
+.ms-Icon--BorderInsideHorizontal:before { content: "\E5F2"; }
+.ms-Icon--BorderInsideVertical:before { content: "\E5F1"; }
+.ms-Icon--BorderNone:before { content: "\E5F0"; }

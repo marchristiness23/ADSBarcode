@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-4",
+  "fontFamilyName": "FabricMDL2Icons-4",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "ChromeBack",
+      "unicode": "E830"
+    },
+    {
+      "name": "ChromeBackMirrored",
+      "unicode": "EA47"
+    },
+    {
+      "name": "ChromeClose",
+      "unicode": "E8BB"
+    },
+    {
+      "name": "ChromeFullScreen",
+      "unicode": "E92D"
+    },
+    {
+      "name": "ChromeMinimize",
+      "unicode": "E921"
+    },
+    {
+      "name": "ChromeRestore",
+      "unicode": "E923"
+    },
+    {
+      "name": "CircleAddition",
+      "unicode": "F2E3"
+    },
+    {
+      "name": "CircleAdditionSolid",
+      "unicode": "F2E4"
+    },
+    {
+      "name": "CircleDollar",
+      "unicode": "EAED"
+    },
+    {
+      "name": "CircleFill",
+      "unicode": "EA3B"
+    },
+    {
+      "name": "CircleHalfFull",
+      "unicode": "ED9E"
+    },
+    {
+      "name": "CirclePause",
+      "unicode": "F2D9"
+    },
+    {
+      "name": "CirclePauseSolid",
+      "unicode": "F2D8"
+    },
+    {
+      "name": "CirclePlus",
+      "unicode": "EAEE"
+    },
+    {
+      "name": "CircleRing",
+      "unicode": "EA3A"
+    },
+    {
+      "name": "CircleShape",
+      "unicode": "F1A5"
+    },
+    {
+      "name": "CircleShapeSolid",
+      "unicode": "F63C"
+    },
+    {
+      "name": "CircleStop",
+      "unicode": "F2DC"
+    },
+    {
+      "name": "CircleStopSolid",
+      "unicode": "F2DB"
+    },
+    {
+      "name": "CityNext",
+      "unicode": "EC06"
+    },
+    {
+      "name": "CityNext2",
+      "unicode": "EC07"
+    },
+    {
+      "name": "ClassNotebookLogo16",
+      "unicode": "F488"
+    },
+    {
+      "name": "ClassNotebookLogo32",
+      "unicode": "F486"
+    },
+    {
+      "name": "ClassNotebookLogoFill16",
+      "unicode": "F489"
+    },
+    {
+      "name": "ClassNotebookLogoFill32",
+      "unicode": "F487"
+    },
+    {
+      "name": "ClassNotebookLogoInverse",
+      "unicode": "EDC8"
+    },
+    {
+      "name": "ClassNotebookLogoInverse16",
+      "unicode": "F48B"
+    },
+    {
+      "name": "ClassNotebookLogoInverse32",
+      "unicode": "F48A"
+    },
+    {
+      "name": "ClassroomLogo",
+      "unicode": "EF75"
+    },
+    {
+      "name": "Clear",
+      "unicode": "E894"
+    },
+    {
+      "name": "ClearFilter",
+      "unicode": "EF8F"
+    },
+    {
+      "name": "ClearFormatting",
+      "unicode": "EDDD"
+    },
+    {
+      "name": "ClearFormattingA",
+      "unicode": "F79D"
+    },
+    {
+      "name": "ClearFormattingEraser",
+      "unicode": "F79E"
+    },
+    {
+      "name": "ClearNight",
+      "unicode": "E9C2"
+    },
+    {
+      "name": "ClearSelection",
+      "unicode": "E8E6"
+    },
+    {
+      "name": "ClearSelectionMirrored",
+      "unicode": "EA48"
+    },
+    {
+      "name": "Clicked",
+      "unicode": "F268"
+    },
+    {
+      "name": "ClinicalImpression",
+      "unicode": "E54B"
+    },
+    {
+      "name": "Clipboard",
+      "unicode": "ED22"
+    },
+    {
+      "name": "ClipboardList",
+      "unicode": "F0E3"
+    },
+    {
+      "name": "ClipboardListAdd",
+      "unicode": "E4EF"
+    },
+    {
+      "name": "ClipboardListMirrored",
+      "unicode": "F0E4"
+    },
+    {
+      "name": "ClipboardListQuestion",
+      "unicode": "E4F0"
+    },
+    {
+      "name": "ClipboardListReply",
+      "unicode": "E4F1"
+    },
+    {
+      "name": "ClipboardSolid",
+      "unicode": "F5DC"
+    },
+    {
+      "name": "Clock",
+      "unicode": "E917"
+    },
+    {
+      "name": "CloneToDesktop",
+      "unicode": "F28C"
+    },
+    {
+      "name": "ClosedCaption",
+      "unicode": "EF84"
+    },
+    {
+      "name": "ClosePane",
+      "unicode": "E89F"
+    },
+    {
+      "name": "ClosePaneMirrored",
+      "unicode": "EA49"
+    },
+    {
+      "name": "Cloud",
+      "unicode": "E753"
+    },
+    {
+      "name": "CloudAdd",
+      "unicode": "ECA9"
+    },
+    {
+      "name": "CloudDownload",
+      "unicode": "EBD3"
+    },
+    {
+      "name": "CloudEdit",
+      "unicode": "E4C8"
+    },
+    {
+      "name": "CloudFlow",
+      "unicode": "E5EA"
+    },
+    {
+      "name": "CloudImportExport",
+      "unicode": "EE55"
+    },
+    {
+      "name": "CloudLink",
+      "unicode": "E4C9"
+    },
+    {
+      "name": "CloudNotSynced",
+      "unicode": "EC9C"
+    },
+    {
+      "name": "CloudPrinter",
+      "unicode": "EDA6"
+    },
+    {
+      "name": "CloudSearch",
+      "unicode": "EDE4"
+    },
+    {
+      "name": "CloudSecure",
+      "unicode": "E4D5"
+    },
+    {
+      "name": "CloudUpload",
+      "unicode": "EC8E"
+    },
+    {
+      "name": "CloudWeather",
+      "unicode": "E9BE"
+    },
+    {
+      "name": "Cloudy",
+      "unicode": "E9BF"
+    },
+    {
+      "name": "Cocktails",
+      "unicode": "EA9D"
+    },
+    {
+      "name": "Code",
+      "unicode": "E943"
+    },
+    {
+      "name": "CodeEdit",
+      "unicode": "F544"
+    },
+    {
+      "name": "Coffee",
+      "unicode": "EAEF"
+    },
+    {
+      "name": "CoffeeScript",
+      "unicode": "F2FA"
+    },
+    {
+      "name": "CollapseAll",
+      "unicode": "F85A"
+    },
+    {
+      "name": "CollapseContent",
+      "unicode": "F165"
+    },
+    {
+      "name": "CollapseContentSingle",
+      "unicode": "F166"
+    },
+    {
+      "name": "CollapseMenu",
+      "unicode": "EF66"
+    },
+    {
+      "name": "CollegeFootball",
+      "unicode": "EB26"
+    },
+    {
+      "name": "CollegeHoops",
+      "unicode": "EB25"
+    },
+    {
+      "name": "Color",
+      "unicode": "E790"
+    },
+    {
+      "name": "ColorSolid",
+      "unicode": "F354"
+    },
+    {
+      "name": "Column",
+      "unicode": "E438"
+    },
+    {
+      "name": "ColumnFunction",
+      "unicode": "E4C2"
+    },
+    {
+      "name": "ColumnLeftTwoThirds",
+      "unicode": "F1D6"
+    },
+    {
+      "name": "ColumnLeftTwoThirdsEdit",
+      "unicode": "F324"
+    },
+    {
+      "name": "ColumnList",
+      "unicode": "F1EC"
+    },
+    {
+      "name": "ColumnOptions",
+      "unicode": "F317"
+    },
+    {
+      "name": "ColumnQuestion",
+      "unicode": "E4C0"
+    },
+    {
+      "name": "ColumnQuestionMirrored",
+      "unicode": "E4C1"
+    },
+    {
+      "name": "ColumnRightTwoThirds",
+      "unicode": "F1D7"
+    },
+    {
+      "name": "ColumnRightTwoThirdsEdit",
+      "unicode": "F325"
+    },
+    {
+      "name": "ColumnSigma",
+      "unicode": "E4BF"
+    },
+    {
+      "name": "ColumnVerticalSection",
+      "unicode": "F81E"
+    },
+    {
+      "name": "ColumnVerticalSectionEdit",
+      "unicode": "F806"
+    },
+    {
+      "name": "Combine",
+      "unicode": "EDBB"
+    },
+    {
+      "name": "Combobox",
+      "unicode": "F516"
+    },
+    {
+      "name": "CommandPrompt",
+      "unicode": "E756"
+    },
+    {
+      "name": "Comment",
+      "unicode": "E90A"
+    },
+    {
+      "name": "CommentActive",
+      "unicode": "F804"
+    },
+    {
+      "name": "CommentAdd",
+      "unicode": "F2B3"
+    },
+    {
+      "name": "CommentNext",
+      "unicode": "F2B4"
+    },
+    {
+      "name": "CommentPrevious",
+      "unicode": "F2B5"
+    },
+    {
+      "name": "CommentSolid",
+      "unicode": "E30E"
+    }
+  ]
+}

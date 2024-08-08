@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-15';
+  src: url('../fonts/fabric-icons-15-c816b3df.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-15';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--PinToTab { content: "\E5E5"; }
+@mixin ms-Icon--PivotChart { content: "\F24C"; }
+@mixin ms-Icon--PlainText { content: "\F834"; }
+@mixin ms-Icon--PlannerLogo { content: "\EDD1"; }
+@mixin ms-Icon--PlanView { content: "\F360"; }
+@mixin ms-Icon--Play { content: "\E768"; }
+@mixin ms-Icon--PlaybackRate1x { content: "\EC57"; }
+@mixin ms-Icon--PlayerSettings { content: "\EF58"; }
+@mixin ms-Icon--PlaylistMusic { content: "\E93F"; }
+@mixin ms-Icon--PlayResume { content: "\F2C6"; }
+@mixin ms-Icon--PlayReverse { content: "\F3E5"; }
+@mixin ms-Icon--PlayReverseResume { content: "\F3E4"; }
+@mixin ms-Icon--PlaySolid { content: "\F5B0"; }
+@mixin ms-Icon--Plug { content: "\F300"; }
+@mixin ms-Icon--PlugConnected { content: "\F302"; }
+@mixin ms-Icon--PlugDisconnected { content: "\F303"; }
+@mixin ms-Icon--PlugSolid { content: "\F301"; }
+@mixin ms-Icon--POI { content: "\ECAF"; }
+@mixin ms-Icon--POISolid { content: "\F2D1"; }
+@mixin ms-Icon--PollResults { content: "\F8A0"; }
+@mixin ms-Icon--PopExpand { content: "\E49A"; }
+@mixin ms-Icon--PortalAppTemplate32 { content: "\E5FC"; }
+@mixin ms-Icon--PostUpdate { content: "\E8F3"; }
+@mixin ms-Icon--PowerApps { content: "\EDD2"; }
+@mixin ms-Icon--PowerApps2Logo { content: "\F092"; }
+@mixin ms-Icon--PowerAppsLogo { content: "\F091"; }
+@mixin ms-Icon--PowerAppsTemplate { content: "\E4AC"; }
+@mixin ms-Icon--PowerAutomateLogo { content: "\F4B1"; }
+@mixin ms-Icon--PowerBILogo { content: "\EA1E"; }
+@mixin ms-Icon--PowerBILogo16 { content: "\F790"; }
+@mixin ms-Icon--PowerBILogoBackplate16 { content: "\F791"; }
+@mixin ms-Icon--PowerButton { content: "\E7E8"; }
+@mixin ms-Icon--PowerPointDocument { content: "\EF72"; }
+@mixin ms-Icon--PowerPointLogo { content: "\F1EB"; }
+@mixin ms-Icon--PowerPointLogo16 { content: "\F394"; }
+@mixin ms-Icon--PowerPointLogoInverse { content: "\EC2A"; }
+@mixin ms-Icon--PowerPointLogoInverse16 { content: "\F393"; }
+@mixin ms-Icon--PowerShell { content: "\F1FD"; }
+@mixin ms-Icon--PowerShell2 { content: "\F730"; }
+@mixin ms-Icon--PowerStandby { content: "\E55C"; }
+@mixin ms-Icon--PowerVirtualAgentsLogo { content: "\E484"; }
+@mixin ms-Icon--Precipitation { content: "\E9CF"; }
+@mixin ms-Icon--PresenceChickletVideo { content: "\E979"; }
+@mixin ms-Icon--Presentation { content: "\F6E4"; }
+@mixin ms-Icon--Presentation12 { content: "\F6E5"; }
+@mixin ms-Icon--Preview { content: "\E8FF"; }
+@mixin ms-Icon--PreviewBelow { content: "\E5D5"; }
+@mixin ms-Icon--PreviewLink { content: "\E8A1"; }
+@mixin ms-Icon--PreviewSideBySide { content: "\E5D6"; }
+@mixin ms-Icon--Previous { content: "\E892"; }
+@mixin ms-Icon--PrimaryCalendar { content: "\F4AE"; }
+@mixin ms-Icon--Print { content: "\E749"; }
+@mixin ms-Icon--PrintfaxPrinterFile { content: "\E956"; }
+@mixin ms-Icon--Priority { content: "\E8D0"; }
+@mixin ms-Icon--Process { content: "\E9F3"; }
+@mixin ms-Icon--ProcessAdvisor { content: "\E5E4"; }
+@mixin ms-Icon--Processing { content: "\E9F5"; }
+@mixin ms-Icon--ProcessingCancel { content: "\E403"; }
+@mixin ms-Icon--ProcessingPause { content: "\E405"; }
+@mixin ms-Icon--ProcessingRun { content: "\E404"; }
+@mixin ms-Icon--ProcessMap { content: "\E9F6"; }
+@mixin ms-Icon--ProcessMetaTask { content: "\F290"; }
+@mixin ms-Icon--Product { content: "\ECDC"; }
+@mixin ms-Icon--ProductCatalog { content: "\EFE8"; }
+@mixin ms-Icon--ProductionFloorManagement { content: "\EE29"; }
+@mixin ms-Icon--ProductList { content: "\E31E"; }
+@mixin ms-Icon--ProductRelease { content: "\EE2E"; }
+@mixin ms-Icon--ProductVariant { content: "\EE30"; }
+@mixin ms-Icon--ProductWarning { content: "\E5C0"; }
+@mixin ms-Icon--ProfileSearch { content: "\EF35"; }
+@mixin ms-Icon--ProFootball { content: "\EB27"; }
+@mixin ms-Icon--ProgressLoopInner { content: "\ECDE"; }
+@mixin ms-Icon--ProgressLoopOuter { content: "\ECDF"; }
+@mixin ms-Icon--ProgressRing5 { content: "\EDF6"; }
+@mixin ms-Icon--ProgressRingDots { content: "\F16A"; }
+@mixin ms-Icon--ProHockey { content: "\EB28"; }
+@mixin ms-Icon--ProjectCollection { content: "\F363"; }
+@mixin ms-Icon--ProjectDocument { content: "\F759"; }
+@mixin ms-Icon--ProjectLogo16 { content: "\F480"; }
+@mixin ms-Icon--ProjectLogo32 { content: "\F47E"; }
+@mixin ms-Icon--ProjectLogoInverse { content: "\EDD4"; }
+@mixin ms-Icon--ProjectManagement { content: "\E9DE"; }
+@mixin ms-Icon--PromotedDatabase { content: "\F77D"; }
+@mixin ms-Icon--Pronouns { content: "\E556"; }
+@mixin ms-Icon--ProtectedDocument { content: "\E8A6"; }
+@mixin ms-Icon--ProtectionCenterLogo32 { content: "\F494"; }
+@mixin ms-Icon--ProtectRestrict { content: "\F22A"; }
+@mixin ms-Icon--ProvisioningPackage { content: "\E835"; }
+@mixin ms-Icon--PublicCalendar { content: "\EF6D"; }
+@mixin ms-Icon--PublicContactCard { content: "\EF6E"; }
+@mixin ms-Icon--PublicContactCardMirrored { content: "\F230"; }
+@mixin ms-Icon--PublicEmail { content: "\EF6F"; }
+@mixin ms-Icon--PublicFolder { content: "\EF70"; }
+@mixin ms-Icon--PublishContent { content: "\F0D4"; }
+@mixin ms-Icon--PublishCourse { content: "\F699"; }
+@mixin ms-Icon--PublisherLogo { content: "\F1ED"; }
+@mixin ms-Icon--PublisherLogo16 { content: "\F3A0"; }
+@mixin ms-Icon--PublisherLogoInverse16 { content: "\F39F"; }
+@mixin ms-Icon--Puzzle { content: "\EA86"; }
+@mixin ms-Icon--PY { content: "\F2F9"; }
+
+
+// Classes
+.ms-Icon--PinToTab:before { @include ms-Icon--PinToTab }
+.ms-Icon--PivotChart:before { @include ms-Icon--PivotChart }
+.ms-Icon--PlainText:before { @include ms-Icon--PlainText }
+.ms-Icon--PlannerLogo:before { @include ms-Icon--PlannerLogo }
+.ms-Icon--PlanView:before { @include ms-Icon--PlanView }
+.ms-Icon--Play:before { @include ms-Icon--Play }
+.ms-Icon--PlaybackRate1x:before { @include ms-Icon--PlaybackRate1x }
+.ms-Icon--PlayerSettings:before { @include ms-Icon--PlayerSettings }
+.ms-Icon--PlaylistMusic:before { @include ms-Icon--PlaylistMusic }
+.ms-Icon--PlayResume:before { @include ms-Icon--PlayResume }
+.ms-Icon--PlayReverse:before { @include ms-Icon--PlayReverse }
+.ms-Icon--PlayReverseResume:before { @include ms-Icon--PlayReverseResume }
+.ms-Icon--PlaySolid:before { @include ms-Icon--PlaySolid }
+.ms-Icon--Plug:before { @include ms-Icon--Plug }
+.ms-Icon--PlugConnected:before { @include ms-Icon--PlugConnected }
+.ms-Icon--PlugDisconnected:before { @include ms-Icon--PlugDisconnected }
+.ms-Icon--PlugSolid:before { @include ms-Icon--PlugSolid }
+.ms-Icon--POI:before { @include ms-Icon--POI }
+.ms-Icon--POISolid:before { @include ms-Icon--POISolid }
+.ms-Icon--PollResults:before { @include ms-Icon--PollResults }
+.ms-Icon--PopExpand:before { @include ms-Icon--PopExpand }
+.ms-Icon--PortalAppTemplate32:before { @include ms-Icon--PortalAppTemplate32 }
+.ms-Icon--PostUpdate:before { @include ms-Icon--PostUpdate }
+.ms-Icon--PowerApps:before { @include ms-Icon--PowerApps }
+.ms-Icon--PowerApps2Logo:before { @include ms-Icon--PowerApps2Logo }
+.ms-Icon--PowerAppsLogo:before { @include ms-Icon--PowerAppsLogo }
+.ms-Icon--PowerAppsTemplate:before { @include ms-Icon--PowerAppsTemplate }
+.ms-Icon--PowerAutomateLogo:before { @include ms-Icon--PowerAutomateLogo }
+.ms-Icon--PowerBILogo:before { @include ms-Icon--PowerBILogo }
+.ms-Icon--PowerBILogo16:before { @include ms-Icon--PowerBILogo16 }
+.ms-Icon--PowerBILogoBackplate16:before { @include ms-Icon--PowerBILogoBackplate16 }
+.ms-Icon--PowerButton:before { @include ms-Icon--PowerButton }
+.ms-Icon--PowerPointDocument:before { @include ms-Icon--PowerPointDocument }
+.ms-Icon--PowerPointLogo:before { @include ms-Icon--PowerPointLogo }
+.ms-Icon--PowerPointLogo16:before { @include ms-Icon--PowerPointLogo16 }
+.ms-Icon--PowerPointLogoInverse:before { @include ms-Icon--PowerPointLogoInverse }
+.ms-Icon--PowerPointLogoInverse16:before { @include ms-Icon--PowerPointLogoInverse16 }
+.ms-Icon--PowerShell:before { @include ms-Icon--PowerShell }
+.ms-Icon--PowerShell2:before { @include ms-Icon--PowerShell2 }
+.ms-Icon--PowerStandby:before { @include ms-Icon--PowerStandby }
+.ms-Icon--PowerVirtualAgentsLogo:before { @include ms-Icon--PowerVirtualAgentsLogo }
+.ms-Icon--Precipitation:before { @include ms-Icon--Precipitation }
+.ms-Icon--PresenceChickletVideo:before { @include ms-Icon--PresenceChickletVideo }
+.ms-Icon--Presentation:before { @include ms-Icon--Presentation }
+.ms-Icon--Presentation12:before { @include ms-Icon--Presentation12 }
+.ms-Icon--Preview:before { @include ms-Icon--Preview }
+.ms-Icon--PreviewBelow:before { @include ms-Icon--PreviewBelow }
+.ms-Icon--PreviewLink:before { @include ms-Icon--PreviewLink }
+.ms-Icon--PreviewSideBySide:before { @include ms-Icon--PreviewSideBySide }
+.ms-Icon--Previous:before { @include ms-Icon--Previous }
+.ms-Icon--PrimaryCalendar:before { @include ms-Icon--PrimaryCalendar }
+.ms-Icon--Print:before { @include ms-Icon--Print }
+.ms-Icon--PrintfaxPrinterFile:before { @include ms-Icon--PrintfaxPrinterFile }
+.ms-Icon--Priority:before { @include ms-Icon--Priority }
+.ms-Icon--Process:before { @include ms-Icon--Process }
+.ms-Icon--ProcessAdvisor:before { @include ms-Icon--ProcessAdvisor }
+.ms-Icon--Processing:before { @include ms-Icon--Processing }
+.ms-Icon--ProcessingCancel:before { @include ms-Icon--ProcessingCancel }
+.ms-Icon--ProcessingPause:before { @include ms-Icon--ProcessingPause }
+.ms-Icon--ProcessingRun:before { @include ms-Icon--ProcessingRun }
+.ms-Icon--ProcessMap:before { @include ms-Icon--ProcessMap }
+.ms-Icon--ProcessMetaTask:before { @include ms-Icon--ProcessMetaTask }
+.ms-Icon--Product:before { @include ms-Icon--Product }
+.ms-Icon--ProductCatalog:before { @include ms-Icon--ProductCatalog }
+.ms-Icon--ProductionFloorManagement:before { @include ms-Icon--ProductionFloorManagement }
+.ms-Icon--ProductList:before { @include ms-Icon--ProductList }
+.ms-Icon--ProductRelease:before { @include ms-Icon--ProductRelease }
+.ms-Icon--ProductVariant:before { @include ms-Icon--ProductVariant }
+.ms-Icon--ProductWarning:before { @include ms-Icon--ProductWarning }
+.ms-Icon--ProfileSearch:before { @include ms-Icon--ProfileSearch }
+.ms-Icon--ProFootball:before { @include ms-Icon--ProFootball }
+.ms-Icon--ProgressLoopInner:before { @include ms-Icon--ProgressLoopInner }
+.ms-Icon--ProgressLoopOuter:before { @include ms-Icon--ProgressLoopOuter }
+.ms-Icon--ProgressRing5:before { @include ms-Icon--ProgressRing5 }
+.ms-Icon--ProgressRingDots:before { @include ms-Icon--ProgressRingDots }
+.ms-Icon--ProHockey:before { @include ms-Icon--ProHockey }
+.ms-Icon--ProjectCollection:before { @include ms-Icon--ProjectCollection }
+.ms-Icon--ProjectDocument:before { @include ms-Icon--ProjectDocument }
+.ms-Icon--ProjectLogo16:before { @include ms-Icon--ProjectLogo16 }
+.ms-Icon--ProjectLogo32:before { @include ms-Icon--ProjectLogo32 }
+.ms-Icon--ProjectLogoInverse:before { @include ms-Icon--ProjectLogoInverse }
+.ms-Icon--ProjectManagement:before { @include ms-Icon--ProjectManagement }
+.ms-Icon--PromotedDatabase:before { @include ms-Icon--PromotedDatabase }
+.ms-Icon--Pronouns:before { @include ms-Icon--Pronouns }
+.ms-Icon--ProtectedDocument:before { @include ms-Icon--ProtectedDocument }
+.ms-Icon--ProtectionCenterLogo32:before { @include ms-Icon--ProtectionCenterLogo32 }
+.ms-Icon--ProtectRestrict:before { @include ms-Icon--ProtectRestrict }
+.ms-Icon--ProvisioningPackage:before { @include ms-Icon--ProvisioningPackage }
+.ms-Icon--PublicCalendar:before { @include ms-Icon--PublicCalendar }
+.ms-Icon--PublicContactCard:before { @include ms-Icon--PublicContactCard }
+.ms-Icon--PublicContactCardMirrored:before { @include ms-Icon--PublicContactCardMirrored }
+.ms-Icon--PublicEmail:before { @include ms-Icon--PublicEmail }
+.ms-Icon--PublicFolder:before { @include ms-Icon--PublicFolder }
+.ms-Icon--PublishContent:before { @include ms-Icon--PublishContent }
+.ms-Icon--PublishCourse:before { @include ms-Icon--PublishCourse }
+.ms-Icon--PublisherLogo:before { @include ms-Icon--PublisherLogo }
+.ms-Icon--PublisherLogo16:before { @include ms-Icon--PublisherLogo16 }
+.ms-Icon--PublisherLogoInverse16:before { @include ms-Icon--PublisherLogoInverse16 }
+.ms-Icon--Puzzle:before { @include ms-Icon--Puzzle }
+.ms-Icon--PY:before { @include ms-Icon--PY }
+

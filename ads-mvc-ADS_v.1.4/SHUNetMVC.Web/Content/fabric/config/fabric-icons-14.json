@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-14",
+  "fontFamilyName": "FabricMDL2Icons-14",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "PageListFilter",
+      "unicode": "F813"
+    },
+    {
+      "name": "PageListMirroredSolid",
+      "unicode": "F33B"
+    },
+    {
+      "name": "PageListSolid",
+      "unicode": "F33A"
+    },
+    {
+      "name": "PageLock",
+      "unicode": "F43F"
+    },
+    {
+      "name": "PagePermission",
+      "unicode": "E618"
+    },
+    {
+      "name": "PageRemove",
+      "unicode": "EFBA"
+    },
+    {
+      "name": "PageRight",
+      "unicode": "E761"
+    },
+    {
+      "name": "PageShared",
+      "unicode": "F02D"
+    },
+    {
+      "name": "PageSolid",
+      "unicode": "E729"
+    },
+    {
+      "name": "PanoIndicator",
+      "unicode": "E7B0"
+    },
+    {
+      "name": "Parachute",
+      "unicode": "F351"
+    },
+    {
+      "name": "ParachuteSolid",
+      "unicode": "F352"
+    },
+    {
+      "name": "Parameter",
+      "unicode": "F306"
+    },
+    {
+      "name": "ParkingLocation",
+      "unicode": "E811"
+    },
+    {
+      "name": "ParkingLocationMirrored",
+      "unicode": "EA5E"
+    },
+    {
+      "name": "ParkingMirroredSolid",
+      "unicode": "F34B"
+    },
+    {
+      "name": "ParkingSolid",
+      "unicode": "F34A"
+    },
+    {
+      "name": "PartlyClearNight",
+      "unicode": "E477"
+    },
+    {
+      "name": "PartlyCloudyDay",
+      "unicode": "E9C0"
+    },
+    {
+      "name": "PartlyCloudyNight",
+      "unicode": "E9C1"
+    },
+    {
+      "name": "PartlySunnyDay",
+      "unicode": "E469"
+    },
+    {
+      "name": "PartlySunnyFlurriesDay",
+      "unicode": "E472"
+    },
+    {
+      "name": "PartlySunnyShowersDay",
+      "unicode": "E46E"
+    },
+    {
+      "name": "PartlySunnyShowersNight",
+      "unicode": "E47A"
+    },
+    {
+      "name": "PartlySunnyTStormsDay",
+      "unicode": "E470"
+    },
+    {
+      "name": "PartlySunnyTStormsNight",
+      "unicode": "E47C"
+    },
+    {
+      "name": "PartyLeader",
+      "unicode": "ECA7"
+    },
+    {
+      "name": "PassiveAuthentication",
+      "unicode": "F32A"
+    },
+    {
+      "name": "PasswordField",
+      "unicode": "F6AA"
+    },
+    {
+      "name": "Paste",
+      "unicode": "E77F"
+    },
+    {
+      "name": "PasteAsCode",
+      "unicode": "F5D6"
+    },
+    {
+      "name": "PasteAsText",
+      "unicode": "F5D5"
+    },
+    {
+      "name": "Pause",
+      "unicode": "E769"
+    },
+    {
+      "name": "PaymentCard",
+      "unicode": "E8C7"
+    },
+    {
+      "name": "PBIAnomaliesMarker",
+      "unicode": "E554"
+    },
+    {
+      "name": "PBIAnomaly",
+      "unicode": "E548"
+    },
+    {
+      "name": "PBIColumn",
+      "unicode": "E67A"
+    },
+    {
+      "name": "PBIConnectPoints",
+      "unicode": "E67B"
+    },
+    {
+      "name": "PBIDirectQuery",
+      "unicode": "E4E9"
+    },
+    {
+      "name": "PBIDual",
+      "unicode": "E4EA"
+    },
+    {
+      "name": "PBIGap",
+      "unicode": "E67C"
+    },
+    {
+      "name": "PBIGoalEntry",
+      "unicode": "E615"
+    },
+    {
+      "name": "PBIGoalEntryAdd",
+      "unicode": "E616"
+    },
+    {
+      "name": "PBIHomeLayoutDefault",
+      "unicode": "E65B"
+    },
+    {
+      "name": "PBIHomeLayoutExpanded",
+      "unicode": "E65C"
+    },
+    {
+      "name": "PBIImport",
+      "unicode": "E4EB"
+    },
+    {
+      "name": "PBILiveConnect",
+      "unicode": "E4EC"
+    },
+    {
+      "name": "PBIPerspective",
+      "unicode": "E658"
+    },
+    {
+      "name": "PBIReportTemplate",
+      "unicode": "E5EC"
+    },
+    {
+      "name": "PBIZero",
+      "unicode": "E67D"
+    },
+    {
+      "name": "PC1",
+      "unicode": "E977"
+    },
+    {
+      "name": "PDF",
+      "unicode": "EA90"
+    },
+    {
+      "name": "PencilReply",
+      "unicode": "EF7B"
+    },
+    {
+      "name": "Pentagon",
+      "unicode": "F4FF"
+    },
+    {
+      "name": "PenWorkspace",
+      "unicode": "EDC6"
+    },
+    {
+      "name": "People",
+      "unicode": "E716"
+    },
+    {
+      "name": "PeopleAdd",
+      "unicode": "EA15"
+    },
+    {
+      "name": "PeopleAlert",
+      "unicode": "ED93"
+    },
+    {
+      "name": "PeopleBlock",
+      "unicode": "ED91"
+    },
+    {
+      "name": "PeopleExternalShare",
+      "unicode": "E5EF"
+    },
+    {
+      "name": "PeoplePause",
+      "unicode": "ED94"
+    },
+    {
+      "name": "PeopleRepeat",
+      "unicode": "ED92"
+    },
+    {
+      "name": "PeopleSettings",
+      "unicode": "F72C"
+    },
+    {
+      "name": "Permissions",
+      "unicode": "E8D7"
+    },
+    {
+      "name": "PermissionsSolid",
+      "unicode": "F349"
+    },
+    {
+      "name": "Personalize",
+      "unicode": "E771"
+    },
+    {
+      "name": "Phishing",
+      "unicode": "F679"
+    },
+    {
+      "name": "PhishingCampaign",
+      "unicode": "E48D"
+    },
+    {
+      "name": "PhishingHook",
+      "unicode": "E48E"
+    },
+    {
+      "name": "Phone",
+      "unicode": "E717"
+    },
+    {
+      "name": "Photo",
+      "unicode": "E91B"
+    },
+    {
+      "name": "Photo2",
+      "unicode": "EB9F"
+    },
+    {
+      "name": "Photo2Add",
+      "unicode": "ECAB"
+    },
+    {
+      "name": "Photo2Fill",
+      "unicode": "F79F"
+    },
+    {
+      "name": "Photo2Remove",
+      "unicode": "ECAC"
+    },
+    {
+      "name": "PhotoBlock",
+      "unicode": "E4C3"
+    },
+    {
+      "name": "PhotoCollection",
+      "unicode": "E7AA"
+    },
+    {
+      "name": "PhotoError",
+      "unicode": "E3F7"
+    },
+    {
+      "name": "PhotoVideoMedia",
+      "unicode": "F0B1"
+    },
+    {
+      "name": "Picture",
+      "unicode": "E8B9"
+    },
+    {
+      "name": "PictureCenter",
+      "unicode": "F522"
+    },
+    {
+      "name": "PictureFill",
+      "unicode": "F523"
+    },
+    {
+      "name": "PictureLibrary",
+      "unicode": "EEC2"
+    },
+    {
+      "name": "PicturePosition",
+      "unicode": "F524"
+    },
+    {
+      "name": "PictureStretch",
+      "unicode": "F525"
+    },
+    {
+      "name": "PictureTile",
+      "unicode": "F526"
+    },
+    {
+      "name": "PieDouble",
+      "unicode": "EB04"
+    },
+    {
+      "name": "PieSingle",
+      "unicode": "EB05"
+    },
+    {
+      "name": "PieSingleSolid",
+      "unicode": "F530"
+    },
+    {
+      "name": "Pill",
+      "unicode": "EACB"
+    },
+    {
+      "name": "Pin",
+      "unicode": "E718"
+    },
+    {
+      "name": "PinNavMenu",
+      "unicode": "E682"
+    },
+    {
+      "name": "Pinned",
+      "unicode": "E840"
+    },
+    {
+      "name": "PinnedFill",
+      "unicode": "E842"
+    },
+    {
+      "name": "PinnedSolid",
+      "unicode": "F676"
+    },
+    {
+      "name": "PinOff",
+      "unicode": "E683"
+    },
+    {
+      "name": "PinOffSolid",
+      "unicode": "E694"
+    },
+    {
+      "name": "PinSolid",
+      "unicode": "F1DB"
+    },
+    {
+      "name": "PinSolid12",
+      "unicode": "E352"
+    },
+    {
+      "name": "PinSolidOff12",
+      "unicode": "E353"
+    }
+  ]
+}

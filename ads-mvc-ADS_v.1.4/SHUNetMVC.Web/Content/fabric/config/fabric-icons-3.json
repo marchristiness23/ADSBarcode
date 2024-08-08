@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-3",
+  "fontFamilyName": "FabricMDL2Icons-3",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "CaretDown8",
+      "unicode": "EDD8"
+    },
+    {
+      "name": "CaretDownSolid8",
+      "unicode": "EDDC"
+    },
+    {
+      "name": "CaretHollow",
+      "unicode": "E817"
+    },
+    {
+      "name": "CaretHollowMirrored",
+      "unicode": "EA45"
+    },
+    {
+      "name": "CaretLeft8",
+      "unicode": "EDD5"
+    },
+    {
+      "name": "CaretLeftSolid8",
+      "unicode": "EDD9"
+    },
+    {
+      "name": "CaretRight",
+      "unicode": "F06B"
+    },
+    {
+      "name": "CaretRight8",
+      "unicode": "EDD6"
+    },
+    {
+      "name": "CaretRightSolid8",
+      "unicode": "EDDA"
+    },
+    {
+      "name": "CaretSolid",
+      "unicode": "E818"
+    },
+    {
+      "name": "CaretSolid16",
+      "unicode": "EE62"
+    },
+    {
+      "name": "CaretSolidAlt",
+      "unicode": "E483"
+    },
+    {
+      "name": "CaretSolidDown",
+      "unicode": "F08E"
+    },
+    {
+      "name": "CaretSolidLeft",
+      "unicode": "F08D"
+    },
+    {
+      "name": "CaretSolidMirrored",
+      "unicode": "EA46"
+    },
+    {
+      "name": "CaretSolidRight",
+      "unicode": "F08F"
+    },
+    {
+      "name": "CaretSolidUp",
+      "unicode": "F090"
+    },
+    {
+      "name": "CaretTopLeftCenter8",
+      "unicode": "F367"
+    },
+    {
+      "name": "CaretTopLeftSolid8",
+      "unicode": "EF54"
+    },
+    {
+      "name": "CaretTopRightCenter8",
+      "unicode": "F366"
+    },
+    {
+      "name": "CaretTopRightSolid8",
+      "unicode": "EF55"
+    },
+    {
+      "name": "CaretUp8",
+      "unicode": "EDD7"
+    },
+    {
+      "name": "CaretUpSolid8",
+      "unicode": "EDDB"
+    },
+    {
+      "name": "CaseSetting",
+      "unicode": "F675"
+    },
+    {
+      "name": "Cat",
+      "unicode": "ED7F"
+    },
+    {
+      "name": "CategoryClassification",
+      "unicode": "E48C"
+    },
+    {
+      "name": "CC",
+      "unicode": "E7F0"
+    },
+    {
+      "name": "CCSolid",
+      "unicode": "E4F4"
+    },
+    {
+      "name": "CellPhone",
+      "unicode": "E8EA"
+    },
+    {
+      "name": "CellSplitVertical",
+      "unicode": "E66C"
+    },
+    {
+      "name": "Certificate",
+      "unicode": "EB95"
+    },
+    {
+      "name": "CertifiedDatabase",
+      "unicode": "F5BB"
+    },
+    {
+      "name": "ChangeEntitlements",
+      "unicode": "E310"
+    },
+    {
+      "name": "Chart",
+      "unicode": "E999"
+    },
+    {
+      "name": "CharticulatorArrangePolar",
+      "unicode": "E632"
+    },
+    {
+      "name": "CharticulatorArrangePolarAngles",
+      "unicode": "E633"
+    },
+    {
+      "name": "CharticulatorBand",
+      "unicode": "E634"
+    },
+    {
+      "name": "CharticulatorGuideCoordinator",
+      "unicode": "E635"
+    },
+    {
+      "name": "CharticulatorGuideX",
+      "unicode": "E636"
+    },
+    {
+      "name": "CharticulatorGuideY",
+      "unicode": "E637"
+    },
+    {
+      "name": "CharticulatorLegend",
+      "unicode": "E638"
+    },
+    {
+      "name": "CharticulatorLine",
+      "unicode": "E639"
+    },
+    {
+      "name": "CharticulatorLineStyleDashed",
+      "unicode": "E63A"
+    },
+    {
+      "name": "CharticulatorLineStyleDotted",
+      "unicode": "E63B"
+    },
+    {
+      "name": "CharticulatorLinkingData",
+      "unicode": "E63C"
+    },
+    {
+      "name": "CharticulatorLinkingSequence",
+      "unicode": "E63D"
+    },
+    {
+      "name": "CharticulatorOrderColumn",
+      "unicode": "E63E"
+    },
+    {
+      "name": "CharticulatorOrderRow",
+      "unicode": "E63F"
+    },
+    {
+      "name": "CharticulatorPlotCartesian",
+      "unicode": "E640"
+    },
+    {
+      "name": "CharticulatorPlotCurve",
+      "unicode": "E641"
+    },
+    {
+      "name": "CharticulatorPolarCoordinates",
+      "unicode": "E642"
+    },
+    {
+      "name": "CharticulatorSpiral",
+      "unicode": "E643"
+    },
+    {
+      "name": "CharticulatorStackRadial",
+      "unicode": "E644"
+    },
+    {
+      "name": "CharticulatorStackY",
+      "unicode": "E645"
+    },
+    {
+      "name": "ChartSeries",
+      "unicode": "F513"
+    },
+    {
+      "name": "ChartTemplate",
+      "unicode": "F812"
+    },
+    {
+      "name": "ChartXAngle",
+      "unicode": "F514"
+    },
+    {
+      "name": "ChartYAngle",
+      "unicode": "F515"
+    },
+    {
+      "name": "Chat",
+      "unicode": "E901"
+    },
+    {
+      "name": "ChatBot",
+      "unicode": "F08B"
+    },
+    {
+      "name": "ChatInviteFriend",
+      "unicode": "ECFE"
+    },
+    {
+      "name": "ChatSettings",
+      "unicode": "E600"
+    },
+    {
+      "name": "ChatSolid",
+      "unicode": "F344"
+    },
+    {
+      "name": "Checkbox",
+      "unicode": "E739"
+    },
+    {
+      "name": "CheckboxComposite",
+      "unicode": "E73A"
+    },
+    {
+      "name": "CheckboxCompositeReversed",
+      "unicode": "E73D"
+    },
+    {
+      "name": "CheckboxFill",
+      "unicode": "E73B"
+    },
+    {
+      "name": "CheckboxIndeterminate",
+      "unicode": "E73C"
+    },
+    {
+      "name": "CheckboxIndeterminateCombo",
+      "unicode": "F16E"
+    },
+    {
+      "name": "CheckedOutByOther12",
+      "unicode": "F630"
+    },
+    {
+      "name": "CheckedOutByYou12",
+      "unicode": "F631"
+    },
+    {
+      "name": "CheckList",
+      "unicode": "E9D5"
+    },
+    {
+      "name": "CheckListCheck",
+      "unicode": "F7A9"
+    },
+    {
+      "name": "CheckListCheckMirrored",
+      "unicode": "F7AB"
+    },
+    {
+      "name": "CheckListText",
+      "unicode": "F7A8"
+    },
+    {
+      "name": "CheckListTextMirrored",
+      "unicode": "F7AA"
+    },
+    {
+      "name": "CheckMark",
+      "unicode": "E73E"
+    },
+    {
+      "name": "ChevronDown",
+      "unicode": "E70D"
+    },
+    {
+      "name": "ChevronDownEnd",
+      "unicode": "F5E4"
+    },
+    {
+      "name": "ChevronDownEnd6",
+      "unicode": "F36F"
+    },
+    {
+      "name": "ChevronDownMed",
+      "unicode": "E972"
+    },
+    {
+      "name": "ChevronDownSmall",
+      "unicode": "E96E"
+    },
+    {
+      "name": "ChevronFold10",
+      "unicode": "F36A"
+    },
+    {
+      "name": "ChevronLeft",
+      "unicode": "E76B"
+    },
+    {
+      "name": "ChevronLeftEnd6",
+      "unicode": "F371"
+    },
+    {
+      "name": "ChevronLeftMed",
+      "unicode": "E973"
+    },
+    {
+      "name": "ChevronLeftSmall",
+      "unicode": "E96F"
+    },
+    {
+      "name": "ChevronRight",
+      "unicode": "E76C"
+    },
+    {
+      "name": "ChevronRightEnd6",
+      "unicode": "F372"
+    },
+    {
+      "name": "ChevronRightMed",
+      "unicode": "E974"
+    },
+    {
+      "name": "ChevronRightSmall",
+      "unicode": "E970"
+    },
+    {
+      "name": "ChevronUnfold10",
+      "unicode": "F369"
+    },
+    {
+      "name": "ChevronUp",
+      "unicode": "E70E"
+    },
+    {
+      "name": "ChevronUpEnd",
+      "unicode": "E55B"
+    },
+    {
+      "name": "ChevronUpEnd6",
+      "unicode": "F370"
+    },
+    {
+      "name": "ChevronUpMed",
+      "unicode": "E971"
+    },
+    {
+      "name": "ChevronUpSmall",
+      "unicode": "E96D"
+    },
+    {
+      "name": "Childof",
+      "unicode": "F82D"
+    },
+    {
+      "name": "ChoiceColumn",
+      "unicode": "E4AE"
+    },
+    {
+      "name": "Chopsticks",
+      "unicode": "F4A2"
+    }
+  ]
+}

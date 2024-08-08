@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-10';
+  src: url('../fonts/fabric-icons-10-36b68c83.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-10';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--HailDay { content: "\EA00"; }
+@mixin ms-Icon--HailNight { content: "\EA13"; }
+@mixin ms-Icon--HalfAlpha { content: "\E97E"; }
+@mixin ms-Icon--HalfCircle { content: "\F501"; }
+@mixin ms-Icon--HandsFree { content: "\EAD0"; }
+@mixin ms-Icon--Handwriting { content: "\E929"; }
+@mixin ms-Icon--HardDrive { content: "\EDA2"; }
+@mixin ms-Icon--HardDriveGroup { content: "\F18F"; }
+@mixin ms-Icon--HardDriveLock { content: "\F55A"; }
+@mixin ms-Icon--HardDriveUnlock { content: "\F55B"; }
+@mixin ms-Icon--HazyDay { content: "\E46B"; }
+@mixin ms-Icon--HazyNight { content: "\E479"; }
+@mixin ms-Icon--Header { content: "\F82F"; }
+@mixin ms-Icon--Header1 { content: "\EA19"; }
+@mixin ms-Icon--Header2 { content: "\EF36"; }
+@mixin ms-Icon--Header3 { content: "\EF37"; }
+@mixin ms-Icon--Header4 { content: "\EF38"; }
+@mixin ms-Icon--Headset { content: "\E95B"; }
+@mixin ms-Icon--HeadsetSolid { content: "\F348"; }
+@mixin ms-Icon--Health { content: "\E95E"; }
+@mixin ms-Icon--HealthRefresh { content: "\E3BD"; }
+@mixin ms-Icon--HealthSolid { content: "\F33F"; }
+@mixin ms-Icon--Heart { content: "\EB51"; }
+@mixin ms-Icon--HeartBroken { content: "\EA92"; }
+@mixin ms-Icon--HeartFill { content: "\EB52"; }
+@mixin ms-Icon--Help { content: "\E897"; }
+@mixin ms-Icon--HelpMirrored { content: "\EA51"; }
+@mixin ms-Icon--HexaditeInvestigation { content: "\E3F8"; }
+@mixin ms-Icon--HexaditeInvestigationCancel { content: "\E3F9"; }
+@mixin ms-Icon--HexaditeInvestigationSemiAuto { content: "\E3FA"; }
+@mixin ms-Icon--Hexagon { content: "\F4FE"; }
+@mixin ms-Icon--Hide { content: "\ED1A"; }
+@mixin ms-Icon--Hide2 { content: "\EF89"; }
+@mixin ms-Icon--Hide3 { content: "\F6AC"; }
+@mixin ms-Icon--HideVisualFilter { content: "\F403"; }
+@mixin ms-Icon--Highlight { content: "\E7E6"; }
+@mixin ms-Icon--HighlightMappedShapes { content: "\F2A1"; }
+@mixin ms-Icon--HintText { content: "\F50F"; }
+@mixin ms-Icon--HistoricalWeather { content: "\EB43"; }
+@mixin ms-Icon--History { content: "\E81C"; }
+@mixin ms-Icon--Home { content: "\E80F"; }
+@mixin ms-Icon--HomeDropdown { content: "\E427"; }
+@mixin ms-Icon--HomeGroup { content: "\EC26"; }
+@mixin ms-Icon--HomeSolid { content: "\EA8A"; }
+@mixin ms-Icon--HomeVerify { content: "\F00E"; }
+@mixin ms-Icon--HorizontalDistributeCenter { content: "\F4F9"; }
+@mixin ms-Icon--HorizontalTabKey { content: "\E7FD"; }
+@mixin ms-Icon--Hospital { content: "\E91D"; }
+@mixin ms-Icon--Hot { content: "\ECE2"; }
+@mixin ms-Icon--Hotel { content: "\E824"; }
+@mixin ms-Icon--HourGlass { content: "\EA03"; }
+@mixin ms-Icon--Ice { content: "\E473"; }
+@mixin ms-Icon--IconSetsFlag { content: "\F2A4"; }
+@mixin ms-Icon--IDBadge { content: "\F427"; }
+@mixin ms-Icon--IgnoreConversation { content: "\E372"; }
+@mixin ms-Icon--ImageCrosshair { content: "\F2C9"; }
+@mixin ms-Icon--ImageDiff { content: "\F30B"; }
+@mixin ms-Icon--ImageInAR { content: "\E420"; }
+@mixin ms-Icon--ImagePixel { content: "\F30C"; }
+@mixin ms-Icon--ImageSearch { content: "\F4E8"; }
+@mixin ms-Icon--Import { content: "\E8B5"; }
+@mixin ms-Icon--ImportAllMirrored { content: "\EA53"; }
+@mixin ms-Icon--Important { content: "\E8C9"; }
+@mixin ms-Icon--ImportMirrored { content: "\EA52"; }
+@mixin ms-Icon--Inbox { content: "\F41C"; }
+@mixin ms-Icon--InboxActive { content: "\E497"; }
+@mixin ms-Icon--InboxCheck { content: "\EF64"; }
+@mixin ms-Icon--IncidentTriangle { content: "\E814"; }
+@mixin ms-Icon--IncomingCall { content: "\E77E"; }
+@mixin ms-Icon--IncreaseIndent { content: "\E399"; }
+@mixin ms-Icon--IncreaseIndentArrow { content: "\F7A1"; }
+@mixin ms-Icon--IncreaseIndentArrowMirrored { content: "\F7A5"; }
+@mixin ms-Icon--IncreaseIndentHanging { content: "\E39D"; }
+@mixin ms-Icon--IncreaseIndentHangingMirrored { content: "\E39E"; }
+@mixin ms-Icon--IncreaseIndentMirrored { content: "\E39A"; }
+@mixin ms-Icon--IncreaseIndentText { content: "\F7A0"; }
+@mixin ms-Icon--IncreaseIndentTextMirrored { content: "\F7A4"; }
+@mixin ms-Icon--IndentFirstLine { content: "\E3DD"; }
+@mixin ms-Icon--Info { content: "\E946"; }
+@mixin ms-Icon--Info12 { content: "\E55A"; }
+@mixin ms-Icon--Info2 { content: "\EA1F"; }
+@mixin ms-Icon--InformationBarriers { content: "\F803"; }
+@mixin ms-Icon--InfoSolid { content: "\F167"; }
+@mixin ms-Icon--InkingTool { content: "\E76D"; }
+@mixin ms-Icon--InputAddress { content: "\E41E"; }
+@mixin ms-Icon--Insert { content: "\F278"; }
+@mixin ms-Icon--InsertColumnsLeft { content: "\F64A"; }
+@mixin ms-Icon--InsertColumnsRight { content: "\F64B"; }
+@mixin ms-Icon--InsertRowsAbove { content: "\F64C"; }
+@mixin ms-Icon--InsertRowsBelow { content: "\F64D"; }
+@mixin ms-Icon--InsertSignatureLine { content: "\F677"; }
+@mixin ms-Icon--InsertTextBox { content: "\EC7D"; }
+@mixin ms-Icon--InsertTextBoxKorean { content: "\E5D3"; }
+@mixin ms-Icon--Insights { content: "\E3AF"; }
+@mixin ms-Icon--Installation { content: "\E311"; }
+@mixin ms-Icon--InstallToDrive { content: "\F28D"; }
+@mixin ms-Icon--IntermittentCloudsDay { content: "\E46A"; }
+@mixin ms-Icon--IntermittentCloudsNight { content: "\E478"; }
+@mixin ms-Icon--InternalInvestigation { content: "\F854"; }
+@mixin ms-Icon--InternetSharing { content: "\E704"; }
+
+
+// Classes
+.ms-Icon--HailDay:before { @include ms-Icon--HailDay }
+.ms-Icon--HailNight:before { @include ms-Icon--HailNight }
+.ms-Icon--HalfAlpha:before { @include ms-Icon--HalfAlpha }
+.ms-Icon--HalfCircle:before { @include ms-Icon--HalfCircle }
+.ms-Icon--HandsFree:before { @include ms-Icon--HandsFree }
+.ms-Icon--Handwriting:before { @include ms-Icon--Handwriting }
+.ms-Icon--HardDrive:before { @include ms-Icon--HardDrive }
+.ms-Icon--HardDriveGroup:before { @include ms-Icon--HardDriveGroup }
+.ms-Icon--HardDriveLock:before { @include ms-Icon--HardDriveLock }
+.ms-Icon--HardDriveUnlock:before { @include ms-Icon--HardDriveUnlock }
+.ms-Icon--HazyDay:before { @include ms-Icon--HazyDay }
+.ms-Icon--HazyNight:before { @include ms-Icon--HazyNight }
+.ms-Icon--Header:before { @include ms-Icon--Header }
+.ms-Icon--Header1:before { @include ms-Icon--Header1 }
+.ms-Icon--Header2:before { @include ms-Icon--Header2 }
+.ms-Icon--Header3:before { @include ms-Icon--Header3 }
+.ms-Icon--Header4:before { @include ms-Icon--Header4 }
+.ms-Icon--Headset:before { @include ms-Icon--Headset }
+.ms-Icon--HeadsetSolid:before { @include ms-Icon--HeadsetSolid }
+.ms-Icon--Health:before { @include ms-Icon--Health }
+.ms-Icon--HealthRefresh:before { @include ms-Icon--HealthRefresh }
+.ms-Icon--HealthSolid:before { @include ms-Icon--HealthSolid }
+.ms-Icon--Heart:before { @include ms-Icon--Heart }
+.ms-Icon--HeartBroken:before { @include ms-Icon--HeartBroken }
+.ms-Icon--HeartFill:before { @include ms-Icon--HeartFill }
+.ms-Icon--Help:before { @include ms-Icon--Help }
+.ms-Icon--HelpMirrored:before { @include ms-Icon--HelpMirrored }
+.ms-Icon--HexaditeInvestigation:before { @include ms-Icon--HexaditeInvestigation }
+.ms-Icon--HexaditeInvestigationCancel:before { @include ms-Icon--HexaditeInvestigationCancel }
+.ms-Icon--HexaditeInvestigationSemiAuto:before { @include ms-Icon--HexaditeInvestigationSemiAuto }
+.ms-Icon--Hexagon:before { @include ms-Icon--Hexagon }
+.ms-Icon--Hide:before { @include ms-Icon--Hide }
+.ms-Icon--Hide2:before { @include ms-Icon--Hide2 }
+.ms-Icon--Hide3:before { @include ms-Icon--Hide3 }
+.ms-Icon--HideVisualFilter:before { @include ms-Icon--HideVisualFilter }
+.ms-Icon--Highlight:before { @include ms-Icon--Highlight }
+.ms-Icon--HighlightMappedShapes:before { @include ms-Icon--HighlightMappedShapes }
+.ms-Icon--HintText:before { @include ms-Icon--HintText }
+.ms-Icon--HistoricalWeather:before { @include ms-Icon--HistoricalWeather }
+.ms-Icon--History:before { @include ms-Icon--History }
+.ms-Icon--Home:before { @include ms-Icon--Home }
+.ms-Icon--HomeDropdown:before { @include ms-Icon--HomeDropdown }
+.ms-Icon--HomeGroup:before { @include ms-Icon--HomeGroup }
+.ms-Icon--HomeSolid:before { @include ms-Icon--HomeSolid }
+.ms-Icon--HomeVerify:before { @include ms-Icon--HomeVerify }
+.ms-Icon--HorizontalDistributeCenter:before { @include ms-Icon--HorizontalDistributeCenter }
+.ms-Icon--HorizontalTabKey:before { @include ms-Icon--HorizontalTabKey }
+.ms-Icon--Hospital:before { @include ms-Icon--Hospital }
+.ms-Icon--Hot:before { @include ms-Icon--Hot }
+.ms-Icon--Hotel:before { @include ms-Icon--Hotel }
+.ms-Icon--HourGlass:before { @include ms-Icon--HourGlass }
+.ms-Icon--Ice:before { @include ms-Icon--Ice }
+.ms-Icon--IconSetsFlag:before { @include ms-Icon--IconSetsFlag }
+.ms-Icon--IDBadge:before { @include ms-Icon--IDBadge }
+.ms-Icon--IgnoreConversation:before { @include ms-Icon--IgnoreConversation }
+.ms-Icon--ImageCrosshair:before { @include ms-Icon--ImageCrosshair }
+.ms-Icon--ImageDiff:before { @include ms-Icon--ImageDiff }
+.ms-Icon--ImageInAR:before { @include ms-Icon--ImageInAR }
+.ms-Icon--ImagePixel:before { @include ms-Icon--ImagePixel }
+.ms-Icon--ImageSearch:before { @include ms-Icon--ImageSearch }
+.ms-Icon--Import:before { @include ms-Icon--Import }
+.ms-Icon--ImportAllMirrored:before { @include ms-Icon--ImportAllMirrored }
+.ms-Icon--Important:before { @include ms-Icon--Important }
+.ms-Icon--ImportMirrored:before { @include ms-Icon--ImportMirrored }
+.ms-Icon--Inbox:before { @include ms-Icon--Inbox }
+.ms-Icon--InboxActive:before { @include ms-Icon--InboxActive }
+.ms-Icon--InboxCheck:before { @include ms-Icon--InboxCheck }
+.ms-Icon--IncidentTriangle:before { @include ms-Icon--IncidentTriangle }
+.ms-Icon--IncomingCall:before { @include ms-Icon--IncomingCall }
+.ms-Icon--IncreaseIndent:before { @include ms-Icon--IncreaseIndent }
+.ms-Icon--IncreaseIndentArrow:before { @include ms-Icon--IncreaseIndentArrow }
+.ms-Icon--IncreaseIndentArrowMirrored:before { @include ms-Icon--IncreaseIndentArrowMirrored }
+.ms-Icon--IncreaseIndentHanging:before { @include ms-Icon--IncreaseIndentHanging }
+.ms-Icon--IncreaseIndentHangingMirrored:before { @include ms-Icon--IncreaseIndentHangingMirrored }
+.ms-Icon--IncreaseIndentMirrored:before { @include ms-Icon--IncreaseIndentMirrored }
+.ms-Icon--IncreaseIndentText:before { @include ms-Icon--IncreaseIndentText }
+.ms-Icon--IncreaseIndentTextMirrored:before { @include ms-Icon--IncreaseIndentTextMirrored }
+.ms-Icon--IndentFirstLine:before { @include ms-Icon--IndentFirstLine }
+.ms-Icon--Info:before { @include ms-Icon--Info }
+.ms-Icon--Info12:before { @include ms-Icon--Info12 }
+.ms-Icon--Info2:before { @include ms-Icon--Info2 }
+.ms-Icon--InformationBarriers:before { @include ms-Icon--InformationBarriers }
+.ms-Icon--InfoSolid:before { @include ms-Icon--InfoSolid }
+.ms-Icon--InkingTool:before { @include ms-Icon--InkingTool }
+.ms-Icon--InputAddress:before { @include ms-Icon--InputAddress }
+.ms-Icon--Insert:before { @include ms-Icon--Insert }
+.ms-Icon--InsertColumnsLeft:before { @include ms-Icon--InsertColumnsLeft }
+.ms-Icon--InsertColumnsRight:before { @include ms-Icon--InsertColumnsRight }
+.ms-Icon--InsertRowsAbove:before { @include ms-Icon--InsertRowsAbove }
+.ms-Icon--InsertRowsBelow:before { @include ms-Icon--InsertRowsBelow }
+.ms-Icon--InsertSignatureLine:before { @include ms-Icon--InsertSignatureLine }
+.ms-Icon--InsertTextBox:before { @include ms-Icon--InsertTextBox }
+.ms-Icon--InsertTextBoxKorean:before { @include ms-Icon--InsertTextBoxKorean }
+.ms-Icon--Insights:before { @include ms-Icon--Insights }
+.ms-Icon--Installation:before { @include ms-Icon--Installation }
+.ms-Icon--InstallToDrive:before { @include ms-Icon--InstallToDrive }
+.ms-Icon--IntermittentCloudsDay:before { @include ms-Icon--IntermittentCloudsDay }
+.ms-Icon--IntermittentCloudsNight:before { @include ms-Icon--IntermittentCloudsNight }
+.ms-Icon--InternalInvestigation:before { @include ms-Icon--InternalInvestigation }
+.ms-Icon--InternetSharing:before { @include ms-Icon--InternetSharing }
+

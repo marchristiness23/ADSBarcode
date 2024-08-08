@@ -1,0 +1,584 @@
+﻿@using SHUNetMVC.Abstraction.Model.Response
+@model User
+@{
+    string currentControllerName = Request.Url.AbsolutePath;
+}
+
+
+@{  
+    string colorTheme = string.Empty;
+    string Ornament = string.Empty;
+    try
+    {
+        colorTheme = System.Web.Configuration.WebConfigurationManager.AppSettings["ColorTheme"].ToString();
+        if (!string.IsNullOrEmpty(colorTheme))
+        {
+            colorTheme = colorTheme.Trim();
+        }
+
+        Ornament = string.Concat(colorTheme, "_Ornament.png");
+
+        if (colorTheme == "Red")
+        {
+            colorTheme = "#BA313B";
+        }
+        else if (colorTheme == "Blue")
+        {
+            colorTheme = "#3c6db2";
+        }
+        else if (colorTheme == "Green")
+        {
+            colorTheme = "#ADC52D";
+        }
+        else
+        {
+            colorTheme = "Black";
+            Ornament = "Orange_Ornament.png";
+        }
+    }
+    catch (Exception)
+    {
+        colorTheme = "Black";
+        Ornament = "Orange_Ornament.png";
+    }
+}
+
+<div class="sidebar">
+    <ul class="nav-links pb-4">
+        @if (Model != null && Model.UserMenu?.Count > 0)
+        {
+            for (int i = 0; i < Model.UserMenu.Count; i++)
+            {
+                var menu = Model.UserMenu[i];
+                if (menu.Child?.Count > 0)
+                {
+                    <li>
+                        <div class="iocn-link" style="z-index:9998">
+                            <a href="javascript:;" class="has-ul">
+                                <div class="icon-part">
+                                    <i class="@menu.Icon"></i>
+                                </div>
+                                <span class="link_name">@menu.Caption</span>
+                            </a>
+                            <i class="gg-chevron-down arrow"></i>
+                        </div>
+                        <ul class="sub-menu">
+                            @foreach (var child in menu.Child)
+                            {
+                                var isActive = "child-sub-menu";
+                                if (currentControllerName == child.Link)
+                                {
+                                    isActive = "child-sub-menu active";
+                                }
+
+                                <li class="@isActive" style="z-index:9998">
+                                    <a style="text-wrap: pretty;" href="@child.Link">
+                                        <div class="icon-part">
+                                            <i class="@child.Icon"></i>
+                                        </div>
+                                        @child.Caption
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </li>
+                }
+                else
+                {
+                    var isActive = "";
+                    if (currentControllerName == menu.Link)
+                    {
+                        isActive = "active";
+                    }
+
+                    <li class="@isActive" style="z-index:9998">
+                        <a href="@menu.Link">
+                            <div class="icon-part">
+                                <i class="@menu.Icon"></i>
+                            </div>
+                            <span class="link_name">@menu.Caption</span>
+                        </a>
+
+                        <ul class="sub-menu blank">
+                            <li><a class="link_name" href="@menu.Link">@menu.Caption</a></li>
+                        </ul>
+                    </li>
+                }
+            }
+        }
+    </ul>
+</div>
+@*<ul class="navigation navigation-main navigation-accordion">
+        @if (Model != null && Model.UserMenu?.Count > 0)
+        {
+            for (int i = 0; i < Model.UserMenu.Count; i++)
+            {
+                var menu = Model.UserMenu[i];
+                if (menu.Child?.Count > 0)
+                {
+                    <li class="has-sub">
+                        <a href="javascript:;" class="has-ul">
+                            <div class="icon-part">
+                                <i class="@menu.Icon layout-icon-color"></i>
+                            </div>
+                            <span>@menu.Caption</span>
+                        </a>
+
+                        @{
+                            var hasChildActive = menu.Child.Any(o => o.Link == currentControllerName);
+
+                            var styleHidden = "display: none;";
+                            if (hasChildActive)
+                            {
+                                styleHidden = "";
+                            }
+                        }
+                        <ul class="hidden-ul" style="@styleHidden">
+                            @foreach (var child in menu.Child)
+                            {
+                                var isActive = "";
+                                if (currentControllerName == child.Link)
+                                {
+                                    isActive = "active";
+                                }
+
+                                <li class="@isActive">
+
+
+                                    <a href="@child.Link " data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="@child.Caption">
+                                        <div class="icon-part">
+                                            <i class="@menu.Icon layout-icon-color"></i>
+                                        </div>
+                                        <span>@child.Caption</span>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+
+                    </li>
+
+                }
+
+                else
+                {
+                    var isActive = "";
+                    if (currentControllerName == menu.Link)
+                    {
+                        isActive = "active";
+                    }
+
+                    <li class="@isActive">
+                        <a href="@menu.Link" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="@menu.Caption">
+                            <div class="icon-part">
+                                <i class="@menu.Icon layout-icon-color"></i>
+                            </div>
+                            <span>@menu.Caption</span>
+                        </a>
+                    </li>
+                }
+            }
+        }
+
+    </ul>*@
+<div class="bottomleft">
+    <img src="~/Assets/@Ornament" style="width:100%;height:100%;margin-left:-15px;margin-bottom:-15px;" />
+</div>
+
+
+<script>
+    let arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e) => {
+            let arrowParent = e.target.parentElement.parentElement;//selecting main parent of arrow
+            arrowParent.classList.toggle("showMenu");
+        });
+    }
+</script>
+
+<link href="~/Styles/interFont.css" rel="stylesheet" />
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Inter';
+    }
+
+    .bottomleft {
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+        font-size: 18px;
+        z-index: 10000;
+        pointer-events: none; /* Add this line */
+    }
+
+    .sidebar { 
+        position: fixed;
+        top: 63px;
+        left: 0;
+        height: 100%;
+        width: 280px;
+        background: #fff;
+        z-index: 9999;
+        transition: all 0.5s ease;
+        border-right: 1px solid var(--component-border);
+        border-top: 1px solid var(--component-border);
+        border-top-color:@colorTheme !important;
+        border-right-color:@colorTheme !important;
+    }
+
+    .sidebar-collapse-desktop .sidebar {
+        width: 62px;
+        border-right: 1px solid var(--component-border);
+    }
+
+    .sidebar .logo-details {
+        height: 60px;
+        width: 100%;
+    }
+
+        .sidebar .logo-details i {
+            font-size: 20px;
+            color: #fff;
+            height: 50px;
+            min-width: 62px;
+            text-align: center;
+            line-height: 50px;
+        }
+
+        .sidebar .logo-details .logo_name {
+            font-size: 22px;
+            color: #fff;
+            font-weight: 600;
+            transition: 0.3s ease;
+            transition-delay: 0.1s;
+        }
+
+    .sidebar-collapse-desktop .sidebar .logo-details .logo_name {
+        transition-delay: 0s;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .sidebar .nav-links {
+        height: 100%;
+        padding: 10px 0 150px 0;
+        overflow: auto;
+    }
+
+    .sidebar-collapse-desktop .sidebar .nav-links {
+        overflow: visible;
+    }
+
+    .sidebar .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .sidebar .nav-links li {
+        position: relative;
+        list-style: none;
+        transition: all 0.4s ease;
+    }
+
+        .sidebar .nav-links li:before {
+            background: #c1c1c1;
+        }
+
+        .sidebar .nav-links li:hover::before {
+            opacity: 0.5;
+            content: "";
+            /*position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;*/
+        }
+
+    .sidebar-collapse-desktop .sidebar .nav-links li:hover::before {
+        width: 10%;
+    }
+
+    .sidebar-collapse-desktop .sidebar .nav-links .sub-menu li:hover::before {
+        width: 0%;
+    }
+
+    .sidebar .nav-links .sub-menu li:hover::before {
+        width: 0%;
+    }
+
+    .sidebar .nav-links li:hover {
+        background-color: #bbc3c34d;
+    }
+
+    .child-sub-menu:hover {
+        background-color: transparent !important;
+    }
+
+    .active {
+        background-color: #bbc3c34d !important;
+    }
+
+        .active:hover {
+            background-color: #bbc3c34d !important;
+        }
+
+    .sidebar .nav-links li .iocn-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sidebar-collapse-desktop .sidebar .nav-links li .iocn-link {
+        display: block
+    }
+
+    .sidebar .nav-links li i {
+        height: 50px;
+        min-width: 62px;
+        text-align: center;
+        line-height: 50px;
+        color: #000000;
+        font-size: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .sidebar .nav-links li.showMenu i.arrow {
+        transform: rotate(-180deg);
+    }
+
+    .sidebar-collapse-desktop .sidebar .nav-links i.arrow {
+        display: none;
+    }
+
+    .sidebar .nav-links li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        justify-content: flex-start;
+        align-items: baseline;
+        flex-direction: row;
+        height: 50px;
+        align-self: center;
+    }
+
+        .sidebar .nav-links li a .link_name {
+            font-size: 16px;
+            font-weight: 400;
+            color: #000000;
+            transition: all 0.4s ease;
+            align-self: center;
+        }
+
+    .sidebar-collapse-desktop .sidebar .nav-links li a .link_name {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .sidebar .nav-links li .sub-menu {
+        /*padding: 6px 6px 14px 20px;*/
+        margin-top: 0px;
+        background: #fff;
+        display: none;
+        /*box-shadow: 2px 8px 20px 0px darkgray*/
+    }
+
+    .sidebar-collapse-desktop .nav-links li .sub-menu {
+        /*padding: 6px 6px 14px 20px;*/
+        margin-top: 0px;
+        background: #fff;
+        display: none;
+        box-shadow: 2px 2px 8px 0px lightgray
+    }
+
+    .sidebar .nav-links li.showMenu .sub-menu {
+        display: block;
+    }
+
+    .sidebar .nav-links li .sub-menu a {
+        color: #000;
+        font-size: 15px;
+        padding: 5px 0;
+        white-space: nowrap;
+        opacity: 0.6;
+        transition: all 0.3s ease;
+        align-items: center;
+    }
+
+        .sidebar .nav-links li .sub-menu a:hover {
+            opacity: 1;
+        }
+
+    .sidebar-collapse-desktop .sidebar .nav-links li .sub-menu {
+        position: absolute;
+        left: 105%;
+        top: -10px;
+        margin-top: 0;
+        padding: 10px 20px;
+        /*border-radius: 0 6px 6px 0;*/
+        border-radius: 10px 10px 10px 10px;
+        opacity: 0;
+        display: block;
+        pointer-events: none;
+        transition: all 0.4s ease-in-out;
+        position: absolute;
+        z-index: 9999;
+        align-self: center;
+        min-width: max-content;
+    }
+
+    .sidebar-collapse-desktop .sidebar .nav-links li:hover .sub-menu {
+        top: 0;
+        opacity: 1;
+        pointer-events: auto;
+        /*transition: all 0.4s ease;*/
+        position: absolute;
+        z-index: 10000;
+        width: max-content;
+    }
+
+    .sidebar .nav-links li .sub-menu .link_name {
+        display: flex;
+    }
+
+    .sidebar-collapse-desktop .sidebar .nav-links li .sub-menu .link_name {
+        font-size: 18px;
+        opacity: 1;
+    }
+
+    .sidebar .nav-links li .sub-menu.blank {
+        opacity: 1;
+        pointer-events: auto;
+        padding: 3px 20px 6px 16px;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .sidebar .nav-links li:hover .sub-menu.blank {
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        z-index: 1;
+    }
+
+    .sidebar .profile-details {
+        position: fixed;
+        bottom: 0;
+        width: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #6f9cdf;
+        padding: 12px 0;
+        transition: all 0.5s ease;
+    }
+
+    .sidebar-collapse-desktop .sidebar .profile-details {
+        background: none;
+    }
+
+    .sidebar-collapse-desktop .sidebar .profile-details {
+        width: 62px;
+    }
+
+    .sidebar .profile-details .profile-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .sidebar .profile-details img {
+        height: 52px;
+        width: 52px;
+        object-fit: cover;
+        border-radius: 16px;
+        margin: 0 14px 0 12px;
+        background: #6f9cdf;
+        transition: all 0.5s ease;
+    }
+
+    .sidebar-collapse-desktop .sidebar .profile-details img {
+        padding: 10px;
+    }
+
+    .sidebar .profile-details .profile_name,
+    .sidebar .profile-details .job {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    .sidebar-collapse-desktop .sidebar .profile-details i,
+    .sidebar-collapse-desktop .sidebar .profile-details .profile_name,
+    .sidebar-collapse-desktop .sidebar .profile-details .job {
+        display: none;
+    }
+
+    .sidebar .profile-details .job {
+        font-size: 12px;
+    }
+
+    .home-section {
+        position: relative;
+        background: #E4E9F7;
+        height: 100vh;
+        left: 280px;
+        width: calc(100% - 280px);
+        transition: all 0.5s ease;
+    }
+
+    .sidebar-collapse-desktop .sidebar ~ .home-section {
+        left: 62px;
+        width: calc(100% - 62px);
+    }
+
+    .home-section .home-content {
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+        .home-section .home-content .bx-menu,
+        .home-section .home-content .text {
+            color: #3c6db2;
+            font-size: 35px;
+        }
+
+        .home-section .home-content .bx-menu {
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        .home-section .home-content .text {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+    .gg-chevron-down {
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        transform: scale(var(--ggs,1));
+        width: 22px;
+        height: 22px;
+        border: 2px solid transparent;
+        border-radius: 100px
+    }
+
+        .gg-chevron-down::after {
+            content: "";
+            display: block;
+            box-sizing: border-box;
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid;
+            border-right: 2px solid;
+            transform: rotate(45deg);
+            left: 4px;
+            top: 2px;
+            margin: 15px 0 30px 15px;
+        }
+</style>

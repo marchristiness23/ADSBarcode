@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-16';
+  src: url('../fonts/fabric-icons-16-974108bf.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-16';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--PythonLanguage:before { content: "\F2F8"; }
+.ms-Icon--QandA:before { content: "\F8A2"; }
+.ms-Icon--QandAMirror:before { content: "\F8A3"; }
+.ms-Icon--QRCode:before { content: "\ED14"; }
+.ms-Icon--QuadColumn:before { content: "\F66F"; }
+.ms-Icon--Quantity:before { content: "\E9F8"; }
+.ms-Icon--QuarterCircle:before { content: "\F502"; }
+.ms-Icon--QueryList:before { content: "\F2B8"; }
+.ms-Icon--Questionnaire:before { content: "\EE19"; }
+.ms-Icon--QuestionnaireMirrored:before { content: "\EE4B"; }
+.ms-Icon--QueueAdvanced:before { content: "\E62E"; }
+.ms-Icon--QuickNote:before { content: "\E70B"; }
+.ms-Icon--QuickNoteSolid:before { content: "\F338"; }
+.ms-Icon--Quotes:before { content: "\F067"; }
+.ms-Icon--R:before { content: "\F4EB"; }
+.ms-Icon--RadioBtnOff:before { content: "\ECCA"; }
+.ms-Icon--RadioBtnOn:before { content: "\ECCB"; }
+.ms-Icon--RadioBullet:before { content: "\E915"; }
+.ms-Icon--Rain:before { content: "\E9C4"; }
+.ms-Icon--RainShowersDay:before { content: "\E9C3"; }
+.ms-Icon--RainShowersNight:before { content: "\EA0F"; }
+.ms-Icon--RainSnow:before { content: "\E9C7"; }
+.ms-Icon--Rate:before { content: "\EB07"; }
+.ms-Icon--RawSource:before { content: "\F299"; }
+.ms-Icon--Read:before { content: "\E8C3"; }
+.ms-Icon--ReadingMode:before { content: "\E736"; }
+.ms-Icon--ReadingModeSolid:before { content: "\F33D"; }
+.ms-Icon--ReadOutLoud:before { content: "\F112"; }
+.ms-Icon--RealEstate:before { content: "\E758"; }
+.ms-Icon--ReceiptCheck:before { content: "\EF5B"; }
+.ms-Icon--ReceiptForward:before { content: "\EF59"; }
+.ms-Icon--ReceiptProcessing:before { content: "\E496"; }
+.ms-Icon--ReceiptReply:before { content: "\EF5A"; }
+.ms-Icon--ReceiptTentative:before { content: "\F41A"; }
+.ms-Icon--ReceiptTentativeMirrored:before { content: "\F41B"; }
+.ms-Icon--ReceiptUndelivered:before { content: "\F419"; }
+.ms-Icon--Recent:before { content: "\E823"; }
+.ms-Icon--Record2:before { content: "\EA3F"; }
+.ms-Icon--RecordRouting:before { content: "\E62D"; }
+.ms-Icon--RecruitmentManagement:before { content: "\EE12"; }
+.ms-Icon--RectangleShape:before { content: "\F1A9"; }
+.ms-Icon--RectangleShapeSolid:before { content: "\F640"; }
+.ms-Icon--RectangularClipping:before { content: "\F407"; }
+.ms-Icon--RecurringEvent:before { content: "\EF5D"; }
+.ms-Icon--RecurringTask:before { content: "\EDB2"; }
+.ms-Icon--RecycleBin:before { content: "\EF87"; }
+.ms-Icon--Redeploy:before { content: "\F29E"; }
+.ms-Icon--RedEye:before { content: "\E7B3"; }
+.ms-Icon--RedEye12:before { content: "\E3AD"; }
+.ms-Icon--Redo:before { content: "\E7A6"; }
+.ms-Icon--Refresh:before { content: "\E72C"; }
+.ms-Icon--RegistryEditor:before { content: "\F1FF"; }
+.ms-Icon--Relationship:before { content: "\F003"; }
+.ms-Icon--ReleaseDefinition:before { content: "\F6EA"; }
+.ms-Icon--ReleaseGate:before { content: "\F7BE"; }
+.ms-Icon--ReleaseGateCheck:before { content: "\F7BF"; }
+.ms-Icon--ReleaseGateError:before { content: "\F7C0"; }
+.ms-Icon--ReminderGroup:before { content: "\EBF8"; }
+.ms-Icon--ReminderPerson:before { content: "\EBF7"; }
+.ms-Icon--ReminderTime:before { content: "\EBF9"; }
+.ms-Icon--Remote:before { content: "\E8AF"; }
+.ms-Icon--RemoteApplication:before { content: "\F621"; }
+.ms-Icon--Remove:before { content: "\E738"; }
+.ms-Icon--RemoveContent:before { content: "\ECC7"; }
+.ms-Icon--RemoveEvent:before { content: "\ED8A"; }
+.ms-Icon--RemoveFilter:before { content: "\EB08"; }
+.ms-Icon--RemoveFrom:before { content: "\ECC9"; }
+.ms-Icon--RemoveFromShoppingList:before { content: "\F7D5"; }
+.ms-Icon--RemoveFromTrash:before { content: "\F82B"; }
+.ms-Icon--RemoveLink:before { content: "\ED90"; }
+.ms-Icon--RemoveLinkChain:before { content: "\F79A"; }
+.ms-Icon--RemoveLinkX:before { content: "\F79B"; }
+.ms-Icon--RemoveOccurrence:before { content: "\ED9B"; }
+.ms-Icon--Rename:before { content: "\E8AC"; }
+.ms-Icon--RenewalCurrent:before { content: "\F545"; }
+.ms-Icon--RenewalFuture:before { content: "\F546"; }
+.ms-Icon--ReopenPages:before { content: "\ED50"; }
+.ms-Icon--Repair:before { content: "\E90F"; }
+.ms-Icon--RepeatAll:before { content: "\E8EE"; }
+.ms-Icon--RepeatHeaderRows:before { content: "\E3EB"; }
+.ms-Icon--RepeatOne:before { content: "\E8ED"; }
+.ms-Icon--Reply:before { content: "\E97A"; }
+.ms-Icon--ReplyAll:before { content: "\EE0A"; }
+.ms-Icon--ReplyAllAlt:before { content: "\EF5F"; }
+.ms-Icon--ReplyAllMirrored:before { content: "\EE36"; }
+.ms-Icon--ReplyAlt:before { content: "\EF5E"; }
+.ms-Icon--ReplyMirrored:before { content: "\EE35"; }
+.ms-Icon--Repo:before { content: "\F2CB"; }
+.ms-Icon--ReportAdd:before { content: "\F52C"; }
+.ms-Icon--ReportAlert:before { content: "\F721"; }
+.ms-Icon--ReportAlertMirrored:before { content: "\F722"; }
+.ms-Icon--ReportDocument:before { content: "\E9F9"; }
+.ms-Icon--ReportHacked:before { content: "\E730"; }
+.ms-Icon--ReportLibrary:before { content: "\EEBB"; }
+.ms-Icon--ReportLibraryMirrored:before { content: "\EEBC"; }
+.ms-Icon--ReportLock:before { content: "\F875"; }
+.ms-Icon--ReportTrophy:before { content: "\E614"; }
+.ms-Icon--ReportWarning:before { content: "\F569"; }
+.ms-Icon--RepoSolid:before { content: "\F2CC"; }
+.ms-Icon--Rerun:before { content: "\F8A1"; }

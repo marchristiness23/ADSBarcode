@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-7';
+  src: url('../fonts/fabric-icons-7-b2d3f1f2.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-7';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--DoubleChevronLeftMed:before { content: "\E991"; }
+.ms-Icon--DoubleChevronLeftMedMirrored:before { content: "\EA4D"; }
+.ms-Icon--DoubleChevronRight:before { content: "\EDBF"; }
+.ms-Icon--DoubleChevronRight12:before { content: "\EE99"; }
+.ms-Icon--DoubleChevronRight8:before { content: "\F36E"; }
+.ms-Icon--DoubleChevronUp:before { content: "\EDBD"; }
+.ms-Icon--DoubleChevronUp12:before { content: "\EE96"; }
+.ms-Icon--DoubleChevronUp8:before { content: "\F36C"; }
+.ms-Icon--DoubleColumn:before { content: "\F1D4"; }
+.ms-Icon--DoubleColumnEdit:before { content: "\F322"; }
+.ms-Icon--DoubleDownArrow:before { content: "\F769"; }
+.ms-Icon--Down:before { content: "\E74B"; }
+.ms-Icon--DownKey:before { content: "\F3E1"; }
+.ms-Icon--Download:before { content: "\E896"; }
+.ms-Icon--DownloadDocument:before { content: "\F549"; }
+.ms-Icon--DragObject:before { content: "\F553"; }
+.ms-Icon--DrillDown:before { content: "\F532"; }
+.ms-Icon--DrillDownSolid:before { content: "\F533"; }
+.ms-Icon--DrillExpand:before { content: "\F534"; }
+.ms-Icon--DrillShow:before { content: "\F535"; }
+.ms-Icon--DrillThrough:before { content: "\F5B9"; }
+.ms-Icon--DriverOff:before { content: "\E3FB"; }
+.ms-Icon--DRM:before { content: "\ECA8"; }
+.ms-Icon--Drop:before { content: "\EB42"; }
+.ms-Icon--Dropdown:before { content: "\EDC5"; }
+.ms-Icon--DropShape:before { content: "\F1A8"; }
+.ms-Icon--DropShapeSolid:before { content: "\F63F"; }
+.ms-Icon--DuplicateRow:before { content: "\F82A"; }
+.ms-Icon--Duststorm:before { content: "\E9CD"; }
+.ms-Icon--DynamicList:before { content: "\E491"; }
+.ms-Icon--Dynamics365Logo:before { content: "\EDCC"; }
+.ms-Icon--DynamicSMBLogo:before { content: "\EDCD"; }
+.ms-Icon--EaseOfAccess:before { content: "\E776"; }
+.ms-Icon--EatDrink:before { content: "\E807"; }
+.ms-Icon--EdgeLogo:before { content: "\E3AB"; }
+.ms-Icon--EdgeLogo16:before { content: "\E3AA"; }
+.ms-Icon--EdgeOldLogo:before { content: "\EC60"; }
+.ms-Icon--eDiscovery:before { content: "\E370"; }
+.ms-Icon--Edit:before { content: "\E70F"; }
+.ms-Icon--EditContact:before { content: "\EFD3"; }
+.ms-Icon--EditCreate:before { content: "\F3C9"; }
+.ms-Icon--EditEvent:before { content: "\F05B"; }
+.ms-Icon--EditListPencil:before { content: "\E61B"; }
+.ms-Icon--EditMail:before { content: "\EF61"; }
+.ms-Icon--EditMirrored:before { content: "\EB7E"; }
+.ms-Icon--EditNote:before { content: "\ED9D"; }
+.ms-Icon--EditPhoto:before { content: "\EF77"; }
+.ms-Icon--EditSolid12:before { content: "\F4B5"; }
+.ms-Icon--EditSolidMirrored12:before { content: "\F4B6"; }
+.ms-Icon--EditStyle:before { content: "\EF60"; }
+.ms-Icon--EditTable:before { content: "\E4C4"; }
+.ms-Icon--Education:before { content: "\E7BE"; }
+.ms-Icon--Ellipse:before { content: "\F4FB"; }
+.ms-Icon--Embed:before { content: "\ECCE"; }
+.ms-Icon--EMI:before { content: "\E731"; }
+.ms-Icon--Emoji:before { content: "\E899"; }
+.ms-Icon--Emoji2:before { content: "\E76E"; }
+.ms-Icon--EmojiDisappointed:before { content: "\EA88"; }
+.ms-Icon--EmojiNeutral:before { content: "\EA87"; }
+.ms-Icon--EmojiTabSymbols:before { content: "\ED58"; }
+.ms-Icon--EmployeeSelfService:before { content: "\EE24"; }
+.ms-Icon--EmptyRecycleBin:before { content: "\EF88"; }
+.ms-Icon--Encounter:before { content: "\E54C"; }
+.ms-Icon--Encryption:before { content: "\F69D"; }
+.ms-Icon--EndPointSolid:before { content: "\EB4B"; }
+.ms-Icon--EngineeringGroup:before { content: "\F362"; }
+.ms-Icon--EntitlementPolicy:before { content: "\E346"; }
+.ms-Icon--EntitlementRedemption:before { content: "\E347"; }
+.ms-Icon--EntityExtraction:before { content: "\E467"; }
+.ms-Icon--EntryDecline:before { content: "\F555"; }
+.ms-Icon--EntryView:before { content: "\F554"; }
+.ms-Icon--Equalizer:before { content: "\E9E9"; }
+.ms-Icon--EraseTool:before { content: "\E75C"; }
+.ms-Icon--Error:before { content: "\E783"; }
+.ms-Icon--ErrorBadge:before { content: "\EA39"; }
+.ms-Icon--ErrorBadge12:before { content: "\E558"; }
+.ms-Icon--Event:before { content: "\ECA3"; }
+.ms-Icon--Event12:before { content: "\F763"; }
+.ms-Icon--EventAccepted:before { content: "\F422"; }
+.ms-Icon--EventDate:before { content: "\F059"; }
+.ms-Icon--EventDateMissed12:before { content: "\F764"; }
+.ms-Icon--EventDeclined:before { content: "\F425"; }
+.ms-Icon--EventInfo:before { content: "\ED8B"; }
+.ms-Icon--EventTentative:before { content: "\F423"; }
+.ms-Icon--EventTentativeMirrored:before { content: "\F424"; }
+.ms-Icon--EventToDoLogo:before { content: "\F869"; }
+.ms-Icon--ExcelDocument:before { content: "\EF73"; }
+.ms-Icon--ExcelLogo:before { content: "\F1E5"; }
+.ms-Icon--ExcelLogo16:before { content: "\F397"; }
+.ms-Icon--ExcelLogoInverse:before { content: "\EC28"; }
+.ms-Icon--ExcelLogoInverse16:before { content: "\F396"; }
+.ms-Icon--ExchangeLogo:before { content: "\F284"; }
+.ms-Icon--ExchangeLogoInverse:before { content: "\ED78"; }
+.ms-Icon--ExerciseTracker:before { content: "\EACC"; }
+.ms-Icon--ExpandAll:before { content: "\F859"; }
+.ms-Icon--ExpandMenu:before { content: "\EF67"; }
+.ms-Icon--ExploreContent:before { content: "\ECCD"; }
+.ms-Icon--ExploreContentSingle:before { content: "\F164"; }
+.ms-Icon--ExploreData:before { content: "\F5B6"; }
+.ms-Icon--Export:before { content: "\EDE1"; }

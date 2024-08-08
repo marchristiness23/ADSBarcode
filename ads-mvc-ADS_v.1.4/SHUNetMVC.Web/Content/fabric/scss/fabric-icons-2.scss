@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-2';
+  src: url('../fonts/fabric-icons-2-abd98bc6.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-2';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--BoxAdditionSolid { content: "\F2D4"; }
+@mixin ms-Icon--BoxCheckmarkSolid { content: "\F2D7"; }
+@mixin ms-Icon--BoxMultiplySolid { content: "\F2D5"; }
+@mixin ms-Icon--BoxPlaySolid { content: "\F2D6"; }
+@mixin ms-Icon--BoxSubtractSolid { content: "\F2D3"; }
+@mixin ms-Icon--BranchCommit { content: "\F293"; }
+@mixin ms-Icon--BranchCompare { content: "\F294"; }
+@mixin ms-Icon--BranchFork { content: "\F173"; }
+@mixin ms-Icon--BranchFork2 { content: "\F291"; }
+@mixin ms-Icon--BranchLocked { content: "\F292"; }
+@mixin ms-Icon--BranchMerge { content: "\F295"; }
+@mixin ms-Icon--BranchPullRequest { content: "\F296"; }
+@mixin ms-Icon--BranchSearch { content: "\F297"; }
+@mixin ms-Icon--BranchShelveset { content: "\F298"; }
+@mixin ms-Icon--Breadcrumb { content: "\EF8C"; }
+@mixin ms-Icon--Breakfast { content: "\F49C"; }
+@mixin ms-Icon--BreakpointsRemove { content: "\E692"; }
+@mixin ms-Icon--Brightness { content: "\E706"; }
+@mixin ms-Icon--Broom { content: "\EA99"; }
+@mixin ms-Icon--BrowserScreenShot { content: "\EBED"; }
+@mixin ms-Icon--BrowserTab { content: "\F5D7"; }
+@mixin ms-Icon--BrowserTabScreenshot { content: "\F5D8"; }
+@mixin ms-Icon--Brunch { content: "\F49D"; }
+@mixin ms-Icon--Brush { content: "\ECFF"; }
+@mixin ms-Icon--BucketColor { content: "\F1B6"; }
+@mixin ms-Icon--BucketColorFill { content: "\F1B7"; }
+@mixin ms-Icon--BufferTimeAfter { content: "\F0D0"; }
+@mixin ms-Icon--BufferTimeBefore { content: "\F0CF"; }
+@mixin ms-Icon--BufferTimeBoth { content: "\F0D1"; }
+@mixin ms-Icon--Bug { content: "\EBE8"; }
+@mixin ms-Icon--BugAction { content: "\E358"; }
+@mixin ms-Icon--BugBlock { content: "\E400"; }
+@mixin ms-Icon--BugSolid { content: "\F335"; }
+@mixin ms-Icon--BugSync { content: "\E3FF"; }
+@mixin ms-Icon--BugWarning { content: "\E357"; }
+@mixin ms-Icon--Build { content: "\F28F"; }
+@mixin ms-Icon--BuildDefinition { content: "\F6E9"; }
+@mixin ms-Icon--BuildIssue { content: "\F319"; }
+@mixin ms-Icon--BuildQueue { content: "\F24F"; }
+@mixin ms-Icon--BuildQueueNew { content: "\F250"; }
+@mixin ms-Icon--BulkPageBlock { content: "\E553"; }
+@mixin ms-Icon--BulkUpload { content: "\F548"; }
+@mixin ms-Icon--BulletedList { content: "\E8FD"; }
+@mixin ms-Icon--BulletedList2 { content: "\F2C7"; }
+@mixin ms-Icon--BulletedList2Mirrored { content: "\F2C8"; }
+@mixin ms-Icon--BulletedListBullet { content: "\F793"; }
+@mixin ms-Icon--BulletedListBulletMirrored { content: "\F795"; }
+@mixin ms-Icon--BulletedListMirrored { content: "\EA42"; }
+@mixin ms-Icon--BulletedListText { content: "\F792"; }
+@mixin ms-Icon--BulletedListTextMirrored { content: "\F794"; }
+@mixin ms-Icon--BulletedTreeList { content: "\F84C"; }
+@mixin ms-Icon--Bullseye { content: "\F272"; }
+@mixin ms-Icon--BullseyeTarget { content: "\F5F0"; }
+@mixin ms-Icon--BullseyeTargetAdd { content: "\E664"; }
+@mixin ms-Icon--BullseyeTargetDelete { content: "\F6C1"; }
+@mixin ms-Icon--BullseyeTargetEdit { content: "\E319"; }
+@mixin ms-Icon--Bus { content: "\E806"; }
+@mixin ms-Icon--BusinessCard { content: "\E5FB"; }
+@mixin ms-Icon--BusinessCenterLogo { content: "\F4B2"; }
+@mixin ms-Icon--BusinessHoursSign { content: "\F310"; }
+@mixin ms-Icon--BusinessRule { content: "\E562"; }
+@mixin ms-Icon--BusSolid { content: "\EB47"; }
+@mixin ms-Icon--ButtonControl { content: "\F6C0"; }
+@mixin ms-Icon--Cafe { content: "\EC32"; }
+@mixin ms-Icon--Cake { content: "\ECA4"; }
+@mixin ms-Icon--CalculatedTable { content: "\E4BE"; }
+@mixin ms-Icon--Calculator { content: "\E8EF"; }
+@mixin ms-Icon--CalculatorAddition { content: "\E948"; }
+@mixin ms-Icon--CalculatorDelta { content: "\E406"; }
+@mixin ms-Icon--CalculatorEqualTo { content: "\E94E"; }
+@mixin ms-Icon--CalculatorGroup { content: "\E462"; }
+@mixin ms-Icon--CalculatorMultiply { content: "\E947"; }
+@mixin ms-Icon--CalculatorNotEqualTo { content: "\F2D2"; }
+@mixin ms-Icon--CalculatorPercentage { content: "\E94C"; }
+@mixin ms-Icon--CalculatorSubtract { content: "\E949"; }
+@mixin ms-Icon--Calendar { content: "\E787"; }
+@mixin ms-Icon--CalendarAgenda { content: "\EE9A"; }
+@mixin ms-Icon--CalendarDay { content: "\E8BF"; }
+@mixin ms-Icon--CalendarMirrored { content: "\ED28"; }
+@mixin ms-Icon--CalendarReply { content: "\E8F5"; }
+@mixin ms-Icon--CalendarSettings { content: "\F558"; }
+@mixin ms-Icon--CalendarSettingsMirrored { content: "\F559"; }
+@mixin ms-Icon--CalendarWeek { content: "\E8C0"; }
+@mixin ms-Icon--CalendarWorkWeek { content: "\EF51"; }
+@mixin ms-Icon--CalendarYear { content: "\E371"; }
+@mixin ms-Icon--Calories { content: "\ECAD"; }
+@mixin ms-Icon--CaloriesAdd { content: "\F172"; }
+@mixin ms-Icon--Camera { content: "\E722"; }
+@mixin ms-Icon--CampaignTemplate { content: "\F811"; }
+@mixin ms-Icon--Cancel { content: "\E711"; }
+@mixin ms-Icon--CannedChat { content: "\F0F2"; }
+@mixin ms-Icon--CanvasAppTemplate32 { content: "\E5FE"; }
+@mixin ms-Icon--Car { content: "\E804"; }
+@mixin ms-Icon--CareActivity { content: "\E549"; }
+@mixin ms-Icon--CarePlan { content: "\E54A"; }
+@mixin ms-Icon--CarePlanTemplate { content: "\E61E"; }
+@mixin ms-Icon--CaretBottomLeftCenter8 { content: "\F365"; }
+@mixin ms-Icon--CaretBottomLeftSolid8 { content: "\F121"; }
+@mixin ms-Icon--CaretBottomRightCenter8 { content: "\F364"; }
+@mixin ms-Icon--CaretBottomRightSolid8 { content: "\F122"; }
+
+
+// Classes
+.ms-Icon--BoxAdditionSolid:before { @include ms-Icon--BoxAdditionSolid }
+.ms-Icon--BoxCheckmarkSolid:before { @include ms-Icon--BoxCheckmarkSolid }
+.ms-Icon--BoxMultiplySolid:before { @include ms-Icon--BoxMultiplySolid }
+.ms-Icon--BoxPlaySolid:before { @include ms-Icon--BoxPlaySolid }
+.ms-Icon--BoxSubtractSolid:before { @include ms-Icon--BoxSubtractSolid }
+.ms-Icon--BranchCommit:before { @include ms-Icon--BranchCommit }
+.ms-Icon--BranchCompare:before { @include ms-Icon--BranchCompare }
+.ms-Icon--BranchFork:before { @include ms-Icon--BranchFork }
+.ms-Icon--BranchFork2:before { @include ms-Icon--BranchFork2 }
+.ms-Icon--BranchLocked:before { @include ms-Icon--BranchLocked }
+.ms-Icon--BranchMerge:before { @include ms-Icon--BranchMerge }
+.ms-Icon--BranchPullRequest:before { @include ms-Icon--BranchPullRequest }
+.ms-Icon--BranchSearch:before { @include ms-Icon--BranchSearch }
+.ms-Icon--BranchShelveset:before { @include ms-Icon--BranchShelveset }
+.ms-Icon--Breadcrumb:before { @include ms-Icon--Breadcrumb }
+.ms-Icon--Breakfast:before { @include ms-Icon--Breakfast }
+.ms-Icon--BreakpointsRemove:before { @include ms-Icon--BreakpointsRemove }
+.ms-Icon--Brightness:before { @include ms-Icon--Brightness }
+.ms-Icon--Broom:before { @include ms-Icon--Broom }
+.ms-Icon--BrowserScreenShot:before { @include ms-Icon--BrowserScreenShot }
+.ms-Icon--BrowserTab:before { @include ms-Icon--BrowserTab }
+.ms-Icon--BrowserTabScreenshot:before { @include ms-Icon--BrowserTabScreenshot }
+.ms-Icon--Brunch:before { @include ms-Icon--Brunch }
+.ms-Icon--Brush:before { @include ms-Icon--Brush }
+.ms-Icon--BucketColor:before { @include ms-Icon--BucketColor }
+.ms-Icon--BucketColorFill:before { @include ms-Icon--BucketColorFill }
+.ms-Icon--BufferTimeAfter:before { @include ms-Icon--BufferTimeAfter }
+.ms-Icon--BufferTimeBefore:before { @include ms-Icon--BufferTimeBefore }
+.ms-Icon--BufferTimeBoth:before { @include ms-Icon--BufferTimeBoth }
+.ms-Icon--Bug:before { @include ms-Icon--Bug }
+.ms-Icon--BugAction:before { @include ms-Icon--BugAction }
+.ms-Icon--BugBlock:before { @include ms-Icon--BugBlock }
+.ms-Icon--BugSolid:before { @include ms-Icon--BugSolid }
+.ms-Icon--BugSync:before { @include ms-Icon--BugSync }
+.ms-Icon--BugWarning:before { @include ms-Icon--BugWarning }
+.ms-Icon--Build:before { @include ms-Icon--Build }
+.ms-Icon--BuildDefinition:before { @include ms-Icon--BuildDefinition }
+.ms-Icon--BuildIssue:before { @include ms-Icon--BuildIssue }
+.ms-Icon--BuildQueue:before { @include ms-Icon--BuildQueue }
+.ms-Icon--BuildQueueNew:before { @include ms-Icon--BuildQueueNew }
+.ms-Icon--BulkPageBlock:before { @include ms-Icon--BulkPageBlock }
+.ms-Icon--BulkUpload:before { @include ms-Icon--BulkUpload }
+.ms-Icon--BulletedList:before { @include ms-Icon--BulletedList }
+.ms-Icon--BulletedList2:before { @include ms-Icon--BulletedList2 }
+.ms-Icon--BulletedList2Mirrored:before { @include ms-Icon--BulletedList2Mirrored }
+.ms-Icon--BulletedListBullet:before { @include ms-Icon--BulletedListBullet }
+.ms-Icon--BulletedListBulletMirrored:before { @include ms-Icon--BulletedListBulletMirrored }
+.ms-Icon--BulletedListMirrored:before { @include ms-Icon--BulletedListMirrored }
+.ms-Icon--BulletedListText:before { @include ms-Icon--BulletedListText }
+.ms-Icon--BulletedListTextMirrored:before { @include ms-Icon--BulletedListTextMirrored }
+.ms-Icon--BulletedTreeList:before { @include ms-Icon--BulletedTreeList }
+.ms-Icon--Bullseye:before { @include ms-Icon--Bullseye }
+.ms-Icon--BullseyeTarget:before { @include ms-Icon--BullseyeTarget }
+.ms-Icon--BullseyeTargetAdd:before { @include ms-Icon--BullseyeTargetAdd }
+.ms-Icon--BullseyeTargetDelete:before { @include ms-Icon--BullseyeTargetDelete }
+.ms-Icon--BullseyeTargetEdit:before { @include ms-Icon--BullseyeTargetEdit }
+.ms-Icon--Bus:before { @include ms-Icon--Bus }
+.ms-Icon--BusinessCard:before { @include ms-Icon--BusinessCard }
+.ms-Icon--BusinessCenterLogo:before { @include ms-Icon--BusinessCenterLogo }
+.ms-Icon--BusinessHoursSign:before { @include ms-Icon--BusinessHoursSign }
+.ms-Icon--BusinessRule:before { @include ms-Icon--BusinessRule }
+.ms-Icon--BusSolid:before { @include ms-Icon--BusSolid }
+.ms-Icon--ButtonControl:before { @include ms-Icon--ButtonControl }
+.ms-Icon--Cafe:before { @include ms-Icon--Cafe }
+.ms-Icon--Cake:before { @include ms-Icon--Cake }
+.ms-Icon--CalculatedTable:before { @include ms-Icon--CalculatedTable }
+.ms-Icon--Calculator:before { @include ms-Icon--Calculator }
+.ms-Icon--CalculatorAddition:before { @include ms-Icon--CalculatorAddition }
+.ms-Icon--CalculatorDelta:before { @include ms-Icon--CalculatorDelta }
+.ms-Icon--CalculatorEqualTo:before { @include ms-Icon--CalculatorEqualTo }
+.ms-Icon--CalculatorGroup:before { @include ms-Icon--CalculatorGroup }
+.ms-Icon--CalculatorMultiply:before { @include ms-Icon--CalculatorMultiply }
+.ms-Icon--CalculatorNotEqualTo:before { @include ms-Icon--CalculatorNotEqualTo }
+.ms-Icon--CalculatorPercentage:before { @include ms-Icon--CalculatorPercentage }
+.ms-Icon--CalculatorSubtract:before { @include ms-Icon--CalculatorSubtract }
+.ms-Icon--Calendar:before { @include ms-Icon--Calendar }
+.ms-Icon--CalendarAgenda:before { @include ms-Icon--CalendarAgenda }
+.ms-Icon--CalendarDay:before { @include ms-Icon--CalendarDay }
+.ms-Icon--CalendarMirrored:before { @include ms-Icon--CalendarMirrored }
+.ms-Icon--CalendarReply:before { @include ms-Icon--CalendarReply }
+.ms-Icon--CalendarSettings:before { @include ms-Icon--CalendarSettings }
+.ms-Icon--CalendarSettingsMirrored:before { @include ms-Icon--CalendarSettingsMirrored }
+.ms-Icon--CalendarWeek:before { @include ms-Icon--CalendarWeek }
+.ms-Icon--CalendarWorkWeek:before { @include ms-Icon--CalendarWorkWeek }
+.ms-Icon--CalendarYear:before { @include ms-Icon--CalendarYear }
+.ms-Icon--Calories:before { @include ms-Icon--Calories }
+.ms-Icon--CaloriesAdd:before { @include ms-Icon--CaloriesAdd }
+.ms-Icon--Camera:before { @include ms-Icon--Camera }
+.ms-Icon--CampaignTemplate:before { @include ms-Icon--CampaignTemplate }
+.ms-Icon--Cancel:before { @include ms-Icon--Cancel }
+.ms-Icon--CannedChat:before { @include ms-Icon--CannedChat }
+.ms-Icon--CanvasAppTemplate32:before { @include ms-Icon--CanvasAppTemplate32 }
+.ms-Icon--Car:before { @include ms-Icon--Car }
+.ms-Icon--CareActivity:before { @include ms-Icon--CareActivity }
+.ms-Icon--CarePlan:before { @include ms-Icon--CarePlan }
+.ms-Icon--CarePlanTemplate:before { @include ms-Icon--CarePlanTemplate }
+.ms-Icon--CaretBottomLeftCenter8:before { @include ms-Icon--CaretBottomLeftCenter8 }
+.ms-Icon--CaretBottomLeftSolid8:before { @include ms-Icon--CaretBottomLeftSolid8 }
+.ms-Icon--CaretBottomRightCenter8:before { @include ms-Icon--CaretBottomRightCenter8 }
+.ms-Icon--CaretBottomRightSolid8:before { @include ms-Icon--CaretBottomRightSolid8 }
+

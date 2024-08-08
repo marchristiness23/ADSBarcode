@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-4';
+  src: url('../fonts/fabric-icons-4-8ff945c2.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-4';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--ChromeBack:before { content: "\E830"; }
+.ms-Icon--ChromeBackMirrored:before { content: "\EA47"; }
+.ms-Icon--ChromeClose:before { content: "\E8BB"; }
+.ms-Icon--ChromeFullScreen:before { content: "\E92D"; }
+.ms-Icon--ChromeMinimize:before { content: "\E921"; }
+.ms-Icon--ChromeRestore:before { content: "\E923"; }
+.ms-Icon--CircleAddition:before { content: "\F2E3"; }
+.ms-Icon--CircleAdditionSolid:before { content: "\F2E4"; }
+.ms-Icon--CircleDollar:before { content: "\EAED"; }
+.ms-Icon--CircleFill:before { content: "\EA3B"; }
+.ms-Icon--CircleHalfFull:before { content: "\ED9E"; }
+.ms-Icon--CirclePause:before { content: "\F2D9"; }
+.ms-Icon--CirclePauseSolid:before { content: "\F2D8"; }
+.ms-Icon--CirclePlus:before { content: "\EAEE"; }
+.ms-Icon--CircleRing:before { content: "\EA3A"; }
+.ms-Icon--CircleShape:before { content: "\F1A5"; }
+.ms-Icon--CircleShapeSolid:before { content: "\F63C"; }
+.ms-Icon--CircleStop:before { content: "\F2DC"; }
+.ms-Icon--CircleStopSolid:before { content: "\F2DB"; }
+.ms-Icon--CityNext:before { content: "\EC06"; }
+.ms-Icon--CityNext2:before { content: "\EC07"; }
+.ms-Icon--ClassNotebookLogo16:before { content: "\F488"; }
+.ms-Icon--ClassNotebookLogo32:before { content: "\F486"; }
+.ms-Icon--ClassNotebookLogoFill16:before { content: "\F489"; }
+.ms-Icon--ClassNotebookLogoFill32:before { content: "\F487"; }
+.ms-Icon--ClassNotebookLogoInverse:before { content: "\EDC8"; }
+.ms-Icon--ClassNotebookLogoInverse16:before { content: "\F48B"; }
+.ms-Icon--ClassNotebookLogoInverse32:before { content: "\F48A"; }
+.ms-Icon--ClassroomLogo:before { content: "\EF75"; }
+.ms-Icon--Clear:before { content: "\E894"; }
+.ms-Icon--ClearFilter:before { content: "\EF8F"; }
+.ms-Icon--ClearFormatting:before { content: "\EDDD"; }
+.ms-Icon--ClearFormattingA:before { content: "\F79D"; }
+.ms-Icon--ClearFormattingEraser:before { content: "\F79E"; }
+.ms-Icon--ClearNight:before { content: "\E9C2"; }
+.ms-Icon--ClearSelection:before { content: "\E8E6"; }
+.ms-Icon--ClearSelectionMirrored:before { content: "\EA48"; }
+.ms-Icon--Clicked:before { content: "\F268"; }
+.ms-Icon--ClinicalImpression:before { content: "\E54B"; }
+.ms-Icon--Clipboard:before { content: "\ED22"; }
+.ms-Icon--ClipboardList:before { content: "\F0E3"; }
+.ms-Icon--ClipboardListAdd:before { content: "\E4EF"; }
+.ms-Icon--ClipboardListMirrored:before { content: "\F0E4"; }
+.ms-Icon--ClipboardListQuestion:before { content: "\E4F0"; }
+.ms-Icon--ClipboardListReply:before { content: "\E4F1"; }
+.ms-Icon--ClipboardSolid:before { content: "\F5DC"; }
+.ms-Icon--Clock:before { content: "\E917"; }
+.ms-Icon--CloneToDesktop:before { content: "\F28C"; }
+.ms-Icon--ClosedCaption:before { content: "\EF84"; }
+.ms-Icon--ClosePane:before { content: "\E89F"; }
+.ms-Icon--ClosePaneMirrored:before { content: "\EA49"; }
+.ms-Icon--Cloud:before { content: "\E753"; }
+.ms-Icon--CloudAdd:before { content: "\ECA9"; }
+.ms-Icon--CloudDownload:before { content: "\EBD3"; }
+.ms-Icon--CloudEdit:before { content: "\E4C8"; }
+.ms-Icon--CloudFlow:before { content: "\E5EA"; }
+.ms-Icon--CloudImportExport:before { content: "\EE55"; }
+.ms-Icon--CloudLink:before { content: "\E4C9"; }
+.ms-Icon--CloudNotSynced:before { content: "\EC9C"; }
+.ms-Icon--CloudPrinter:before { content: "\EDA6"; }
+.ms-Icon--CloudSearch:before { content: "\EDE4"; }
+.ms-Icon--CloudSecure:before { content: "\E4D5"; }
+.ms-Icon--CloudUpload:before { content: "\EC8E"; }
+.ms-Icon--CloudWeather:before { content: "\E9BE"; }
+.ms-Icon--Cloudy:before { content: "\E9BF"; }
+.ms-Icon--Cocktails:before { content: "\EA9D"; }
+.ms-Icon--Code:before { content: "\E943"; }
+.ms-Icon--CodeEdit:before { content: "\F544"; }
+.ms-Icon--Coffee:before { content: "\EAEF"; }
+.ms-Icon--CoffeeScript:before { content: "\F2FA"; }
+.ms-Icon--CollapseAll:before { content: "\F85A"; }
+.ms-Icon--CollapseContent:before { content: "\F165"; }
+.ms-Icon--CollapseContentSingle:before { content: "\F166"; }
+.ms-Icon--CollapseMenu:before { content: "\EF66"; }
+.ms-Icon--CollegeFootball:before { content: "\EB26"; }
+.ms-Icon--CollegeHoops:before { content: "\EB25"; }
+.ms-Icon--Color:before { content: "\E790"; }
+.ms-Icon--ColorSolid:before { content: "\F354"; }
+.ms-Icon--Column:before { content: "\E438"; }
+.ms-Icon--ColumnFunction:before { content: "\E4C2"; }
+.ms-Icon--ColumnLeftTwoThirds:before { content: "\F1D6"; }
+.ms-Icon--ColumnLeftTwoThirdsEdit:before { content: "\F324"; }
+.ms-Icon--ColumnList:before { content: "\F1EC"; }
+.ms-Icon--ColumnOptions:before { content: "\F317"; }
+.ms-Icon--ColumnQuestion:before { content: "\E4C0"; }
+.ms-Icon--ColumnQuestionMirrored:before { content: "\E4C1"; }
+.ms-Icon--ColumnRightTwoThirds:before { content: "\F1D7"; }
+.ms-Icon--ColumnRightTwoThirdsEdit:before { content: "\F325"; }
+.ms-Icon--ColumnSigma:before { content: "\E4BF"; }
+.ms-Icon--ColumnVerticalSection:before { content: "\F81E"; }
+.ms-Icon--ColumnVerticalSectionEdit:before { content: "\F806"; }
+.ms-Icon--Combine:before { content: "\EDBB"; }
+.ms-Icon--Combobox:before { content: "\F516"; }
+.ms-Icon--CommandPrompt:before { content: "\E756"; }
+.ms-Icon--Comment:before { content: "\E90A"; }
+.ms-Icon--CommentActive:before { content: "\F804"; }
+.ms-Icon--CommentAdd:before { content: "\F2B3"; }
+.ms-Icon--CommentNext:before { content: "\F2B4"; }
+.ms-Icon--CommentPrevious:before { content: "\F2B5"; }
+.ms-Icon--CommentSolid:before { content: "\E30E"; }

@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-0",
+  "fontFamilyName": "FabricMDL2Icons-0",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "12PointStar",
+      "unicode": "F505"
+    },
+    {
+      "name": "6PointStar",
+      "unicode": "F504"
+    },
+    {
+      "name": "AADLogo",
+      "unicode": "ED68"
+    },
+    {
+      "name": "Accept",
+      "unicode": "E8FB"
+    },
+    {
+      "name": "AcceptMedium",
+      "unicode": "F78C"
+    },
+    {
+      "name": "AccessibiltyChecker",
+      "unicode": "F835"
+    },
+    {
+      "name": "AccessLogo",
+      "unicode": "ED69"
+    },
+    {
+      "name": "AccountActivity",
+      "unicode": "EFF4"
+    },
+    {
+      "name": "AccountBrowser",
+      "unicode": "F652"
+    },
+    {
+      "name": "AccountManagement",
+      "unicode": "F55C"
+    },
+    {
+      "name": "Accounts",
+      "unicode": "E910"
+    },
+    {
+      "name": "ActionCenter",
+      "unicode": "E91C"
+    },
+    {
+      "name": "ActivateOrders",
+      "unicode": "EFE0"
+    },
+    {
+      "name": "ActivityFeed",
+      "unicode": "F056"
+    },
+    {
+      "name": "Add",
+      "unicode": "E710"
+    },
+    {
+      "name": "AddBookmark",
+      "unicode": "F5B7"
+    },
+    {
+      "name": "AddConnection",
+      "unicode": "F4E1"
+    },
+    {
+      "name": "AddEvent",
+      "unicode": "EEB5"
+    },
+    {
+      "name": "AddFavorite",
+      "unicode": "F0C8"
+    },
+    {
+      "name": "AddFavoriteFill",
+      "unicode": "F0C9"
+    },
+    {
+      "name": "AddField",
+      "unicode": "E4C7"
+    },
+    {
+      "name": "AddFriend",
+      "unicode": "E8FA"
+    },
+    {
+      "name": "AddGroup",
+      "unicode": "EE3D"
+    },
+    {
+      "name": "AddHome",
+      "unicode": "F17B"
+    },
+    {
+      "name": "AddIn",
+      "unicode": "F775"
+    },
+    {
+      "name": "AddLink",
+      "unicode": "E35E"
+    },
+    {
+      "name": "AddMedium",
+      "unicode": "ECA1"
+    },
+    {
+      "name": "AddMultiple",
+      "unicode": "E9C5"
+    },
+    {
+      "name": "AddNotes",
+      "unicode": "EAE3"
+    },
+    {
+      "name": "AddOnlineMeeting",
+      "unicode": "ED8E"
+    },
+    {
+      "name": "AddPhone",
+      "unicode": "ED96"
+    },
+    {
+      "name": "AddReaction",
+      "unicode": "F85D"
+    },
+    {
+      "name": "AddSpaceAfter",
+      "unicode": "E3DF"
+    },
+    {
+      "name": "AddSpaceBefore",
+      "unicode": "E3DE"
+    },
+    {
+      "name": "AddTable",
+      "unicode": "E4C6"
+    },
+    {
+      "name": "AddTo",
+      "unicode": "ECC8"
+    },
+    {
+      "name": "AddToShoppingList",
+      "unicode": "EA9A"
+    },
+    {
+      "name": "AddWork",
+      "unicode": "F17C"
+    },
+    {
+      "name": "Admin",
+      "unicode": "E7EF"
+    },
+    {
+      "name": "AdminALogo32",
+      "unicode": "F4BA"
+    },
+    {
+      "name": "AdminALogoFill32",
+      "unicode": "F4BB"
+    },
+    {
+      "name": "AdminALogoInverse32",
+      "unicode": "ED6A"
+    },
+    {
+      "name": "AdminCLogoInverse32",
+      "unicode": "ED6B"
+    },
+    {
+      "name": "AdminDLogoInverse32",
+      "unicode": "ED6C"
+    },
+    {
+      "name": "AdminELogoInverse32",
+      "unicode": "ED6D"
+    },
+    {
+      "name": "AdminLLogoInverse32",
+      "unicode": "ED6E"
+    },
+    {
+      "name": "AdminMLogoInverse32",
+      "unicode": "ED6F"
+    },
+    {
+      "name": "AdminOLogoInverse32",
+      "unicode": "ED70"
+    },
+    {
+      "name": "AdminPLogoInverse32",
+      "unicode": "ED71"
+    },
+    {
+      "name": "AdminSLogoInverse32",
+      "unicode": "ED72"
+    },
+    {
+      "name": "AdminYLogoInverse32",
+      "unicode": "ED73"
+    },
+    {
+      "name": "Airplane",
+      "unicode": "E709"
+    },
+    {
+      "name": "AirplaneSolid",
+      "unicode": "EB4C"
+    },
+    {
+      "name": "AirTickets",
+      "unicode": "EF7A"
+    },
+    {
+      "name": "AlarmClock",
+      "unicode": "E919"
+    },
+    {
+      "name": "Album",
+      "unicode": "E7AB"
+    },
+    {
+      "name": "AlbumRemove",
+      "unicode": "EC62"
+    },
+    {
+      "name": "AlertSettings",
+      "unicode": "F8B6"
+    },
+    {
+      "name": "AlertSolid",
+      "unicode": "F331"
+    },
+    {
+      "name": "AlignCenter",
+      "unicode": "E8E3"
+    },
+    {
+      "name": "AlignHorizontalCenter",
+      "unicode": "F4F4"
+    },
+    {
+      "name": "AlignHorizontalLeft",
+      "unicode": "F4F3"
+    },
+    {
+      "name": "AlignHorizontalRight",
+      "unicode": "F4F5"
+    },
+    {
+      "name": "AlignJustify",
+      "unicode": "F51E"
+    },
+    {
+      "name": "AlignLeft",
+      "unicode": "E8E4"
+    },
+    {
+      "name": "AlignRight",
+      "unicode": "E8E2"
+    },
+    {
+      "name": "AlignVerticalBottom",
+      "unicode": "F4F8"
+    },
+    {
+      "name": "AlignVerticalCenter",
+      "unicode": "F4F7"
+    },
+    {
+      "name": "AlignVerticalTop",
+      "unicode": "F4F6"
+    },
+    {
+      "name": "AllApps",
+      "unicode": "E71D"
+    },
+    {
+      "name": "AllAppsMirrored",
+      "unicode": "EA40"
+    },
+    {
+      "name": "AllCurrency",
+      "unicode": "EAE4"
+    },
+    {
+      "name": "AltText",
+      "unicode": "E397"
+    },
+    {
+      "name": "AnalyticsLogo",
+      "unicode": "F1DE"
+    },
+    {
+      "name": "AnalyticsQuery",
+      "unicode": "F1DF"
+    },
+    {
+      "name": "AnalyticsReport",
+      "unicode": "F1E1"
+    },
+    {
+      "name": "AnalyticsView",
+      "unicode": "F5F1"
+    },
+    {
+      "name": "AnchorLock",
+      "unicode": "F511"
+    },
+    {
+      "name": "Annotation",
+      "unicode": "E924"
+    },
+    {
+      "name": "AppIconDefault",
+      "unicode": "ECAA"
+    },
+    {
+      "name": "AppIconDefaultAdd",
+      "unicode": "EFDA"
+    },
+    {
+      "name": "AppIconDefaultEdit",
+      "unicode": "EFDC"
+    },
+    {
+      "name": "AppIconDefaultList",
+      "unicode": "EFDE"
+    },
+    {
+      "name": "AppIconSecure",
+      "unicode": "E657"
+    },
+    {
+      "name": "AppsContent",
+      "unicode": "EE54"
+    },
+    {
+      "name": "Archive",
+      "unicode": "F03F"
+    },
+    {
+      "name": "ArchiveUndo",
+      "unicode": "E3A1"
+    },
+    {
+      "name": "AreaChart",
+      "unicode": "E9D2"
+    },
+    {
+      "name": "ArrangeBringForward",
+      "unicode": "F509"
+    },
+    {
+      "name": "ArrangeBringToFront",
+      "unicode": "F506"
+    },
+    {
+      "name": "ArrangeByFrom",
+      "unicode": "F678"
+    },
+    {
+      "name": "ArrangeSendBackward",
+      "unicode": "F508"
+    },
+    {
+      "name": "ArrangeSendToBack",
+      "unicode": "F507"
+    },
+    {
+      "name": "Arrivals",
+      "unicode": "EB34"
+    },
+    {
+      "name": "ArrowDownRight8",
+      "unicode": "EED5"
+    },
+    {
+      "name": "ArrowDownRightMirrored8",
+      "unicode": "EEF0"
+    },
+    {
+      "name": "ArrowTallDownLeft",
+      "unicode": "F2BF"
+    },
+    {
+      "name": "ArrowTallDownRight",
+      "unicode": "F2C0"
+    },
+    {
+      "name": "ArrowTallUpLeft",
+      "unicode": "F2BD"
+    },
+    {
+      "name": "ArrowTallUpRight",
+      "unicode": "F2BE"
+    }
+  ]
+}

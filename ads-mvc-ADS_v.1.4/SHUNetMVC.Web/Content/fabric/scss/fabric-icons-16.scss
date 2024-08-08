@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-16';
+  src: url('../fonts/fabric-icons-16-974108bf.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-16';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--PythonLanguage { content: "\F2F8"; }
+@mixin ms-Icon--QandA { content: "\F8A2"; }
+@mixin ms-Icon--QandAMirror { content: "\F8A3"; }
+@mixin ms-Icon--QRCode { content: "\ED14"; }
+@mixin ms-Icon--QuadColumn { content: "\F66F"; }
+@mixin ms-Icon--Quantity { content: "\E9F8"; }
+@mixin ms-Icon--QuarterCircle { content: "\F502"; }
+@mixin ms-Icon--QueryList { content: "\F2B8"; }
+@mixin ms-Icon--Questionnaire { content: "\EE19"; }
+@mixin ms-Icon--QuestionnaireMirrored { content: "\EE4B"; }
+@mixin ms-Icon--QueueAdvanced { content: "\E62E"; }
+@mixin ms-Icon--QuickNote { content: "\E70B"; }
+@mixin ms-Icon--QuickNoteSolid { content: "\F338"; }
+@mixin ms-Icon--Quotes { content: "\F067"; }
+@mixin ms-Icon--R { content: "\F4EB"; }
+@mixin ms-Icon--RadioBtnOff { content: "\ECCA"; }
+@mixin ms-Icon--RadioBtnOn { content: "\ECCB"; }
+@mixin ms-Icon--RadioBullet { content: "\E915"; }
+@mixin ms-Icon--Rain { content: "\E9C4"; }
+@mixin ms-Icon--RainShowersDay { content: "\E9C3"; }
+@mixin ms-Icon--RainShowersNight { content: "\EA0F"; }
+@mixin ms-Icon--RainSnow { content: "\E9C7"; }
+@mixin ms-Icon--Rate { content: "\EB07"; }
+@mixin ms-Icon--RawSource { content: "\F299"; }
+@mixin ms-Icon--Read { content: "\E8C3"; }
+@mixin ms-Icon--ReadingMode { content: "\E736"; }
+@mixin ms-Icon--ReadingModeSolid { content: "\F33D"; }
+@mixin ms-Icon--ReadOutLoud { content: "\F112"; }
+@mixin ms-Icon--RealEstate { content: "\E758"; }
+@mixin ms-Icon--ReceiptCheck { content: "\EF5B"; }
+@mixin ms-Icon--ReceiptForward { content: "\EF59"; }
+@mixin ms-Icon--ReceiptProcessing { content: "\E496"; }
+@mixin ms-Icon--ReceiptReply { content: "\EF5A"; }
+@mixin ms-Icon--ReceiptTentative { content: "\F41A"; }
+@mixin ms-Icon--ReceiptTentativeMirrored { content: "\F41B"; }
+@mixin ms-Icon--ReceiptUndelivered { content: "\F419"; }
+@mixin ms-Icon--Recent { content: "\E823"; }
+@mixin ms-Icon--Record2 { content: "\EA3F"; }
+@mixin ms-Icon--RecordRouting { content: "\E62D"; }
+@mixin ms-Icon--RecruitmentManagement { content: "\EE12"; }
+@mixin ms-Icon--RectangleShape { content: "\F1A9"; }
+@mixin ms-Icon--RectangleShapeSolid { content: "\F640"; }
+@mixin ms-Icon--RectangularClipping { content: "\F407"; }
+@mixin ms-Icon--RecurringEvent { content: "\EF5D"; }
+@mixin ms-Icon--RecurringTask { content: "\EDB2"; }
+@mixin ms-Icon--RecycleBin { content: "\EF87"; }
+@mixin ms-Icon--Redeploy { content: "\F29E"; }
+@mixin ms-Icon--RedEye { content: "\E7B3"; }
+@mixin ms-Icon--RedEye12 { content: "\E3AD"; }
+@mixin ms-Icon--Redo { content: "\E7A6"; }
+@mixin ms-Icon--Refresh { content: "\E72C"; }
+@mixin ms-Icon--RegistryEditor { content: "\F1FF"; }
+@mixin ms-Icon--Relationship { content: "\F003"; }
+@mixin ms-Icon--ReleaseDefinition { content: "\F6EA"; }
+@mixin ms-Icon--ReleaseGate { content: "\F7BE"; }
+@mixin ms-Icon--ReleaseGateCheck { content: "\F7BF"; }
+@mixin ms-Icon--ReleaseGateError { content: "\F7C0"; }
+@mixin ms-Icon--ReminderGroup { content: "\EBF8"; }
+@mixin ms-Icon--ReminderPerson { content: "\EBF7"; }
+@mixin ms-Icon--ReminderTime { content: "\EBF9"; }
+@mixin ms-Icon--Remote { content: "\E8AF"; }
+@mixin ms-Icon--RemoteApplication { content: "\F621"; }
+@mixin ms-Icon--Remove { content: "\E738"; }
+@mixin ms-Icon--RemoveContent { content: "\ECC7"; }
+@mixin ms-Icon--RemoveEvent { content: "\ED8A"; }
+@mixin ms-Icon--RemoveFilter { content: "\EB08"; }
+@mixin ms-Icon--RemoveFrom { content: "\ECC9"; }
+@mixin ms-Icon--RemoveFromShoppingList { content: "\F7D5"; }
+@mixin ms-Icon--RemoveFromTrash { content: "\F82B"; }
+@mixin ms-Icon--RemoveLink { content: "\ED90"; }
+@mixin ms-Icon--RemoveLinkChain { content: "\F79A"; }
+@mixin ms-Icon--RemoveLinkX { content: "\F79B"; }
+@mixin ms-Icon--RemoveOccurrence { content: "\ED9B"; }
+@mixin ms-Icon--Rename { content: "\E8AC"; }
+@mixin ms-Icon--RenewalCurrent { content: "\F545"; }
+@mixin ms-Icon--RenewalFuture { content: "\F546"; }
+@mixin ms-Icon--ReopenPages { content: "\ED50"; }
+@mixin ms-Icon--Repair { content: "\E90F"; }
+@mixin ms-Icon--RepeatAll { content: "\E8EE"; }
+@mixin ms-Icon--RepeatHeaderRows { content: "\E3EB"; }
+@mixin ms-Icon--RepeatOne { content: "\E8ED"; }
+@mixin ms-Icon--Reply { content: "\E97A"; }
+@mixin ms-Icon--ReplyAll { content: "\EE0A"; }
+@mixin ms-Icon--ReplyAllAlt { content: "\EF5F"; }
+@mixin ms-Icon--ReplyAllMirrored { content: "\EE36"; }
+@mixin ms-Icon--ReplyAlt { content: "\EF5E"; }
+@mixin ms-Icon--ReplyMirrored { content: "\EE35"; }
+@mixin ms-Icon--Repo { content: "\F2CB"; }
+@mixin ms-Icon--ReportAdd { content: "\F52C"; }
+@mixin ms-Icon--ReportAlert { content: "\F721"; }
+@mixin ms-Icon--ReportAlertMirrored { content: "\F722"; }
+@mixin ms-Icon--ReportDocument { content: "\E9F9"; }
+@mixin ms-Icon--ReportHacked { content: "\E730"; }
+@mixin ms-Icon--ReportLibrary { content: "\EEBB"; }
+@mixin ms-Icon--ReportLibraryMirrored { content: "\EEBC"; }
+@mixin ms-Icon--ReportLock { content: "\F875"; }
+@mixin ms-Icon--ReportTrophy { content: "\E614"; }
+@mixin ms-Icon--ReportWarning { content: "\F569"; }
+@mixin ms-Icon--RepoSolid { content: "\F2CC"; }
+@mixin ms-Icon--Rerun { content: "\F8A1"; }
+
+
+// Classes
+.ms-Icon--PythonLanguage:before { @include ms-Icon--PythonLanguage }
+.ms-Icon--QandA:before { @include ms-Icon--QandA }
+.ms-Icon--QandAMirror:before { @include ms-Icon--QandAMirror }
+.ms-Icon--QRCode:before { @include ms-Icon--QRCode }
+.ms-Icon--QuadColumn:before { @include ms-Icon--QuadColumn }
+.ms-Icon--Quantity:before { @include ms-Icon--Quantity }
+.ms-Icon--QuarterCircle:before { @include ms-Icon--QuarterCircle }
+.ms-Icon--QueryList:before { @include ms-Icon--QueryList }
+.ms-Icon--Questionnaire:before { @include ms-Icon--Questionnaire }
+.ms-Icon--QuestionnaireMirrored:before { @include ms-Icon--QuestionnaireMirrored }
+.ms-Icon--QueueAdvanced:before { @include ms-Icon--QueueAdvanced }
+.ms-Icon--QuickNote:before { @include ms-Icon--QuickNote }
+.ms-Icon--QuickNoteSolid:before { @include ms-Icon--QuickNoteSolid }
+.ms-Icon--Quotes:before { @include ms-Icon--Quotes }
+.ms-Icon--R:before { @include ms-Icon--R }
+.ms-Icon--RadioBtnOff:before { @include ms-Icon--RadioBtnOff }
+.ms-Icon--RadioBtnOn:before { @include ms-Icon--RadioBtnOn }
+.ms-Icon--RadioBullet:before { @include ms-Icon--RadioBullet }
+.ms-Icon--Rain:before { @include ms-Icon--Rain }
+.ms-Icon--RainShowersDay:before { @include ms-Icon--RainShowersDay }
+.ms-Icon--RainShowersNight:before { @include ms-Icon--RainShowersNight }
+.ms-Icon--RainSnow:before { @include ms-Icon--RainSnow }
+.ms-Icon--Rate:before { @include ms-Icon--Rate }
+.ms-Icon--RawSource:before { @include ms-Icon--RawSource }
+.ms-Icon--Read:before { @include ms-Icon--Read }
+.ms-Icon--ReadingMode:before { @include ms-Icon--ReadingMode }
+.ms-Icon--ReadingModeSolid:before { @include ms-Icon--ReadingModeSolid }
+.ms-Icon--ReadOutLoud:before { @include ms-Icon--ReadOutLoud }
+.ms-Icon--RealEstate:before { @include ms-Icon--RealEstate }
+.ms-Icon--ReceiptCheck:before { @include ms-Icon--ReceiptCheck }
+.ms-Icon--ReceiptForward:before { @include ms-Icon--ReceiptForward }
+.ms-Icon--ReceiptProcessing:before { @include ms-Icon--ReceiptProcessing }
+.ms-Icon--ReceiptReply:before { @include ms-Icon--ReceiptReply }
+.ms-Icon--ReceiptTentative:before { @include ms-Icon--ReceiptTentative }
+.ms-Icon--ReceiptTentativeMirrored:before { @include ms-Icon--ReceiptTentativeMirrored }
+.ms-Icon--ReceiptUndelivered:before { @include ms-Icon--ReceiptUndelivered }
+.ms-Icon--Recent:before { @include ms-Icon--Recent }
+.ms-Icon--Record2:before { @include ms-Icon--Record2 }
+.ms-Icon--RecordRouting:before { @include ms-Icon--RecordRouting }
+.ms-Icon--RecruitmentManagement:before { @include ms-Icon--RecruitmentManagement }
+.ms-Icon--RectangleShape:before { @include ms-Icon--RectangleShape }
+.ms-Icon--RectangleShapeSolid:before { @include ms-Icon--RectangleShapeSolid }
+.ms-Icon--RectangularClipping:before { @include ms-Icon--RectangularClipping }
+.ms-Icon--RecurringEvent:before { @include ms-Icon--RecurringEvent }
+.ms-Icon--RecurringTask:before { @include ms-Icon--RecurringTask }
+.ms-Icon--RecycleBin:before { @include ms-Icon--RecycleBin }
+.ms-Icon--Redeploy:before { @include ms-Icon--Redeploy }
+.ms-Icon--RedEye:before { @include ms-Icon--RedEye }
+.ms-Icon--RedEye12:before { @include ms-Icon--RedEye12 }
+.ms-Icon--Redo:before { @include ms-Icon--Redo }
+.ms-Icon--Refresh:before { @include ms-Icon--Refresh }
+.ms-Icon--RegistryEditor:before { @include ms-Icon--RegistryEditor }
+.ms-Icon--Relationship:before { @include ms-Icon--Relationship }
+.ms-Icon--ReleaseDefinition:before { @include ms-Icon--ReleaseDefinition }
+.ms-Icon--ReleaseGate:before { @include ms-Icon--ReleaseGate }
+.ms-Icon--ReleaseGateCheck:before { @include ms-Icon--ReleaseGateCheck }
+.ms-Icon--ReleaseGateError:before { @include ms-Icon--ReleaseGateError }
+.ms-Icon--ReminderGroup:before { @include ms-Icon--ReminderGroup }
+.ms-Icon--ReminderPerson:before { @include ms-Icon--ReminderPerson }
+.ms-Icon--ReminderTime:before { @include ms-Icon--ReminderTime }
+.ms-Icon--Remote:before { @include ms-Icon--Remote }
+.ms-Icon--RemoteApplication:before { @include ms-Icon--RemoteApplication }
+.ms-Icon--Remove:before { @include ms-Icon--Remove }
+.ms-Icon--RemoveContent:before { @include ms-Icon--RemoveContent }
+.ms-Icon--RemoveEvent:before { @include ms-Icon--RemoveEvent }
+.ms-Icon--RemoveFilter:before { @include ms-Icon--RemoveFilter }
+.ms-Icon--RemoveFrom:before { @include ms-Icon--RemoveFrom }
+.ms-Icon--RemoveFromShoppingList:before { @include ms-Icon--RemoveFromShoppingList }
+.ms-Icon--RemoveFromTrash:before { @include ms-Icon--RemoveFromTrash }
+.ms-Icon--RemoveLink:before { @include ms-Icon--RemoveLink }
+.ms-Icon--RemoveLinkChain:before { @include ms-Icon--RemoveLinkChain }
+.ms-Icon--RemoveLinkX:before { @include ms-Icon--RemoveLinkX }
+.ms-Icon--RemoveOccurrence:before { @include ms-Icon--RemoveOccurrence }
+.ms-Icon--Rename:before { @include ms-Icon--Rename }
+.ms-Icon--RenewalCurrent:before { @include ms-Icon--RenewalCurrent }
+.ms-Icon--RenewalFuture:before { @include ms-Icon--RenewalFuture }
+.ms-Icon--ReopenPages:before { @include ms-Icon--ReopenPages }
+.ms-Icon--Repair:before { @include ms-Icon--Repair }
+.ms-Icon--RepeatAll:before { @include ms-Icon--RepeatAll }
+.ms-Icon--RepeatHeaderRows:before { @include ms-Icon--RepeatHeaderRows }
+.ms-Icon--RepeatOne:before { @include ms-Icon--RepeatOne }
+.ms-Icon--Reply:before { @include ms-Icon--Reply }
+.ms-Icon--ReplyAll:before { @include ms-Icon--ReplyAll }
+.ms-Icon--ReplyAllAlt:before { @include ms-Icon--ReplyAllAlt }
+.ms-Icon--ReplyAllMirrored:before { @include ms-Icon--ReplyAllMirrored }
+.ms-Icon--ReplyAlt:before { @include ms-Icon--ReplyAlt }
+.ms-Icon--ReplyMirrored:before { @include ms-Icon--ReplyMirrored }
+.ms-Icon--Repo:before { @include ms-Icon--Repo }
+.ms-Icon--ReportAdd:before { @include ms-Icon--ReportAdd }
+.ms-Icon--ReportAlert:before { @include ms-Icon--ReportAlert }
+.ms-Icon--ReportAlertMirrored:before { @include ms-Icon--ReportAlertMirrored }
+.ms-Icon--ReportDocument:before { @include ms-Icon--ReportDocument }
+.ms-Icon--ReportHacked:before { @include ms-Icon--ReportHacked }
+.ms-Icon--ReportLibrary:before { @include ms-Icon--ReportLibrary }
+.ms-Icon--ReportLibraryMirrored:before { @include ms-Icon--ReportLibraryMirrored }
+.ms-Icon--ReportLock:before { @include ms-Icon--ReportLock }
+.ms-Icon--ReportTrophy:before { @include ms-Icon--ReportTrophy }
+.ms-Icon--ReportWarning:before { @include ms-Icon--ReportWarning }
+.ms-Icon--RepoSolid:before { @include ms-Icon--RepoSolid }
+.ms-Icon--Rerun:before { @include ms-Icon--Rerun }
+

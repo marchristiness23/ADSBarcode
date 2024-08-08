@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-11';
+  src: url('../fonts/fabric-icons-11-ac3701f9.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-11';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--IntersectShape:before { content: "\F8FD"; }
+.ms-Icon--Invoice:before { content: "\E9DC"; }
+.ms-Icon--IOT:before { content: "\F22C"; }
+.ms-Icon--IoTSecure:before { content: "\E4D6"; }
+.ms-Icon--IRMForward:before { content: "\F41F"; }
+.ms-Icon--IRMForwardMirrored:before { content: "\F420"; }
+.ms-Icon--IRMReply:before { content: "\F41D"; }
+.ms-Icon--IRMReplyMirrored:before { content: "\F41E"; }
+.ms-Icon--IssueSolid:before { content: "\F448"; }
+.ms-Icon--IssueTracking:before { content: "\EEC0"; }
+.ms-Icon--IssueTrackingMirrored:before { content: "\EEC1"; }
+.ms-Icon--Italic:before { content: "\E8DB"; }
+.ms-Icon--ItalicC:before { content: "\E5B2"; }
+.ms-Icon--ItalicD:before { content: "\E5CE"; }
+.ms-Icon--ItalicK:before { content: "\E5B6"; }
+.ms-Icon--ItalicKazakh:before { content: "\E5D2"; }
+.ms-Icon--ItalicKorean:before { content: "\E5BC"; }
+.ms-Icon--ItalicL:before { content: "\E5D1"; }
+.ms-Icon--ItalicS:before { content: "\E5CF"; }
+.ms-Icon--ItalicT:before { content: "\E5D0"; }
+.ms-Icon--JavaScriptLanguage:before { content: "\F2EE"; }
+.ms-Icon--JoinOnlineMeeting:before { content: "\ED8F"; }
+.ms-Icon--JS:before { content: "\EBF0"; }
+.ms-Icon--KaizalaLogo:before { content: "\F492"; }
+.ms-Icon--KeyboardClassic:before { content: "\E765"; }
+.ms-Icon--KeyPhraseExtraction:before { content: "\E395"; }
+.ms-Icon--KnowledgeArticle:before { content: "\F000"; }
+.ms-Icon--KnowledgeManagementApp:before { content: "\E4FC"; }
+.ms-Icon--Label:before { content: "\E932"; }
+.ms-Icon--LadybugSolid:before { content: "\F44A"; }
+.ms-Icon--Lamp:before { content: "\EB19"; }
+.ms-Icon--LandscapeOrientation:before { content: "\EF6B"; }
+.ms-Icon--LaptopSecure:before { content: "\F552"; }
+.ms-Icon--LaptopSelected:before { content: "\EC76"; }
+.ms-Icon--LargeGrid:before { content: "\EECB"; }
+.ms-Icon--LearningApp:before { content: "\E5D8"; }
+.ms-Icon--LearningTools:before { content: "\F7DB"; }
+.ms-Icon--Leave:before { content: "\F627"; }
+.ms-Icon--LeaveUser:before { content: "\E3A8"; }
+.ms-Icon--LeftKey:before { content: "\F264"; }
+.ms-Icon--Library:before { content: "\E8F1"; }
+.ms-Icon--LibraryAddTo:before { content: "\E60D"; }
+.ms-Icon--Lifesaver:before { content: "\EF62"; }
+.ms-Icon--LifesaverLock:before { content: "\EF63"; }
+.ms-Icon--Light:before { content: "\E793"; }
+.ms-Icon--Lightbulb:before { content: "\EA80"; }
+.ms-Icon--LightbulbSolid:before { content: "\E681"; }
+.ms-Icon--LightningBolt:before { content: "\E945"; }
+.ms-Icon--LightningBoltSolid:before { content: "\E45F"; }
+.ms-Icon--LightningSecure:before { content: "\E4D3"; }
+.ms-Icon--LightSnow:before { content: "\EA02"; }
+.ms-Icon--LightWeight:before { content: "\F4EE"; }
+.ms-Icon--Like:before { content: "\E8E1"; }
+.ms-Icon--LikeSolid:before { content: "\F3BF"; }
+.ms-Icon--Line:before { content: "\F4FC"; }
+.ms-Icon--LineChart:before { content: "\E9E6"; }
+.ms-Icon--LineSpacing:before { content: "\F517"; }
+.ms-Icon--LineStyle:before { content: "\F50C"; }
+.ms-Icon--LineThickness:before { content: "\F50D"; }
+.ms-Icon--Link:before { content: "\E71B"; }
+.ms-Icon--Link12:before { content: "\F6E3"; }
+.ms-Icon--LinkedDatabase:before { content: "\F779"; }
+.ms-Icon--LinkedInLogo:before { content: "\F20A"; }
+.ms-Icon--List:before { content: "\EA37"; }
+.ms-Icon--ListMirrored:before { content: "\EA55"; }
+.ms-Icon--LiveSite:before { content: "\F6A6"; }
+.ms-Icon--LocalAdmin:before { content: "\F1FB"; }
+.ms-Icon--LocaleLanguage:before { content: "\F2B7"; }
+.ms-Icon--Location:before { content: "\E81D"; }
+.ms-Icon--LocationCircle:before { content: "\E80E"; }
+.ms-Icon--LocationDot:before { content: "\E827"; }
+.ms-Icon--LocationFill:before { content: "\E920"; }
+.ms-Icon--LocationOutline:before { content: "\F2D0"; }
+.ms-Icon--Lock:before { content: "\E72E"; }
+.ms-Icon--Lock12:before { content: "\F6E6"; }
+.ms-Icon--LockShare:before { content: "\E455"; }
+.ms-Icon--LockSolid:before { content: "\E9A2"; }
+.ms-Icon--LogRemove:before { content: "\F316"; }
+.ms-Icon--LookupEntities:before { content: "\F5B5"; }
+.ms-Icon--LowerBrightness:before { content: "\EC8A"; }
+.ms-Icon--LowerCase:before { content: "\E5EE"; }
+.ms-Icon--LyncLogo:before { content: "\ED79"; }
+.ms-Icon--M365InvoicingLogo:before { content: "\F7C1"; }
+.ms-Icon--MachineLearning:before { content: "\E3B8"; }
+.ms-Icon--Mail:before { content: "\E715"; }
+.ms-Icon--MailAlert:before { content: "\ED80"; }
+.ms-Icon--MailAttached:before { content: "\F774"; }
+.ms-Icon--MailCheck:before { content: "\ED81"; }
+.ms-Icon--MailFill:before { content: "\E8A8"; }
+.ms-Icon--MailForward:before { content: "\E89C"; }
+.ms-Icon--MailForwardMirrored:before { content: "\EA56"; }
+.ms-Icon--MailLink:before { content: "\EFAC"; }
+.ms-Icon--MailLowImportance:before { content: "\ED82"; }
+.ms-Icon--MailOptions:before { content: "\F82C"; }
+.ms-Icon--MailPause:before { content: "\ED83"; }
+.ms-Icon--MailReminder:before { content: "\F418"; }
+.ms-Icon--MailRepeat:before { content: "\ED84"; }
+.ms-Icon--MailReply:before { content: "\E8CA"; }
+.ms-Icon--MailReplyAll:before { content: "\E8C2"; }
+.ms-Icon--MailReplyAllMirrored:before { content: "\EA58"; }

@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-17';
+  src: url('../fonts/fabric-icons-17-5eba15a6.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-17';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--ReservationOrders { content: "\F845"; }
+@mixin ms-Icon--Reset { content: "\E423"; }
+@mixin ms-Icon--ResetDevice { content: "\ED10"; }
+@mixin ms-Icon--ResponsesMenu { content: "\F768"; }
+@mixin ms-Icon--ReturnKey { content: "\E751"; }
+@mixin ms-Icon--ReturnToSession { content: "\ED24"; }
+@mixin ms-Icon--RevenueManagement { content: "\F85E"; }
+@mixin ms-Icon--ReviewRequestMirroredSolid { content: "\F357"; }
+@mixin ms-Icon--ReviewRequestSolid { content: "\F356"; }
+@mixin ms-Icon--ReviewResponseSolid { content: "\F358"; }
+@mixin ms-Icon--ReviewSolid { content: "\F355"; }
+@mixin ms-Icon--RevToggleKey { content: "\E845"; }
+@mixin ms-Icon--RewardsLogo { content: "\ED4E"; }
+@mixin ms-Icon--RewardsLogoArt64 { content: "\EEF2"; }
+@mixin ms-Icon--RewardsLogoSolid { content: "\ED4F"; }
+@mixin ms-Icon--Rewind { content: "\EB9E"; }
+@mixin ms-Icon--RewindEightX { content: "\E449"; }
+@mixin ms-Icon--RewindFourX { content: "\E448"; }
+@mixin ms-Icon--RewindOneFiveX { content: "\E446"; }
+@mixin ms-Icon--RewindOneX { content: "\E445"; }
+@mixin ms-Icon--RewindPointFiveX { content: "\E444"; }
+@mixin ms-Icon--RewindTwoX { content: "\E447"; }
+@mixin ms-Icon--Ribbon { content: "\E9D1"; }
+@mixin ms-Icon--Ribbon2 { content: "\F19B"; }
+@mixin ms-Icon--RibbonSolid { content: "\F345"; }
+@mixin ms-Icon--RightDoubleQuote { content: "\E9B1"; }
+@mixin ms-Icon--RightKey { content: "\F265"; }
+@mixin ms-Icon--RightTriangle { content: "\F500"; }
+@mixin ms-Icon--Ringer { content: "\EA8F"; }
+@mixin ms-Icon--RingerActive { content: "\E498"; }
+@mixin ms-Icon--RingerOff { content: "\F2C5"; }
+@mixin ms-Icon--RingerRemove { content: "\F279"; }
+@mixin ms-Icon--RingerSolid { content: "\EF3A"; }
+@mixin ms-Icon--Robot { content: "\E99A"; }
+@mixin ms-Icon--Rocket { content: "\F3B3"; }
+@mixin ms-Icon--Room { content: "\ED9F"; }
+@mixin ms-Icon--Rotate { content: "\E7AD"; }
+@mixin ms-Icon--Rotate90Clockwise { content: "\F80D"; }
+@mixin ms-Icon--Rotate90CounterClockwise { content: "\F80E"; }
+@mixin ms-Icon--RowsChild { content: "\F29C"; }
+@mixin ms-Icon--RowsGroup { content: "\F29B"; }
+@mixin ms-Icon--RSSFeed { content: "\F80C"; }
+@mixin ms-Icon--Rugby { content: "\EB2D"; }
+@mixin ms-Icon--Running { content: "\EADA"; }
+@mixin ms-Icon--Sad { content: "\E757"; }
+@mixin ms-Icon--SadSolid { content: "\F33E"; }
+@mixin ms-Icon--SamsungGallery { content: "\E4E2"; }
+@mixin ms-Icon--Save { content: "\E74E"; }
+@mixin ms-Icon--SaveAll { content: "\F203"; }
+@mixin ms-Icon--SaveAndClose { content: "\F038"; }
+@mixin ms-Icon--SaveAndPublish { content: "\F671"; }
+@mixin ms-Icon--SaveAs { content: "\E792"; }
+@mixin ms-Icon--SavedOffline { content: "\E546"; }
+@mixin ms-Icon--SaveTemplate { content: "\F6EC"; }
+@mixin ms-Icon--SaveToMobile { content: "\F7E0"; }
+@mixin ms-Icon--Savings { content: "\EB0B"; }
+@mixin ms-Icon--ScaleUp { content: "\ED09"; }
+@mixin ms-Icon--ScaleVolume { content: "\F18C"; }
+@mixin ms-Icon--ScatterChart { content: "\EFEB"; }
+@mixin ms-Icon--ScheduleEventAction { content: "\F1EF"; }
+@mixin ms-Icon--SchoolDataSyncLogo { content: "\E34C"; }
+@mixin ms-Icon--ScopeTemplate { content: "\F2B0"; }
+@mixin ms-Icon--Screen { content: "\EF39"; }
+@mixin ms-Icon--ScreenCast { content: "\F7E2"; }
+@mixin ms-Icon--ScreenPreviewOn { content: "\F11E"; }
+@mixin ms-Icon--ScreenTime { content: "\F182"; }
+@mixin ms-Icon--Script { content: "\F03A"; }
+@mixin ms-Icon--ScrollUpDown { content: "\EC8F"; }
+@mixin ms-Icon--SDCard { content: "\E7F1"; }
+@mixin ms-Icon--Search { content: "\E721"; }
+@mixin ms-Icon--SearchAndApps { content: "\E773"; }
+@mixin ms-Icon--SearchArt64 { content: "\EEF5"; }
+@mixin ms-Icon--SearchBookmark { content: "\F5B8"; }
+@mixin ms-Icon--SearchCalendar { content: "\F4AF"; }
+@mixin ms-Icon--SearchData { content: "\F3F1"; }
+@mixin ms-Icon--SearchIssue { content: "\F09A"; }
+@mixin ms-Icon--SearchIssueMirrored { content: "\F09B"; }
+@mixin ms-Icon--SearchNearby { content: "\E820"; }
+@mixin ms-Icon--SecondaryNav { content: "\F814"; }
+@mixin ms-Icon--Section { content: "\EC0C"; }
+@mixin ms-Icon--Sections { content: "\EF76"; }
+@mixin ms-Icon--SecurityCamera { content: "\EB35"; }
+@mixin ms-Icon--SecurityGroup { content: "\ED85"; }
+@mixin ms-Icon--SecurityTest { content: "\E48F"; }
+@mixin ms-Icon--SeeDo { content: "\E808"; }
+@mixin ms-Icon--SelectAll { content: "\E8B3"; }
+@mixin ms-Icon--Sell { content: "\EB0C"; }
+@mixin ms-Icon--SemiboldWeight { content: "\F4F0"; }
+@mixin ms-Icon--Send { content: "\E724"; }
+@mixin ms-Icon--SendMirrored { content: "\EA63"; }
+@mixin ms-Icon--SentimentAnalysis { content: "\E393"; }
+@mixin ms-Icon--Separator { content: "\F35E"; }
+@mixin ms-Icon--Server { content: "\F201"; }
+@mixin ms-Icon--ServerEnviroment { content: "\F29F"; }
+@mixin ms-Icon--ServerProcesses { content: "\F1FE"; }
+@mixin ms-Icon--ServiceActivity { content: "\EFF1"; }
+@mixin ms-Icon--ServiceOff { content: "\E3FD"; }
+@mixin ms-Icon--SetAction { content: "\F071"; }
+@mixin ms-Icon--Settings { content: "\E713"; }
+@mixin ms-Icon--SettingsAdd { content: "\E35A"; }
+
+
+// Classes
+.ms-Icon--ReservationOrders:before { @include ms-Icon--ReservationOrders }
+.ms-Icon--Reset:before { @include ms-Icon--Reset }
+.ms-Icon--ResetDevice:before { @include ms-Icon--ResetDevice }
+.ms-Icon--ResponsesMenu:before { @include ms-Icon--ResponsesMenu }
+.ms-Icon--ReturnKey:before { @include ms-Icon--ReturnKey }
+.ms-Icon--ReturnToSession:before { @include ms-Icon--ReturnToSession }
+.ms-Icon--RevenueManagement:before { @include ms-Icon--RevenueManagement }
+.ms-Icon--ReviewRequestMirroredSolid:before { @include ms-Icon--ReviewRequestMirroredSolid }
+.ms-Icon--ReviewRequestSolid:before { @include ms-Icon--ReviewRequestSolid }
+.ms-Icon--ReviewResponseSolid:before { @include ms-Icon--ReviewResponseSolid }
+.ms-Icon--ReviewSolid:before { @include ms-Icon--ReviewSolid }
+.ms-Icon--RevToggleKey:before { @include ms-Icon--RevToggleKey }
+.ms-Icon--RewardsLogo:before { @include ms-Icon--RewardsLogo }
+.ms-Icon--RewardsLogoArt64:before { @include ms-Icon--RewardsLogoArt64 }
+.ms-Icon--RewardsLogoSolid:before { @include ms-Icon--RewardsLogoSolid }
+.ms-Icon--Rewind:before { @include ms-Icon--Rewind }
+.ms-Icon--RewindEightX:before { @include ms-Icon--RewindEightX }
+.ms-Icon--RewindFourX:before { @include ms-Icon--RewindFourX }
+.ms-Icon--RewindOneFiveX:before { @include ms-Icon--RewindOneFiveX }
+.ms-Icon--RewindOneX:before { @include ms-Icon--RewindOneX }
+.ms-Icon--RewindPointFiveX:before { @include ms-Icon--RewindPointFiveX }
+.ms-Icon--RewindTwoX:before { @include ms-Icon--RewindTwoX }
+.ms-Icon--Ribbon:before { @include ms-Icon--Ribbon }
+.ms-Icon--Ribbon2:before { @include ms-Icon--Ribbon2 }
+.ms-Icon--RibbonSolid:before { @include ms-Icon--RibbonSolid }
+.ms-Icon--RightDoubleQuote:before { @include ms-Icon--RightDoubleQuote }
+.ms-Icon--RightKey:before { @include ms-Icon--RightKey }
+.ms-Icon--RightTriangle:before { @include ms-Icon--RightTriangle }
+.ms-Icon--Ringer:before { @include ms-Icon--Ringer }
+.ms-Icon--RingerActive:before { @include ms-Icon--RingerActive }
+.ms-Icon--RingerOff:before { @include ms-Icon--RingerOff }
+.ms-Icon--RingerRemove:before { @include ms-Icon--RingerRemove }
+.ms-Icon--RingerSolid:before { @include ms-Icon--RingerSolid }
+.ms-Icon--Robot:before { @include ms-Icon--Robot }
+.ms-Icon--Rocket:before { @include ms-Icon--Rocket }
+.ms-Icon--Room:before { @include ms-Icon--Room }
+.ms-Icon--Rotate:before { @include ms-Icon--Rotate }
+.ms-Icon--Rotate90Clockwise:before { @include ms-Icon--Rotate90Clockwise }
+.ms-Icon--Rotate90CounterClockwise:before { @include ms-Icon--Rotate90CounterClockwise }
+.ms-Icon--RowsChild:before { @include ms-Icon--RowsChild }
+.ms-Icon--RowsGroup:before { @include ms-Icon--RowsGroup }
+.ms-Icon--RSSFeed:before { @include ms-Icon--RSSFeed }
+.ms-Icon--Rugby:before { @include ms-Icon--Rugby }
+.ms-Icon--Running:before { @include ms-Icon--Running }
+.ms-Icon--Sad:before { @include ms-Icon--Sad }
+.ms-Icon--SadSolid:before { @include ms-Icon--SadSolid }
+.ms-Icon--SamsungGallery:before { @include ms-Icon--SamsungGallery }
+.ms-Icon--Save:before { @include ms-Icon--Save }
+.ms-Icon--SaveAll:before { @include ms-Icon--SaveAll }
+.ms-Icon--SaveAndClose:before { @include ms-Icon--SaveAndClose }
+.ms-Icon--SaveAndPublish:before { @include ms-Icon--SaveAndPublish }
+.ms-Icon--SaveAs:before { @include ms-Icon--SaveAs }
+.ms-Icon--SavedOffline:before { @include ms-Icon--SavedOffline }
+.ms-Icon--SaveTemplate:before { @include ms-Icon--SaveTemplate }
+.ms-Icon--SaveToMobile:before { @include ms-Icon--SaveToMobile }
+.ms-Icon--Savings:before { @include ms-Icon--Savings }
+.ms-Icon--ScaleUp:before { @include ms-Icon--ScaleUp }
+.ms-Icon--ScaleVolume:before { @include ms-Icon--ScaleVolume }
+.ms-Icon--ScatterChart:before { @include ms-Icon--ScatterChart }
+.ms-Icon--ScheduleEventAction:before { @include ms-Icon--ScheduleEventAction }
+.ms-Icon--SchoolDataSyncLogo:before { @include ms-Icon--SchoolDataSyncLogo }
+.ms-Icon--ScopeTemplate:before { @include ms-Icon--ScopeTemplate }
+.ms-Icon--Screen:before { @include ms-Icon--Screen }
+.ms-Icon--ScreenCast:before { @include ms-Icon--ScreenCast }
+.ms-Icon--ScreenPreviewOn:before { @include ms-Icon--ScreenPreviewOn }
+.ms-Icon--ScreenTime:before { @include ms-Icon--ScreenTime }
+.ms-Icon--Script:before { @include ms-Icon--Script }
+.ms-Icon--ScrollUpDown:before { @include ms-Icon--ScrollUpDown }
+.ms-Icon--SDCard:before { @include ms-Icon--SDCard }
+.ms-Icon--Search:before { @include ms-Icon--Search }
+.ms-Icon--SearchAndApps:before { @include ms-Icon--SearchAndApps }
+.ms-Icon--SearchArt64:before { @include ms-Icon--SearchArt64 }
+.ms-Icon--SearchBookmark:before { @include ms-Icon--SearchBookmark }
+.ms-Icon--SearchCalendar:before { @include ms-Icon--SearchCalendar }
+.ms-Icon--SearchData:before { @include ms-Icon--SearchData }
+.ms-Icon--SearchIssue:before { @include ms-Icon--SearchIssue }
+.ms-Icon--SearchIssueMirrored:before { @include ms-Icon--SearchIssueMirrored }
+.ms-Icon--SearchNearby:before { @include ms-Icon--SearchNearby }
+.ms-Icon--SecondaryNav:before { @include ms-Icon--SecondaryNav }
+.ms-Icon--Section:before { @include ms-Icon--Section }
+.ms-Icon--Sections:before { @include ms-Icon--Sections }
+.ms-Icon--SecurityCamera:before { @include ms-Icon--SecurityCamera }
+.ms-Icon--SecurityGroup:before { @include ms-Icon--SecurityGroup }
+.ms-Icon--SecurityTest:before { @include ms-Icon--SecurityTest }
+.ms-Icon--SeeDo:before { @include ms-Icon--SeeDo }
+.ms-Icon--SelectAll:before { @include ms-Icon--SelectAll }
+.ms-Icon--Sell:before { @include ms-Icon--Sell }
+.ms-Icon--SemiboldWeight:before { @include ms-Icon--SemiboldWeight }
+.ms-Icon--Send:before { @include ms-Icon--Send }
+.ms-Icon--SendMirrored:before { @include ms-Icon--SendMirrored }
+.ms-Icon--SentimentAnalysis:before { @include ms-Icon--SentimentAnalysis }
+.ms-Icon--Separator:before { @include ms-Icon--Separator }
+.ms-Icon--Server:before { @include ms-Icon--Server }
+.ms-Icon--ServerEnviroment:before { @include ms-Icon--ServerEnviroment }
+.ms-Icon--ServerProcesses:before { @include ms-Icon--ServerProcesses }
+.ms-Icon--ServiceActivity:before { @include ms-Icon--ServiceActivity }
+.ms-Icon--ServiceOff:before { @include ms-Icon--ServiceOff }
+.ms-Icon--SetAction:before { @include ms-Icon--SetAction }
+.ms-Icon--Settings:before { @include ms-Icon--Settings }
+.ms-Icon--SettingsAdd:before { @include ms-Icon--SettingsAdd }
+

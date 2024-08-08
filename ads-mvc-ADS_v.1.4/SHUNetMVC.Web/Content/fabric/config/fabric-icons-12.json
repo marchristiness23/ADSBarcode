@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-12",
+  "fontFamilyName": "FabricMDL2Icons-12",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "MailReplyMirrored",
+      "unicode": "EA57"
+    },
+    {
+      "name": "MailSchedule",
+      "unicode": "F72E"
+    },
+    {
+      "name": "MailSecure",
+      "unicode": "E4D4"
+    },
+    {
+      "name": "MailSolid",
+      "unicode": "F343"
+    },
+    {
+      "name": "MailTentative",
+      "unicode": "F416"
+    },
+    {
+      "name": "MailTentativeMirrored",
+      "unicode": "F417"
+    },
+    {
+      "name": "MailUndelivered",
+      "unicode": "F415"
+    },
+    {
+      "name": "ManagerSelfService",
+      "unicode": "EE23"
+    },
+    {
+      "name": "Manufacturing",
+      "unicode": "E99C"
+    },
+    {
+      "name": "MapDirections",
+      "unicode": "E816"
+    },
+    {
+      "name": "MapLayers",
+      "unicode": "E81E"
+    },
+    {
+      "name": "MapPin",
+      "unicode": "E707"
+    },
+    {
+      "name": "MapPin12",
+      "unicode": "E3AE"
+    },
+    {
+      "name": "MapPinSolid",
+      "unicode": "F52E"
+    },
+    {
+      "name": "MarkAsProtected",
+      "unicode": "F6AE"
+    },
+    {
+      "name": "MarkDownLanguage",
+      "unicode": "F2FB"
+    },
+    {
+      "name": "Market",
+      "unicode": "EAFC"
+    },
+    {
+      "name": "MarketDown",
+      "unicode": "EF42"
+    },
+    {
+      "name": "MasterDatabase",
+      "unicode": "F5BA"
+    },
+    {
+      "name": "MaximumValue",
+      "unicode": "F5BC"
+    },
+    {
+      "name": "Medal",
+      "unicode": "EE38"
+    },
+    {
+      "name": "MedalSolid",
+      "unicode": "F6B9"
+    },
+    {
+      "name": "Media",
+      "unicode": "EA69"
+    },
+    {
+      "name": "MediaAdd",
+      "unicode": "F510"
+    },
+    {
+      "name": "Medical",
+      "unicode": "EAD4"
+    },
+    {
+      "name": "MedicalCare",
+      "unicode": "E54D"
+    },
+    {
+      "name": "MedicationAdmin",
+      "unicode": "E54E"
+    },
+    {
+      "name": "MedicationRequest",
+      "unicode": "E54F"
+    },
+    {
+      "name": "Megaphone",
+      "unicode": "E789"
+    },
+    {
+      "name": "MegaphoneSolid",
+      "unicode": "F332"
+    },
+    {
+      "name": "Memo",
+      "unicode": "E77C"
+    },
+    {
+      "name": "Merge",
+      "unicode": "E7D5"
+    },
+    {
+      "name": "MergeCase",
+      "unicode": "EFC9"
+    },
+    {
+      "name": "MergeDuplicate",
+      "unicode": "F29A"
+    },
+    {
+      "name": "Message",
+      "unicode": "E8BD"
+    },
+    {
+      "name": "MessageFill",
+      "unicode": "EC70"
+    },
+    {
+      "name": "MessageFriendRequest",
+      "unicode": "F055"
+    },
+    {
+      "name": "MetricsFailure",
+      "unicode": "E4CE"
+    },
+    {
+      "name": "MetricsInstall",
+      "unicode": "E4CD"
+    },
+    {
+      "name": "MetricsUsage",
+      "unicode": "E4CC"
+    },
+    {
+      "name": "MicOff",
+      "unicode": "EC54"
+    },
+    {
+      "name": "MicOff2",
+      "unicode": "F781"
+    },
+    {
+      "name": "Microphone",
+      "unicode": "E720"
+    },
+    {
+      "name": "MicrosoftStaffhubLogo",
+      "unicode": "F130"
+    },
+    {
+      "name": "MicrosoftTranslatorLogo",
+      "unicode": "F782"
+    },
+    {
+      "name": "MicrosoftTranslatorLogoBlue",
+      "unicode": "F853"
+    },
+    {
+      "name": "MicrosoftTranslatorLogoGreen",
+      "unicode": "F852"
+    },
+    {
+      "name": "MiniContract",
+      "unicode": "E93B"
+    },
+    {
+      "name": "MiniContractMirrored",
+      "unicode": "EA59"
+    },
+    {
+      "name": "MiniExpand",
+      "unicode": "E93A"
+    },
+    {
+      "name": "MiniExpandMirrored",
+      "unicode": "EA5A"
+    },
+    {
+      "name": "MiniLink",
+      "unicode": "E732"
+    },
+    {
+      "name": "MinimumValue",
+      "unicode": "F5BD"
+    },
+    {
+      "name": "MobileAngled",
+      "unicode": "E463"
+    },
+    {
+      "name": "MobileReport",
+      "unicode": "F18A"
+    },
+    {
+      "name": "MobileSelected",
+      "unicode": "EC75"
+    },
+    {
+      "name": "ModelAppTemplate32",
+      "unicode": "E5FD"
+    },
+    {
+      "name": "ModelingView",
+      "unicode": "F871"
+    },
+    {
+      "name": "Money",
+      "unicode": "EAFD"
+    },
+    {
+      "name": "More",
+      "unicode": "E712"
+    },
+    {
+      "name": "MoreSports",
+      "unicode": "EB22"
+    },
+    {
+      "name": "MoreVertical",
+      "unicode": "F2BC"
+    },
+    {
+      "name": "MostyClearNight",
+      "unicode": "E476"
+    },
+    {
+      "name": "MostyCloudyFlurriesDay",
+      "unicode": "E471"
+    },
+    {
+      "name": "MostyCloudyFlurriesNight",
+      "unicode": "E47D"
+    },
+    {
+      "name": "MostyCloudyShowersDay",
+      "unicode": "E46D"
+    },
+    {
+      "name": "MostyCloudyTStormsDay",
+      "unicode": "E46F"
+    },
+    {
+      "name": "MostyCloudyTStormsNight",
+      "unicode": "E47B"
+    },
+    {
+      "name": "MostySunnyDay",
+      "unicode": "E468"
+    },
+    {
+      "name": "MountainClimbing",
+      "unicode": "F6DB"
+    },
+    {
+      "name": "Move",
+      "unicode": "E7C2"
+    },
+    {
+      "name": "Movers",
+      "unicode": "EBCD"
+    },
+    {
+      "name": "MoveToFolder",
+      "unicode": "E8DE"
+    },
+    {
+      "name": "MSListsConnected",
+      "unicode": "E601"
+    },
+    {
+      "name": "MSNLogo",
+      "unicode": "EB6C"
+    },
+    {
+      "name": "MSNVideos",
+      "unicode": "EB1C"
+    },
+    {
+      "name": "MSNVideosSolid",
+      "unicode": "F2DA"
+    },
+    {
+      "name": "MSNVolume",
+      "unicode": "EB15"
+    },
+    {
+      "name": "MultiSelect",
+      "unicode": "E762"
+    },
+    {
+      "name": "MultiSelectMirrored",
+      "unicode": "EA98"
+    },
+    {
+      "name": "MusicInCollection",
+      "unicode": "E940"
+    },
+    {
+      "name": "MusicInCollectionFill",
+      "unicode": "EA36"
+    },
+    {
+      "name": "MusicNote",
+      "unicode": "EC4F"
+    },
+    {
+      "name": "MuteChat",
+      "unicode": "F17A"
+    },
+    {
+      "name": "MyMoviesTV",
+      "unicode": "EE6C"
+    },
+    {
+      "name": "MyNetwork",
+      "unicode": "EC27"
+    },
+    {
+      "name": "Nav2DMapView",
+      "unicode": "E800"
+    },
+    {
+      "name": "NavigateBack",
+      "unicode": "F2DD"
+    },
+    {
+      "name": "NavigateBackMirrored",
+      "unicode": "F2DE"
+    },
+    {
+      "name": "NavigateExternalInline",
+      "unicode": "F35F"
+    },
+    {
+      "name": "NavigateForward",
+      "unicode": "F2DF"
+    },
+    {
+      "name": "NavigateForwardMirrored",
+      "unicode": "F2E0"
+    },
+    {
+      "name": "NavigationFlipper",
+      "unicode": "F51D"
+    },
+    {
+      "name": "NetworkDeviceScanning",
+      "unicode": "E4F6"
+    },
+    {
+      "name": "NetworkTower",
+      "unicode": "EC05"
+    },
+    {
+      "name": "NewAnalyticsQuery",
+      "unicode": "F1E0"
+    },
+    {
+      "name": "NewFolder",
+      "unicode": "E8F4"
+    },
+    {
+      "name": "NewMail",
+      "unicode": "F7EA"
+    },
+    {
+      "name": "News",
+      "unicode": "E900"
+    },
+    {
+      "name": "NewsSearch",
+      "unicode": "F4E9"
+    }
+  ]
+}

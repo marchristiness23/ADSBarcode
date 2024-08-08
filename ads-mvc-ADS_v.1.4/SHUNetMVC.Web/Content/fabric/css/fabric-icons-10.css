@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-10';
+  src: url('../fonts/fabric-icons-10-36b68c83.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-10';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--HailDay:before { content: "\EA00"; }
+.ms-Icon--HailNight:before { content: "\EA13"; }
+.ms-Icon--HalfAlpha:before { content: "\E97E"; }
+.ms-Icon--HalfCircle:before { content: "\F501"; }
+.ms-Icon--HandsFree:before { content: "\EAD0"; }
+.ms-Icon--Handwriting:before { content: "\E929"; }
+.ms-Icon--HardDrive:before { content: "\EDA2"; }
+.ms-Icon--HardDriveGroup:before { content: "\F18F"; }
+.ms-Icon--HardDriveLock:before { content: "\F55A"; }
+.ms-Icon--HardDriveUnlock:before { content: "\F55B"; }
+.ms-Icon--HazyDay:before { content: "\E46B"; }
+.ms-Icon--HazyNight:before { content: "\E479"; }
+.ms-Icon--Header:before { content: "\F82F"; }
+.ms-Icon--Header1:before { content: "\EA19"; }
+.ms-Icon--Header2:before { content: "\EF36"; }
+.ms-Icon--Header3:before { content: "\EF37"; }
+.ms-Icon--Header4:before { content: "\EF38"; }
+.ms-Icon--Headset:before { content: "\E95B"; }
+.ms-Icon--HeadsetSolid:before { content: "\F348"; }
+.ms-Icon--Health:before { content: "\E95E"; }
+.ms-Icon--HealthRefresh:before { content: "\E3BD"; }
+.ms-Icon--HealthSolid:before { content: "\F33F"; }
+.ms-Icon--Heart:before { content: "\EB51"; }
+.ms-Icon--HeartBroken:before { content: "\EA92"; }
+.ms-Icon--HeartFill:before { content: "\EB52"; }
+.ms-Icon--Help:before { content: "\E897"; }
+.ms-Icon--HelpMirrored:before { content: "\EA51"; }
+.ms-Icon--HexaditeInvestigation:before { content: "\E3F8"; }
+.ms-Icon--HexaditeInvestigationCancel:before { content: "\E3F9"; }
+.ms-Icon--HexaditeInvestigationSemiAuto:before { content: "\E3FA"; }
+.ms-Icon--Hexagon:before { content: "\F4FE"; }
+.ms-Icon--Hide:before { content: "\ED1A"; }
+.ms-Icon--Hide2:before { content: "\EF89"; }
+.ms-Icon--Hide3:before { content: "\F6AC"; }
+.ms-Icon--HideVisualFilter:before { content: "\F403"; }
+.ms-Icon--Highlight:before { content: "\E7E6"; }
+.ms-Icon--HighlightMappedShapes:before { content: "\F2A1"; }
+.ms-Icon--HintText:before { content: "\F50F"; }
+.ms-Icon--HistoricalWeather:before { content: "\EB43"; }
+.ms-Icon--History:before { content: "\E81C"; }
+.ms-Icon--Home:before { content: "\E80F"; }
+.ms-Icon--HomeDropdown:before { content: "\E427"; }
+.ms-Icon--HomeGroup:before { content: "\EC26"; }
+.ms-Icon--HomeSolid:before { content: "\EA8A"; }
+.ms-Icon--HomeVerify:before { content: "\F00E"; }
+.ms-Icon--HorizontalDistributeCenter:before { content: "\F4F9"; }
+.ms-Icon--HorizontalTabKey:before { content: "\E7FD"; }
+.ms-Icon--Hospital:before { content: "\E91D"; }
+.ms-Icon--Hot:before { content: "\ECE2"; }
+.ms-Icon--Hotel:before { content: "\E824"; }
+.ms-Icon--HourGlass:before { content: "\EA03"; }
+.ms-Icon--Ice:before { content: "\E473"; }
+.ms-Icon--IconSetsFlag:before { content: "\F2A4"; }
+.ms-Icon--IDBadge:before { content: "\F427"; }
+.ms-Icon--IgnoreConversation:before { content: "\E372"; }
+.ms-Icon--ImageCrosshair:before { content: "\F2C9"; }
+.ms-Icon--ImageDiff:before { content: "\F30B"; }
+.ms-Icon--ImageInAR:before { content: "\E420"; }
+.ms-Icon--ImagePixel:before { content: "\F30C"; }
+.ms-Icon--ImageSearch:before { content: "\F4E8"; }
+.ms-Icon--Import:before { content: "\E8B5"; }
+.ms-Icon--ImportAllMirrored:before { content: "\EA53"; }
+.ms-Icon--Important:before { content: "\E8C9"; }
+.ms-Icon--ImportMirrored:before { content: "\EA52"; }
+.ms-Icon--Inbox:before { content: "\F41C"; }
+.ms-Icon--InboxActive:before { content: "\E497"; }
+.ms-Icon--InboxCheck:before { content: "\EF64"; }
+.ms-Icon--IncidentTriangle:before { content: "\E814"; }
+.ms-Icon--IncomingCall:before { content: "\E77E"; }
+.ms-Icon--IncreaseIndent:before { content: "\E399"; }
+.ms-Icon--IncreaseIndentArrow:before { content: "\F7A1"; }
+.ms-Icon--IncreaseIndentArrowMirrored:before { content: "\F7A5"; }
+.ms-Icon--IncreaseIndentHanging:before { content: "\E39D"; }
+.ms-Icon--IncreaseIndentHangingMirrored:before { content: "\E39E"; }
+.ms-Icon--IncreaseIndentMirrored:before { content: "\E39A"; }
+.ms-Icon--IncreaseIndentText:before { content: "\F7A0"; }
+.ms-Icon--IncreaseIndentTextMirrored:before { content: "\F7A4"; }
+.ms-Icon--IndentFirstLine:before { content: "\E3DD"; }
+.ms-Icon--Info:before { content: "\E946"; }
+.ms-Icon--Info12:before { content: "\E55A"; }
+.ms-Icon--Info2:before { content: "\EA1F"; }
+.ms-Icon--InformationBarriers:before { content: "\F803"; }
+.ms-Icon--InfoSolid:before { content: "\F167"; }
+.ms-Icon--InkingTool:before { content: "\E76D"; }
+.ms-Icon--InputAddress:before { content: "\E41E"; }
+.ms-Icon--Insert:before { content: "\F278"; }
+.ms-Icon--InsertColumnsLeft:before { content: "\F64A"; }
+.ms-Icon--InsertColumnsRight:before { content: "\F64B"; }
+.ms-Icon--InsertRowsAbove:before { content: "\F64C"; }
+.ms-Icon--InsertRowsBelow:before { content: "\F64D"; }
+.ms-Icon--InsertSignatureLine:before { content: "\F677"; }
+.ms-Icon--InsertTextBox:before { content: "\EC7D"; }
+.ms-Icon--InsertTextBoxKorean:before { content: "\E5D3"; }
+.ms-Icon--Insights:before { content: "\E3AF"; }
+.ms-Icon--Installation:before { content: "\E311"; }
+.ms-Icon--InstallToDrive:before { content: "\F28D"; }
+.ms-Icon--IntermittentCloudsDay:before { content: "\E46A"; }
+.ms-Icon--IntermittentCloudsNight:before { content: "\E478"; }
+.ms-Icon--InternalInvestigation:before { content: "\F854"; }
+.ms-Icon--InternetSharing:before { content: "\E704"; }

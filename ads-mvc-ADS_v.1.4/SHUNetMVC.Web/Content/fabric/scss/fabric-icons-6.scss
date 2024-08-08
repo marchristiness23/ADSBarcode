@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-6';
+  src: url('../fonts/fabric-icons-6-0aefebc6.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-6';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--DataFilter { content: "\E68A"; }
+@mixin ms-Icon--DataFlow { content: "\E577"; }
+@mixin ms-Icon--Dataflows { content: "\F7DD"; }
+@mixin ms-Icon--DataflowsLink { content: "\E366"; }
+@mixin ms-Icon--DataManagementSettings { content: "\EFC8"; }
+@mixin ms-Icon--DatamartExternal { content: "\E69B"; }
+@mixin ms-Icon--Dataverse { content: "\E659"; }
+@mixin ms-Icon--DateTime { content: "\EC92"; }
+@mixin ms-Icon--DateTime12 { content: "\F38F"; }
+@mixin ms-Icon--DateTime2 { content: "\EA17"; }
+@mixin ms-Icon--DateTimeMirrored { content: "\EE93"; }
+@mixin ms-Icon--DeactivateOrders { content: "\EFE1"; }
+@mixin ms-Icon--Debug { content: "\F395"; }
+@mixin ms-Icon--DebugAll { content: "\F398"; }
+@mixin ms-Icon--Decimals { content: "\F218"; }
+@mixin ms-Icon--DecisionSolid { content: "\F350"; }
+@mixin ms-Icon--DeclineCall { content: "\F405"; }
+@mixin ms-Icon--DecreaseIndent { content: "\E39B"; }
+@mixin ms-Icon--DecreaseIndentArrow { content: "\F7A3"; }
+@mixin ms-Icon--DecreaseIndentArrowMirrored { content: "\F7A7"; }
+@mixin ms-Icon--DecreaseIndentMirrored { content: "\E39C"; }
+@mixin ms-Icon--DecreaseIndentText { content: "\F7A2"; }
+@mixin ms-Icon--DecreaseIndentTextMirrored { content: "\F7A6"; }
+@mixin ms-Icon--DefaultRatio { content: "\F529"; }
+@mixin ms-Icon--DefaultSettings { content: "\F648"; }
+@mixin ms-Icon--DefectSolid { content: "\F449"; }
+@mixin ms-Icon--DefenderApp { content: "\E83D"; }
+@mixin ms-Icon--DefenderBadge12 { content: "\F0FB"; }
+@mixin ms-Icon--DefenderTVM { content: "\F6B3"; }
+@mixin ms-Icon--Delete { content: "\E74D"; }
+@mixin ms-Icon--DeleteColumns { content: "\F64E"; }
+@mixin ms-Icon--DeleteRows { content: "\F64F"; }
+@mixin ms-Icon--DeleteRowsMirrored { content: "\F650"; }
+@mixin ms-Icon--DeleteTable { content: "\F651"; }
+@mixin ms-Icon--DeliveryTruck { content: "\EBF4"; }
+@mixin ms-Icon--DelveAnalytics { content: "\EEEE"; }
+@mixin ms-Icon--DelveAnalyticsLogo { content: "\EDCA"; }
+@mixin ms-Icon--DelveLogo { content: "\F280"; }
+@mixin ms-Icon--DelveLogoFill { content: "\F281"; }
+@mixin ms-Icon--DelveLogoInverse { content: "\ED76"; }
+@mixin ms-Icon--DensityComfy { content: "\E4BA"; }
+@mixin ms-Icon--DensityDefault { content: "\E4B9"; }
+@mixin ms-Icon--DependencyAdd { content: "\E344"; }
+@mixin ms-Icon--DependencyRemove { content: "\E345"; }
+@mixin ms-Icon--Deploy { content: "\F29D"; }
+@mixin ms-Icon--Descending { content: "\EDC1"; }
+@mixin ms-Icon--Design { content: "\EB3C"; }
+@mixin ms-Icon--DesktopFlow { content: "\E4F3"; }
+@mixin ms-Icon--DesktopScreenshot { content: "\F5D9"; }
+@mixin ms-Icon--DeveloperTools { content: "\EC7A"; }
+@mixin ms-Icon--DeviceBug { content: "\E424"; }
+@mixin ms-Icon--DeviceOff { content: "\E402"; }
+@mixin ms-Icon--DeviceRun { content: "\E401"; }
+@mixin ms-Icon--Devices2 { content: "\E975"; }
+@mixin ms-Icon--Devices3 { content: "\EA6C"; }
+@mixin ms-Icon--Devices4 { content: "\EB66"; }
+@mixin ms-Icon--Diagnostic { content: "\E9D9"; }
+@mixin ms-Icon--DiagnosticDataBar { content: "\F633"; }
+@mixin ms-Icon--DiagnosticDataBarTooltip { content: "\F7DF"; }
+@mixin ms-Icon--DiagnosticDataViewerApp { content: "\F568"; }
+@mixin ms-Icon--Dialpad { content: "\E75F"; }
+@mixin ms-Icon--DialShape1 { content: "\F156"; }
+@mixin ms-Icon--DialShape3 { content: "\F158"; }
+@mixin ms-Icon--Diamond { content: "\ED02"; }
+@mixin ms-Icon--DiamondSolid { content: "\F34C"; }
+@mixin ms-Icon--DiamondUser { content: "\E4F9"; }
+@mixin ms-Icon--Dictionary { content: "\E82D"; }
+@mixin ms-Icon--DictionaryRemove { content: "\F69A"; }
+@mixin ms-Icon--DietPlanNotebook { content: "\EAC8"; }
+@mixin ms-Icon--DiffInline { content: "\F309"; }
+@mixin ms-Icon--DiffSideBySide { content: "\F30A"; }
+@mixin ms-Icon--Diploma { content: "\F320"; }
+@mixin ms-Icon--DisableUpdates { content: "\E8D8"; }
+@mixin ms-Icon--DisconnectVirtualMachine { content: "\F873"; }
+@mixin ms-Icon--Dislike { content: "\E8E0"; }
+@mixin ms-Icon--DislikeSolid { content: "\F3C0"; }
+@mixin ms-Icon--Distance { content: "\ECAE"; }
+@mixin ms-Icon--DistributeDown { content: "\F76A"; }
+@mixin ms-Icon--DockLeft { content: "\E90C"; }
+@mixin ms-Icon--DockLeftMirrored { content: "\EA4C"; }
+@mixin ms-Icon--DockRight { content: "\E90D"; }
+@mixin ms-Icon--DocLibrary { content: "\EEB8"; }
+@mixin ms-Icon--DocsLogoInverse { content: "\EDCB"; }
+@mixin ms-Icon--Document { content: "\E8A5"; }
+@mixin ms-Icon--DocumentApproval { content: "\F28B"; }
+@mixin ms-Icon--Documentation { content: "\EC17"; }
+@mixin ms-Icon--DocumentManagement { content: "\EFFC"; }
+@mixin ms-Icon--DocumentReply { content: "\EF57"; }
+@mixin ms-Icon--DocumentSearch { content: "\EF6C"; }
+@mixin ms-Icon--DocumentSet { content: "\EED6"; }
+@mixin ms-Icon--DOM { content: "\EC8D"; }
+@mixin ms-Icon--DonutChart { content: "\F368"; }
+@mixin ms-Icon--Door { content: "\EB75"; }
+@mixin ms-Icon--DoubleBookmark { content: "\EB8F"; }
+@mixin ms-Icon--DoubleChevronDown { content: "\EE04"; }
+@mixin ms-Icon--DoubleChevronDown12 { content: "\EE97"; }
+@mixin ms-Icon--DoubleChevronDown8 { content: "\F36B"; }
+@mixin ms-Icon--DoubleChevronLeft { content: "\EDBE"; }
+@mixin ms-Icon--DoubleChevronLeft12 { content: "\EE98"; }
+@mixin ms-Icon--DoubleChevronLeft8 { content: "\F36D"; }
+
+
+// Classes
+.ms-Icon--DataFilter:before { @include ms-Icon--DataFilter }
+.ms-Icon--DataFlow:before { @include ms-Icon--DataFlow }
+.ms-Icon--Dataflows:before { @include ms-Icon--Dataflows }
+.ms-Icon--DataflowsLink:before { @include ms-Icon--DataflowsLink }
+.ms-Icon--DataManagementSettings:before { @include ms-Icon--DataManagementSettings }
+.ms-Icon--DatamartExternal:before { @include ms-Icon--DatamartExternal }
+.ms-Icon--Dataverse:before { @include ms-Icon--Dataverse }
+.ms-Icon--DateTime:before { @include ms-Icon--DateTime }
+.ms-Icon--DateTime12:before { @include ms-Icon--DateTime12 }
+.ms-Icon--DateTime2:before { @include ms-Icon--DateTime2 }
+.ms-Icon--DateTimeMirrored:before { @include ms-Icon--DateTimeMirrored }
+.ms-Icon--DeactivateOrders:before { @include ms-Icon--DeactivateOrders }
+.ms-Icon--Debug:before { @include ms-Icon--Debug }
+.ms-Icon--DebugAll:before { @include ms-Icon--DebugAll }
+.ms-Icon--Decimals:before { @include ms-Icon--Decimals }
+.ms-Icon--DecisionSolid:before { @include ms-Icon--DecisionSolid }
+.ms-Icon--DeclineCall:before { @include ms-Icon--DeclineCall }
+.ms-Icon--DecreaseIndent:before { @include ms-Icon--DecreaseIndent }
+.ms-Icon--DecreaseIndentArrow:before { @include ms-Icon--DecreaseIndentArrow }
+.ms-Icon--DecreaseIndentArrowMirrored:before { @include ms-Icon--DecreaseIndentArrowMirrored }
+.ms-Icon--DecreaseIndentMirrored:before { @include ms-Icon--DecreaseIndentMirrored }
+.ms-Icon--DecreaseIndentText:before { @include ms-Icon--DecreaseIndentText }
+.ms-Icon--DecreaseIndentTextMirrored:before { @include ms-Icon--DecreaseIndentTextMirrored }
+.ms-Icon--DefaultRatio:before { @include ms-Icon--DefaultRatio }
+.ms-Icon--DefaultSettings:before { @include ms-Icon--DefaultSettings }
+.ms-Icon--DefectSolid:before { @include ms-Icon--DefectSolid }
+.ms-Icon--DefenderApp:before { @include ms-Icon--DefenderApp }
+.ms-Icon--DefenderBadge12:before { @include ms-Icon--DefenderBadge12 }
+.ms-Icon--DefenderTVM:before { @include ms-Icon--DefenderTVM }
+.ms-Icon--Delete:before { @include ms-Icon--Delete }
+.ms-Icon--DeleteColumns:before { @include ms-Icon--DeleteColumns }
+.ms-Icon--DeleteRows:before { @include ms-Icon--DeleteRows }
+.ms-Icon--DeleteRowsMirrored:before { @include ms-Icon--DeleteRowsMirrored }
+.ms-Icon--DeleteTable:before { @include ms-Icon--DeleteTable }
+.ms-Icon--DeliveryTruck:before { @include ms-Icon--DeliveryTruck }
+.ms-Icon--DelveAnalytics:before { @include ms-Icon--DelveAnalytics }
+.ms-Icon--DelveAnalyticsLogo:before { @include ms-Icon--DelveAnalyticsLogo }
+.ms-Icon--DelveLogo:before { @include ms-Icon--DelveLogo }
+.ms-Icon--DelveLogoFill:before { @include ms-Icon--DelveLogoFill }
+.ms-Icon--DelveLogoInverse:before { @include ms-Icon--DelveLogoInverse }
+.ms-Icon--DensityComfy:before { @include ms-Icon--DensityComfy }
+.ms-Icon--DensityDefault:before { @include ms-Icon--DensityDefault }
+.ms-Icon--DependencyAdd:before { @include ms-Icon--DependencyAdd }
+.ms-Icon--DependencyRemove:before { @include ms-Icon--DependencyRemove }
+.ms-Icon--Deploy:before { @include ms-Icon--Deploy }
+.ms-Icon--Descending:before { @include ms-Icon--Descending }
+.ms-Icon--Design:before { @include ms-Icon--Design }
+.ms-Icon--DesktopFlow:before { @include ms-Icon--DesktopFlow }
+.ms-Icon--DesktopScreenshot:before { @include ms-Icon--DesktopScreenshot }
+.ms-Icon--DeveloperTools:before { @include ms-Icon--DeveloperTools }
+.ms-Icon--DeviceBug:before { @include ms-Icon--DeviceBug }
+.ms-Icon--DeviceOff:before { @include ms-Icon--DeviceOff }
+.ms-Icon--DeviceRun:before { @include ms-Icon--DeviceRun }
+.ms-Icon--Devices2:before { @include ms-Icon--Devices2 }
+.ms-Icon--Devices3:before { @include ms-Icon--Devices3 }
+.ms-Icon--Devices4:before { @include ms-Icon--Devices4 }
+.ms-Icon--Diagnostic:before { @include ms-Icon--Diagnostic }
+.ms-Icon--DiagnosticDataBar:before { @include ms-Icon--DiagnosticDataBar }
+.ms-Icon--DiagnosticDataBarTooltip:before { @include ms-Icon--DiagnosticDataBarTooltip }
+.ms-Icon--DiagnosticDataViewerApp:before { @include ms-Icon--DiagnosticDataViewerApp }
+.ms-Icon--Dialpad:before { @include ms-Icon--Dialpad }
+.ms-Icon--DialShape1:before { @include ms-Icon--DialShape1 }
+.ms-Icon--DialShape3:before { @include ms-Icon--DialShape3 }
+.ms-Icon--Diamond:before { @include ms-Icon--Diamond }
+.ms-Icon--DiamondSolid:before { @include ms-Icon--DiamondSolid }
+.ms-Icon--DiamondUser:before { @include ms-Icon--DiamondUser }
+.ms-Icon--Dictionary:before { @include ms-Icon--Dictionary }
+.ms-Icon--DictionaryRemove:before { @include ms-Icon--DictionaryRemove }
+.ms-Icon--DietPlanNotebook:before { @include ms-Icon--DietPlanNotebook }
+.ms-Icon--DiffInline:before { @include ms-Icon--DiffInline }
+.ms-Icon--DiffSideBySide:before { @include ms-Icon--DiffSideBySide }
+.ms-Icon--Diploma:before { @include ms-Icon--Diploma }
+.ms-Icon--DisableUpdates:before { @include ms-Icon--DisableUpdates }
+.ms-Icon--DisconnectVirtualMachine:before { @include ms-Icon--DisconnectVirtualMachine }
+.ms-Icon--Dislike:before { @include ms-Icon--Dislike }
+.ms-Icon--DislikeSolid:before { @include ms-Icon--DislikeSolid }
+.ms-Icon--Distance:before { @include ms-Icon--Distance }
+.ms-Icon--DistributeDown:before { @include ms-Icon--DistributeDown }
+.ms-Icon--DockLeft:before { @include ms-Icon--DockLeft }
+.ms-Icon--DockLeftMirrored:before { @include ms-Icon--DockLeftMirrored }
+.ms-Icon--DockRight:before { @include ms-Icon--DockRight }
+.ms-Icon--DocLibrary:before { @include ms-Icon--DocLibrary }
+.ms-Icon--DocsLogoInverse:before { @include ms-Icon--DocsLogoInverse }
+.ms-Icon--Document:before { @include ms-Icon--Document }
+.ms-Icon--DocumentApproval:before { @include ms-Icon--DocumentApproval }
+.ms-Icon--Documentation:before { @include ms-Icon--Documentation }
+.ms-Icon--DocumentManagement:before { @include ms-Icon--DocumentManagement }
+.ms-Icon--DocumentReply:before { @include ms-Icon--DocumentReply }
+.ms-Icon--DocumentSearch:before { @include ms-Icon--DocumentSearch }
+.ms-Icon--DocumentSet:before { @include ms-Icon--DocumentSet }
+.ms-Icon--DOM:before { @include ms-Icon--DOM }
+.ms-Icon--DonutChart:before { @include ms-Icon--DonutChart }
+.ms-Icon--Door:before { @include ms-Icon--Door }
+.ms-Icon--DoubleBookmark:before { @include ms-Icon--DoubleBookmark }
+.ms-Icon--DoubleChevronDown:before { @include ms-Icon--DoubleChevronDown }
+.ms-Icon--DoubleChevronDown12:before { @include ms-Icon--DoubleChevronDown12 }
+.ms-Icon--DoubleChevronDown8:before { @include ms-Icon--DoubleChevronDown8 }
+.ms-Icon--DoubleChevronLeft:before { @include ms-Icon--DoubleChevronLeft }
+.ms-Icon--DoubleChevronLeft12:before { @include ms-Icon--DoubleChevronLeft12 }
+.ms-Icon--DoubleChevronLeft8:before { @include ms-Icon--DoubleChevronLeft8 }
+

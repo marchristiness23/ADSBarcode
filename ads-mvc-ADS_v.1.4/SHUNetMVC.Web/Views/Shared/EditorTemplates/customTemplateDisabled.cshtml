@@ -1,0 +1,254 @@
+﻿
+@model SHUNetMVC.Abstraction.Model.Dto.WorkerDtoPopUp
+
+<style>
+
+    .popUpForm .k-prompt-container, .k-window-content {
+        padding: 1rem 1rem;
+        border-width: 0;
+        border-color: inherit;
+        color: #6b6c67d9;
+        background: 0 0;
+        outline: 0;
+        overflow: auto;
+        position: relative;
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+    }
+
+    .popUpForm input.k-input, textarea.k-textarea {
+        padding: 0.375rem 0.75rem;
+        border-radius: 10px;
+        border-color: #6b6c675e;
+    }
+
+    .k-edit-form-container {
+        width: 800px;
+        min-width: 500px;
+        border-color: inherit;
+        position: relative;
+    }
+
+    .k-button {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+        transition-duration: 0.4s;
+        color: black;
+    }
+
+    .k-fieldset {
+        margin: 30px;
+        border-width: 1px 0 0;
+        border-style: solid;
+        padding: 25px 0 0;
+        width: 40%;
+        height: 250px;
+    }
+</style>
+
+<div class="popUpForm" style="width:800px">
+    <fieldset class="k-fieldset" style="float:left">
+        <legend>User Information</legend>
+        <div>
+            <span class="k-d-inline-block">First Name</span>
+            <input type="text" id="FirstName" name="FirstName" class="k-input k-textbox" data-bind="value:FirstName"  readonly/>
+        </div>
+        <div>
+            <span class="k-d-inline-block">Last Name</span>
+            <input type="text" id="LastName" name="LastName" class="k-input k-textbox" data-bind="value:LastName"  readonly/>
+        </div>
+    </fieldset>
+    <fieldset class="k-fieldset" style="float:left">
+        <legend>User Information 2</legend>
+        <div>
+            <span class="k-d-inline-block">Birth Date</span>
+            <input type="date" id="BirthDate" name="BirthDate" class="k-input k-textbox" data-bind="value:BirthDate"  readonly/>
+        </div>
+        <div>
+            <span class="k-d-inline-block">Hire Date</span>
+            <input type="date" id="HireDate" name="HireDate" class="k-input k-textbox" data-bind="value:HireDate"  readonly/>
+        </div>
+    </fieldset>
+    <fieldset class="k-fieldset" style=" float: inline-start;">
+        <legend>Radio Button Horizontal</legend>
+        <div class="box-col">
+            <label class="label">horizontal</label>
+            @(Html.Kendo().RadioGroup()
+            .Name("radiogroup1")
+            .Layout("horizontal")
+            .Items(i =>
+            {
+                for (int x = 0; x < 5; x++)
+                {
+                    i.Add().Label("Status " + (x + 1)).Value((x + 1) + "");
+                }
+            })
+            .Value("1")
+            .Enabled(false)
+            //.BindTo(Model.EmployeeStatus) --> jika ingin di Bind ke Model
+        )
+            <div class="k-form-hint">Please choose only one.</div>
+        </div>
+    </fieldset>
+    <fieldset class="k-fieldset" style=" float: inline-start;">
+        <legend>Radio Button Vertical</legend>
+        <div class="box-col">
+            <label class="label">Vertical</label>
+            @(Html.Kendo().RadioGroup()
+            .Name("radiogroup2")
+            .Items(i =>
+            {
+                for (int x = 0; x < 5; x++)
+                {
+                    i.Add().Label("Status " + (x + 1)).Value((x + 1) + "");
+                }
+            })
+            .Value("1")
+            .Enabled(false)
+        )
+            <div class="k-form-hint">Please choose only one.</div>
+        </div>
+    </fieldset>
+
+    <fieldset class="k-fieldset" style=" float: inline-start;">
+        <legend>CheckBox Group</legend>
+        <div class="box-col">
+            @(Html.Kendo().CheckBoxGroup()
+            .Name("checkboxgroup")
+            .Items(i =>
+            {
+
+                for(int x = 0; x<5;x++)
+                {
+                    i.Add().Label("Check Box " + (x + 1)).Value((x + 1) + "");
+                }
+            })
+            .Value(new string[] { "1", "2" })
+            .Enabled(false)
+            //.BindTo(Model.EmployeeStatus) --> jika ingin di Bind ke Model
+
+        )
+        </div>
+    </fieldset>
+    <fieldset class="k-fieldset" style=" float: inline-start;">
+        <legend>CheckBox</legend>
+        <h4>Choose Extra Equipment</h4>
+        <ul class="fieldlist">
+            <li>
+                @(Html.Kendo().CheckBox().Name("eq1").Checked(true).Label("Rear side airbags").Enable(false));
+            </li>
+            <li>
+                @(Html.Kendo().CheckBox().Name("eq2").Checked(true).Enable(false).Label("Leather trim").Enable(false));
+            </li>
+            <li>
+                @(Html.Kendo().CheckBox().Name("eq3").Label("Luggage compartment cover").Enable(false));
+            </li>
+        </ul>
+    </fieldset>
+    <fieldset class="k-fieldset" style=" float: inline-start;">
+        <legend>MultiSelect</legend>
+        @(Html.Kendo().MultiSelect()
+              .Name("multiSelectData")
+
+              // Ini jika menggunakan Data dari DB
+              //    .DownArrow(true) // jika tidak mau ada Anak Panah kebawah, set ke false
+              //    .NoDataTemplateId("noDataTemplate")
+              //    .DataTextField("Text")
+              //    .DataValueField("Value")
+              //    .Filter("contains")
+              //    .DataSource(source =>
+              //    {
+              //        source.Read(read =>
+              //        {
+              //            read.Action("Overview_GetHobbies", "MultiSelect");
+              //        });
+              //    }) // Tanpa Grouping
+              //.DataSource(source => source
+              //    .Custom()
+              //    .Group(g => g.Add("Country", typeof(string)))
+              //    .Transport(transport => transport
+              //      .Read(read =>
+              //      {
+              //          read.Action("Grouping_GetCustomers", "MultiSelect")
+              //              .Data("onAdditionalData");
+              //      }))
+              //    .ServerFiltering(true))// Dengan Grouping
+              //)
+
+              //Jika Menggunakan Data Hardcode
+              .BindTo(new List<string>() {
+                  "Steven White",
+                  "Nancy King",
+                  "Anne King",
+                  "Nancy Davolio",
+                  "Robert Davolio",
+                  "Michael Leverling",
+                  "Andrew Callahan",
+                  "Michael Suyama",
+                  "Anne King",
+                  "Laura Peacock",
+                  "Robert Fuller",
+                  "Janet White",
+                  "Nancy Leverling",
+                  "Robert Buchanan",
+                  "Andrew Fuller",
+                  "Anne Davolio",
+                  "Andrew Suyama",
+                  "Nige Buchanan",
+                  "Laura Fuller"
+              })
+              .Enable(false)
+              .Value(new string[] { "Anne King", "Andrew Fuller" })
+        )
+    </fieldset>
+    <fieldset class="k-fieldset" style=" float: inline-start;">
+        <legend>DropdownList</legend>
+        <label for="customers">Customers:</label>
+        @(Html.Kendo().DropDownList()
+          .Name("customers")
+          .DataTextField("Text")
+          .DataValueField("Value")
+          .Height(400)
+          .HtmlAttributes(new { style = "width:100%" })
+          .BindTo(new List<SelectListItem>() {
+              new SelectListItem() {
+                  Text = "Black",
+                  Value = "1"
+              },
+              new SelectListItem() {
+                  Text = "Orange",
+                  Value = "2"
+              },
+              new SelectListItem() {
+                  Text = "Grey",
+                  Value = "3"
+              }
+          }).Enable(false)
+          )
+    </fieldset>
+    <fieldset class="k-fieldset" style=" width: 740px; height: 420px;">
+        <label for="customers">Grid</label>
+        @(Html.Kendo().Grid<SHUNetMVC.Abstraction.Model.Dto.WorkerDtoPopUp>()
+        .Name("gridOnPopUp")
+        .Columns(columns =>
+        {
+            columns.Bound(c => c.EmployeeID);
+            columns.Bound(c => c.FirstName);
+            columns.Bound(c => c.LastName);
+        })
+        .HtmlAttributes(new { style = "height: 370px;" })
+        .Scrollable()
+        .Groupable()
+        .Sortable()
+        .Pageable(pageable => pageable
+            .Refresh(true)
+            .PageSizes(true)
+            .ButtonCount(5))
+        .DataSource(dataSource => dataSource
+            .Ajax()
+            .Read(read => read.Action("EditingCustom_Read", "Grid"))
+            .PageSize(5)
+        )
+    )
+    </fieldset>
+</div>

@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-2';
+  src: url('../fonts/fabric-icons-2-abd98bc6.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-2';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--BoxAdditionSolid:before { content: "\F2D4"; }
+.ms-Icon--BoxCheckmarkSolid:before { content: "\F2D7"; }
+.ms-Icon--BoxMultiplySolid:before { content: "\F2D5"; }
+.ms-Icon--BoxPlaySolid:before { content: "\F2D6"; }
+.ms-Icon--BoxSubtractSolid:before { content: "\F2D3"; }
+.ms-Icon--BranchCommit:before { content: "\F293"; }
+.ms-Icon--BranchCompare:before { content: "\F294"; }
+.ms-Icon--BranchFork:before { content: "\F173"; }
+.ms-Icon--BranchFork2:before { content: "\F291"; }
+.ms-Icon--BranchLocked:before { content: "\F292"; }
+.ms-Icon--BranchMerge:before { content: "\F295"; }
+.ms-Icon--BranchPullRequest:before { content: "\F296"; }
+.ms-Icon--BranchSearch:before { content: "\F297"; }
+.ms-Icon--BranchShelveset:before { content: "\F298"; }
+.ms-Icon--Breadcrumb:before { content: "\EF8C"; }
+.ms-Icon--Breakfast:before { content: "\F49C"; }
+.ms-Icon--BreakpointsRemove:before { content: "\E692"; }
+.ms-Icon--Brightness:before { content: "\E706"; }
+.ms-Icon--Broom:before { content: "\EA99"; }
+.ms-Icon--BrowserScreenShot:before { content: "\EBED"; }
+.ms-Icon--BrowserTab:before { content: "\F5D7"; }
+.ms-Icon--BrowserTabScreenshot:before { content: "\F5D8"; }
+.ms-Icon--Brunch:before { content: "\F49D"; }
+.ms-Icon--Brush:before { content: "\ECFF"; }
+.ms-Icon--BucketColor:before { content: "\F1B6"; }
+.ms-Icon--BucketColorFill:before { content: "\F1B7"; }
+.ms-Icon--BufferTimeAfter:before { content: "\F0D0"; }
+.ms-Icon--BufferTimeBefore:before { content: "\F0CF"; }
+.ms-Icon--BufferTimeBoth:before { content: "\F0D1"; }
+.ms-Icon--Bug:before { content: "\EBE8"; }
+.ms-Icon--BugAction:before { content: "\E358"; }
+.ms-Icon--BugBlock:before { content: "\E400"; }
+.ms-Icon--BugSolid:before { content: "\F335"; }
+.ms-Icon--BugSync:before { content: "\E3FF"; }
+.ms-Icon--BugWarning:before { content: "\E357"; }
+.ms-Icon--Build:before { content: "\F28F"; }
+.ms-Icon--BuildDefinition:before { content: "\F6E9"; }
+.ms-Icon--BuildIssue:before { content: "\F319"; }
+.ms-Icon--BuildQueue:before { content: "\F24F"; }
+.ms-Icon--BuildQueueNew:before { content: "\F250"; }
+.ms-Icon--BulkPageBlock:before { content: "\E553"; }
+.ms-Icon--BulkUpload:before { content: "\F548"; }
+.ms-Icon--BulletedList:before { content: "\E8FD"; }
+.ms-Icon--BulletedList2:before { content: "\F2C7"; }
+.ms-Icon--BulletedList2Mirrored:before { content: "\F2C8"; }
+.ms-Icon--BulletedListBullet:before { content: "\F793"; }
+.ms-Icon--BulletedListBulletMirrored:before { content: "\F795"; }
+.ms-Icon--BulletedListMirrored:before { content: "\EA42"; }
+.ms-Icon--BulletedListText:before { content: "\F792"; }
+.ms-Icon--BulletedListTextMirrored:before { content: "\F794"; }
+.ms-Icon--BulletedTreeList:before { content: "\F84C"; }
+.ms-Icon--Bullseye:before { content: "\F272"; }
+.ms-Icon--BullseyeTarget:before { content: "\F5F0"; }
+.ms-Icon--BullseyeTargetAdd:before { content: "\E664"; }
+.ms-Icon--BullseyeTargetDelete:before { content: "\F6C1"; }
+.ms-Icon--BullseyeTargetEdit:before { content: "\E319"; }
+.ms-Icon--Bus:before { content: "\E806"; }
+.ms-Icon--BusinessCard:before { content: "\E5FB"; }
+.ms-Icon--BusinessCenterLogo:before { content: "\F4B2"; }
+.ms-Icon--BusinessHoursSign:before { content: "\F310"; }
+.ms-Icon--BusinessRule:before { content: "\E562"; }
+.ms-Icon--BusSolid:before { content: "\EB47"; }
+.ms-Icon--ButtonControl:before { content: "\F6C0"; }
+.ms-Icon--Cafe:before { content: "\EC32"; }
+.ms-Icon--Cake:before { content: "\ECA4"; }
+.ms-Icon--CalculatedTable:before { content: "\E4BE"; }
+.ms-Icon--Calculator:before { content: "\E8EF"; }
+.ms-Icon--CalculatorAddition:before { content: "\E948"; }
+.ms-Icon--CalculatorDelta:before { content: "\E406"; }
+.ms-Icon--CalculatorEqualTo:before { content: "\E94E"; }
+.ms-Icon--CalculatorGroup:before { content: "\E462"; }
+.ms-Icon--CalculatorMultiply:before { content: "\E947"; }
+.ms-Icon--CalculatorNotEqualTo:before { content: "\F2D2"; }
+.ms-Icon--CalculatorPercentage:before { content: "\E94C"; }
+.ms-Icon--CalculatorSubtract:before { content: "\E949"; }
+.ms-Icon--Calendar:before { content: "\E787"; }
+.ms-Icon--CalendarAgenda:before { content: "\EE9A"; }
+.ms-Icon--CalendarDay:before { content: "\E8BF"; }
+.ms-Icon--CalendarMirrored:before { content: "\ED28"; }
+.ms-Icon--CalendarReply:before { content: "\E8F5"; }
+.ms-Icon--CalendarSettings:before { content: "\F558"; }
+.ms-Icon--CalendarSettingsMirrored:before { content: "\F559"; }
+.ms-Icon--CalendarWeek:before { content: "\E8C0"; }
+.ms-Icon--CalendarWorkWeek:before { content: "\EF51"; }
+.ms-Icon--CalendarYear:before { content: "\E371"; }
+.ms-Icon--Calories:before { content: "\ECAD"; }
+.ms-Icon--CaloriesAdd:before { content: "\F172"; }
+.ms-Icon--Camera:before { content: "\E722"; }
+.ms-Icon--CampaignTemplate:before { content: "\F811"; }
+.ms-Icon--Cancel:before { content: "\E711"; }
+.ms-Icon--CannedChat:before { content: "\F0F2"; }
+.ms-Icon--CanvasAppTemplate32:before { content: "\E5FE"; }
+.ms-Icon--Car:before { content: "\E804"; }
+.ms-Icon--CareActivity:before { content: "\E549"; }
+.ms-Icon--CarePlan:before { content: "\E54A"; }
+.ms-Icon--CarePlanTemplate:before { content: "\E61E"; }
+.ms-Icon--CaretBottomLeftCenter8:before { content: "\F365"; }
+.ms-Icon--CaretBottomLeftSolid8:before { content: "\F121"; }
+.ms-Icon--CaretBottomRightCenter8:before { content: "\F364"; }
+.ms-Icon--CaretBottomRightSolid8:before { content: "\F122"; }

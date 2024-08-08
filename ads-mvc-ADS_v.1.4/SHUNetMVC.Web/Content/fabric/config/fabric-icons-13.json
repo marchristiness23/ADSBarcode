@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-13",
+  "fontFamilyName": "FabricMDL2Icons-13",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "NewTeamProject",
+      "unicode": "F2B2"
+    },
+    {
+      "name": "Next",
+      "unicode": "E893"
+    },
+    {
+      "name": "NormalWeight",
+      "unicode": "F4EF"
+    },
+    {
+      "name": "NoteForward",
+      "unicode": "ED99"
+    },
+    {
+      "name": "NotePinned",
+      "unicode": "ED9A"
+    },
+    {
+      "name": "NoteReply",
+      "unicode": "ED98"
+    },
+    {
+      "name": "NotExecuted",
+      "unicode": "F440"
+    },
+    {
+      "name": "NotImpactedSolid",
+      "unicode": "F441"
+    },
+    {
+      "name": "NugetLogo",
+      "unicode": "F44C"
+    },
+    {
+      "name": "NUIFace",
+      "unicode": "EB68"
+    },
+    {
+      "name": "Number",
+      "unicode": "F691"
+    },
+    {
+      "name": "NumberedList",
+      "unicode": "EA1C"
+    },
+    {
+      "name": "NumberedListMirrored",
+      "unicode": "E398"
+    },
+    {
+      "name": "NumberedListNumber",
+      "unicode": "F797"
+    },
+    {
+      "name": "NumberedListNumberMirrored",
+      "unicode": "F799"
+    },
+    {
+      "name": "NumberedListText",
+      "unicode": "F796"
+    },
+    {
+      "name": "NumberedListTextMirrored",
+      "unicode": "F798"
+    },
+    {
+      "name": "NumberField",
+      "unicode": "EDC4"
+    },
+    {
+      "name": "NumberSequence",
+      "unicode": "F52A"
+    },
+    {
+      "name": "NumberSymbol",
+      "unicode": "F7AC"
+    },
+    {
+      "name": "Oauth",
+      "unicode": "E5C3"
+    },
+    {
+      "name": "ObjectRecognition",
+      "unicode": "E4EE"
+    },
+    {
+      "name": "Octagon",
+      "unicode": "F4FD"
+    },
+    {
+      "name": "ODLink",
+      "unicode": "E4BB"
+    },
+    {
+      "name": "ODLink12",
+      "unicode": "E4BC"
+    },
+    {
+      "name": "ODSharedChannel",
+      "unicode": "E649"
+    },
+    {
+      "name": "ODSharedChannel12",
+      "unicode": "E64A"
+    },
+    {
+      "name": "OEM",
+      "unicode": "E74C"
+    },
+    {
+      "name": "OfficeAddinsLogo",
+      "unicode": "EEC7"
+    },
+    {
+      "name": "OfficeAssistantLogo",
+      "unicode": "EDCE"
+    },
+    {
+      "name": "OfficeCatchUp",
+      "unicode": "E490"
+    },
+    {
+      "name": "OfficeChat",
+      "unicode": "F70F"
+    },
+    {
+      "name": "OfficeChatSolid",
+      "unicode": "F710"
+    },
+    {
+      "name": "OfficeFormsLogo",
+      "unicode": "F434"
+    },
+    {
+      "name": "OfficeFormsLogo16",
+      "unicode": "F436"
+    },
+    {
+      "name": "OfficeFormsLogo24",
+      "unicode": "F43B"
+    },
+    {
+      "name": "OfficeFormsLogoInverse",
+      "unicode": "EF86"
+    },
+    {
+      "name": "OfficeFormsLogoInverse16",
+      "unicode": "F433"
+    },
+    {
+      "name": "OfficeFormsLogoInverse24",
+      "unicode": "F43A"
+    },
+    {
+      "name": "OfficeLogo",
+      "unicode": "EB6E"
+    },
+    {
+      "name": "OfficeStoreLogo",
+      "unicode": "EDCF"
+    },
+    {
+      "name": "OfficeVideoLogo",
+      "unicode": "F282"
+    },
+    {
+      "name": "OfficeVideoLogoFill",
+      "unicode": "F283"
+    },
+    {
+      "name": "OfficeVideoLogoInverse",
+      "unicode": "ED7A"
+    },
+    {
+      "name": "OfflineOneDriveParachute",
+      "unicode": "EEC8"
+    },
+    {
+      "name": "OfflineOneDriveParachuteDisabled",
+      "unicode": "EEC9"
+    },
+    {
+      "name": "OfflineStorage",
+      "unicode": "EC8C"
+    },
+    {
+      "name": "OfflineStorageSolid",
+      "unicode": "F34E"
+    },
+    {
+      "name": "Onboarding",
+      "unicode": "F3BA"
+    },
+    {
+      "name": "OneDriveAdd",
+      "unicode": "EF32"
+    },
+    {
+      "name": "OneDriveFolder16",
+      "unicode": "F53B"
+    },
+    {
+      "name": "OneDriveLogo",
+      "unicode": "E941"
+    },
+    {
+      "name": "OneNoteDocType",
+      "unicode": "F04F"
+    },
+    {
+      "name": "OneNoteEduLogoInverse",
+      "unicode": "EDD0"
+    },
+    {
+      "name": "OneNoteLogo",
+      "unicode": "F1E7"
+    },
+    {
+      "name": "OneNoteLogo16",
+      "unicode": "F39A"
+    },
+    {
+      "name": "OneNoteLogoInverse",
+      "unicode": "EC0D"
+    },
+    {
+      "name": "OneNoteLogoInverse16",
+      "unicode": "F399"
+    },
+    {
+      "name": "OpenEnrollment",
+      "unicode": "EF1C"
+    },
+    {
+      "name": "OpenFile",
+      "unicode": "E8E5"
+    },
+    {
+      "name": "OpenFolderHorizontal",
+      "unicode": "ED25"
+    },
+    {
+      "name": "OpenInNewTab",
+      "unicode": "F6AB"
+    },
+    {
+      "name": "OpenInNewWindow",
+      "unicode": "E8A7"
+    },
+    {
+      "name": "OpenPane",
+      "unicode": "E8A0"
+    },
+    {
+      "name": "OpenPaneMirrored",
+      "unicode": "EA5B"
+    },
+    {
+      "name": "OpenSource",
+      "unicode": "EBC2"
+    },
+    {
+      "name": "OpenWith",
+      "unicode": "E7AC"
+    },
+    {
+      "name": "OpenWithMirrored",
+      "unicode": "EA5C"
+    },
+    {
+      "name": "Opportunities",
+      "unicode": "F05F"
+    },
+    {
+      "name": "OrderLock",
+      "unicode": "E4CB"
+    },
+    {
+      "name": "Org",
+      "unicode": "ECA6"
+    },
+    {
+      "name": "Orientation",
+      "unicode": "E8B4"
+    },
+    {
+      "name": "Orientation2",
+      "unicode": "F7E1"
+    },
+    {
+      "name": "OutlookLogo",
+      "unicode": "F1E9"
+    },
+    {
+      "name": "OutlookLogo16",
+      "unicode": "F39D"
+    },
+    {
+      "name": "OutlookLogoInverse",
+      "unicode": "EB6D"
+    },
+    {
+      "name": "OutlookLogoInverse16",
+      "unicode": "F39C"
+    },
+    {
+      "name": "OutlookSpacesBucket",
+      "unicode": "E481"
+    },
+    {
+      "name": "OutOfOffice",
+      "unicode": "ED34"
+    },
+    {
+      "name": "PAAction",
+      "unicode": "E60B"
+    },
+    {
+      "name": "Package",
+      "unicode": "E7B8"
+    },
+    {
+      "name": "Packages",
+      "unicode": "F318"
+    },
+    {
+      "name": "Padding",
+      "unicode": "F518"
+    },
+    {
+      "name": "PaddingBottom",
+      "unicode": "F51A"
+    },
+    {
+      "name": "PaddingLeft",
+      "unicode": "F51B"
+    },
+    {
+      "name": "PaddingRight",
+      "unicode": "F51C"
+    },
+    {
+      "name": "PaddingTop",
+      "unicode": "F519"
+    },
+    {
+      "name": "Page",
+      "unicode": "E7C3"
+    },
+    {
+      "name": "PageAdd",
+      "unicode": "EA1A"
+    },
+    {
+      "name": "PageArrowRight",
+      "unicode": "EFB8"
+    },
+    {
+      "name": "PageBlock",
+      "unicode": "EFB5"
+    },
+    {
+      "name": "PageCheckedin",
+      "unicode": "F104"
+    },
+    {
+      "name": "PageCheckedOut",
+      "unicode": "F02C"
+    },
+    {
+      "name": "PageData",
+      "unicode": "E31C"
+    },
+    {
+      "name": "PageEdit",
+      "unicode": "EFB6"
+    },
+    {
+      "name": "PageHeader",
+      "unicode": "ECEE"
+    },
+    {
+      "name": "PageHeaderEdit",
+      "unicode": "E31D"
+    },
+    {
+      "name": "PageLeft",
+      "unicode": "E760"
+    },
+    {
+      "name": "PageLink",
+      "unicode": "E302"
+    },
+    {
+      "name": "PageList",
+      "unicode": "F106"
+    }
+  ]
+}

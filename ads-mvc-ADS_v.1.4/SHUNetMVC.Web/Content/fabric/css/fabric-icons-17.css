@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-17';
+  src: url('../fonts/fabric-icons-17-5eba15a6.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-17';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--ReservationOrders:before { content: "\F845"; }
+.ms-Icon--Reset:before { content: "\E423"; }
+.ms-Icon--ResetDevice:before { content: "\ED10"; }
+.ms-Icon--ResponsesMenu:before { content: "\F768"; }
+.ms-Icon--ReturnKey:before { content: "\E751"; }
+.ms-Icon--ReturnToSession:before { content: "\ED24"; }
+.ms-Icon--RevenueManagement:before { content: "\F85E"; }
+.ms-Icon--ReviewRequestMirroredSolid:before { content: "\F357"; }
+.ms-Icon--ReviewRequestSolid:before { content: "\F356"; }
+.ms-Icon--ReviewResponseSolid:before { content: "\F358"; }
+.ms-Icon--ReviewSolid:before { content: "\F355"; }
+.ms-Icon--RevToggleKey:before { content: "\E845"; }
+.ms-Icon--RewardsLogo:before { content: "\ED4E"; }
+.ms-Icon--RewardsLogoArt64:before { content: "\EEF2"; }
+.ms-Icon--RewardsLogoSolid:before { content: "\ED4F"; }
+.ms-Icon--Rewind:before { content: "\EB9E"; }
+.ms-Icon--RewindEightX:before { content: "\E449"; }
+.ms-Icon--RewindFourX:before { content: "\E448"; }
+.ms-Icon--RewindOneFiveX:before { content: "\E446"; }
+.ms-Icon--RewindOneX:before { content: "\E445"; }
+.ms-Icon--RewindPointFiveX:before { content: "\E444"; }
+.ms-Icon--RewindTwoX:before { content: "\E447"; }
+.ms-Icon--Ribbon:before { content: "\E9D1"; }
+.ms-Icon--Ribbon2:before { content: "\F19B"; }
+.ms-Icon--RibbonSolid:before { content: "\F345"; }
+.ms-Icon--RightDoubleQuote:before { content: "\E9B1"; }
+.ms-Icon--RightKey:before { content: "\F265"; }
+.ms-Icon--RightTriangle:before { content: "\F500"; }
+.ms-Icon--Ringer:before { content: "\EA8F"; }
+.ms-Icon--RingerActive:before { content: "\E498"; }
+.ms-Icon--RingerOff:before { content: "\F2C5"; }
+.ms-Icon--RingerRemove:before { content: "\F279"; }
+.ms-Icon--RingerSolid:before { content: "\EF3A"; }
+.ms-Icon--Robot:before { content: "\E99A"; }
+.ms-Icon--Rocket:before { content: "\F3B3"; }
+.ms-Icon--Room:before { content: "\ED9F"; }
+.ms-Icon--Rotate:before { content: "\E7AD"; }
+.ms-Icon--Rotate90Clockwise:before { content: "\F80D"; }
+.ms-Icon--Rotate90CounterClockwise:before { content: "\F80E"; }
+.ms-Icon--RowsChild:before { content: "\F29C"; }
+.ms-Icon--RowsGroup:before { content: "\F29B"; }
+.ms-Icon--RSSFeed:before { content: "\F80C"; }
+.ms-Icon--Rugby:before { content: "\EB2D"; }
+.ms-Icon--Running:before { content: "\EADA"; }
+.ms-Icon--Sad:before { content: "\E757"; }
+.ms-Icon--SadSolid:before { content: "\F33E"; }
+.ms-Icon--SamsungGallery:before { content: "\E4E2"; }
+.ms-Icon--Save:before { content: "\E74E"; }
+.ms-Icon--SaveAll:before { content: "\F203"; }
+.ms-Icon--SaveAndClose:before { content: "\F038"; }
+.ms-Icon--SaveAndPublish:before { content: "\F671"; }
+.ms-Icon--SaveAs:before { content: "\E792"; }
+.ms-Icon--SavedOffline:before { content: "\E546"; }
+.ms-Icon--SaveTemplate:before { content: "\F6EC"; }
+.ms-Icon--SaveToMobile:before { content: "\F7E0"; }
+.ms-Icon--Savings:before { content: "\EB0B"; }
+.ms-Icon--ScaleUp:before { content: "\ED09"; }
+.ms-Icon--ScaleVolume:before { content: "\F18C"; }
+.ms-Icon--ScatterChart:before { content: "\EFEB"; }
+.ms-Icon--ScheduleEventAction:before { content: "\F1EF"; }
+.ms-Icon--SchoolDataSyncLogo:before { content: "\E34C"; }
+.ms-Icon--ScopeTemplate:before { content: "\F2B0"; }
+.ms-Icon--Screen:before { content: "\EF39"; }
+.ms-Icon--ScreenCast:before { content: "\F7E2"; }
+.ms-Icon--ScreenPreviewOn:before { content: "\F11E"; }
+.ms-Icon--ScreenTime:before { content: "\F182"; }
+.ms-Icon--Script:before { content: "\F03A"; }
+.ms-Icon--ScrollUpDown:before { content: "\EC8F"; }
+.ms-Icon--SDCard:before { content: "\E7F1"; }
+.ms-Icon--Search:before { content: "\E721"; }
+.ms-Icon--SearchAndApps:before { content: "\E773"; }
+.ms-Icon--SearchArt64:before { content: "\EEF5"; }
+.ms-Icon--SearchBookmark:before { content: "\F5B8"; }
+.ms-Icon--SearchCalendar:before { content: "\F4AF"; }
+.ms-Icon--SearchData:before { content: "\F3F1"; }
+.ms-Icon--SearchIssue:before { content: "\F09A"; }
+.ms-Icon--SearchIssueMirrored:before { content: "\F09B"; }
+.ms-Icon--SearchNearby:before { content: "\E820"; }
+.ms-Icon--SecondaryNav:before { content: "\F814"; }
+.ms-Icon--Section:before { content: "\EC0C"; }
+.ms-Icon--Sections:before { content: "\EF76"; }
+.ms-Icon--SecurityCamera:before { content: "\EB35"; }
+.ms-Icon--SecurityGroup:before { content: "\ED85"; }
+.ms-Icon--SecurityTest:before { content: "\E48F"; }
+.ms-Icon--SeeDo:before { content: "\E808"; }
+.ms-Icon--SelectAll:before { content: "\E8B3"; }
+.ms-Icon--Sell:before { content: "\EB0C"; }
+.ms-Icon--SemiboldWeight:before { content: "\F4F0"; }
+.ms-Icon--Send:before { content: "\E724"; }
+.ms-Icon--SendMirrored:before { content: "\EA63"; }
+.ms-Icon--SentimentAnalysis:before { content: "\E393"; }
+.ms-Icon--Separator:before { content: "\F35E"; }
+.ms-Icon--Server:before { content: "\F201"; }
+.ms-Icon--ServerEnviroment:before { content: "\F29F"; }
+.ms-Icon--ServerProcesses:before { content: "\F1FE"; }
+.ms-Icon--ServiceActivity:before { content: "\EFF1"; }
+.ms-Icon--ServiceOff:before { content: "\E3FD"; }
+.ms-Icon--SetAction:before { content: "\F071"; }
+.ms-Icon--Settings:before { content: "\E713"; }
+.ms-Icon--SettingsAdd:before { content: "\E35A"; }

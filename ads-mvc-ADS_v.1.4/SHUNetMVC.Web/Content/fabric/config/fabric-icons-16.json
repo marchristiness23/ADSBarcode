@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-16",
+  "fontFamilyName": "FabricMDL2Icons-16",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "PythonLanguage",
+      "unicode": "F2F8"
+    },
+    {
+      "name": "QandA",
+      "unicode": "F8A2"
+    },
+    {
+      "name": "QandAMirror",
+      "unicode": "F8A3"
+    },
+    {
+      "name": "QRCode",
+      "unicode": "ED14"
+    },
+    {
+      "name": "QuadColumn",
+      "unicode": "F66F"
+    },
+    {
+      "name": "Quantity",
+      "unicode": "E9F8"
+    },
+    {
+      "name": "QuarterCircle",
+      "unicode": "F502"
+    },
+    {
+      "name": "QueryList",
+      "unicode": "F2B8"
+    },
+    {
+      "name": "Questionnaire",
+      "unicode": "EE19"
+    },
+    {
+      "name": "QuestionnaireMirrored",
+      "unicode": "EE4B"
+    },
+    {
+      "name": "QueueAdvanced",
+      "unicode": "E62E"
+    },
+    {
+      "name": "QuickNote",
+      "unicode": "E70B"
+    },
+    {
+      "name": "QuickNoteSolid",
+      "unicode": "F338"
+    },
+    {
+      "name": "Quotes",
+      "unicode": "F067"
+    },
+    {
+      "name": "R",
+      "unicode": "F4EB"
+    },
+    {
+      "name": "RadioBtnOff",
+      "unicode": "ECCA"
+    },
+    {
+      "name": "RadioBtnOn",
+      "unicode": "ECCB"
+    },
+    {
+      "name": "RadioBullet",
+      "unicode": "E915"
+    },
+    {
+      "name": "Rain",
+      "unicode": "E9C4"
+    },
+    {
+      "name": "RainShowersDay",
+      "unicode": "E9C3"
+    },
+    {
+      "name": "RainShowersNight",
+      "unicode": "EA0F"
+    },
+    {
+      "name": "RainSnow",
+      "unicode": "E9C7"
+    },
+    {
+      "name": "Rate",
+      "unicode": "EB07"
+    },
+    {
+      "name": "RawSource",
+      "unicode": "F299"
+    },
+    {
+      "name": "Read",
+      "unicode": "E8C3"
+    },
+    {
+      "name": "ReadingMode",
+      "unicode": "E736"
+    },
+    {
+      "name": "ReadingModeSolid",
+      "unicode": "F33D"
+    },
+    {
+      "name": "ReadOutLoud",
+      "unicode": "F112"
+    },
+    {
+      "name": "RealEstate",
+      "unicode": "E758"
+    },
+    {
+      "name": "ReceiptCheck",
+      "unicode": "EF5B"
+    },
+    {
+      "name": "ReceiptForward",
+      "unicode": "EF59"
+    },
+    {
+      "name": "ReceiptProcessing",
+      "unicode": "E496"
+    },
+    {
+      "name": "ReceiptReply",
+      "unicode": "EF5A"
+    },
+    {
+      "name": "ReceiptTentative",
+      "unicode": "F41A"
+    },
+    {
+      "name": "ReceiptTentativeMirrored",
+      "unicode": "F41B"
+    },
+    {
+      "name": "ReceiptUndelivered",
+      "unicode": "F419"
+    },
+    {
+      "name": "Recent",
+      "unicode": "E823"
+    },
+    {
+      "name": "Record2",
+      "unicode": "EA3F"
+    },
+    {
+      "name": "RecordRouting",
+      "unicode": "E62D"
+    },
+    {
+      "name": "RecruitmentManagement",
+      "unicode": "EE12"
+    },
+    {
+      "name": "RectangleShape",
+      "unicode": "F1A9"
+    },
+    {
+      "name": "RectangleShapeSolid",
+      "unicode": "F640"
+    },
+    {
+      "name": "RectangularClipping",
+      "unicode": "F407"
+    },
+    {
+      "name": "RecurringEvent",
+      "unicode": "EF5D"
+    },
+    {
+      "name": "RecurringTask",
+      "unicode": "EDB2"
+    },
+    {
+      "name": "RecycleBin",
+      "unicode": "EF87"
+    },
+    {
+      "name": "Redeploy",
+      "unicode": "F29E"
+    },
+    {
+      "name": "RedEye",
+      "unicode": "E7B3"
+    },
+    {
+      "name": "RedEye12",
+      "unicode": "E3AD"
+    },
+    {
+      "name": "Redo",
+      "unicode": "E7A6"
+    },
+    {
+      "name": "Refresh",
+      "unicode": "E72C"
+    },
+    {
+      "name": "RegistryEditor",
+      "unicode": "F1FF"
+    },
+    {
+      "name": "Relationship",
+      "unicode": "F003"
+    },
+    {
+      "name": "ReleaseDefinition",
+      "unicode": "F6EA"
+    },
+    {
+      "name": "ReleaseGate",
+      "unicode": "F7BE"
+    },
+    {
+      "name": "ReleaseGateCheck",
+      "unicode": "F7BF"
+    },
+    {
+      "name": "ReleaseGateError",
+      "unicode": "F7C0"
+    },
+    {
+      "name": "ReminderGroup",
+      "unicode": "EBF8"
+    },
+    {
+      "name": "ReminderPerson",
+      "unicode": "EBF7"
+    },
+    {
+      "name": "ReminderTime",
+      "unicode": "EBF9"
+    },
+    {
+      "name": "Remote",
+      "unicode": "E8AF"
+    },
+    {
+      "name": "RemoteApplication",
+      "unicode": "F621"
+    },
+    {
+      "name": "Remove",
+      "unicode": "E738"
+    },
+    {
+      "name": "RemoveContent",
+      "unicode": "ECC7"
+    },
+    {
+      "name": "RemoveEvent",
+      "unicode": "ED8A"
+    },
+    {
+      "name": "RemoveFilter",
+      "unicode": "EB08"
+    },
+    {
+      "name": "RemoveFrom",
+      "unicode": "ECC9"
+    },
+    {
+      "name": "RemoveFromShoppingList",
+      "unicode": "F7D5"
+    },
+    {
+      "name": "RemoveFromTrash",
+      "unicode": "F82B"
+    },
+    {
+      "name": "RemoveLink",
+      "unicode": "ED90"
+    },
+    {
+      "name": "RemoveLinkChain",
+      "unicode": "F79A"
+    },
+    {
+      "name": "RemoveLinkX",
+      "unicode": "F79B"
+    },
+    {
+      "name": "RemoveOccurrence",
+      "unicode": "ED9B"
+    },
+    {
+      "name": "Rename",
+      "unicode": "E8AC"
+    },
+    {
+      "name": "RenewalCurrent",
+      "unicode": "F545"
+    },
+    {
+      "name": "RenewalFuture",
+      "unicode": "F546"
+    },
+    {
+      "name": "ReopenPages",
+      "unicode": "ED50"
+    },
+    {
+      "name": "Repair",
+      "unicode": "E90F"
+    },
+    {
+      "name": "RepeatAll",
+      "unicode": "E8EE"
+    },
+    {
+      "name": "RepeatHeaderRows",
+      "unicode": "E3EB"
+    },
+    {
+      "name": "RepeatOne",
+      "unicode": "E8ED"
+    },
+    {
+      "name": "Reply",
+      "unicode": "E97A"
+    },
+    {
+      "name": "ReplyAll",
+      "unicode": "EE0A"
+    },
+    {
+      "name": "ReplyAllAlt",
+      "unicode": "EF5F"
+    },
+    {
+      "name": "ReplyAllMirrored",
+      "unicode": "EE36"
+    },
+    {
+      "name": "ReplyAlt",
+      "unicode": "EF5E"
+    },
+    {
+      "name": "ReplyMirrored",
+      "unicode": "EE35"
+    },
+    {
+      "name": "Repo",
+      "unicode": "F2CB"
+    },
+    {
+      "name": "ReportAdd",
+      "unicode": "F52C"
+    },
+    {
+      "name": "ReportAlert",
+      "unicode": "F721"
+    },
+    {
+      "name": "ReportAlertMirrored",
+      "unicode": "F722"
+    },
+    {
+      "name": "ReportDocument",
+      "unicode": "E9F9"
+    },
+    {
+      "name": "ReportHacked",
+      "unicode": "E730"
+    },
+    {
+      "name": "ReportLibrary",
+      "unicode": "EEBB"
+    },
+    {
+      "name": "ReportLibraryMirrored",
+      "unicode": "EEBC"
+    },
+    {
+      "name": "ReportLock",
+      "unicode": "F875"
+    },
+    {
+      "name": "ReportTrophy",
+      "unicode": "E614"
+    },
+    {
+      "name": "ReportWarning",
+      "unicode": "F569"
+    },
+    {
+      "name": "RepoSolid",
+      "unicode": "F2CC"
+    },
+    {
+      "name": "Rerun",
+      "unicode": "F8A1"
+    }
+  ]
+}

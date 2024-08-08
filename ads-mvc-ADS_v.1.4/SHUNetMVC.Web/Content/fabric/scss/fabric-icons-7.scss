@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-7';
+  src: url('../fonts/fabric-icons-7-b2d3f1f2.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-7';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--DoubleChevronLeftMed { content: "\E991"; }
+@mixin ms-Icon--DoubleChevronLeftMedMirrored { content: "\EA4D"; }
+@mixin ms-Icon--DoubleChevronRight { content: "\EDBF"; }
+@mixin ms-Icon--DoubleChevronRight12 { content: "\EE99"; }
+@mixin ms-Icon--DoubleChevronRight8 { content: "\F36E"; }
+@mixin ms-Icon--DoubleChevronUp { content: "\EDBD"; }
+@mixin ms-Icon--DoubleChevronUp12 { content: "\EE96"; }
+@mixin ms-Icon--DoubleChevronUp8 { content: "\F36C"; }
+@mixin ms-Icon--DoubleColumn { content: "\F1D4"; }
+@mixin ms-Icon--DoubleColumnEdit { content: "\F322"; }
+@mixin ms-Icon--DoubleDownArrow { content: "\F769"; }
+@mixin ms-Icon--Down { content: "\E74B"; }
+@mixin ms-Icon--DownKey { content: "\F3E1"; }
+@mixin ms-Icon--Download { content: "\E896"; }
+@mixin ms-Icon--DownloadDocument { content: "\F549"; }
+@mixin ms-Icon--DragObject { content: "\F553"; }
+@mixin ms-Icon--DrillDown { content: "\F532"; }
+@mixin ms-Icon--DrillDownSolid { content: "\F533"; }
+@mixin ms-Icon--DrillExpand { content: "\F534"; }
+@mixin ms-Icon--DrillShow { content: "\F535"; }
+@mixin ms-Icon--DrillThrough { content: "\F5B9"; }
+@mixin ms-Icon--DriverOff { content: "\E3FB"; }
+@mixin ms-Icon--DRM { content: "\ECA8"; }
+@mixin ms-Icon--Drop { content: "\EB42"; }
+@mixin ms-Icon--Dropdown { content: "\EDC5"; }
+@mixin ms-Icon--DropShape { content: "\F1A8"; }
+@mixin ms-Icon--DropShapeSolid { content: "\F63F"; }
+@mixin ms-Icon--DuplicateRow { content: "\F82A"; }
+@mixin ms-Icon--Duststorm { content: "\E9CD"; }
+@mixin ms-Icon--DynamicList { content: "\E491"; }
+@mixin ms-Icon--Dynamics365Logo { content: "\EDCC"; }
+@mixin ms-Icon--DynamicSMBLogo { content: "\EDCD"; }
+@mixin ms-Icon--EaseOfAccess { content: "\E776"; }
+@mixin ms-Icon--EatDrink { content: "\E807"; }
+@mixin ms-Icon--EdgeLogo { content: "\E3AB"; }
+@mixin ms-Icon--EdgeLogo16 { content: "\E3AA"; }
+@mixin ms-Icon--EdgeOldLogo { content: "\EC60"; }
+@mixin ms-Icon--eDiscovery { content: "\E370"; }
+@mixin ms-Icon--Edit { content: "\E70F"; }
+@mixin ms-Icon--EditContact { content: "\EFD3"; }
+@mixin ms-Icon--EditCreate { content: "\F3C9"; }
+@mixin ms-Icon--EditEvent { content: "\F05B"; }
+@mixin ms-Icon--EditListPencil { content: "\E61B"; }
+@mixin ms-Icon--EditMail { content: "\EF61"; }
+@mixin ms-Icon--EditMirrored { content: "\EB7E"; }
+@mixin ms-Icon--EditNote { content: "\ED9D"; }
+@mixin ms-Icon--EditPhoto { content: "\EF77"; }
+@mixin ms-Icon--EditSolid12 { content: "\F4B5"; }
+@mixin ms-Icon--EditSolidMirrored12 { content: "\F4B6"; }
+@mixin ms-Icon--EditStyle { content: "\EF60"; }
+@mixin ms-Icon--EditTable { content: "\E4C4"; }
+@mixin ms-Icon--Education { content: "\E7BE"; }
+@mixin ms-Icon--Ellipse { content: "\F4FB"; }
+@mixin ms-Icon--Embed { content: "\ECCE"; }
+@mixin ms-Icon--EMI { content: "\E731"; }
+@mixin ms-Icon--Emoji { content: "\E899"; }
+@mixin ms-Icon--Emoji2 { content: "\E76E"; }
+@mixin ms-Icon--EmojiDisappointed { content: "\EA88"; }
+@mixin ms-Icon--EmojiNeutral { content: "\EA87"; }
+@mixin ms-Icon--EmojiTabSymbols { content: "\ED58"; }
+@mixin ms-Icon--EmployeeSelfService { content: "\EE24"; }
+@mixin ms-Icon--EmptyRecycleBin { content: "\EF88"; }
+@mixin ms-Icon--Encounter { content: "\E54C"; }
+@mixin ms-Icon--Encryption { content: "\F69D"; }
+@mixin ms-Icon--EndPointSolid { content: "\EB4B"; }
+@mixin ms-Icon--EngineeringGroup { content: "\F362"; }
+@mixin ms-Icon--EntitlementPolicy { content: "\E346"; }
+@mixin ms-Icon--EntitlementRedemption { content: "\E347"; }
+@mixin ms-Icon--EntityExtraction { content: "\E467"; }
+@mixin ms-Icon--EntryDecline { content: "\F555"; }
+@mixin ms-Icon--EntryView { content: "\F554"; }
+@mixin ms-Icon--Equalizer { content: "\E9E9"; }
+@mixin ms-Icon--EraseTool { content: "\E75C"; }
+@mixin ms-Icon--Error { content: "\E783"; }
+@mixin ms-Icon--ErrorBadge { content: "\EA39"; }
+@mixin ms-Icon--ErrorBadge12 { content: "\E558"; }
+@mixin ms-Icon--Event { content: "\ECA3"; }
+@mixin ms-Icon--Event12 { content: "\F763"; }
+@mixin ms-Icon--EventAccepted { content: "\F422"; }
+@mixin ms-Icon--EventDate { content: "\F059"; }
+@mixin ms-Icon--EventDateMissed12 { content: "\F764"; }
+@mixin ms-Icon--EventDeclined { content: "\F425"; }
+@mixin ms-Icon--EventInfo { content: "\ED8B"; }
+@mixin ms-Icon--EventTentative { content: "\F423"; }
+@mixin ms-Icon--EventTentativeMirrored { content: "\F424"; }
+@mixin ms-Icon--EventToDoLogo { content: "\F869"; }
+@mixin ms-Icon--ExcelDocument { content: "\EF73"; }
+@mixin ms-Icon--ExcelLogo { content: "\F1E5"; }
+@mixin ms-Icon--ExcelLogo16 { content: "\F397"; }
+@mixin ms-Icon--ExcelLogoInverse { content: "\EC28"; }
+@mixin ms-Icon--ExcelLogoInverse16 { content: "\F396"; }
+@mixin ms-Icon--ExchangeLogo { content: "\F284"; }
+@mixin ms-Icon--ExchangeLogoInverse { content: "\ED78"; }
+@mixin ms-Icon--ExerciseTracker { content: "\EACC"; }
+@mixin ms-Icon--ExpandAll { content: "\F859"; }
+@mixin ms-Icon--ExpandMenu { content: "\EF67"; }
+@mixin ms-Icon--ExploreContent { content: "\ECCD"; }
+@mixin ms-Icon--ExploreContentSingle { content: "\F164"; }
+@mixin ms-Icon--ExploreData { content: "\F5B6"; }
+@mixin ms-Icon--Export { content: "\EDE1"; }
+
+
+// Classes
+.ms-Icon--DoubleChevronLeftMed:before { @include ms-Icon--DoubleChevronLeftMed }
+.ms-Icon--DoubleChevronLeftMedMirrored:before { @include ms-Icon--DoubleChevronLeftMedMirrored }
+.ms-Icon--DoubleChevronRight:before { @include ms-Icon--DoubleChevronRight }
+.ms-Icon--DoubleChevronRight12:before { @include ms-Icon--DoubleChevronRight12 }
+.ms-Icon--DoubleChevronRight8:before { @include ms-Icon--DoubleChevronRight8 }
+.ms-Icon--DoubleChevronUp:before { @include ms-Icon--DoubleChevronUp }
+.ms-Icon--DoubleChevronUp12:before { @include ms-Icon--DoubleChevronUp12 }
+.ms-Icon--DoubleChevronUp8:before { @include ms-Icon--DoubleChevronUp8 }
+.ms-Icon--DoubleColumn:before { @include ms-Icon--DoubleColumn }
+.ms-Icon--DoubleColumnEdit:before { @include ms-Icon--DoubleColumnEdit }
+.ms-Icon--DoubleDownArrow:before { @include ms-Icon--DoubleDownArrow }
+.ms-Icon--Down:before { @include ms-Icon--Down }
+.ms-Icon--DownKey:before { @include ms-Icon--DownKey }
+.ms-Icon--Download:before { @include ms-Icon--Download }
+.ms-Icon--DownloadDocument:before { @include ms-Icon--DownloadDocument }
+.ms-Icon--DragObject:before { @include ms-Icon--DragObject }
+.ms-Icon--DrillDown:before { @include ms-Icon--DrillDown }
+.ms-Icon--DrillDownSolid:before { @include ms-Icon--DrillDownSolid }
+.ms-Icon--DrillExpand:before { @include ms-Icon--DrillExpand }
+.ms-Icon--DrillShow:before { @include ms-Icon--DrillShow }
+.ms-Icon--DrillThrough:before { @include ms-Icon--DrillThrough }
+.ms-Icon--DriverOff:before { @include ms-Icon--DriverOff }
+.ms-Icon--DRM:before { @include ms-Icon--DRM }
+.ms-Icon--Drop:before { @include ms-Icon--Drop }
+.ms-Icon--Dropdown:before { @include ms-Icon--Dropdown }
+.ms-Icon--DropShape:before { @include ms-Icon--DropShape }
+.ms-Icon--DropShapeSolid:before { @include ms-Icon--DropShapeSolid }
+.ms-Icon--DuplicateRow:before { @include ms-Icon--DuplicateRow }
+.ms-Icon--Duststorm:before { @include ms-Icon--Duststorm }
+.ms-Icon--DynamicList:before { @include ms-Icon--DynamicList }
+.ms-Icon--Dynamics365Logo:before { @include ms-Icon--Dynamics365Logo }
+.ms-Icon--DynamicSMBLogo:before { @include ms-Icon--DynamicSMBLogo }
+.ms-Icon--EaseOfAccess:before { @include ms-Icon--EaseOfAccess }
+.ms-Icon--EatDrink:before { @include ms-Icon--EatDrink }
+.ms-Icon--EdgeLogo:before { @include ms-Icon--EdgeLogo }
+.ms-Icon--EdgeLogo16:before { @include ms-Icon--EdgeLogo16 }
+.ms-Icon--EdgeOldLogo:before { @include ms-Icon--EdgeOldLogo }
+.ms-Icon--eDiscovery:before { @include ms-Icon--eDiscovery }
+.ms-Icon--Edit:before { @include ms-Icon--Edit }
+.ms-Icon--EditContact:before { @include ms-Icon--EditContact }
+.ms-Icon--EditCreate:before { @include ms-Icon--EditCreate }
+.ms-Icon--EditEvent:before { @include ms-Icon--EditEvent }
+.ms-Icon--EditListPencil:before { @include ms-Icon--EditListPencil }
+.ms-Icon--EditMail:before { @include ms-Icon--EditMail }
+.ms-Icon--EditMirrored:before { @include ms-Icon--EditMirrored }
+.ms-Icon--EditNote:before { @include ms-Icon--EditNote }
+.ms-Icon--EditPhoto:before { @include ms-Icon--EditPhoto }
+.ms-Icon--EditSolid12:before { @include ms-Icon--EditSolid12 }
+.ms-Icon--EditSolidMirrored12:before { @include ms-Icon--EditSolidMirrored12 }
+.ms-Icon--EditStyle:before { @include ms-Icon--EditStyle }
+.ms-Icon--EditTable:before { @include ms-Icon--EditTable }
+.ms-Icon--Education:before { @include ms-Icon--Education }
+.ms-Icon--Ellipse:before { @include ms-Icon--Ellipse }
+.ms-Icon--Embed:before { @include ms-Icon--Embed }
+.ms-Icon--EMI:before { @include ms-Icon--EMI }
+.ms-Icon--Emoji:before { @include ms-Icon--Emoji }
+.ms-Icon--Emoji2:before { @include ms-Icon--Emoji2 }
+.ms-Icon--EmojiDisappointed:before { @include ms-Icon--EmojiDisappointed }
+.ms-Icon--EmojiNeutral:before { @include ms-Icon--EmojiNeutral }
+.ms-Icon--EmojiTabSymbols:before { @include ms-Icon--EmojiTabSymbols }
+.ms-Icon--EmployeeSelfService:before { @include ms-Icon--EmployeeSelfService }
+.ms-Icon--EmptyRecycleBin:before { @include ms-Icon--EmptyRecycleBin }
+.ms-Icon--Encounter:before { @include ms-Icon--Encounter }
+.ms-Icon--Encryption:before { @include ms-Icon--Encryption }
+.ms-Icon--EndPointSolid:before { @include ms-Icon--EndPointSolid }
+.ms-Icon--EngineeringGroup:before { @include ms-Icon--EngineeringGroup }
+.ms-Icon--EntitlementPolicy:before { @include ms-Icon--EntitlementPolicy }
+.ms-Icon--EntitlementRedemption:before { @include ms-Icon--EntitlementRedemption }
+.ms-Icon--EntityExtraction:before { @include ms-Icon--EntityExtraction }
+.ms-Icon--EntryDecline:before { @include ms-Icon--EntryDecline }
+.ms-Icon--EntryView:before { @include ms-Icon--EntryView }
+.ms-Icon--Equalizer:before { @include ms-Icon--Equalizer }
+.ms-Icon--EraseTool:before { @include ms-Icon--EraseTool }
+.ms-Icon--Error:before { @include ms-Icon--Error }
+.ms-Icon--ErrorBadge:before { @include ms-Icon--ErrorBadge }
+.ms-Icon--ErrorBadge12:before { @include ms-Icon--ErrorBadge12 }
+.ms-Icon--Event:before { @include ms-Icon--Event }
+.ms-Icon--Event12:before { @include ms-Icon--Event12 }
+.ms-Icon--EventAccepted:before { @include ms-Icon--EventAccepted }
+.ms-Icon--EventDate:before { @include ms-Icon--EventDate }
+.ms-Icon--EventDateMissed12:before { @include ms-Icon--EventDateMissed12 }
+.ms-Icon--EventDeclined:before { @include ms-Icon--EventDeclined }
+.ms-Icon--EventInfo:before { @include ms-Icon--EventInfo }
+.ms-Icon--EventTentative:before { @include ms-Icon--EventTentative }
+.ms-Icon--EventTentativeMirrored:before { @include ms-Icon--EventTentativeMirrored }
+.ms-Icon--EventToDoLogo:before { @include ms-Icon--EventToDoLogo }
+.ms-Icon--ExcelDocument:before { @include ms-Icon--ExcelDocument }
+.ms-Icon--ExcelLogo:before { @include ms-Icon--ExcelLogo }
+.ms-Icon--ExcelLogo16:before { @include ms-Icon--ExcelLogo16 }
+.ms-Icon--ExcelLogoInverse:before { @include ms-Icon--ExcelLogoInverse }
+.ms-Icon--ExcelLogoInverse16:before { @include ms-Icon--ExcelLogoInverse16 }
+.ms-Icon--ExchangeLogo:before { @include ms-Icon--ExchangeLogo }
+.ms-Icon--ExchangeLogoInverse:before { @include ms-Icon--ExchangeLogoInverse }
+.ms-Icon--ExerciseTracker:before { @include ms-Icon--ExerciseTracker }
+.ms-Icon--ExpandAll:before { @include ms-Icon--ExpandAll }
+.ms-Icon--ExpandMenu:before { @include ms-Icon--ExpandMenu }
+.ms-Icon--ExploreContent:before { @include ms-Icon--ExploreContent }
+.ms-Icon--ExploreContentSingle:before { @include ms-Icon--ExploreContentSingle }
+.ms-Icon--ExploreData:before { @include ms-Icon--ExploreData }
+.ms-Icon--Export:before { @include ms-Icon--Export }
+

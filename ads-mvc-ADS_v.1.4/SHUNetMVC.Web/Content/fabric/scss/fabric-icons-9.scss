@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-9';
+  src: url('../fonts/fabric-icons-9-457f2e9a.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-9';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--FlashAuto { content: "\E95C"; }
+@mixin ms-Icon--Flashlight { content: "\E754"; }
+@mixin ms-Icon--FlashOff { content: "\EA6E"; }
+@mixin ms-Icon--FlickDown { content: "\E935"; }
+@mixin ms-Icon--FlickLeft { content: "\E937"; }
+@mixin ms-Icon--FlickRight { content: "\E938"; }
+@mixin ms-Icon--FlickUp { content: "\E936"; }
+@mixin ms-Icon--Flow { content: "\EF90"; }
+@mixin ms-Icon--FlowChart { content: "\E9D4"; }
+@mixin ms-Icon--Flower { content: "\F54E"; }
+@mixin ms-Icon--FlowTemplate { content: "\E49C"; }
+@mixin ms-Icon--FlowTrigger { content: "\E60C"; }
+@mixin ms-Icon--FluidLogo { content: "\E48A"; }
+@mixin ms-Icon--FocalPoint { content: "\F277"; }
+@mixin ms-Icon--Focus { content: "\EA6F"; }
+@mixin ms-Icon--FocusView { content: "\F1A3"; }
+@mixin ms-Icon--Fog { content: "\E9CB"; }
+@mixin ms-Icon--Folder { content: "\E8B7"; }
+@mixin ms-Icon--FolderFill { content: "\E8D5"; }
+@mixin ms-Icon--FolderHorizontal { content: "\F12B"; }
+@mixin ms-Icon--FolderList { content: "\F2CE"; }
+@mixin ms-Icon--FolderListMirrored { content: "\F2CF"; }
+@mixin ms-Icon--FolderOpen { content: "\E838"; }
+@mixin ms-Icon--FolderQuery { content: "\F2CD"; }
+@mixin ms-Icon--FolderSearch { content: "\EF65"; }
+@mixin ms-Icon--FollowUser { content: "\EE05"; }
+@mixin ms-Icon--Font { content: "\E8D2"; }
+@mixin ms-Icon--FontColor { content: "\E8D3"; }
+@mixin ms-Icon--FontColorA { content: "\F4EC"; }
+@mixin ms-Icon--FontColorKorean { content: "\E5BE"; }
+@mixin ms-Icon--FontColorSwatch { content: "\F4ED"; }
+@mixin ms-Icon--FontDecrease { content: "\E8E7"; }
+@mixin ms-Icon--FontIncrease { content: "\E8E8"; }
+@mixin ms-Icon--FontSize { content: "\E8E9"; }
+@mixin ms-Icon--FontSize2 { content: "\E3C0"; }
+@mixin ms-Icon--FontStyleKorean { content: "\E5BA"; }
+@mixin ms-Icon--Footer { content: "\F82E"; }
+@mixin ms-Icon--FormatPainter { content: "\E3DC"; }
+@mixin ms-Icon--FormLibrary { content: "\EEB9"; }
+@mixin ms-Icon--FormLibraryMirrored { content: "\EEBA"; }
+@mixin ms-Icon--FormProcessing { content: "\E48B"; }
+@mixin ms-Icon--Forum { content: "\E378"; }
+@mixin ms-Icon--Forward { content: "\E72A"; }
+@mixin ms-Icon--ForwardEvent { content: "\ED8C"; }
+@mixin ms-Icon--Freezing { content: "\E9EF"; }
+@mixin ms-Icon--FreezingRain { content: "\E475"; }
+@mixin ms-Icon--Frigid { content: "\E9CA"; }
+@mixin ms-Icon--FrontCamera { content: "\E96B"; }
+@mixin ms-Icon--FSharp { content: "\F2F6"; }
+@mixin ms-Icon--FSharpLanguage { content: "\F2F5"; }
+@mixin ms-Icon--FullCircleMask { content: "\E91F"; }
+@mixin ms-Icon--FullHistory { content: "\F31C"; }
+@mixin ms-Icon--FullScreen { content: "\E740"; }
+@mixin ms-Icon--FullView { content: "\F1A2"; }
+@mixin ms-Icon--FullWidth { content: "\F2FE"; }
+@mixin ms-Icon--FullWidthEdit { content: "\F2FF"; }
+@mixin ms-Icon--FunctionalManagerDashboard { content: "\F542"; }
+@mixin ms-Icon--FunnelChart { content: "\E9F1"; }
+@mixin ms-Icon--GallatinLogo { content: "\F496"; }
+@mixin ms-Icon--Game { content: "\E7FC"; }
+@mixin ms-Icon--Gather { content: "\E460"; }
+@mixin ms-Icon--Generate { content: "\E9DA"; }
+@mixin ms-Icon--GenericScan { content: "\EE6F"; }
+@mixin ms-Icon--GenericScanFilled { content: "\F7E3"; }
+@mixin ms-Icon--GIF { content: "\F4A9"; }
+@mixin ms-Icon--Giftbox { content: "\EC1F"; }
+@mixin ms-Icon--GiftboxOpen { content: "\F133"; }
+@mixin ms-Icon--GiftBoxSolid { content: "\F341"; }
+@mixin ms-Icon--GiftCard { content: "\EB8E"; }
+@mixin ms-Icon--GitGraph { content: "\F2CA"; }
+@mixin ms-Icon--Glasses { content: "\EA16"; }
+@mixin ms-Icon--Glimmer { content: "\ECF4"; }
+@mixin ms-Icon--GlobalNavButton { content: "\E700"; }
+@mixin ms-Icon--GlobalNavButtonActive { content: "\F89F"; }
+@mixin ms-Icon--Globe { content: "\E774"; }
+@mixin ms-Icon--Globe2 { content: "\F49A"; }
+@mixin ms-Icon--GlobeFavorite { content: "\EF53"; }
+@mixin ms-Icon--Go { content: "\E8AD"; }
+@mixin ms-Icon--Golf { content: "\EB1F"; }
+@mixin ms-Icon--GoMirrored { content: "\EA4F"; }
+@mixin ms-Icon--GoToDashboard { content: "\EEED"; }
+@mixin ms-Icon--GotoToday { content: "\E8D1"; }
+@mixin ms-Icon--GraphSymbol { content: "\E35D"; }
+@mixin ms-Icon--GreetingCard { content: "\F54B"; }
+@mixin ms-Icon--GridViewLarge { content: "\F234"; }
+@mixin ms-Icon--GridViewMedium { content: "\F233"; }
+@mixin ms-Icon--GridViewSmall { content: "\F232"; }
+@mixin ms-Icon--GripperBarHorizontal { content: "\E76F"; }
+@mixin ms-Icon--GripperBarVertical { content: "\E784"; }
+@mixin ms-Icon--GripperDotsVertical { content: "\F772"; }
+@mixin ms-Icon--GripperTool { content: "\E75E"; }
+@mixin ms-Icon--Group { content: "\E902"; }
+@mixin ms-Icon--GroupedAscending { content: "\EE67"; }
+@mixin ms-Icon--GroupedDescending { content: "\EE66"; }
+@mixin ms-Icon--GroupedList { content: "\EF74"; }
+@mixin ms-Icon--GroupList { content: "\F168"; }
+@mixin ms-Icon--GroupObject { content: "\F4F1"; }
+@mixin ms-Icon--GroupRemove { content: "\E495"; }
+@mixin ms-Icon--GUID { content: "\F52B"; }
+@mixin ms-Icon--Guitar { content: "\F49B"; }
+
+
+// Classes
+.ms-Icon--FlashAuto:before { @include ms-Icon--FlashAuto }
+.ms-Icon--Flashlight:before { @include ms-Icon--Flashlight }
+.ms-Icon--FlashOff:before { @include ms-Icon--FlashOff }
+.ms-Icon--FlickDown:before { @include ms-Icon--FlickDown }
+.ms-Icon--FlickLeft:before { @include ms-Icon--FlickLeft }
+.ms-Icon--FlickRight:before { @include ms-Icon--FlickRight }
+.ms-Icon--FlickUp:before { @include ms-Icon--FlickUp }
+.ms-Icon--Flow:before { @include ms-Icon--Flow }
+.ms-Icon--FlowChart:before { @include ms-Icon--FlowChart }
+.ms-Icon--Flower:before { @include ms-Icon--Flower }
+.ms-Icon--FlowTemplate:before { @include ms-Icon--FlowTemplate }
+.ms-Icon--FlowTrigger:before { @include ms-Icon--FlowTrigger }
+.ms-Icon--FluidLogo:before { @include ms-Icon--FluidLogo }
+.ms-Icon--FocalPoint:before { @include ms-Icon--FocalPoint }
+.ms-Icon--Focus:before { @include ms-Icon--Focus }
+.ms-Icon--FocusView:before { @include ms-Icon--FocusView }
+.ms-Icon--Fog:before { @include ms-Icon--Fog }
+.ms-Icon--Folder:before { @include ms-Icon--Folder }
+.ms-Icon--FolderFill:before { @include ms-Icon--FolderFill }
+.ms-Icon--FolderHorizontal:before { @include ms-Icon--FolderHorizontal }
+.ms-Icon--FolderList:before { @include ms-Icon--FolderList }
+.ms-Icon--FolderListMirrored:before { @include ms-Icon--FolderListMirrored }
+.ms-Icon--FolderOpen:before { @include ms-Icon--FolderOpen }
+.ms-Icon--FolderQuery:before { @include ms-Icon--FolderQuery }
+.ms-Icon--FolderSearch:before { @include ms-Icon--FolderSearch }
+.ms-Icon--FollowUser:before { @include ms-Icon--FollowUser }
+.ms-Icon--Font:before { @include ms-Icon--Font }
+.ms-Icon--FontColor:before { @include ms-Icon--FontColor }
+.ms-Icon--FontColorA:before { @include ms-Icon--FontColorA }
+.ms-Icon--FontColorKorean:before { @include ms-Icon--FontColorKorean }
+.ms-Icon--FontColorSwatch:before { @include ms-Icon--FontColorSwatch }
+.ms-Icon--FontDecrease:before { @include ms-Icon--FontDecrease }
+.ms-Icon--FontIncrease:before { @include ms-Icon--FontIncrease }
+.ms-Icon--FontSize:before { @include ms-Icon--FontSize }
+.ms-Icon--FontSize2:before { @include ms-Icon--FontSize2 }
+.ms-Icon--FontStyleKorean:before { @include ms-Icon--FontStyleKorean }
+.ms-Icon--Footer:before { @include ms-Icon--Footer }
+.ms-Icon--FormatPainter:before { @include ms-Icon--FormatPainter }
+.ms-Icon--FormLibrary:before { @include ms-Icon--FormLibrary }
+.ms-Icon--FormLibraryMirrored:before { @include ms-Icon--FormLibraryMirrored }
+.ms-Icon--FormProcessing:before { @include ms-Icon--FormProcessing }
+.ms-Icon--Forum:before { @include ms-Icon--Forum }
+.ms-Icon--Forward:before { @include ms-Icon--Forward }
+.ms-Icon--ForwardEvent:before { @include ms-Icon--ForwardEvent }
+.ms-Icon--Freezing:before { @include ms-Icon--Freezing }
+.ms-Icon--FreezingRain:before { @include ms-Icon--FreezingRain }
+.ms-Icon--Frigid:before { @include ms-Icon--Frigid }
+.ms-Icon--FrontCamera:before { @include ms-Icon--FrontCamera }
+.ms-Icon--FSharp:before { @include ms-Icon--FSharp }
+.ms-Icon--FSharpLanguage:before { @include ms-Icon--FSharpLanguage }
+.ms-Icon--FullCircleMask:before { @include ms-Icon--FullCircleMask }
+.ms-Icon--FullHistory:before { @include ms-Icon--FullHistory }
+.ms-Icon--FullScreen:before { @include ms-Icon--FullScreen }
+.ms-Icon--FullView:before { @include ms-Icon--FullView }
+.ms-Icon--FullWidth:before { @include ms-Icon--FullWidth }
+.ms-Icon--FullWidthEdit:before { @include ms-Icon--FullWidthEdit }
+.ms-Icon--FunctionalManagerDashboard:before { @include ms-Icon--FunctionalManagerDashboard }
+.ms-Icon--FunnelChart:before { @include ms-Icon--FunnelChart }
+.ms-Icon--GallatinLogo:before { @include ms-Icon--GallatinLogo }
+.ms-Icon--Game:before { @include ms-Icon--Game }
+.ms-Icon--Gather:before { @include ms-Icon--Gather }
+.ms-Icon--Generate:before { @include ms-Icon--Generate }
+.ms-Icon--GenericScan:before { @include ms-Icon--GenericScan }
+.ms-Icon--GenericScanFilled:before { @include ms-Icon--GenericScanFilled }
+.ms-Icon--GIF:before { @include ms-Icon--GIF }
+.ms-Icon--Giftbox:before { @include ms-Icon--Giftbox }
+.ms-Icon--GiftboxOpen:before { @include ms-Icon--GiftboxOpen }
+.ms-Icon--GiftBoxSolid:before { @include ms-Icon--GiftBoxSolid }
+.ms-Icon--GiftCard:before { @include ms-Icon--GiftCard }
+.ms-Icon--GitGraph:before { @include ms-Icon--GitGraph }
+.ms-Icon--Glasses:before { @include ms-Icon--Glasses }
+.ms-Icon--Glimmer:before { @include ms-Icon--Glimmer }
+.ms-Icon--GlobalNavButton:before { @include ms-Icon--GlobalNavButton }
+.ms-Icon--GlobalNavButtonActive:before { @include ms-Icon--GlobalNavButtonActive }
+.ms-Icon--Globe:before { @include ms-Icon--Globe }
+.ms-Icon--Globe2:before { @include ms-Icon--Globe2 }
+.ms-Icon--GlobeFavorite:before { @include ms-Icon--GlobeFavorite }
+.ms-Icon--Go:before { @include ms-Icon--Go }
+.ms-Icon--Golf:before { @include ms-Icon--Golf }
+.ms-Icon--GoMirrored:before { @include ms-Icon--GoMirrored }
+.ms-Icon--GoToDashboard:before { @include ms-Icon--GoToDashboard }
+.ms-Icon--GotoToday:before { @include ms-Icon--GotoToday }
+.ms-Icon--GraphSymbol:before { @include ms-Icon--GraphSymbol }
+.ms-Icon--GreetingCard:before { @include ms-Icon--GreetingCard }
+.ms-Icon--GridViewLarge:before { @include ms-Icon--GridViewLarge }
+.ms-Icon--GridViewMedium:before { @include ms-Icon--GridViewMedium }
+.ms-Icon--GridViewSmall:before { @include ms-Icon--GridViewSmall }
+.ms-Icon--GripperBarHorizontal:before { @include ms-Icon--GripperBarHorizontal }
+.ms-Icon--GripperBarVertical:before { @include ms-Icon--GripperBarVertical }
+.ms-Icon--GripperDotsVertical:before { @include ms-Icon--GripperDotsVertical }
+.ms-Icon--GripperTool:before { @include ms-Icon--GripperTool }
+.ms-Icon--Group:before { @include ms-Icon--Group }
+.ms-Icon--GroupedAscending:before { @include ms-Icon--GroupedAscending }
+.ms-Icon--GroupedDescending:before { @include ms-Icon--GroupedDescending }
+.ms-Icon--GroupedList:before { @include ms-Icon--GroupedList }
+.ms-Icon--GroupList:before { @include ms-Icon--GroupList }
+.ms-Icon--GroupObject:before { @include ms-Icon--GroupObject }
+.ms-Icon--GroupRemove:before { @include ms-Icon--GroupRemove }
+.ms-Icon--GUID:before { @include ms-Icon--GUID }
+.ms-Icon--Guitar:before { @include ms-Icon--Guitar }
+

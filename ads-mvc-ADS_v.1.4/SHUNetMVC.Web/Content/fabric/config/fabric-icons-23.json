@@ -1,0 +1,62 @@
+{
+  "fontName": "fabric-icons-23",
+  "fontFamilyName": "FabricMDL2Icons-23",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "World",
+      "unicode": "E909"
+    },
+    {
+      "name": "WorldClock",
+      "unicode": "E918"
+    },
+    {
+      "name": "XPowerY",
+      "unicode": "F7CA"
+    },
+    {
+      "name": "XRay",
+      "unicode": "E551"
+    },
+    {
+      "name": "YammerLogo",
+      "unicode": "ED19"
+    },
+    {
+      "name": "ZeroDayCalendar",
+      "unicode": "E547"
+    },
+    {
+      "name": "ZeroDayPatch",
+      "unicode": "E665"
+    },
+    {
+      "name": "ZipFolder",
+      "unicode": "F012"
+    },
+    {
+      "name": "Zoom",
+      "unicode": "E71E"
+    },
+    {
+      "name": "ZoomIn",
+      "unicode": "E8A3"
+    },
+    {
+      "name": "ZoomOut",
+      "unicode": "E71F"
+    },
+    {
+      "name": "ZoomToFit",
+      "unicode": "F649"
+    },
+    {
+      "name": "ZoomToFitAlt",
+      "unicode": "E693"
+    }
+  ]
+}

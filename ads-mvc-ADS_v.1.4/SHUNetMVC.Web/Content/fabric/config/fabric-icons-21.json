@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-21",
+  "fontFamilyName": "FabricMDL2Icons-21",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "Touch",
+      "unicode": "E815"
+    },
+    {
+      "name": "TouchPointer",
+      "unicode": "E7C9"
+    },
+    {
+      "name": "Trackers",
+      "unicode": "EADF"
+    },
+    {
+      "name": "TrackersMirrored",
+      "unicode": "EE92"
+    },
+    {
+      "name": "Train",
+      "unicode": "E7C0"
+    },
+    {
+      "name": "TrainSolid",
+      "unicode": "EB4D"
+    },
+    {
+      "name": "TransferCall",
+      "unicode": "ED95"
+    },
+    {
+      "name": "Transition",
+      "unicode": "F3BC"
+    },
+    {
+      "name": "TransitionEffect",
+      "unicode": "F5B4"
+    },
+    {
+      "name": "TransitionPop",
+      "unicode": "F5B2"
+    },
+    {
+      "name": "TransitionPush",
+      "unicode": "F5B3"
+    },
+    {
+      "name": "Translate",
+      "unicode": "E7B2"
+    },
+    {
+      "name": "Transportation",
+      "unicode": "EBF1"
+    },
+    {
+      "name": "Trending12",
+      "unicode": "F62D"
+    },
+    {
+      "name": "TriangleDown12",
+      "unicode": "EED1"
+    },
+    {
+      "name": "TriangleLeft12",
+      "unicode": "EED2"
+    },
+    {
+      "name": "TriangleRight12",
+      "unicode": "EED3"
+    },
+    {
+      "name": "TriangleShape",
+      "unicode": "F1A7"
+    },
+    {
+      "name": "TriangleShapeSolid",
+      "unicode": "F63E"
+    },
+    {
+      "name": "TriangleSolid",
+      "unicode": "EA08"
+    },
+    {
+      "name": "TriangleSolidDown12",
+      "unicode": "EECD"
+    },
+    {
+      "name": "TriangleSolidLeft12",
+      "unicode": "EECE"
+    },
+    {
+      "name": "TriangleSolidRight12",
+      "unicode": "EECF"
+    },
+    {
+      "name": "TriangleSolidUp12",
+      "unicode": "EECC"
+    },
+    {
+      "name": "TriangleUp12",
+      "unicode": "EED0"
+    },
+    {
+      "name": "TriggerApproval",
+      "unicode": "F3B2"
+    },
+    {
+      "name": "TriggerAuto",
+      "unicode": "F24A"
+    },
+    {
+      "name": "TriggerPhrase",
+      "unicode": "E5FF"
+    },
+    {
+      "name": "TriggerUser",
+      "unicode": "F24B"
+    },
+    {
+      "name": "Trim",
+      "unicode": "E78A"
+    },
+    {
+      "name": "TrimEnd",
+      "unicode": "F8BC"
+    },
+    {
+      "name": "TrimStart",
+      "unicode": "F8BB"
+    },
+    {
+      "name": "TripleColumn",
+      "unicode": "F1D5"
+    },
+    {
+      "name": "TripleColumnEdit",
+      "unicode": "F323"
+    },
+    {
+      "name": "TripleColumnWide",
+      "unicode": "F66E"
+    },
+    {
+      "name": "Trophy",
+      "unicode": "ED3F"
+    },
+    {
+      "name": "Trophy2",
+      "unicode": "F1AE"
+    },
+    {
+      "name": "Trophy2Solid",
+      "unicode": "F337"
+    },
+    {
+      "name": "TurnRight",
+      "unicode": "E7DB"
+    },
+    {
+      "name": "TurnUserLeft",
+      "unicode": "F269"
+    },
+    {
+      "name": "TVMonitor",
+      "unicode": "E7F4"
+    },
+    {
+      "name": "TVMonitorSelected",
+      "unicode": "EC77"
+    },
+    {
+      "name": "TypeScriptLanguage",
+      "unicode": "F2F7"
+    },
+    {
+      "name": "Umbrella",
+      "unicode": "EC04"
+    },
+    {
+      "name": "UnavailableOffline",
+      "unicode": "E545"
+    },
+    {
+      "name": "Underline",
+      "unicode": "E8DC"
+    },
+    {
+      "name": "UnderlineA",
+      "unicode": "E5CC"
+    },
+    {
+      "name": "UnderlineKorean",
+      "unicode": "E5BB"
+    },
+    {
+      "name": "UnderlineP",
+      "unicode": "E5CD"
+    },
+    {
+      "name": "UnderlineRussian",
+      "unicode": "E5B8"
+    },
+    {
+      "name": "UnderlineS",
+      "unicode": "E5B4"
+    },
+    {
+      "name": "UnderlineSerbian",
+      "unicode": "E5CB"
+    },
+    {
+      "name": "Undo",
+      "unicode": "E7A7"
+    },
+    {
+      "name": "Uneditable",
+      "unicode": "ED1D"
+    },
+    {
+      "name": "Uneditable2",
+      "unicode": "F876"
+    },
+    {
+      "name": "Uneditable2Mirrored",
+      "unicode": "F877"
+    },
+    {
+      "name": "UneditableMirrored",
+      "unicode": "F4B9"
+    },
+    {
+      "name": "UneditableSolid12",
+      "unicode": "F4B7"
+    },
+    {
+      "name": "UneditableSolidMirrored12",
+      "unicode": "F4B8"
+    },
+    {
+      "name": "Unfavorite",
+      "unicode": "E8D9"
+    },
+    {
+      "name": "UngroupObject",
+      "unicode": "F4F2"
+    },
+    {
+      "name": "UniteShape",
+      "unicode": "F8FB"
+    },
+    {
+      "name": "Unknown",
+      "unicode": "E9CE"
+    },
+    {
+      "name": "UnknownCall",
+      "unicode": "ED97"
+    },
+    {
+      "name": "UnknownMirrored",
+      "unicode": "F22E"
+    },
+    {
+      "name": "UnknownMirroredSolid",
+      "unicode": "F2E2"
+    },
+    {
+      "name": "UnknownSolid",
+      "unicode": "F2E1"
+    },
+    {
+      "name": "Unlock",
+      "unicode": "E785"
+    },
+    {
+      "name": "UnlockSolid",
+      "unicode": "F304"
+    },
+    {
+      "name": "Unpin",
+      "unicode": "E77A"
+    },
+    {
+      "name": "UnpublishContent",
+      "unicode": "E31F"
+    },
+    {
+      "name": "UnSetColor",
+      "unicode": "F3F9"
+    },
+    {
+      "name": "UnstackSelected",
+      "unicode": "E7FE"
+    },
+    {
+      "name": "Unsubscribe",
+      "unicode": "EDA0"
+    },
+    {
+      "name": "UnsyncFolder",
+      "unicode": "E8F6"
+    },
+    {
+      "name": "UnsyncOccurence",
+      "unicode": "F4A4"
+    },
+    {
+      "name": "Untag",
+      "unicode": "F60B"
+    },
+    {
+      "name": "Up",
+      "unicode": "E74A"
+    },
+    {
+      "name": "UpdateRestore",
+      "unicode": "E777"
+    },
+    {
+      "name": "UpgradeAnalysis",
+      "unicode": "EA0B"
+    },
+    {
+      "name": "UpKey",
+      "unicode": "F3E0"
+    },
+    {
+      "name": "Upload",
+      "unicode": "E898"
+    },
+    {
+      "name": "UpperCase",
+      "unicode": "E5ED"
+    },
+    {
+      "name": "URLBlock",
+      "unicode": "E3FE"
+    },
+    {
+      "name": "USB",
+      "unicode": "E88E"
+    },
+    {
+      "name": "UserClapper",
+      "unicode": "E666"
+    },
+    {
+      "name": "UserEvent",
+      "unicode": "F69C"
+    },
+    {
+      "name": "UserFollowed",
+      "unicode": "F25C"
+    },
+    {
+      "name": "UserGauge",
+      "unicode": "F6ED"
+    },
+    {
+      "name": "UserOptional",
+      "unicode": "F767"
+    },
+    {
+      "name": "UserPause",
+      "unicode": "F2BA"
+    },
+    {
+      "name": "UserRemove",
+      "unicode": "F69B"
+    },
+    {
+      "name": "UserSync",
+      "unicode": "F2B9"
+    },
+    {
+      "name": "UserWarning",
+      "unicode": "E368"
+    },
+    {
+      "name": "UserWindow",
+      "unicode": "E4ED"
+    },
+    {
+      "name": "Vacation",
+      "unicode": "F49F"
+    },
+    {
+      "name": "Vaccination",
+      "unicode": "EAE0"
+    },
+    {
+      "name": "VaccinationRecent",
+      "unicode": "E550"
+    },
+    {
+      "name": "Variable",
+      "unicode": "F305"
+    },
+    {
+      "name": "Variable2",
+      "unicode": "F86D"
+    }
+  ]
+}

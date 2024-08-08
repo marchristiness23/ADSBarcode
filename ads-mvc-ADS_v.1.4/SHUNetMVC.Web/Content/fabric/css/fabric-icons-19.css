@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-19';
+  src: url('../fonts/fabric-icons-19-8536d0fb.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-19';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--StackedBarChartFullSettings:before { content: "\F1E6"; }
+.ms-Icon--StackedColumnChart2:before { content: "\F666"; }
+.ms-Icon--StackedColumnChart2Fill:before { content: "\F831"; }
+.ms-Icon--StackedLineChart:before { content: "\F24E"; }
+.ms-Icon--StackIndicator:before { content: "\E7FF"; }
+.ms-Icon--StaffNotebookLogo16:before { content: "\F48E"; }
+.ms-Icon--StaffNotebookLogo32:before { content: "\F48C"; }
+.ms-Icon--StaffNotebookLogoFill16:before { content: "\F48F"; }
+.ms-Icon--StaffNotebookLogoFill32:before { content: "\F48D"; }
+.ms-Icon--StaffNotebookLogoInverted16:before { content: "\F491"; }
+.ms-Icon--StaffNotebookLogoInverted32:before { content: "\F490"; }
+.ms-Icon--Starburst:before { content: "\EF78"; }
+.ms-Icon--StarburstSolid:before { content: "\F33C"; }
+.ms-Icon--StatusCircleBlock:before { content: "\F140"; }
+.ms-Icon--StatusCircleBlock2:before { content: "\F141"; }
+.ms-Icon--StatusCircleCheckmark:before { content: "\F13E"; }
+.ms-Icon--StatusCircleErrorX:before { content: "\F13D"; }
+.ms-Icon--StatusCircleExclamation:before { content: "\F13C"; }
+.ms-Icon--StatusCircleInfo:before { content: "\F13F"; }
+.ms-Icon--StatusCircleInner:before { content: "\F137"; }
+.ms-Icon--StatusCircleOuter:before { content: "\F136"; }
+.ms-Icon--StatusCircleQuestionMark:before { content: "\F142"; }
+.ms-Icon--StatusCircleRing:before { content: "\F138"; }
+.ms-Icon--StatusCircleSync:before { content: "\F143"; }
+.ms-Icon--StatusErrorFull:before { content: "\EB90"; }
+.ms-Icon--StatusTriangle:before { content: "\EA82"; }
+.ms-Icon--StatusTriangleExclamation:before { content: "\F13B"; }
+.ms-Icon--StatusTriangleInner:before { content: "\F13A"; }
+.ms-Icon--StatusTriangleOuter:before { content: "\F139"; }
+.ms-Icon--Step:before { content: "\F241"; }
+.ms-Icon--StepBackward:before { content: "\E68E"; }
+.ms-Icon--StepInsert:before { content: "\F242"; }
+.ms-Icon--StepInto:before { content: "\E690"; }
+.ms-Icon--StepOut:before { content: "\E691"; }
+.ms-Icon--StepOver:before { content: "\E68F"; }
+.ms-Icon--StepShared:before { content: "\F243"; }
+.ms-Icon--StepSharedAdd:before { content: "\F244"; }
+.ms-Icon--StepSharedInsert:before { content: "\F245"; }
+.ms-Icon--StickyNotesOutlineAppIcon:before { content: "\E36A"; }
+.ms-Icon--StickyNotesSolidAppIcon:before { content: "\E36B"; }
+.ms-Icon--StockDown:before { content: "\EB0F"; }
+.ms-Icon--StockUp:before { content: "\EB11"; }
+.ms-Icon--Stop:before { content: "\E71A"; }
+.ms-Icon--StopSolid:before { content: "\EE95"; }
+.ms-Icon--Stopwatch:before { content: "\E916"; }
+.ms-Icon--StorageAcount:before { content: "\E435"; }
+.ms-Icon--StorageOptical:before { content: "\E958"; }
+.ms-Icon--StoreLogo16:before { content: "\EA96"; }
+.ms-Icon--StoreLogoMed20:before { content: "\EA04"; }
+.ms-Icon--Storyboard:before { content: "\F308"; }
+.ms-Icon--StreamDiscover:before { content: "\F7D9"; }
+.ms-Icon--Streaming:before { content: "\E93E"; }
+.ms-Icon--StreamingDataflow:before { content: "\E668"; }
+.ms-Icon--StreamingDataset:before { content: "\E667"; }
+.ms-Icon--StreamingOff:before { content: "\F2BB"; }
+.ms-Icon--StreamLogo:before { content: "\F329"; }
+.ms-Icon--StreamPlaylist:before { content: "\E669"; }
+.ms-Icon--Street:before { content: "\E913"; }
+.ms-Icon--StreetsideSplitMinimize:before { content: "\E802"; }
+.ms-Icon--Strikethrough:before { content: "\EDE0"; }
+.ms-Icon--StrikethroughKorean:before { content: "\E5D4"; }
+.ms-Icon--Subscribe:before { content: "\EDA1"; }
+.ms-Icon--Subscript:before { content: "\EDDF"; }
+.ms-Icon--SubstitutionsIn:before { content: "\EB31"; }
+.ms-Icon--SubtractShape:before { content: "\F8FC"; }
+.ms-Icon--Suitcase:before { content: "\EDD3"; }
+.ms-Icon--SummaryChart:before { content: "\E9FE"; }
+.ms-Icon--SunAdd:before { content: "\EF69"; }
+.ms-Icon--Sunny:before { content: "\E9BD"; }
+.ms-Icon--SunQuestionMark:before { content: "\EF6A"; }
+.ms-Icon--Superscript:before { content: "\EDDE"; }
+.ms-Icon--SurveyQuestionResponse:before { content: "\E4F2"; }
+.ms-Icon--SurveyQuestions:before { content: "\F01B"; }
+.ms-Icon--SwayLogo16:before { content: "\F484"; }
+.ms-Icon--SwayLogo32:before { content: "\F482"; }
+.ms-Icon--SwayLogoFill16:before { content: "\F485"; }
+.ms-Icon--SwayLogoFill32:before { content: "\F483"; }
+.ms-Icon--SwayLogoInverse:before { content: "\ED29"; }
+.ms-Icon--Switch:before { content: "\E8AB"; }
+.ms-Icon--SwitcherStartEnd:before { content: "\E810"; }
+.ms-Icon--SwitchUser:before { content: "\E748"; }
+.ms-Icon--Sync:before { content: "\E895"; }
+.ms-Icon--SyncError:before { content: "\EA6A"; }
+.ms-Icon--SyncFolder:before { content: "\E8F7"; }
+.ms-Icon--SyncOccurence:before { content: "\F4A3"; }
+.ms-Icon--SyncOccurenceCancel:before { content: "\F7E7"; }
+.ms-Icon--SyncStatus:before { content: "\F751"; }
+.ms-Icon--SyncStatusSolid:before { content: "\F752"; }
+.ms-Icon--SyncToPC:before { content: "\EE6E"; }
+.ms-Icon--System:before { content: "\E770"; }
+.ms-Icon--Tab:before { content: "\E7E9"; }
+.ms-Icon--TabCenter:before { content: "\F100"; }
+.ms-Icon--Table:before { content: "\ED86"; }
+.ms-Icon--TableBrandedColumn:before { content: "\E3F1"; }
+.ms-Icon--TableBrandedRow:before { content: "\E3EE"; }
+.ms-Icon--TableColumn:before { content: "\E4BD"; }
+.ms-Icon--TableComputed:before { content: "\F8F5"; }
+.ms-Icon--TableFirstColumn:before { content: "\E3EF"; }
+.ms-Icon--TableGroup:before { content: "\F6D9"; }
+.ms-Icon--TableHeaderRow:before { content: "\E3EC"; }

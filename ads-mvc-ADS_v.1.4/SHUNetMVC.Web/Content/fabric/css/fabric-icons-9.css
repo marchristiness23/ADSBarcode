@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-9';
+  src: url('../fonts/fabric-icons-9-457f2e9a.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-9';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--FlashAuto:before { content: "\E95C"; }
+.ms-Icon--Flashlight:before { content: "\E754"; }
+.ms-Icon--FlashOff:before { content: "\EA6E"; }
+.ms-Icon--FlickDown:before { content: "\E935"; }
+.ms-Icon--FlickLeft:before { content: "\E937"; }
+.ms-Icon--FlickRight:before { content: "\E938"; }
+.ms-Icon--FlickUp:before { content: "\E936"; }
+.ms-Icon--Flow:before { content: "\EF90"; }
+.ms-Icon--FlowChart:before { content: "\E9D4"; }
+.ms-Icon--Flower:before { content: "\F54E"; }
+.ms-Icon--FlowTemplate:before { content: "\E49C"; }
+.ms-Icon--FlowTrigger:before { content: "\E60C"; }
+.ms-Icon--FluidLogo:before { content: "\E48A"; }
+.ms-Icon--FocalPoint:before { content: "\F277"; }
+.ms-Icon--Focus:before { content: "\EA6F"; }
+.ms-Icon--FocusView:before { content: "\F1A3"; }
+.ms-Icon--Fog:before { content: "\E9CB"; }
+.ms-Icon--Folder:before { content: "\E8B7"; }
+.ms-Icon--FolderFill:before { content: "\E8D5"; }
+.ms-Icon--FolderHorizontal:before { content: "\F12B"; }
+.ms-Icon--FolderList:before { content: "\F2CE"; }
+.ms-Icon--FolderListMirrored:before { content: "\F2CF"; }
+.ms-Icon--FolderOpen:before { content: "\E838"; }
+.ms-Icon--FolderQuery:before { content: "\F2CD"; }
+.ms-Icon--FolderSearch:before { content: "\EF65"; }
+.ms-Icon--FollowUser:before { content: "\EE05"; }
+.ms-Icon--Font:before { content: "\E8D2"; }
+.ms-Icon--FontColor:before { content: "\E8D3"; }
+.ms-Icon--FontColorA:before { content: "\F4EC"; }
+.ms-Icon--FontColorKorean:before { content: "\E5BE"; }
+.ms-Icon--FontColorSwatch:before { content: "\F4ED"; }
+.ms-Icon--FontDecrease:before { content: "\E8E7"; }
+.ms-Icon--FontIncrease:before { content: "\E8E8"; }
+.ms-Icon--FontSize:before { content: "\E8E9"; }
+.ms-Icon--FontSize2:before { content: "\E3C0"; }
+.ms-Icon--FontStyleKorean:before { content: "\E5BA"; }
+.ms-Icon--Footer:before { content: "\F82E"; }
+.ms-Icon--FormatPainter:before { content: "\E3DC"; }
+.ms-Icon--FormLibrary:before { content: "\EEB9"; }
+.ms-Icon--FormLibraryMirrored:before { content: "\EEBA"; }
+.ms-Icon--FormProcessing:before { content: "\E48B"; }
+.ms-Icon--Forum:before { content: "\E378"; }
+.ms-Icon--Forward:before { content: "\E72A"; }
+.ms-Icon--ForwardEvent:before { content: "\ED8C"; }
+.ms-Icon--Freezing:before { content: "\E9EF"; }
+.ms-Icon--FreezingRain:before { content: "\E475"; }
+.ms-Icon--Frigid:before { content: "\E9CA"; }
+.ms-Icon--FrontCamera:before { content: "\E96B"; }
+.ms-Icon--FSharp:before { content: "\F2F6"; }
+.ms-Icon--FSharpLanguage:before { content: "\F2F5"; }
+.ms-Icon--FullCircleMask:before { content: "\E91F"; }
+.ms-Icon--FullHistory:before { content: "\F31C"; }
+.ms-Icon--FullScreen:before { content: "\E740"; }
+.ms-Icon--FullView:before { content: "\F1A2"; }
+.ms-Icon--FullWidth:before { content: "\F2FE"; }
+.ms-Icon--FullWidthEdit:before { content: "\F2FF"; }
+.ms-Icon--FunctionalManagerDashboard:before { content: "\F542"; }
+.ms-Icon--FunnelChart:before { content: "\E9F1"; }
+.ms-Icon--GallatinLogo:before { content: "\F496"; }
+.ms-Icon--Game:before { content: "\E7FC"; }
+.ms-Icon--Gather:before { content: "\E460"; }
+.ms-Icon--Generate:before { content: "\E9DA"; }
+.ms-Icon--GenericScan:before { content: "\EE6F"; }
+.ms-Icon--GenericScanFilled:before { content: "\F7E3"; }
+.ms-Icon--GIF:before { content: "\F4A9"; }
+.ms-Icon--Giftbox:before { content: "\EC1F"; }
+.ms-Icon--GiftboxOpen:before { content: "\F133"; }
+.ms-Icon--GiftBoxSolid:before { content: "\F341"; }
+.ms-Icon--GiftCard:before { content: "\EB8E"; }
+.ms-Icon--GitGraph:before { content: "\F2CA"; }
+.ms-Icon--Glasses:before { content: "\EA16"; }
+.ms-Icon--Glimmer:before { content: "\ECF4"; }
+.ms-Icon--GlobalNavButton:before { content: "\E700"; }
+.ms-Icon--GlobalNavButtonActive:before { content: "\F89F"; }
+.ms-Icon--Globe:before { content: "\E774"; }
+.ms-Icon--Globe2:before { content: "\F49A"; }
+.ms-Icon--GlobeFavorite:before { content: "\EF53"; }
+.ms-Icon--Go:before { content: "\E8AD"; }
+.ms-Icon--Golf:before { content: "\EB1F"; }
+.ms-Icon--GoMirrored:before { content: "\EA4F"; }
+.ms-Icon--GoToDashboard:before { content: "\EEED"; }
+.ms-Icon--GotoToday:before { content: "\E8D1"; }
+.ms-Icon--GraphSymbol:before { content: "\E35D"; }
+.ms-Icon--GreetingCard:before { content: "\F54B"; }
+.ms-Icon--GridViewLarge:before { content: "\F234"; }
+.ms-Icon--GridViewMedium:before { content: "\F233"; }
+.ms-Icon--GridViewSmall:before { content: "\F232"; }
+.ms-Icon--GripperBarHorizontal:before { content: "\E76F"; }
+.ms-Icon--GripperBarVertical:before { content: "\E784"; }
+.ms-Icon--GripperDotsVertical:before { content: "\F772"; }
+.ms-Icon--GripperTool:before { content: "\E75E"; }
+.ms-Icon--Group:before { content: "\E902"; }
+.ms-Icon--GroupedAscending:before { content: "\EE67"; }
+.ms-Icon--GroupedDescending:before { content: "\EE66"; }
+.ms-Icon--GroupedList:before { content: "\EF74"; }
+.ms-Icon--GroupList:before { content: "\F168"; }
+.ms-Icon--GroupObject:before { content: "\F4F1"; }
+.ms-Icon--GroupRemove:before { content: "\E495"; }
+.ms-Icon--GUID:before { content: "\F52B"; }
+.ms-Icon--Guitar:before { content: "\F49B"; }

@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-22';
+  src: url('../fonts/fabric-icons-22-8da0885d.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-22';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--Variable3 { content: "\E4D1"; }
+@mixin ms-Icon--VariableGroup { content: "\F31B"; }
+@mixin ms-Icon--VB { content: "\F2F2"; }
+@mixin ms-Icon--VennDiagram { content: "\F273"; }
+@mixin ms-Icon--VerifiedBrand { content: "\F7BD"; }
+@mixin ms-Icon--VerifiedBrandSolid { content: "\F6AD"; }
+@mixin ms-Icon--VersionControlPush { content: "\F664"; }
+@mixin ms-Icon--VerticalDistributeCenter { content: "\F4FA"; }
+@mixin ms-Icon--Video { content: "\E714"; }
+@mixin ms-Icon--Video360Generic { content: "\F609"; }
+@mixin ms-Icon--VideoAdd { content: "\E430"; }
+@mixin ms-Icon--VideoLightOff { content: "\EA74"; }
+@mixin ms-Icon--VideoOff { content: "\F4B0"; }
+@mixin ms-Icon--VideoOff2 { content: "\E43C"; }
+@mixin ms-Icon--VideoSearch { content: "\F4EA"; }
+@mixin ms-Icon--VideoSolid { content: "\EA0C"; }
+@mixin ms-Icon--View { content: "\E890"; }
+@mixin ms-Icon--ViewAll { content: "\E8A9"; }
+@mixin ms-Icon--ViewAll2 { content: "\EF56"; }
+@mixin ms-Icon--ViewDashboard { content: "\F246"; }
+@mixin ms-Icon--ViewInAR { content: "\E41F"; }
+@mixin ms-Icon--ViewList { content: "\F247"; }
+@mixin ms-Icon--ViewListGroup { content: "\F248"; }
+@mixin ms-Icon--ViewListTree { content: "\F249"; }
+@mixin ms-Icon--ViewOriginal { content: "\E7B4"; }
+@mixin ms-Icon--VirtualNetwork { content: "\F815"; }
+@mixin ms-Icon--VisioDiagram { content: "\F2A0"; }
+@mixin ms-Icon--VisioDiagramSync { content: "\F762"; }
+@mixin ms-Icon--VisioDocument { content: "\F2A9"; }
+@mixin ms-Icon--VisioLogo { content: "\F2A7"; }
+@mixin ms-Icon--VisioLogo16 { content: "\F3A3"; }
+@mixin ms-Icon--VisioLogoInverse { content: "\ED7D"; }
+@mixin ms-Icon--VisioLogoInverse16 { content: "\F3A2"; }
+@mixin ms-Icon--VisualBasicLanguage { content: "\F2F1"; }
+@mixin ms-Icon--VisuallyImpaired { content: "\F866"; }
+@mixin ms-Icon--VisualsFolder { content: "\F520"; }
+@mixin ms-Icon--VisualsStore { content: "\F521"; }
+@mixin ms-Icon--VisualStudioForWindows { content: "\F5D0"; }
+@mixin ms-Icon--VisualStudioForWindowsAlt { content: "\EC22"; }
+@mixin ms-Icon--VivaTopicApp { content: "\E687"; }
+@mixin ms-Icon--VoicemailForward { content: "\ED87"; }
+@mixin ms-Icon--VoicemailIRM { content: "\F421"; }
+@mixin ms-Icon--VoicemailReply { content: "\ED88"; }
+@mixin ms-Icon--Volume0 { content: "\E992"; }
+@mixin ms-Icon--Volume1 { content: "\E993"; }
+@mixin ms-Icon--Volume2 { content: "\E994"; }
+@mixin ms-Icon--Volume3 { content: "\E995"; }
+@mixin ms-Icon--VolumeDisabled { content: "\EA85"; }
+@mixin ms-Icon--VSTSAltLogo1 { content: "\F382"; }
+@mixin ms-Icon--VSTSAltLogo2 { content: "\F383"; }
+@mixin ms-Icon--VSTSLogo { content: "\F381"; }
+@mixin ms-Icon--Waffle { content: "\ED89"; }
+@mixin ms-Icon--WaffleOffice365 { content: "\F4E0"; }
+@mixin ms-Icon--WaitlistConfirm { content: "\F550"; }
+@mixin ms-Icon--WaitlistConfirmMirrored { content: "\F551"; }
+@mixin ms-Icon--Warning { content: "\E7BA"; }
+@mixin ms-Icon--Warning12 { content: "\F62F"; }
+@mixin ms-Icon--WarningSolid { content: "\F736"; }
+@mixin ms-Icon--WavingHand { content: "\F807"; }
+@mixin ms-Icon--WebAppBuilderFragment { content: "\E314"; }
+@mixin ms-Icon--WebAppBuilderFragmentCreate { content: "\E31B"; }
+@mixin ms-Icon--WebAppBuilderFragmentLock { content: "\E4DD"; }
+@mixin ms-Icon--WebAppBuilderFragmentTest { content: "\E4DE"; }
+@mixin ms-Icon--WebAppBuilderModule { content: "\E313"; }
+@mixin ms-Icon--WebAppBuilderModuleLock { content: "\E4DF"; }
+@mixin ms-Icon--WebAppBuilderModuleTest { content: "\E4E0"; }
+@mixin ms-Icon--WebAppBuilderSlot { content: "\E315"; }
+@mixin ms-Icon--Webcam2 { content: "\E960"; }
+@mixin ms-Icon--Webcam2Off { content: "\E36D"; }
+@mixin ms-Icon--WebComponents { content: "\EC8B"; }
+@mixin ms-Icon--WebEnvironment { content: "\E3DB"; }
+@mixin ms-Icon--WebPublish { content: "\F52F"; }
+@mixin ms-Icon--WebSearch { content: "\F6FA"; }
+@mixin ms-Icon--Website { content: "\EB41"; }
+@mixin ms-Icon--WebTemplate { content: "\F6B2"; }
+@mixin ms-Icon--Weights { content: "\EADB"; }
+@mixin ms-Icon--Wheelchair { content: "\F31F"; }
+@mixin ms-Icon--Whiteboard { content: "\F784"; }
+@mixin ms-Icon--WhiteBoardApp16 { content: "\F673"; }
+@mixin ms-Icon--WhiteBoardApp32 { content: "\F674"; }
+@mixin ms-Icon--WifiEthernet { content: "\EE77"; }
+@mixin ms-Icon--WifiWarning4 { content: "\EB63"; }
+@mixin ms-Icon--WindDirection { content: "\EBE6"; }
+@mixin ms-Icon--WindowEdit { content: "\F50E"; }
+@mixin ms-Icon--WindowsLogo { content: "\E782"; }
+@mixin ms-Icon--Wines { content: "\EABF"; }
+@mixin ms-Icon--WipePhone { content: "\ED8D"; }
+@mixin ms-Icon--WordDocument { content: "\EF71"; }
+@mixin ms-Icon--WordLogo { content: "\F1E3"; }
+@mixin ms-Icon--WordLogo16 { content: "\F391"; }
+@mixin ms-Icon--WordLogoInverse { content: "\EC29"; }
+@mixin ms-Icon--WordLogoInverse16 { content: "\F390"; }
+@mixin ms-Icon--Work { content: "\E821"; }
+@mixin ms-Icon--WorkFlow { content: "\EA01"; }
+@mixin ms-Icon--WorkforceManagement { content: "\EE0F"; }
+@mixin ms-Icon--WorkItem { content: "\F314"; }
+@mixin ms-Icon--WorkItemAlert { content: "\F78F"; }
+@mixin ms-Icon--WorkItemBar { content: "\F35C"; }
+@mixin ms-Icon--WorkItemBarSolid { content: "\F35D"; }
+@mixin ms-Icon--WorkItemBug { content: "\F315"; }
+
+
+// Classes
+.ms-Icon--Variable3:before { @include ms-Icon--Variable3 }
+.ms-Icon--VariableGroup:before { @include ms-Icon--VariableGroup }
+.ms-Icon--VB:before { @include ms-Icon--VB }
+.ms-Icon--VennDiagram:before { @include ms-Icon--VennDiagram }
+.ms-Icon--VerifiedBrand:before { @include ms-Icon--VerifiedBrand }
+.ms-Icon--VerifiedBrandSolid:before { @include ms-Icon--VerifiedBrandSolid }
+.ms-Icon--VersionControlPush:before { @include ms-Icon--VersionControlPush }
+.ms-Icon--VerticalDistributeCenter:before { @include ms-Icon--VerticalDistributeCenter }
+.ms-Icon--Video:before { @include ms-Icon--Video }
+.ms-Icon--Video360Generic:before { @include ms-Icon--Video360Generic }
+.ms-Icon--VideoAdd:before { @include ms-Icon--VideoAdd }
+.ms-Icon--VideoLightOff:before { @include ms-Icon--VideoLightOff }
+.ms-Icon--VideoOff:before { @include ms-Icon--VideoOff }
+.ms-Icon--VideoOff2:before { @include ms-Icon--VideoOff2 }
+.ms-Icon--VideoSearch:before { @include ms-Icon--VideoSearch }
+.ms-Icon--VideoSolid:before { @include ms-Icon--VideoSolid }
+.ms-Icon--View:before { @include ms-Icon--View }
+.ms-Icon--ViewAll:before { @include ms-Icon--ViewAll }
+.ms-Icon--ViewAll2:before { @include ms-Icon--ViewAll2 }
+.ms-Icon--ViewDashboard:before { @include ms-Icon--ViewDashboard }
+.ms-Icon--ViewInAR:before { @include ms-Icon--ViewInAR }
+.ms-Icon--ViewList:before { @include ms-Icon--ViewList }
+.ms-Icon--ViewListGroup:before { @include ms-Icon--ViewListGroup }
+.ms-Icon--ViewListTree:before { @include ms-Icon--ViewListTree }
+.ms-Icon--ViewOriginal:before { @include ms-Icon--ViewOriginal }
+.ms-Icon--VirtualNetwork:before { @include ms-Icon--VirtualNetwork }
+.ms-Icon--VisioDiagram:before { @include ms-Icon--VisioDiagram }
+.ms-Icon--VisioDiagramSync:before { @include ms-Icon--VisioDiagramSync }
+.ms-Icon--VisioDocument:before { @include ms-Icon--VisioDocument }
+.ms-Icon--VisioLogo:before { @include ms-Icon--VisioLogo }
+.ms-Icon--VisioLogo16:before { @include ms-Icon--VisioLogo16 }
+.ms-Icon--VisioLogoInverse:before { @include ms-Icon--VisioLogoInverse }
+.ms-Icon--VisioLogoInverse16:before { @include ms-Icon--VisioLogoInverse16 }
+.ms-Icon--VisualBasicLanguage:before { @include ms-Icon--VisualBasicLanguage }
+.ms-Icon--VisuallyImpaired:before { @include ms-Icon--VisuallyImpaired }
+.ms-Icon--VisualsFolder:before { @include ms-Icon--VisualsFolder }
+.ms-Icon--VisualsStore:before { @include ms-Icon--VisualsStore }
+.ms-Icon--VisualStudioForWindows:before { @include ms-Icon--VisualStudioForWindows }
+.ms-Icon--VisualStudioForWindowsAlt:before { @include ms-Icon--VisualStudioForWindowsAlt }
+.ms-Icon--VivaTopicApp:before { @include ms-Icon--VivaTopicApp }
+.ms-Icon--VoicemailForward:before { @include ms-Icon--VoicemailForward }
+.ms-Icon--VoicemailIRM:before { @include ms-Icon--VoicemailIRM }
+.ms-Icon--VoicemailReply:before { @include ms-Icon--VoicemailReply }
+.ms-Icon--Volume0:before { @include ms-Icon--Volume0 }
+.ms-Icon--Volume1:before { @include ms-Icon--Volume1 }
+.ms-Icon--Volume2:before { @include ms-Icon--Volume2 }
+.ms-Icon--Volume3:before { @include ms-Icon--Volume3 }
+.ms-Icon--VolumeDisabled:before { @include ms-Icon--VolumeDisabled }
+.ms-Icon--VSTSAltLogo1:before { @include ms-Icon--VSTSAltLogo1 }
+.ms-Icon--VSTSAltLogo2:before { @include ms-Icon--VSTSAltLogo2 }
+.ms-Icon--VSTSLogo:before { @include ms-Icon--VSTSLogo }
+.ms-Icon--Waffle:before { @include ms-Icon--Waffle }
+.ms-Icon--WaffleOffice365:before { @include ms-Icon--WaffleOffice365 }
+.ms-Icon--WaitlistConfirm:before { @include ms-Icon--WaitlistConfirm }
+.ms-Icon--WaitlistConfirmMirrored:before { @include ms-Icon--WaitlistConfirmMirrored }
+.ms-Icon--Warning:before { @include ms-Icon--Warning }
+.ms-Icon--Warning12:before { @include ms-Icon--Warning12 }
+.ms-Icon--WarningSolid:before { @include ms-Icon--WarningSolid }
+.ms-Icon--WavingHand:before { @include ms-Icon--WavingHand }
+.ms-Icon--WebAppBuilderFragment:before { @include ms-Icon--WebAppBuilderFragment }
+.ms-Icon--WebAppBuilderFragmentCreate:before { @include ms-Icon--WebAppBuilderFragmentCreate }
+.ms-Icon--WebAppBuilderFragmentLock:before { @include ms-Icon--WebAppBuilderFragmentLock }
+.ms-Icon--WebAppBuilderFragmentTest:before { @include ms-Icon--WebAppBuilderFragmentTest }
+.ms-Icon--WebAppBuilderModule:before { @include ms-Icon--WebAppBuilderModule }
+.ms-Icon--WebAppBuilderModuleLock:before { @include ms-Icon--WebAppBuilderModuleLock }
+.ms-Icon--WebAppBuilderModuleTest:before { @include ms-Icon--WebAppBuilderModuleTest }
+.ms-Icon--WebAppBuilderSlot:before { @include ms-Icon--WebAppBuilderSlot }
+.ms-Icon--Webcam2:before { @include ms-Icon--Webcam2 }
+.ms-Icon--Webcam2Off:before { @include ms-Icon--Webcam2Off }
+.ms-Icon--WebComponents:before { @include ms-Icon--WebComponents }
+.ms-Icon--WebEnvironment:before { @include ms-Icon--WebEnvironment }
+.ms-Icon--WebPublish:before { @include ms-Icon--WebPublish }
+.ms-Icon--WebSearch:before { @include ms-Icon--WebSearch }
+.ms-Icon--Website:before { @include ms-Icon--Website }
+.ms-Icon--WebTemplate:before { @include ms-Icon--WebTemplate }
+.ms-Icon--Weights:before { @include ms-Icon--Weights }
+.ms-Icon--Wheelchair:before { @include ms-Icon--Wheelchair }
+.ms-Icon--Whiteboard:before { @include ms-Icon--Whiteboard }
+.ms-Icon--WhiteBoardApp16:before { @include ms-Icon--WhiteBoardApp16 }
+.ms-Icon--WhiteBoardApp32:before { @include ms-Icon--WhiteBoardApp32 }
+.ms-Icon--WifiEthernet:before { @include ms-Icon--WifiEthernet }
+.ms-Icon--WifiWarning4:before { @include ms-Icon--WifiWarning4 }
+.ms-Icon--WindDirection:before { @include ms-Icon--WindDirection }
+.ms-Icon--WindowEdit:before { @include ms-Icon--WindowEdit }
+.ms-Icon--WindowsLogo:before { @include ms-Icon--WindowsLogo }
+.ms-Icon--Wines:before { @include ms-Icon--Wines }
+.ms-Icon--WipePhone:before { @include ms-Icon--WipePhone }
+.ms-Icon--WordDocument:before { @include ms-Icon--WordDocument }
+.ms-Icon--WordLogo:before { @include ms-Icon--WordLogo }
+.ms-Icon--WordLogo16:before { @include ms-Icon--WordLogo16 }
+.ms-Icon--WordLogoInverse:before { @include ms-Icon--WordLogoInverse }
+.ms-Icon--WordLogoInverse16:before { @include ms-Icon--WordLogoInverse16 }
+.ms-Icon--Work:before { @include ms-Icon--Work }
+.ms-Icon--WorkFlow:before { @include ms-Icon--WorkFlow }
+.ms-Icon--WorkforceManagement:before { @include ms-Icon--WorkforceManagement }
+.ms-Icon--WorkItem:before { @include ms-Icon--WorkItem }
+.ms-Icon--WorkItemAlert:before { @include ms-Icon--WorkItemAlert }
+.ms-Icon--WorkItemBar:before { @include ms-Icon--WorkItemBar }
+.ms-Icon--WorkItemBarSolid:before { @include ms-Icon--WorkItemBarSolid }
+.ms-Icon--WorkItemBug:before { @include ms-Icon--WorkItemBug }
+

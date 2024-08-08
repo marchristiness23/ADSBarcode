@@ -1,0 +1,23 @@
+﻿<div class="mobile-menu-overlay"></div>
+<div class="sidebar-container">
+
+
+    <div class="nav-header-mobile">
+        <a id="menu-dekstop" href="#" class="btn btn-menu toggle-main-menu" title="Menu">
+            <i class="fa-solid fa-bars layout-icon-bars-color"></i>
+        </a>
+        <a id="menu-mobile" href="#" class="btn btn-menu toggle-main-menu-mobile" title="Close Menu">
+            <i class="fa-solid fa-xmark layout-icon-bars-color"></i>
+        </a>
+
+        @*<div class="brand-name">
+            <b>
+                Application Logo
+            </b>
+        </div>*@
+        <img src="~/Assets/logo sample.png" />
+    </div>
+    <nav>
+        @{Html.RenderAction("UserMenu", "Account");}    
+    </nav>
+</div>

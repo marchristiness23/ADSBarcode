@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-22';
+  src: url('../fonts/fabric-icons-22-8da0885d.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-22';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--Variable3:before { content: "\E4D1"; }
+.ms-Icon--VariableGroup:before { content: "\F31B"; }
+.ms-Icon--VB:before { content: "\F2F2"; }
+.ms-Icon--VennDiagram:before { content: "\F273"; }
+.ms-Icon--VerifiedBrand:before { content: "\F7BD"; }
+.ms-Icon--VerifiedBrandSolid:before { content: "\F6AD"; }
+.ms-Icon--VersionControlPush:before { content: "\F664"; }
+.ms-Icon--VerticalDistributeCenter:before { content: "\F4FA"; }
+.ms-Icon--Video:before { content: "\E714"; }
+.ms-Icon--Video360Generic:before { content: "\F609"; }
+.ms-Icon--VideoAdd:before { content: "\E430"; }
+.ms-Icon--VideoLightOff:before { content: "\EA74"; }
+.ms-Icon--VideoOff:before { content: "\F4B0"; }
+.ms-Icon--VideoOff2:before { content: "\E43C"; }
+.ms-Icon--VideoSearch:before { content: "\F4EA"; }
+.ms-Icon--VideoSolid:before { content: "\EA0C"; }
+.ms-Icon--View:before { content: "\E890"; }
+.ms-Icon--ViewAll:before { content: "\E8A9"; }
+.ms-Icon--ViewAll2:before { content: "\EF56"; }
+.ms-Icon--ViewDashboard:before { content: "\F246"; }
+.ms-Icon--ViewInAR:before { content: "\E41F"; }
+.ms-Icon--ViewList:before { content: "\F247"; }
+.ms-Icon--ViewListGroup:before { content: "\F248"; }
+.ms-Icon--ViewListTree:before { content: "\F249"; }
+.ms-Icon--ViewOriginal:before { content: "\E7B4"; }
+.ms-Icon--VirtualNetwork:before { content: "\F815"; }
+.ms-Icon--VisioDiagram:before { content: "\F2A0"; }
+.ms-Icon--VisioDiagramSync:before { content: "\F762"; }
+.ms-Icon--VisioDocument:before { content: "\F2A9"; }
+.ms-Icon--VisioLogo:before { content: "\F2A7"; }
+.ms-Icon--VisioLogo16:before { content: "\F3A3"; }
+.ms-Icon--VisioLogoInverse:before { content: "\ED7D"; }
+.ms-Icon--VisioLogoInverse16:before { content: "\F3A2"; }
+.ms-Icon--VisualBasicLanguage:before { content: "\F2F1"; }
+.ms-Icon--VisuallyImpaired:before { content: "\F866"; }
+.ms-Icon--VisualsFolder:before { content: "\F520"; }
+.ms-Icon--VisualsStore:before { content: "\F521"; }
+.ms-Icon--VisualStudioForWindows:before { content: "\F5D0"; }
+.ms-Icon--VisualStudioForWindowsAlt:before { content: "\EC22"; }
+.ms-Icon--VivaTopicApp:before { content: "\E687"; }
+.ms-Icon--VoicemailForward:before { content: "\ED87"; }
+.ms-Icon--VoicemailIRM:before { content: "\F421"; }
+.ms-Icon--VoicemailReply:before { content: "\ED88"; }
+.ms-Icon--Volume0:before { content: "\E992"; }
+.ms-Icon--Volume1:before { content: "\E993"; }
+.ms-Icon--Volume2:before { content: "\E994"; }
+.ms-Icon--Volume3:before { content: "\E995"; }
+.ms-Icon--VolumeDisabled:before { content: "\EA85"; }
+.ms-Icon--VSTSAltLogo1:before { content: "\F382"; }
+.ms-Icon--VSTSAltLogo2:before { content: "\F383"; }
+.ms-Icon--VSTSLogo:before { content: "\F381"; }
+.ms-Icon--Waffle:before { content: "\ED89"; }
+.ms-Icon--WaffleOffice365:before { content: "\F4E0"; }
+.ms-Icon--WaitlistConfirm:before { content: "\F550"; }
+.ms-Icon--WaitlistConfirmMirrored:before { content: "\F551"; }
+.ms-Icon--Warning:before { content: "\E7BA"; }
+.ms-Icon--Warning12:before { content: "\F62F"; }
+.ms-Icon--WarningSolid:before { content: "\F736"; }
+.ms-Icon--WavingHand:before { content: "\F807"; }
+.ms-Icon--WebAppBuilderFragment:before { content: "\E314"; }
+.ms-Icon--WebAppBuilderFragmentCreate:before { content: "\E31B"; }
+.ms-Icon--WebAppBuilderFragmentLock:before { content: "\E4DD"; }
+.ms-Icon--WebAppBuilderFragmentTest:before { content: "\E4DE"; }
+.ms-Icon--WebAppBuilderModule:before { content: "\E313"; }
+.ms-Icon--WebAppBuilderModuleLock:before { content: "\E4DF"; }
+.ms-Icon--WebAppBuilderModuleTest:before { content: "\E4E0"; }
+.ms-Icon--WebAppBuilderSlot:before { content: "\E315"; }
+.ms-Icon--Webcam2:before { content: "\E960"; }
+.ms-Icon--Webcam2Off:before { content: "\E36D"; }
+.ms-Icon--WebComponents:before { content: "\EC8B"; }
+.ms-Icon--WebEnvironment:before { content: "\E3DB"; }
+.ms-Icon--WebPublish:before { content: "\F52F"; }
+.ms-Icon--WebSearch:before { content: "\F6FA"; }
+.ms-Icon--Website:before { content: "\EB41"; }
+.ms-Icon--WebTemplate:before { content: "\F6B2"; }
+.ms-Icon--Weights:before { content: "\EADB"; }
+.ms-Icon--Wheelchair:before { content: "\F31F"; }
+.ms-Icon--Whiteboard:before { content: "\F784"; }
+.ms-Icon--WhiteBoardApp16:before { content: "\F673"; }
+.ms-Icon--WhiteBoardApp32:before { content: "\F674"; }
+.ms-Icon--WifiEthernet:before { content: "\EE77"; }
+.ms-Icon--WifiWarning4:before { content: "\EB63"; }
+.ms-Icon--WindDirection:before { content: "\EBE6"; }
+.ms-Icon--WindowEdit:before { content: "\F50E"; }
+.ms-Icon--WindowsLogo:before { content: "\E782"; }
+.ms-Icon--Wines:before { content: "\EABF"; }
+.ms-Icon--WipePhone:before { content: "\ED8D"; }
+.ms-Icon--WordDocument:before { content: "\EF71"; }
+.ms-Icon--WordLogo:before { content: "\F1E3"; }
+.ms-Icon--WordLogo16:before { content: "\F391"; }
+.ms-Icon--WordLogoInverse:before { content: "\EC29"; }
+.ms-Icon--WordLogoInverse16:before { content: "\F390"; }
+.ms-Icon--Work:before { content: "\E821"; }
+.ms-Icon--WorkFlow:before { content: "\EA01"; }
+.ms-Icon--WorkforceManagement:before { content: "\EE0F"; }
+.ms-Icon--WorkItem:before { content: "\F314"; }
+.ms-Icon--WorkItemAlert:before { content: "\F78F"; }
+.ms-Icon--WorkItemBar:before { content: "\F35C"; }
+.ms-Icon--WorkItemBarSolid:before { content: "\F35D"; }
+.ms-Icon--WorkItemBug:before { content: "\F315"; }

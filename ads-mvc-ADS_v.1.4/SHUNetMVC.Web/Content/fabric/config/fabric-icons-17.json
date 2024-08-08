@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-17",
+  "fontFamilyName": "FabricMDL2Icons-17",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "ReservationOrders",
+      "unicode": "F845"
+    },
+    {
+      "name": "Reset",
+      "unicode": "E423"
+    },
+    {
+      "name": "ResetDevice",
+      "unicode": "ED10"
+    },
+    {
+      "name": "ResponsesMenu",
+      "unicode": "F768"
+    },
+    {
+      "name": "ReturnKey",
+      "unicode": "E751"
+    },
+    {
+      "name": "ReturnToSession",
+      "unicode": "ED24"
+    },
+    {
+      "name": "RevenueManagement",
+      "unicode": "F85E"
+    },
+    {
+      "name": "ReviewRequestMirroredSolid",
+      "unicode": "F357"
+    },
+    {
+      "name": "ReviewRequestSolid",
+      "unicode": "F356"
+    },
+    {
+      "name": "ReviewResponseSolid",
+      "unicode": "F358"
+    },
+    {
+      "name": "ReviewSolid",
+      "unicode": "F355"
+    },
+    {
+      "name": "RevToggleKey",
+      "unicode": "E845"
+    },
+    {
+      "name": "RewardsLogo",
+      "unicode": "ED4E"
+    },
+    {
+      "name": "RewardsLogoArt64",
+      "unicode": "EEF2"
+    },
+    {
+      "name": "RewardsLogoSolid",
+      "unicode": "ED4F"
+    },
+    {
+      "name": "Rewind",
+      "unicode": "EB9E"
+    },
+    {
+      "name": "RewindEightX",
+      "unicode": "E449"
+    },
+    {
+      "name": "RewindFourX",
+      "unicode": "E448"
+    },
+    {
+      "name": "RewindOneFiveX",
+      "unicode": "E446"
+    },
+    {
+      "name": "RewindOneX",
+      "unicode": "E445"
+    },
+    {
+      "name": "RewindPointFiveX",
+      "unicode": "E444"
+    },
+    {
+      "name": "RewindTwoX",
+      "unicode": "E447"
+    },
+    {
+      "name": "Ribbon",
+      "unicode": "E9D1"
+    },
+    {
+      "name": "Ribbon2",
+      "unicode": "F19B"
+    },
+    {
+      "name": "RibbonSolid",
+      "unicode": "F345"
+    },
+    {
+      "name": "RightDoubleQuote",
+      "unicode": "E9B1"
+    },
+    {
+      "name": "RightKey",
+      "unicode": "F265"
+    },
+    {
+      "name": "RightTriangle",
+      "unicode": "F500"
+    },
+    {
+      "name": "Ringer",
+      "unicode": "EA8F"
+    },
+    {
+      "name": "RingerActive",
+      "unicode": "E498"
+    },
+    {
+      "name": "RingerOff",
+      "unicode": "F2C5"
+    },
+    {
+      "name": "RingerRemove",
+      "unicode": "F279"
+    },
+    {
+      "name": "RingerSolid",
+      "unicode": "EF3A"
+    },
+    {
+      "name": "Robot",
+      "unicode": "E99A"
+    },
+    {
+      "name": "Rocket",
+      "unicode": "F3B3"
+    },
+    {
+      "name": "Room",
+      "unicode": "ED9F"
+    },
+    {
+      "name": "Rotate",
+      "unicode": "E7AD"
+    },
+    {
+      "name": "Rotate90Clockwise",
+      "unicode": "F80D"
+    },
+    {
+      "name": "Rotate90CounterClockwise",
+      "unicode": "F80E"
+    },
+    {
+      "name": "RowsChild",
+      "unicode": "F29C"
+    },
+    {
+      "name": "RowsGroup",
+      "unicode": "F29B"
+    },
+    {
+      "name": "RSSFeed",
+      "unicode": "F80C"
+    },
+    {
+      "name": "Rugby",
+      "unicode": "EB2D"
+    },
+    {
+      "name": "Running",
+      "unicode": "EADA"
+    },
+    {
+      "name": "Sad",
+      "unicode": "E757"
+    },
+    {
+      "name": "SadSolid",
+      "unicode": "F33E"
+    },
+    {
+      "name": "SamsungGallery",
+      "unicode": "E4E2"
+    },
+    {
+      "name": "Save",
+      "unicode": "E74E"
+    },
+    {
+      "name": "SaveAll",
+      "unicode": "F203"
+    },
+    {
+      "name": "SaveAndClose",
+      "unicode": "F038"
+    },
+    {
+      "name": "SaveAndPublish",
+      "unicode": "F671"
+    },
+    {
+      "name": "SaveAs",
+      "unicode": "E792"
+    },
+    {
+      "name": "SavedOffline",
+      "unicode": "E546"
+    },
+    {
+      "name": "SaveTemplate",
+      "unicode": "F6EC"
+    },
+    {
+      "name": "SaveToMobile",
+      "unicode": "F7E0"
+    },
+    {
+      "name": "Savings",
+      "unicode": "EB0B"
+    },
+    {
+      "name": "ScaleUp",
+      "unicode": "ED09"
+    },
+    {
+      "name": "ScaleVolume",
+      "unicode": "F18C"
+    },
+    {
+      "name": "ScatterChart",
+      "unicode": "EFEB"
+    },
+    {
+      "name": "ScheduleEventAction",
+      "unicode": "F1EF"
+    },
+    {
+      "name": "SchoolDataSyncLogo",
+      "unicode": "E34C"
+    },
+    {
+      "name": "ScopeTemplate",
+      "unicode": "F2B0"
+    },
+    {
+      "name": "Screen",
+      "unicode": "EF39"
+    },
+    {
+      "name": "ScreenCast",
+      "unicode": "F7E2"
+    },
+    {
+      "name": "ScreenPreviewOn",
+      "unicode": "F11E"
+    },
+    {
+      "name": "ScreenTime",
+      "unicode": "F182"
+    },
+    {
+      "name": "Script",
+      "unicode": "F03A"
+    },
+    {
+      "name": "ScrollUpDown",
+      "unicode": "EC8F"
+    },
+    {
+      "name": "SDCard",
+      "unicode": "E7F1"
+    },
+    {
+      "name": "Search",
+      "unicode": "E721"
+    },
+    {
+      "name": "SearchAndApps",
+      "unicode": "E773"
+    },
+    {
+      "name": "SearchArt64",
+      "unicode": "EEF5"
+    },
+    {
+      "name": "SearchBookmark",
+      "unicode": "F5B8"
+    },
+    {
+      "name": "SearchCalendar",
+      "unicode": "F4AF"
+    },
+    {
+      "name": "SearchData",
+      "unicode": "F3F1"
+    },
+    {
+      "name": "SearchIssue",
+      "unicode": "F09A"
+    },
+    {
+      "name": "SearchIssueMirrored",
+      "unicode": "F09B"
+    },
+    {
+      "name": "SearchNearby",
+      "unicode": "E820"
+    },
+    {
+      "name": "SecondaryNav",
+      "unicode": "F814"
+    },
+    {
+      "name": "Section",
+      "unicode": "EC0C"
+    },
+    {
+      "name": "Sections",
+      "unicode": "EF76"
+    },
+    {
+      "name": "SecurityCamera",
+      "unicode": "EB35"
+    },
+    {
+      "name": "SecurityGroup",
+      "unicode": "ED85"
+    },
+    {
+      "name": "SecurityTest",
+      "unicode": "E48F"
+    },
+    {
+      "name": "SeeDo",
+      "unicode": "E808"
+    },
+    {
+      "name": "SelectAll",
+      "unicode": "E8B3"
+    },
+    {
+      "name": "Sell",
+      "unicode": "EB0C"
+    },
+    {
+      "name": "SemiboldWeight",
+      "unicode": "F4F0"
+    },
+    {
+      "name": "Send",
+      "unicode": "E724"
+    },
+    {
+      "name": "SendMirrored",
+      "unicode": "EA63"
+    },
+    {
+      "name": "SentimentAnalysis",
+      "unicode": "E393"
+    },
+    {
+      "name": "Separator",
+      "unicode": "F35E"
+    },
+    {
+      "name": "Server",
+      "unicode": "F201"
+    },
+    {
+      "name": "ServerEnviroment",
+      "unicode": "F29F"
+    },
+    {
+      "name": "ServerProcesses",
+      "unicode": "F1FE"
+    },
+    {
+      "name": "ServiceActivity",
+      "unicode": "EFF1"
+    },
+    {
+      "name": "ServiceOff",
+      "unicode": "E3FD"
+    },
+    {
+      "name": "SetAction",
+      "unicode": "F071"
+    },
+    {
+      "name": "Settings",
+      "unicode": "E713"
+    },
+    {
+      "name": "SettingsAdd",
+      "unicode": "E35A"
+    }
+  ]
+}

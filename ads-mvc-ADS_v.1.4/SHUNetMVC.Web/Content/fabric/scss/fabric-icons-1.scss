@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-1';
+  src: url('../fonts/fabric-icons-1-667b2ff0.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-1';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--ArrowUpRight { content: "\F069"; }
+@mixin ms-Icon--ArrowUpRight8 { content: "\EED4"; }
+@mixin ms-Icon--ArrowUpRightMirrored8 { content: "\EEEF"; }
+@mixin ms-Icon--Articles { content: "\EAC1"; }
+@mixin ms-Icon--Ascending { content: "\EDC0"; }
+@mixin ms-Icon--AspectRatio { content: "\E799"; }
+@mixin ms-Icon--AssessmentGroup { content: "\F31A"; }
+@mixin ms-Icon--AssessmentGroupTemplate { content: "\F2B1"; }
+@mixin ms-Icon--AssetLibrary { content: "\EEB6"; }
+@mixin ms-Icon--Assign { content: "\E9D3"; }
+@mixin ms-Icon--AssignPolicy { content: "\E461"; }
+@mixin ms-Icon--Asterisk { content: "\EA38"; }
+@mixin ms-Icon--AsteriskSolid { content: "\F34D"; }
+@mixin ms-Icon--ATPLogo { content: "\EF85"; }
+@mixin ms-Icon--Attach { content: "\E723"; }
+@mixin ms-Icon--AustralianRules { content: "\EE70"; }
+@mixin ms-Icon--AuthenticatorApp { content: "\F6B1"; }
+@mixin ms-Icon--AutoDeploySettings { content: "\F3FA"; }
+@mixin ms-Icon--AutoEnhanceOff { content: "\E78E"; }
+@mixin ms-Icon--AutoEnhanceOn { content: "\E78D"; }
+@mixin ms-Icon--AutoFillTemplate { content: "\F313"; }
+@mixin ms-Icon--AutoFitContents { content: "\E3E8"; }
+@mixin ms-Icon--AutoFitWindow { content: "\E3E9"; }
+@mixin ms-Icon--AutoHeight { content: "\F512"; }
+@mixin ms-Icon--AutomateFlow { content: "\E3F5"; }
+@mixin ms-Icon--AutoRacing { content: "\EB24"; }
+@mixin ms-Icon--AwayStatus { content: "\EE6A"; }
+@mixin ms-Icon--AzureAPIManagement { content: "\F37F"; }
+@mixin ms-Icon--AzureDataExplorer { content: "\E439"; }
+@mixin ms-Icon--AzureIcon { content: "\EB6A"; }
+@mixin ms-Icon--AzureKeyVault { content: "\F3B4"; }
+@mixin ms-Icon--AzureServiceEndpoint { content: "\F380"; }
+@mixin ms-Icon--Back { content: "\E72B"; }
+@mixin ms-Icon--BackgroundColor { content: "\F42B"; }
+@mixin ms-Icon--Backlog { content: "\F2AC"; }
+@mixin ms-Icon--BacklogBoard { content: "\F444"; }
+@mixin ms-Icon--BacklogList { content: "\F6BF"; }
+@mixin ms-Icon--BackToWindow { content: "\E73F"; }
+@mixin ms-Icon--Badge { content: "\EC1B"; }
+@mixin ms-Icon--Balloons { content: "\ED7E"; }
+@mixin ms-Icon--Bank { content: "\E825"; }
+@mixin ms-Icon--BankSolid { content: "\F34F"; }
+@mixin ms-Icon--BarChart3 { content: "\EAE6"; }
+@mixin ms-Icon--BarChart3One { content: "\E68C"; }
+@mixin ms-Icon--BarChart3Two { content: "\E68D"; }
+@mixin ms-Icon--BarChart3Zero { content: "\E68B"; }
+@mixin ms-Icon--BarChart4 { content: "\EAE7"; }
+@mixin ms-Icon--BarChartHorizontal { content: "\E9EB"; }
+@mixin ms-Icon--BarChartVertical { content: "\E9EC"; }
+@mixin ms-Icon--BarChartVerticalEdit { content: "\F89D"; }
+@mixin ms-Icon--BarChartVerticalFill { content: "\F830"; }
+@mixin ms-Icon--BarChartVerticalFilter { content: "\F77E"; }
+@mixin ms-Icon--BarChartVerticalFilterSolid { content: "\F77F"; }
+@mixin ms-Icon--Baseball { content: "\EB20"; }
+@mixin ms-Icon--BeerMug { content: "\F49E"; }
+@mixin ms-Icon--BIDashboard { content: "\F543"; }
+@mixin ms-Icon--BidiLtr { content: "\E9AA"; }
+@mixin ms-Icon--Bidirectional { content: "\E688"; }
+@mixin ms-Icon--BidiRtl { content: "\E9AB"; }
+@mixin ms-Icon--Bill { content: "\E5FA"; }
+@mixin ms-Icon--BingLogo { content: "\EB6B"; }
+@mixin ms-Icon--BirthdayCake { content: "\EF8D"; }
+@mixin ms-Icon--BlobStorage { content: "\E436"; }
+@mixin ms-Icon--BlockContact { content: "\E8F8"; }
+@mixin ms-Icon--Blocked { content: "\E733"; }
+@mixin ms-Icon--Blocked12 { content: "\F62E"; }
+@mixin ms-Icon--Blocked2 { content: "\ECE4"; }
+@mixin ms-Icon--Blocked2Solid { content: "\F737"; }
+@mixin ms-Icon--BlockedSite { content: "\E72F"; }
+@mixin ms-Icon--BlockedSiteSolid12 { content: "\F70A"; }
+@mixin ms-Icon--BlockedSolid { content: "\F531"; }
+@mixin ms-Icon--Blog { content: "\F22B"; }
+@mixin ms-Icon--BlowingSnow { content: "\E9C9"; }
+@mixin ms-Icon--Blur { content: "\F28E"; }
+@mixin ms-Icon--Boards { content: "\EF68"; }
+@mixin ms-Icon--Bold { content: "\E8DD"; }
+@mixin ms-Icon--BoldBulgarian { content: "\E5C5"; }
+@mixin ms-Icon--BoldF { content: "\E5B5"; }
+@mixin ms-Icon--BoldG { content: "\E5B3"; }
+@mixin ms-Icon--BoldK { content: "\E5C6"; }
+@mixin ms-Icon--BoldKazakh { content: "\E5C9"; }
+@mixin ms-Icon--BoldKorean { content: "\E5BD"; }
+@mixin ms-Icon--BoldN { content: "\E5B7"; }
+@mixin ms-Icon--BoldP { content: "\E5C7"; }
+@mixin ms-Icon--BoldRussion { content: "\E5B9"; }
+@mixin ms-Icon--BoldSerbian { content: "\E5CA"; }
+@mixin ms-Icon--BoldT { content: "\E5C8"; }
+@mixin ms-Icon--BookAnswers { content: "\F8A4"; }
+@mixin ms-Icon--BookingsLogo { content: "\EDC7"; }
+@mixin ms-Icon--BookmarkReport { content: "\F76B"; }
+@mixin ms-Icon--Bookmarks { content: "\E8A4"; }
+@mixin ms-Icon--BookmarksMirrored { content: "\EA41"; }
+@mixin ms-Icon--BooleanData { content: "\E678"; }
+@mixin ms-Icon--BorderAll { content: "\E5F4"; }
+@mixin ms-Icon--BorderDash { content: "\F50A"; }
+@mixin ms-Icon--BorderDot { content: "\F50B"; }
+@mixin ms-Icon--BorderInside { content: "\E5F3"; }
+@mixin ms-Icon--BorderInsideHorizontal { content: "\E5F2"; }
+@mixin ms-Icon--BorderInsideVertical { content: "\E5F1"; }
+@mixin ms-Icon--BorderNone { content: "\E5F0"; }
+
+
+// Classes
+.ms-Icon--ArrowUpRight:before { @include ms-Icon--ArrowUpRight }
+.ms-Icon--ArrowUpRight8:before { @include ms-Icon--ArrowUpRight8 }
+.ms-Icon--ArrowUpRightMirrored8:before { @include ms-Icon--ArrowUpRightMirrored8 }
+.ms-Icon--Articles:before { @include ms-Icon--Articles }
+.ms-Icon--Ascending:before { @include ms-Icon--Ascending }
+.ms-Icon--AspectRatio:before { @include ms-Icon--AspectRatio }
+.ms-Icon--AssessmentGroup:before { @include ms-Icon--AssessmentGroup }
+.ms-Icon--AssessmentGroupTemplate:before { @include ms-Icon--AssessmentGroupTemplate }
+.ms-Icon--AssetLibrary:before { @include ms-Icon--AssetLibrary }
+.ms-Icon--Assign:before { @include ms-Icon--Assign }
+.ms-Icon--AssignPolicy:before { @include ms-Icon--AssignPolicy }
+.ms-Icon--Asterisk:before { @include ms-Icon--Asterisk }
+.ms-Icon--AsteriskSolid:before { @include ms-Icon--AsteriskSolid }
+.ms-Icon--ATPLogo:before { @include ms-Icon--ATPLogo }
+.ms-Icon--Attach:before { @include ms-Icon--Attach }
+.ms-Icon--AustralianRules:before { @include ms-Icon--AustralianRules }
+.ms-Icon--AuthenticatorApp:before { @include ms-Icon--AuthenticatorApp }
+.ms-Icon--AutoDeploySettings:before { @include ms-Icon--AutoDeploySettings }
+.ms-Icon--AutoEnhanceOff:before { @include ms-Icon--AutoEnhanceOff }
+.ms-Icon--AutoEnhanceOn:before { @include ms-Icon--AutoEnhanceOn }
+.ms-Icon--AutoFillTemplate:before { @include ms-Icon--AutoFillTemplate }
+.ms-Icon--AutoFitContents:before { @include ms-Icon--AutoFitContents }
+.ms-Icon--AutoFitWindow:before { @include ms-Icon--AutoFitWindow }
+.ms-Icon--AutoHeight:before { @include ms-Icon--AutoHeight }
+.ms-Icon--AutomateFlow:before { @include ms-Icon--AutomateFlow }
+.ms-Icon--AutoRacing:before { @include ms-Icon--AutoRacing }
+.ms-Icon--AwayStatus:before { @include ms-Icon--AwayStatus }
+.ms-Icon--AzureAPIManagement:before { @include ms-Icon--AzureAPIManagement }
+.ms-Icon--AzureDataExplorer:before { @include ms-Icon--AzureDataExplorer }
+.ms-Icon--AzureIcon:before { @include ms-Icon--AzureIcon }
+.ms-Icon--AzureKeyVault:before { @include ms-Icon--AzureKeyVault }
+.ms-Icon--AzureServiceEndpoint:before { @include ms-Icon--AzureServiceEndpoint }
+.ms-Icon--Back:before { @include ms-Icon--Back }
+.ms-Icon--BackgroundColor:before { @include ms-Icon--BackgroundColor }
+.ms-Icon--Backlog:before { @include ms-Icon--Backlog }
+.ms-Icon--BacklogBoard:before { @include ms-Icon--BacklogBoard }
+.ms-Icon--BacklogList:before { @include ms-Icon--BacklogList }
+.ms-Icon--BackToWindow:before { @include ms-Icon--BackToWindow }
+.ms-Icon--Badge:before { @include ms-Icon--Badge }
+.ms-Icon--Balloons:before { @include ms-Icon--Balloons }
+.ms-Icon--Bank:before { @include ms-Icon--Bank }
+.ms-Icon--BankSolid:before { @include ms-Icon--BankSolid }
+.ms-Icon--BarChart3:before { @include ms-Icon--BarChart3 }
+.ms-Icon--BarChart3One:before { @include ms-Icon--BarChart3One }
+.ms-Icon--BarChart3Two:before { @include ms-Icon--BarChart3Two }
+.ms-Icon--BarChart3Zero:before { @include ms-Icon--BarChart3Zero }
+.ms-Icon--BarChart4:before { @include ms-Icon--BarChart4 }
+.ms-Icon--BarChartHorizontal:before { @include ms-Icon--BarChartHorizontal }
+.ms-Icon--BarChartVertical:before { @include ms-Icon--BarChartVertical }
+.ms-Icon--BarChartVerticalEdit:before { @include ms-Icon--BarChartVerticalEdit }
+.ms-Icon--BarChartVerticalFill:before { @include ms-Icon--BarChartVerticalFill }
+.ms-Icon--BarChartVerticalFilter:before { @include ms-Icon--BarChartVerticalFilter }
+.ms-Icon--BarChartVerticalFilterSolid:before { @include ms-Icon--BarChartVerticalFilterSolid }
+.ms-Icon--Baseball:before { @include ms-Icon--Baseball }
+.ms-Icon--BeerMug:before { @include ms-Icon--BeerMug }
+.ms-Icon--BIDashboard:before { @include ms-Icon--BIDashboard }
+.ms-Icon--BidiLtr:before { @include ms-Icon--BidiLtr }
+.ms-Icon--Bidirectional:before { @include ms-Icon--Bidirectional }
+.ms-Icon--BidiRtl:before { @include ms-Icon--BidiRtl }
+.ms-Icon--Bill:before { @include ms-Icon--Bill }
+.ms-Icon--BingLogo:before { @include ms-Icon--BingLogo }
+.ms-Icon--BirthdayCake:before { @include ms-Icon--BirthdayCake }
+.ms-Icon--BlobStorage:before { @include ms-Icon--BlobStorage }
+.ms-Icon--BlockContact:before { @include ms-Icon--BlockContact }
+.ms-Icon--Blocked:before { @include ms-Icon--Blocked }
+.ms-Icon--Blocked12:before { @include ms-Icon--Blocked12 }
+.ms-Icon--Blocked2:before { @include ms-Icon--Blocked2 }
+.ms-Icon--Blocked2Solid:before { @include ms-Icon--Blocked2Solid }
+.ms-Icon--BlockedSite:before { @include ms-Icon--BlockedSite }
+.ms-Icon--BlockedSiteSolid12:before { @include ms-Icon--BlockedSiteSolid12 }
+.ms-Icon--BlockedSolid:before { @include ms-Icon--BlockedSolid }
+.ms-Icon--Blog:before { @include ms-Icon--Blog }
+.ms-Icon--BlowingSnow:before { @include ms-Icon--BlowingSnow }
+.ms-Icon--Blur:before { @include ms-Icon--Blur }
+.ms-Icon--Boards:before { @include ms-Icon--Boards }
+.ms-Icon--Bold:before { @include ms-Icon--Bold }
+.ms-Icon--BoldBulgarian:before { @include ms-Icon--BoldBulgarian }
+.ms-Icon--BoldF:before { @include ms-Icon--BoldF }
+.ms-Icon--BoldG:before { @include ms-Icon--BoldG }
+.ms-Icon--BoldK:before { @include ms-Icon--BoldK }
+.ms-Icon--BoldKazakh:before { @include ms-Icon--BoldKazakh }
+.ms-Icon--BoldKorean:before { @include ms-Icon--BoldKorean }
+.ms-Icon--BoldN:before { @include ms-Icon--BoldN }
+.ms-Icon--BoldP:before { @include ms-Icon--BoldP }
+.ms-Icon--BoldRussion:before { @include ms-Icon--BoldRussion }
+.ms-Icon--BoldSerbian:before { @include ms-Icon--BoldSerbian }
+.ms-Icon--BoldT:before { @include ms-Icon--BoldT }
+.ms-Icon--BookAnswers:before { @include ms-Icon--BookAnswers }
+.ms-Icon--BookingsLogo:before { @include ms-Icon--BookingsLogo }
+.ms-Icon--BookmarkReport:before { @include ms-Icon--BookmarkReport }
+.ms-Icon--Bookmarks:before { @include ms-Icon--Bookmarks }
+.ms-Icon--BookmarksMirrored:before { @include ms-Icon--BookmarksMirrored }
+.ms-Icon--BooleanData:before { @include ms-Icon--BooleanData }
+.ms-Icon--BorderAll:before { @include ms-Icon--BorderAll }
+.ms-Icon--BorderDash:before { @include ms-Icon--BorderDash }
+.ms-Icon--BorderDot:before { @include ms-Icon--BorderDot }
+.ms-Icon--BorderInside:before { @include ms-Icon--BorderInside }
+.ms-Icon--BorderInsideHorizontal:before { @include ms-Icon--BorderInsideHorizontal }
+.ms-Icon--BorderInsideVertical:before { @include ms-Icon--BorderInsideVertical }
+.ms-Icon--BorderNone:before { @include ms-Icon--BorderNone }
+

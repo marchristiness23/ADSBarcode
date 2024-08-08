@@ -1,0 +1,91 @@
+﻿@using SHUNetMVC.Abstraction.Model.View
+@using Newtonsoft.Json
+@model GridListModel
+
+@if (Model.FilterList.TotalItems > 0)
+{
+    <div class="pagination">
+        <div class="total-label" data-total="@Model.FilterList.TotalItems">
+            Total @Model.FilterList.TotalItems items
+        </div>
+        <div class="page-number">
+            @{
+                if (Model.FilterList.Page > 1)
+                {
+                    <a href="#" class="nav-icon" onclick="@(Model.GridJsVar).onPageChange(@Model.FilterList.Page-1)"><</a>
+                }
+            }
+
+            @{
+                int pageCount = (Model.FilterList.TotalItems - 1) / Model.FilterList.Size + 1;
+
+                int startPage = Model.FilterList.Page - 2;
+                int endPage = Model.FilterList.Page + 2;
+
+                if (startPage < 1)
+                {
+                    startPage = 1;
+                }
+
+                if (endPage > pageCount)
+                {
+                    endPage = pageCount;
+                }
+
+                if (startPage > 1)
+                {
+                    <a href="#" id="goToFirstPage" onclick="@(Model.GridJsVar).onPageChange(1)">1</a>
+                    if (startPage > 2)
+                    {
+                        <span>...</span>
+                    }
+                }
+
+                for (int i = startPage; i <= endPage; i++)
+                {
+                    if (i == Model.FilterList.Page)
+                    {
+                        <a class="active" href="#">@i</a>
+                    }
+                    else
+                    {
+                        <a href="#" onclick="@(Model.GridJsVar).onPageChange(@i)">@i</a>
+                    }
+                }
+
+                if (endPage < pageCount)
+                {
+                    if (endPage < pageCount - 1)
+                    {
+                        <span>...</span>
+                    }
+                    <a href="#" onclick="@(Model.GridJsVar).onPageChange(@pageCount)">@pageCount</a>
+                }
+            }
+
+            @{
+                if (Model.FilterList.Page < pageCount)
+                {
+                    <a href="#" class="nav-icon" onclick="@(Model.GridJsVar).onPageChange(@Model.FilterList.Page+1)">></a>
+                }
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div class="text-center pt-5">
+        <img src="~/Assets/Grid/empty-grid.jpg" style="width:250px;margin-top:20px" />
+        <div class="text-muted mt-2">No Result were found</div>
+    </div>
+}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var totalPage = (@Model.FilterList.TotalItems - 1) / @Model.FilterList.Size + 1;
+        /*debugger;*/
+        if (@Model.FilterList.Page > totalPage && @Model.FilterList.Page > 1) {
+            $('#goToFirstPage').click();
+        }
+    });
+</script>

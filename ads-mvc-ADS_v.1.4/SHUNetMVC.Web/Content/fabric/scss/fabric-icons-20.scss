@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-20';
+  src: url('../fonts/fabric-icons-20-c23758d2.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-20';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--TableLastColumn { content: "\E3F0"; }
+@mixin ms-Icon--TableLink { content: "\F77A"; }
+@mixin ms-Icon--TablePermission { content: "\E619"; }
+@mixin ms-Icon--Tablet { content: "\E70A"; }
+@mixin ms-Icon--TabletMode { content: "\EBFC"; }
+@mixin ms-Icon--TableTotalRow { content: "\E3ED"; }
+@mixin ms-Icon--TabletSelected { content: "\EC74"; }
+@mixin ms-Icon--TabOneColumn { content: "\F849"; }
+@mixin ms-Icon--TabThreeColumn { content: "\F84B"; }
+@mixin ms-Icon--TabTwoColumn { content: "\F84A"; }
+@mixin ms-Icon--Tag { content: "\E8EC"; }
+@mixin ms-Icon--TagGroup { content: "\E3F6"; }
+@mixin ms-Icon--TagSolid { content: "\F70E"; }
+@mixin ms-Icon--TagUnknown { content: "\F6DF"; }
+@mixin ms-Icon--TagUnknown12 { content: "\F6E1"; }
+@mixin ms-Icon--TagUnknown12Mirror { content: "\F6E2"; }
+@mixin ms-Icon--TagUnknownMirror { content: "\F6E0"; }
+@mixin ms-Icon--Task { content: "\F7EC"; }
+@mixin ms-Icon--TaskAdd { content: "\E4FD"; }
+@mixin ms-Icon--Taskboard { content: "\F1C2"; }
+@mixin ms-Icon--TaskGroup { content: "\F2AE"; }
+@mixin ms-Icon--TaskGroupMirrored { content: "\F2AF"; }
+@mixin ms-Icon--TaskList { content: "\E3B6"; }
+@mixin ms-Icon--TaskLogo { content: "\F493"; }
+@mixin ms-Icon--TaskManager { content: "\EDB7"; }
+@mixin ms-Icon--TaskManagerMirrored { content: "\EDB8"; }
+@mixin ms-Icon--TaskSolid { content: "\F333"; }
+@mixin ms-Icon--Taxi { content: "\F4A1"; }
+@mixin ms-Icon--TeamFavorite { content: "\F2AD"; }
+@mixin ms-Icon--TeamsLogo { content: "\F27B"; }
+@mixin ms-Icon--TeamsLogo16 { content: "\F40A"; }
+@mixin ms-Icon--TeamsLogoInverse { content: "\F27A"; }
+@mixin ms-Icon--Teamwork { content: "\EA12"; }
+@mixin ms-Icon--Teeth { content: "\F4A0"; }
+@mixin ms-Icon--Telemarketer { content: "\E7B9"; }
+@mixin ms-Icon--TemporaryAccessPass { content: "\E4AD"; }
+@mixin ms-Icon--TemporaryUser { content: "\EE58"; }
+@mixin ms-Icon--Tennis { content: "\EB33"; }
+@mixin ms-Icon--TestAdd { content: "\E4DC"; }
+@mixin ms-Icon--TestAutoSolid { content: "\F3A8"; }
+@mixin ms-Icon--TestBeaker { content: "\F3A5"; }
+@mixin ms-Icon--TestBeakerSolid { content: "\F3A6"; }
+@mixin ms-Icon--TestCase { content: "\F3AF"; }
+@mixin ms-Icon--TestExploreSolid { content: "\F3A7"; }
+@mixin ms-Icon--TestImpactSolid { content: "\F3AA"; }
+@mixin ms-Icon--TestParameter { content: "\F3AD"; }
+@mixin ms-Icon--TestPlan { content: "\F3AB"; }
+@mixin ms-Icon--TestRemove { content: "\E4E1"; }
+@mixin ms-Icon--TestStep { content: "\F3AC"; }
+@mixin ms-Icon--TestSuite { content: "\F3AE"; }
+@mixin ms-Icon--TestUserSolid { content: "\F3A9"; }
+@mixin ms-Icon--TextAlignBottom { content: "\E3E2"; }
+@mixin ms-Icon--TextAlignMiddle { content: "\E3E1"; }
+@mixin ms-Icon--TextAlignTop { content: "\E3E0"; }
+@mixin ms-Icon--TextBox { content: "\EDC2"; }
+@mixin ms-Icon--TextCallout { content: "\F2A2"; }
+@mixin ms-Icon--TextDocument { content: "\F029"; }
+@mixin ms-Icon--TextDocumentEdit { content: "\E43B"; }
+@mixin ms-Icon--TextDocumentSettings { content: "\E4AA"; }
+@mixin ms-Icon--TextDocumentShared { content: "\F02B"; }
+@mixin ms-Icon--TextField { content: "\EDC3"; }
+@mixin ms-Icon--TextOverflow { content: "\F51F"; }
+@mixin ms-Icon--TextParagraphOption { content: "\E3E3"; }
+@mixin ms-Icon--TextRecognition { content: "\E394"; }
+@mixin ms-Icon--TextRotate270Degrees { content: "\E3E7"; }
+@mixin ms-Icon--TextRotate90Degrees { content: "\E3E6"; }
+@mixin ms-Icon--TextRotateHorizontal { content: "\E3E5"; }
+@mixin ms-Icon--TextRotation { content: "\E3E4"; }
+@mixin ms-Icon--TFVCLogo { content: "\F44D"; }
+@mixin ms-Icon--ThisPC { content: "\EC4E"; }
+@mixin ms-Icon--ThreeQuarterCircle { content: "\F503"; }
+@mixin ms-Icon--ThumbnailView { content: "\E7B6"; }
+@mixin ms-Icon--ThumbnailViewMirrored { content: "\EA67"; }
+@mixin ms-Icon--Thunderstorms { content: "\E9C6"; }
+@mixin ms-Icon--Ticket { content: "\EB54"; }
+@mixin ms-Icon--Tiles { content: "\ECA5"; }
+@mixin ms-Icon--Tiles2 { content: "\EF7C"; }
+@mixin ms-Icon--TimeEntry { content: "\EF95"; }
+@mixin ms-Icon--TimeEntryTemplate { content: "\F635"; }
+@mixin ms-Icon--Timeline { content: "\ED9C"; }
+@mixin ms-Icon--TimelineDelivery { content: "\F2AB"; }
+@mixin ms-Icon--TimelineMatrixView { content: "\F361"; }
+@mixin ms-Icon--TimelineProgress { content: "\F2AA"; }
+@mixin ms-Icon--TimePicker { content: "\E367"; }
+@mixin ms-Icon--Timer { content: "\E91E"; }
+@mixin ms-Icon--TimeSheet { content: "\EA05"; }
+@mixin ms-Icon--Title { content: "\F23B"; }
+@mixin ms-Icon--TitleMirrored { content: "\F23C"; }
+@mixin ms-Icon--ToDoLogoBottom { content: "\F4B3"; }
+@mixin ms-Icon--ToDoLogoInverse { content: "\F4BC"; }
+@mixin ms-Icon--ToDoLogoOutline { content: "\F75B"; }
+@mixin ms-Icon--ToDoLogoTop { content: "\F4B4"; }
+@mixin ms-Icon--ToggleBorder { content: "\EC12"; }
+@mixin ms-Icon--ToggleFilled { content: "\EC11"; }
+@mixin ms-Icon--ToggleLeft { content: "\F19E"; }
+@mixin ms-Icon--ToggleRight { content: "\F19F"; }
+@mixin ms-Icon--ToggleThumb { content: "\EC14"; }
+@mixin ms-Icon--Toll { content: "\F160"; }
+@mixin ms-Icon--Toolbox { content: "\ECED"; }
+@mixin ms-Icon--Total { content: "\E9DF"; }
+
+
+// Classes
+.ms-Icon--TableLastColumn:before { @include ms-Icon--TableLastColumn }
+.ms-Icon--TableLink:before { @include ms-Icon--TableLink }
+.ms-Icon--TablePermission:before { @include ms-Icon--TablePermission }
+.ms-Icon--Tablet:before { @include ms-Icon--Tablet }
+.ms-Icon--TabletMode:before { @include ms-Icon--TabletMode }
+.ms-Icon--TableTotalRow:before { @include ms-Icon--TableTotalRow }
+.ms-Icon--TabletSelected:before { @include ms-Icon--TabletSelected }
+.ms-Icon--TabOneColumn:before { @include ms-Icon--TabOneColumn }
+.ms-Icon--TabThreeColumn:before { @include ms-Icon--TabThreeColumn }
+.ms-Icon--TabTwoColumn:before { @include ms-Icon--TabTwoColumn }
+.ms-Icon--Tag:before { @include ms-Icon--Tag }
+.ms-Icon--TagGroup:before { @include ms-Icon--TagGroup }
+.ms-Icon--TagSolid:before { @include ms-Icon--TagSolid }
+.ms-Icon--TagUnknown:before { @include ms-Icon--TagUnknown }
+.ms-Icon--TagUnknown12:before { @include ms-Icon--TagUnknown12 }
+.ms-Icon--TagUnknown12Mirror:before { @include ms-Icon--TagUnknown12Mirror }
+.ms-Icon--TagUnknownMirror:before { @include ms-Icon--TagUnknownMirror }
+.ms-Icon--Task:before { @include ms-Icon--Task }
+.ms-Icon--TaskAdd:before { @include ms-Icon--TaskAdd }
+.ms-Icon--Taskboard:before { @include ms-Icon--Taskboard }
+.ms-Icon--TaskGroup:before { @include ms-Icon--TaskGroup }
+.ms-Icon--TaskGroupMirrored:before { @include ms-Icon--TaskGroupMirrored }
+.ms-Icon--TaskList:before { @include ms-Icon--TaskList }
+.ms-Icon--TaskLogo:before { @include ms-Icon--TaskLogo }
+.ms-Icon--TaskManager:before { @include ms-Icon--TaskManager }
+.ms-Icon--TaskManagerMirrored:before { @include ms-Icon--TaskManagerMirrored }
+.ms-Icon--TaskSolid:before { @include ms-Icon--TaskSolid }
+.ms-Icon--Taxi:before { @include ms-Icon--Taxi }
+.ms-Icon--TeamFavorite:before { @include ms-Icon--TeamFavorite }
+.ms-Icon--TeamsLogo:before { @include ms-Icon--TeamsLogo }
+.ms-Icon--TeamsLogo16:before { @include ms-Icon--TeamsLogo16 }
+.ms-Icon--TeamsLogoInverse:before { @include ms-Icon--TeamsLogoInverse }
+.ms-Icon--Teamwork:before { @include ms-Icon--Teamwork }
+.ms-Icon--Teeth:before { @include ms-Icon--Teeth }
+.ms-Icon--Telemarketer:before { @include ms-Icon--Telemarketer }
+.ms-Icon--TemporaryAccessPass:before { @include ms-Icon--TemporaryAccessPass }
+.ms-Icon--TemporaryUser:before { @include ms-Icon--TemporaryUser }
+.ms-Icon--Tennis:before { @include ms-Icon--Tennis }
+.ms-Icon--TestAdd:before { @include ms-Icon--TestAdd }
+.ms-Icon--TestAutoSolid:before { @include ms-Icon--TestAutoSolid }
+.ms-Icon--TestBeaker:before { @include ms-Icon--TestBeaker }
+.ms-Icon--TestBeakerSolid:before { @include ms-Icon--TestBeakerSolid }
+.ms-Icon--TestCase:before { @include ms-Icon--TestCase }
+.ms-Icon--TestExploreSolid:before { @include ms-Icon--TestExploreSolid }
+.ms-Icon--TestImpactSolid:before { @include ms-Icon--TestImpactSolid }
+.ms-Icon--TestParameter:before { @include ms-Icon--TestParameter }
+.ms-Icon--TestPlan:before { @include ms-Icon--TestPlan }
+.ms-Icon--TestRemove:before { @include ms-Icon--TestRemove }
+.ms-Icon--TestStep:before { @include ms-Icon--TestStep }
+.ms-Icon--TestSuite:before { @include ms-Icon--TestSuite }
+.ms-Icon--TestUserSolid:before { @include ms-Icon--TestUserSolid }
+.ms-Icon--TextAlignBottom:before { @include ms-Icon--TextAlignBottom }
+.ms-Icon--TextAlignMiddle:before { @include ms-Icon--TextAlignMiddle }
+.ms-Icon--TextAlignTop:before { @include ms-Icon--TextAlignTop }
+.ms-Icon--TextBox:before { @include ms-Icon--TextBox }
+.ms-Icon--TextCallout:before { @include ms-Icon--TextCallout }
+.ms-Icon--TextDocument:before { @include ms-Icon--TextDocument }
+.ms-Icon--TextDocumentEdit:before { @include ms-Icon--TextDocumentEdit }
+.ms-Icon--TextDocumentSettings:before { @include ms-Icon--TextDocumentSettings }
+.ms-Icon--TextDocumentShared:before { @include ms-Icon--TextDocumentShared }
+.ms-Icon--TextField:before { @include ms-Icon--TextField }
+.ms-Icon--TextOverflow:before { @include ms-Icon--TextOverflow }
+.ms-Icon--TextParagraphOption:before { @include ms-Icon--TextParagraphOption }
+.ms-Icon--TextRecognition:before { @include ms-Icon--TextRecognition }
+.ms-Icon--TextRotate270Degrees:before { @include ms-Icon--TextRotate270Degrees }
+.ms-Icon--TextRotate90Degrees:before { @include ms-Icon--TextRotate90Degrees }
+.ms-Icon--TextRotateHorizontal:before { @include ms-Icon--TextRotateHorizontal }
+.ms-Icon--TextRotation:before { @include ms-Icon--TextRotation }
+.ms-Icon--TFVCLogo:before { @include ms-Icon--TFVCLogo }
+.ms-Icon--ThisPC:before { @include ms-Icon--ThisPC }
+.ms-Icon--ThreeQuarterCircle:before { @include ms-Icon--ThreeQuarterCircle }
+.ms-Icon--ThumbnailView:before { @include ms-Icon--ThumbnailView }
+.ms-Icon--ThumbnailViewMirrored:before { @include ms-Icon--ThumbnailViewMirrored }
+.ms-Icon--Thunderstorms:before { @include ms-Icon--Thunderstorms }
+.ms-Icon--Ticket:before { @include ms-Icon--Ticket }
+.ms-Icon--Tiles:before { @include ms-Icon--Tiles }
+.ms-Icon--Tiles2:before { @include ms-Icon--Tiles2 }
+.ms-Icon--TimeEntry:before { @include ms-Icon--TimeEntry }
+.ms-Icon--TimeEntryTemplate:before { @include ms-Icon--TimeEntryTemplate }
+.ms-Icon--Timeline:before { @include ms-Icon--Timeline }
+.ms-Icon--TimelineDelivery:before { @include ms-Icon--TimelineDelivery }
+.ms-Icon--TimelineMatrixView:before { @include ms-Icon--TimelineMatrixView }
+.ms-Icon--TimelineProgress:before { @include ms-Icon--TimelineProgress }
+.ms-Icon--TimePicker:before { @include ms-Icon--TimePicker }
+.ms-Icon--Timer:before { @include ms-Icon--Timer }
+.ms-Icon--TimeSheet:before { @include ms-Icon--TimeSheet }
+.ms-Icon--Title:before { @include ms-Icon--Title }
+.ms-Icon--TitleMirrored:before { @include ms-Icon--TitleMirrored }
+.ms-Icon--ToDoLogoBottom:before { @include ms-Icon--ToDoLogoBottom }
+.ms-Icon--ToDoLogoInverse:before { @include ms-Icon--ToDoLogoInverse }
+.ms-Icon--ToDoLogoOutline:before { @include ms-Icon--ToDoLogoOutline }
+.ms-Icon--ToDoLogoTop:before { @include ms-Icon--ToDoLogoTop }
+.ms-Icon--ToggleBorder:before { @include ms-Icon--ToggleBorder }
+.ms-Icon--ToggleFilled:before { @include ms-Icon--ToggleFilled }
+.ms-Icon--ToggleLeft:before { @include ms-Icon--ToggleLeft }
+.ms-Icon--ToggleRight:before { @include ms-Icon--ToggleRight }
+.ms-Icon--ToggleThumb:before { @include ms-Icon--ToggleThumb }
+.ms-Icon--Toll:before { @include ms-Icon--Toll }
+.ms-Icon--Toolbox:before { @include ms-Icon--Toolbox }
+.ms-Icon--Total:before { @include ms-Icon--Total }
+

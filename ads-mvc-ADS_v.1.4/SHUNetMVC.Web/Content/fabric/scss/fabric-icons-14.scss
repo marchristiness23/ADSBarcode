@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-14';
+  src: url('../fonts/fabric-icons-14-df06278b.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-14';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--PageListFilter { content: "\F813"; }
+@mixin ms-Icon--PageListMirroredSolid { content: "\F33B"; }
+@mixin ms-Icon--PageListSolid { content: "\F33A"; }
+@mixin ms-Icon--PageLock { content: "\F43F"; }
+@mixin ms-Icon--PagePermission { content: "\E618"; }
+@mixin ms-Icon--PageRemove { content: "\EFBA"; }
+@mixin ms-Icon--PageRight { content: "\E761"; }
+@mixin ms-Icon--PageShared { content: "\F02D"; }
+@mixin ms-Icon--PageSolid { content: "\E729"; }
+@mixin ms-Icon--PanoIndicator { content: "\E7B0"; }
+@mixin ms-Icon--Parachute { content: "\F351"; }
+@mixin ms-Icon--ParachuteSolid { content: "\F352"; }
+@mixin ms-Icon--Parameter { content: "\F306"; }
+@mixin ms-Icon--ParkingLocation { content: "\E811"; }
+@mixin ms-Icon--ParkingLocationMirrored { content: "\EA5E"; }
+@mixin ms-Icon--ParkingMirroredSolid { content: "\F34B"; }
+@mixin ms-Icon--ParkingSolid { content: "\F34A"; }
+@mixin ms-Icon--PartlyClearNight { content: "\E477"; }
+@mixin ms-Icon--PartlyCloudyDay { content: "\E9C0"; }
+@mixin ms-Icon--PartlyCloudyNight { content: "\E9C1"; }
+@mixin ms-Icon--PartlySunnyDay { content: "\E469"; }
+@mixin ms-Icon--PartlySunnyFlurriesDay { content: "\E472"; }
+@mixin ms-Icon--PartlySunnyShowersDay { content: "\E46E"; }
+@mixin ms-Icon--PartlySunnyShowersNight { content: "\E47A"; }
+@mixin ms-Icon--PartlySunnyTStormsDay { content: "\E470"; }
+@mixin ms-Icon--PartlySunnyTStormsNight { content: "\E47C"; }
+@mixin ms-Icon--PartyLeader { content: "\ECA7"; }
+@mixin ms-Icon--PassiveAuthentication { content: "\F32A"; }
+@mixin ms-Icon--PasswordField { content: "\F6AA"; }
+@mixin ms-Icon--Paste { content: "\E77F"; }
+@mixin ms-Icon--PasteAsCode { content: "\F5D6"; }
+@mixin ms-Icon--PasteAsText { content: "\F5D5"; }
+@mixin ms-Icon--Pause { content: "\E769"; }
+@mixin ms-Icon--PaymentCard { content: "\E8C7"; }
+@mixin ms-Icon--PBIAnomaliesMarker { content: "\E554"; }
+@mixin ms-Icon--PBIAnomaly { content: "\E548"; }
+@mixin ms-Icon--PBIColumn { content: "\E67A"; }
+@mixin ms-Icon--PBIConnectPoints { content: "\E67B"; }
+@mixin ms-Icon--PBIDirectQuery { content: "\E4E9"; }
+@mixin ms-Icon--PBIDual { content: "\E4EA"; }
+@mixin ms-Icon--PBIGap { content: "\E67C"; }
+@mixin ms-Icon--PBIGoalEntry { content: "\E615"; }
+@mixin ms-Icon--PBIGoalEntryAdd { content: "\E616"; }
+@mixin ms-Icon--PBIHomeLayoutDefault { content: "\E65B"; }
+@mixin ms-Icon--PBIHomeLayoutExpanded { content: "\E65C"; }
+@mixin ms-Icon--PBIImport { content: "\E4EB"; }
+@mixin ms-Icon--PBILiveConnect { content: "\E4EC"; }
+@mixin ms-Icon--PBIPerspective { content: "\E658"; }
+@mixin ms-Icon--PBIReportTemplate { content: "\E5EC"; }
+@mixin ms-Icon--PBIZero { content: "\E67D"; }
+@mixin ms-Icon--PC1 { content: "\E977"; }
+@mixin ms-Icon--PDF { content: "\EA90"; }
+@mixin ms-Icon--PencilReply { content: "\EF7B"; }
+@mixin ms-Icon--Pentagon { content: "\F4FF"; }
+@mixin ms-Icon--PenWorkspace { content: "\EDC6"; }
+@mixin ms-Icon--People { content: "\E716"; }
+@mixin ms-Icon--PeopleAdd { content: "\EA15"; }
+@mixin ms-Icon--PeopleAlert { content: "\ED93"; }
+@mixin ms-Icon--PeopleBlock { content: "\ED91"; }
+@mixin ms-Icon--PeopleExternalShare { content: "\E5EF"; }
+@mixin ms-Icon--PeoplePause { content: "\ED94"; }
+@mixin ms-Icon--PeopleRepeat { content: "\ED92"; }
+@mixin ms-Icon--PeopleSettings { content: "\F72C"; }
+@mixin ms-Icon--Permissions { content: "\E8D7"; }
+@mixin ms-Icon--PermissionsSolid { content: "\F349"; }
+@mixin ms-Icon--Personalize { content: "\E771"; }
+@mixin ms-Icon--Phishing { content: "\F679"; }
+@mixin ms-Icon--PhishingCampaign { content: "\E48D"; }
+@mixin ms-Icon--PhishingHook { content: "\E48E"; }
+@mixin ms-Icon--Phone { content: "\E717"; }
+@mixin ms-Icon--Photo { content: "\E91B"; }
+@mixin ms-Icon--Photo2 { content: "\EB9F"; }
+@mixin ms-Icon--Photo2Add { content: "\ECAB"; }
+@mixin ms-Icon--Photo2Fill { content: "\F79F"; }
+@mixin ms-Icon--Photo2Remove { content: "\ECAC"; }
+@mixin ms-Icon--PhotoBlock { content: "\E4C3"; }
+@mixin ms-Icon--PhotoCollection { content: "\E7AA"; }
+@mixin ms-Icon--PhotoError { content: "\E3F7"; }
+@mixin ms-Icon--PhotoVideoMedia { content: "\F0B1"; }
+@mixin ms-Icon--Picture { content: "\E8B9"; }
+@mixin ms-Icon--PictureCenter { content: "\F522"; }
+@mixin ms-Icon--PictureFill { content: "\F523"; }
+@mixin ms-Icon--PictureLibrary { content: "\EEC2"; }
+@mixin ms-Icon--PicturePosition { content: "\F524"; }
+@mixin ms-Icon--PictureStretch { content: "\F525"; }
+@mixin ms-Icon--PictureTile { content: "\F526"; }
+@mixin ms-Icon--PieDouble { content: "\EB04"; }
+@mixin ms-Icon--PieSingle { content: "\EB05"; }
+@mixin ms-Icon--PieSingleSolid { content: "\F530"; }
+@mixin ms-Icon--Pill { content: "\EACB"; }
+@mixin ms-Icon--Pin { content: "\E718"; }
+@mixin ms-Icon--PinNavMenu { content: "\E682"; }
+@mixin ms-Icon--Pinned { content: "\E840"; }
+@mixin ms-Icon--PinnedFill { content: "\E842"; }
+@mixin ms-Icon--PinnedSolid { content: "\F676"; }
+@mixin ms-Icon--PinOff { content: "\E683"; }
+@mixin ms-Icon--PinOffSolid { content: "\E694"; }
+@mixin ms-Icon--PinSolid { content: "\F1DB"; }
+@mixin ms-Icon--PinSolid12 { content: "\E352"; }
+@mixin ms-Icon--PinSolidOff12 { content: "\E353"; }
+
+
+// Classes
+.ms-Icon--PageListFilter:before { @include ms-Icon--PageListFilter }
+.ms-Icon--PageListMirroredSolid:before { @include ms-Icon--PageListMirroredSolid }
+.ms-Icon--PageListSolid:before { @include ms-Icon--PageListSolid }
+.ms-Icon--PageLock:before { @include ms-Icon--PageLock }
+.ms-Icon--PagePermission:before { @include ms-Icon--PagePermission }
+.ms-Icon--PageRemove:before { @include ms-Icon--PageRemove }
+.ms-Icon--PageRight:before { @include ms-Icon--PageRight }
+.ms-Icon--PageShared:before { @include ms-Icon--PageShared }
+.ms-Icon--PageSolid:before { @include ms-Icon--PageSolid }
+.ms-Icon--PanoIndicator:before { @include ms-Icon--PanoIndicator }
+.ms-Icon--Parachute:before { @include ms-Icon--Parachute }
+.ms-Icon--ParachuteSolid:before { @include ms-Icon--ParachuteSolid }
+.ms-Icon--Parameter:before { @include ms-Icon--Parameter }
+.ms-Icon--ParkingLocation:before { @include ms-Icon--ParkingLocation }
+.ms-Icon--ParkingLocationMirrored:before { @include ms-Icon--ParkingLocationMirrored }
+.ms-Icon--ParkingMirroredSolid:before { @include ms-Icon--ParkingMirroredSolid }
+.ms-Icon--ParkingSolid:before { @include ms-Icon--ParkingSolid }
+.ms-Icon--PartlyClearNight:before { @include ms-Icon--PartlyClearNight }
+.ms-Icon--PartlyCloudyDay:before { @include ms-Icon--PartlyCloudyDay }
+.ms-Icon--PartlyCloudyNight:before { @include ms-Icon--PartlyCloudyNight }
+.ms-Icon--PartlySunnyDay:before { @include ms-Icon--PartlySunnyDay }
+.ms-Icon--PartlySunnyFlurriesDay:before { @include ms-Icon--PartlySunnyFlurriesDay }
+.ms-Icon--PartlySunnyShowersDay:before { @include ms-Icon--PartlySunnyShowersDay }
+.ms-Icon--PartlySunnyShowersNight:before { @include ms-Icon--PartlySunnyShowersNight }
+.ms-Icon--PartlySunnyTStormsDay:before { @include ms-Icon--PartlySunnyTStormsDay }
+.ms-Icon--PartlySunnyTStormsNight:before { @include ms-Icon--PartlySunnyTStormsNight }
+.ms-Icon--PartyLeader:before { @include ms-Icon--PartyLeader }
+.ms-Icon--PassiveAuthentication:before { @include ms-Icon--PassiveAuthentication }
+.ms-Icon--PasswordField:before { @include ms-Icon--PasswordField }
+.ms-Icon--Paste:before { @include ms-Icon--Paste }
+.ms-Icon--PasteAsCode:before { @include ms-Icon--PasteAsCode }
+.ms-Icon--PasteAsText:before { @include ms-Icon--PasteAsText }
+.ms-Icon--Pause:before { @include ms-Icon--Pause }
+.ms-Icon--PaymentCard:before { @include ms-Icon--PaymentCard }
+.ms-Icon--PBIAnomaliesMarker:before { @include ms-Icon--PBIAnomaliesMarker }
+.ms-Icon--PBIAnomaly:before { @include ms-Icon--PBIAnomaly }
+.ms-Icon--PBIColumn:before { @include ms-Icon--PBIColumn }
+.ms-Icon--PBIConnectPoints:before { @include ms-Icon--PBIConnectPoints }
+.ms-Icon--PBIDirectQuery:before { @include ms-Icon--PBIDirectQuery }
+.ms-Icon--PBIDual:before { @include ms-Icon--PBIDual }
+.ms-Icon--PBIGap:before { @include ms-Icon--PBIGap }
+.ms-Icon--PBIGoalEntry:before { @include ms-Icon--PBIGoalEntry }
+.ms-Icon--PBIGoalEntryAdd:before { @include ms-Icon--PBIGoalEntryAdd }
+.ms-Icon--PBIHomeLayoutDefault:before { @include ms-Icon--PBIHomeLayoutDefault }
+.ms-Icon--PBIHomeLayoutExpanded:before { @include ms-Icon--PBIHomeLayoutExpanded }
+.ms-Icon--PBIImport:before { @include ms-Icon--PBIImport }
+.ms-Icon--PBILiveConnect:before { @include ms-Icon--PBILiveConnect }
+.ms-Icon--PBIPerspective:before { @include ms-Icon--PBIPerspective }
+.ms-Icon--PBIReportTemplate:before { @include ms-Icon--PBIReportTemplate }
+.ms-Icon--PBIZero:before { @include ms-Icon--PBIZero }
+.ms-Icon--PC1:before { @include ms-Icon--PC1 }
+.ms-Icon--PDF:before { @include ms-Icon--PDF }
+.ms-Icon--PencilReply:before { @include ms-Icon--PencilReply }
+.ms-Icon--Pentagon:before { @include ms-Icon--Pentagon }
+.ms-Icon--PenWorkspace:before { @include ms-Icon--PenWorkspace }
+.ms-Icon--People:before { @include ms-Icon--People }
+.ms-Icon--PeopleAdd:before { @include ms-Icon--PeopleAdd }
+.ms-Icon--PeopleAlert:before { @include ms-Icon--PeopleAlert }
+.ms-Icon--PeopleBlock:before { @include ms-Icon--PeopleBlock }
+.ms-Icon--PeopleExternalShare:before { @include ms-Icon--PeopleExternalShare }
+.ms-Icon--PeoplePause:before { @include ms-Icon--PeoplePause }
+.ms-Icon--PeopleRepeat:before { @include ms-Icon--PeopleRepeat }
+.ms-Icon--PeopleSettings:before { @include ms-Icon--PeopleSettings }
+.ms-Icon--Permissions:before { @include ms-Icon--Permissions }
+.ms-Icon--PermissionsSolid:before { @include ms-Icon--PermissionsSolid }
+.ms-Icon--Personalize:before { @include ms-Icon--Personalize }
+.ms-Icon--Phishing:before { @include ms-Icon--Phishing }
+.ms-Icon--PhishingCampaign:before { @include ms-Icon--PhishingCampaign }
+.ms-Icon--PhishingHook:before { @include ms-Icon--PhishingHook }
+.ms-Icon--Phone:before { @include ms-Icon--Phone }
+.ms-Icon--Photo:before { @include ms-Icon--Photo }
+.ms-Icon--Photo2:before { @include ms-Icon--Photo2 }
+.ms-Icon--Photo2Add:before { @include ms-Icon--Photo2Add }
+.ms-Icon--Photo2Fill:before { @include ms-Icon--Photo2Fill }
+.ms-Icon--Photo2Remove:before { @include ms-Icon--Photo2Remove }
+.ms-Icon--PhotoBlock:before { @include ms-Icon--PhotoBlock }
+.ms-Icon--PhotoCollection:before { @include ms-Icon--PhotoCollection }
+.ms-Icon--PhotoError:before { @include ms-Icon--PhotoError }
+.ms-Icon--PhotoVideoMedia:before { @include ms-Icon--PhotoVideoMedia }
+.ms-Icon--Picture:before { @include ms-Icon--Picture }
+.ms-Icon--PictureCenter:before { @include ms-Icon--PictureCenter }
+.ms-Icon--PictureFill:before { @include ms-Icon--PictureFill }
+.ms-Icon--PictureLibrary:before { @include ms-Icon--PictureLibrary }
+.ms-Icon--PicturePosition:before { @include ms-Icon--PicturePosition }
+.ms-Icon--PictureStretch:before { @include ms-Icon--PictureStretch }
+.ms-Icon--PictureTile:before { @include ms-Icon--PictureTile }
+.ms-Icon--PieDouble:before { @include ms-Icon--PieDouble }
+.ms-Icon--PieSingle:before { @include ms-Icon--PieSingle }
+.ms-Icon--PieSingleSolid:before { @include ms-Icon--PieSingleSolid }
+.ms-Icon--Pill:before { @include ms-Icon--Pill }
+.ms-Icon--Pin:before { @include ms-Icon--Pin }
+.ms-Icon--PinNavMenu:before { @include ms-Icon--PinNavMenu }
+.ms-Icon--Pinned:before { @include ms-Icon--Pinned }
+.ms-Icon--PinnedFill:before { @include ms-Icon--PinnedFill }
+.ms-Icon--PinnedSolid:before { @include ms-Icon--PinnedSolid }
+.ms-Icon--PinOff:before { @include ms-Icon--PinOff }
+.ms-Icon--PinOffSolid:before { @include ms-Icon--PinOffSolid }
+.ms-Icon--PinSolid:before { @include ms-Icon--PinSolid }
+.ms-Icon--PinSolid12:before { @include ms-Icon--PinSolid12 }
+.ms-Icon--PinSolidOff12:before { @include ms-Icon--PinSolidOff12 }
+

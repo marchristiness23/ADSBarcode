@@ -1,0 +1,49 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-23';
+  src: url('../fonts/fabric-icons-23-f471823a.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-23';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--World { content: "\E909"; }
+@mixin ms-Icon--WorldClock { content: "\E918"; }
+@mixin ms-Icon--XPowerY { content: "\F7CA"; }
+@mixin ms-Icon--XRay { content: "\E551"; }
+@mixin ms-Icon--YammerLogo { content: "\ED19"; }
+@mixin ms-Icon--ZeroDayCalendar { content: "\E547"; }
+@mixin ms-Icon--ZeroDayPatch { content: "\E665"; }
+@mixin ms-Icon--ZipFolder { content: "\F012"; }
+@mixin ms-Icon--Zoom { content: "\E71E"; }
+@mixin ms-Icon--ZoomIn { content: "\E8A3"; }
+@mixin ms-Icon--ZoomOut { content: "\E71F"; }
+@mixin ms-Icon--ZoomToFit { content: "\F649"; }
+@mixin ms-Icon--ZoomToFitAlt { content: "\E693"; }
+
+
+// Classes
+.ms-Icon--World:before { @include ms-Icon--World }
+.ms-Icon--WorldClock:before { @include ms-Icon--WorldClock }
+.ms-Icon--XPowerY:before { @include ms-Icon--XPowerY }
+.ms-Icon--XRay:before { @include ms-Icon--XRay }
+.ms-Icon--YammerLogo:before { @include ms-Icon--YammerLogo }
+.ms-Icon--ZeroDayCalendar:before { @include ms-Icon--ZeroDayCalendar }
+.ms-Icon--ZeroDayPatch:before { @include ms-Icon--ZeroDayPatch }
+.ms-Icon--ZipFolder:before { @include ms-Icon--ZipFolder }
+.ms-Icon--Zoom:before { @include ms-Icon--Zoom }
+.ms-Icon--ZoomIn:before { @include ms-Icon--ZoomIn }
+.ms-Icon--ZoomOut:before { @include ms-Icon--ZoomOut }
+.ms-Icon--ZoomToFit:before { @include ms-Icon--ZoomToFit }
+.ms-Icon--ZoomToFitAlt:before { @include ms-Icon--ZoomToFitAlt }
+

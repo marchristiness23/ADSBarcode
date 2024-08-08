@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-6';
+  src: url('../fonts/fabric-icons-6-0aefebc6.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-6';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--DataFilter:before { content: "\E68A"; }
+.ms-Icon--DataFlow:before { content: "\E577"; }
+.ms-Icon--Dataflows:before { content: "\F7DD"; }
+.ms-Icon--DataflowsLink:before { content: "\E366"; }
+.ms-Icon--DataManagementSettings:before { content: "\EFC8"; }
+.ms-Icon--DatamartExternal:before { content: "\E69B"; }
+.ms-Icon--Dataverse:before { content: "\E659"; }
+.ms-Icon--DateTime:before { content: "\EC92"; }
+.ms-Icon--DateTime12:before { content: "\F38F"; }
+.ms-Icon--DateTime2:before { content: "\EA17"; }
+.ms-Icon--DateTimeMirrored:before { content: "\EE93"; }
+.ms-Icon--DeactivateOrders:before { content: "\EFE1"; }
+.ms-Icon--Debug:before { content: "\F395"; }
+.ms-Icon--DebugAll:before { content: "\F398"; }
+.ms-Icon--Decimals:before { content: "\F218"; }
+.ms-Icon--DecisionSolid:before { content: "\F350"; }
+.ms-Icon--DeclineCall:before { content: "\F405"; }
+.ms-Icon--DecreaseIndent:before { content: "\E39B"; }
+.ms-Icon--DecreaseIndentArrow:before { content: "\F7A3"; }
+.ms-Icon--DecreaseIndentArrowMirrored:before { content: "\F7A7"; }
+.ms-Icon--DecreaseIndentMirrored:before { content: "\E39C"; }
+.ms-Icon--DecreaseIndentText:before { content: "\F7A2"; }
+.ms-Icon--DecreaseIndentTextMirrored:before { content: "\F7A6"; }
+.ms-Icon--DefaultRatio:before { content: "\F529"; }
+.ms-Icon--DefaultSettings:before { content: "\F648"; }
+.ms-Icon--DefectSolid:before { content: "\F449"; }
+.ms-Icon--DefenderApp:before { content: "\E83D"; }
+.ms-Icon--DefenderBadge12:before { content: "\F0FB"; }
+.ms-Icon--DefenderTVM:before { content: "\F6B3"; }
+.ms-Icon--Delete:before { content: "\E74D"; }
+.ms-Icon--DeleteColumns:before { content: "\F64E"; }
+.ms-Icon--DeleteRows:before { content: "\F64F"; }
+.ms-Icon--DeleteRowsMirrored:before { content: "\F650"; }
+.ms-Icon--DeleteTable:before { content: "\F651"; }
+.ms-Icon--DeliveryTruck:before { content: "\EBF4"; }
+.ms-Icon--DelveAnalytics:before { content: "\EEEE"; }
+.ms-Icon--DelveAnalyticsLogo:before { content: "\EDCA"; }
+.ms-Icon--DelveLogo:before { content: "\F280"; }
+.ms-Icon--DelveLogoFill:before { content: "\F281"; }
+.ms-Icon--DelveLogoInverse:before { content: "\ED76"; }
+.ms-Icon--DensityComfy:before { content: "\E4BA"; }
+.ms-Icon--DensityDefault:before { content: "\E4B9"; }
+.ms-Icon--DependencyAdd:before { content: "\E344"; }
+.ms-Icon--DependencyRemove:before { content: "\E345"; }
+.ms-Icon--Deploy:before { content: "\F29D"; }
+.ms-Icon--Descending:before { content: "\EDC1"; }
+.ms-Icon--Design:before { content: "\EB3C"; }
+.ms-Icon--DesktopFlow:before { content: "\E4F3"; }
+.ms-Icon--DesktopScreenshot:before { content: "\F5D9"; }
+.ms-Icon--DeveloperTools:before { content: "\EC7A"; }
+.ms-Icon--DeviceBug:before { content: "\E424"; }
+.ms-Icon--DeviceOff:before { content: "\E402"; }
+.ms-Icon--DeviceRun:before { content: "\E401"; }
+.ms-Icon--Devices2:before { content: "\E975"; }
+.ms-Icon--Devices3:before { content: "\EA6C"; }
+.ms-Icon--Devices4:before { content: "\EB66"; }
+.ms-Icon--Diagnostic:before { content: "\E9D9"; }
+.ms-Icon--DiagnosticDataBar:before { content: "\F633"; }
+.ms-Icon--DiagnosticDataBarTooltip:before { content: "\F7DF"; }
+.ms-Icon--DiagnosticDataViewerApp:before { content: "\F568"; }
+.ms-Icon--Dialpad:before { content: "\E75F"; }
+.ms-Icon--DialShape1:before { content: "\F156"; }
+.ms-Icon--DialShape3:before { content: "\F158"; }
+.ms-Icon--Diamond:before { content: "\ED02"; }
+.ms-Icon--DiamondSolid:before { content: "\F34C"; }
+.ms-Icon--DiamondUser:before { content: "\E4F9"; }
+.ms-Icon--Dictionary:before { content: "\E82D"; }
+.ms-Icon--DictionaryRemove:before { content: "\F69A"; }
+.ms-Icon--DietPlanNotebook:before { content: "\EAC8"; }
+.ms-Icon--DiffInline:before { content: "\F309"; }
+.ms-Icon--DiffSideBySide:before { content: "\F30A"; }
+.ms-Icon--Diploma:before { content: "\F320"; }
+.ms-Icon--DisableUpdates:before { content: "\E8D8"; }
+.ms-Icon--DisconnectVirtualMachine:before { content: "\F873"; }
+.ms-Icon--Dislike:before { content: "\E8E0"; }
+.ms-Icon--DislikeSolid:before { content: "\F3C0"; }
+.ms-Icon--Distance:before { content: "\ECAE"; }
+.ms-Icon--DistributeDown:before { content: "\F76A"; }
+.ms-Icon--DockLeft:before { content: "\E90C"; }
+.ms-Icon--DockLeftMirrored:before { content: "\EA4C"; }
+.ms-Icon--DockRight:before { content: "\E90D"; }
+.ms-Icon--DocLibrary:before { content: "\EEB8"; }
+.ms-Icon--DocsLogoInverse:before { content: "\EDCB"; }
+.ms-Icon--Document:before { content: "\E8A5"; }
+.ms-Icon--DocumentApproval:before { content: "\F28B"; }
+.ms-Icon--Documentation:before { content: "\EC17"; }
+.ms-Icon--DocumentManagement:before { content: "\EFFC"; }
+.ms-Icon--DocumentReply:before { content: "\EF57"; }
+.ms-Icon--DocumentSearch:before { content: "\EF6C"; }
+.ms-Icon--DocumentSet:before { content: "\EED6"; }
+.ms-Icon--DOM:before { content: "\EC8D"; }
+.ms-Icon--DonutChart:before { content: "\F368"; }
+.ms-Icon--Door:before { content: "\EB75"; }
+.ms-Icon--DoubleBookmark:before { content: "\EB8F"; }
+.ms-Icon--DoubleChevronDown:before { content: "\EE04"; }
+.ms-Icon--DoubleChevronDown12:before { content: "\EE97"; }
+.ms-Icon--DoubleChevronDown8:before { content: "\F36B"; }
+.ms-Icon--DoubleChevronLeft:before { content: "\EDBE"; }
+.ms-Icon--DoubleChevronLeft12:before { content: "\EE98"; }
+.ms-Icon--DoubleChevronLeft8:before { content: "\F36D"; }

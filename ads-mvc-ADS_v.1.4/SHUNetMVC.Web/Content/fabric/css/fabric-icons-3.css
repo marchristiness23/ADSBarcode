@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-3';
+  src: url('../fonts/fabric-icons-3-734e02ad.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-3';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--CaretDown8:before { content: "\EDD8"; }
+.ms-Icon--CaretDownSolid8:before { content: "\EDDC"; }
+.ms-Icon--CaretHollow:before { content: "\E817"; }
+.ms-Icon--CaretHollowMirrored:before { content: "\EA45"; }
+.ms-Icon--CaretLeft8:before { content: "\EDD5"; }
+.ms-Icon--CaretLeftSolid8:before { content: "\EDD9"; }
+.ms-Icon--CaretRight:before { content: "\F06B"; }
+.ms-Icon--CaretRight8:before { content: "\EDD6"; }
+.ms-Icon--CaretRightSolid8:before { content: "\EDDA"; }
+.ms-Icon--CaretSolid:before { content: "\E818"; }
+.ms-Icon--CaretSolid16:before { content: "\EE62"; }
+.ms-Icon--CaretSolidAlt:before { content: "\E483"; }
+.ms-Icon--CaretSolidDown:before { content: "\F08E"; }
+.ms-Icon--CaretSolidLeft:before { content: "\F08D"; }
+.ms-Icon--CaretSolidMirrored:before { content: "\EA46"; }
+.ms-Icon--CaretSolidRight:before { content: "\F08F"; }
+.ms-Icon--CaretSolidUp:before { content: "\F090"; }
+.ms-Icon--CaretTopLeftCenter8:before { content: "\F367"; }
+.ms-Icon--CaretTopLeftSolid8:before { content: "\EF54"; }
+.ms-Icon--CaretTopRightCenter8:before { content: "\F366"; }
+.ms-Icon--CaretTopRightSolid8:before { content: "\EF55"; }
+.ms-Icon--CaretUp8:before { content: "\EDD7"; }
+.ms-Icon--CaretUpSolid8:before { content: "\EDDB"; }
+.ms-Icon--CaseSetting:before { content: "\F675"; }
+.ms-Icon--Cat:before { content: "\ED7F"; }
+.ms-Icon--CategoryClassification:before { content: "\E48C"; }
+.ms-Icon--CC:before { content: "\E7F0"; }
+.ms-Icon--CCSolid:before { content: "\E4F4"; }
+.ms-Icon--CellPhone:before { content: "\E8EA"; }
+.ms-Icon--CellSplitVertical:before { content: "\E66C"; }
+.ms-Icon--Certificate:before { content: "\EB95"; }
+.ms-Icon--CertifiedDatabase:before { content: "\F5BB"; }
+.ms-Icon--ChangeEntitlements:before { content: "\E310"; }
+.ms-Icon--Chart:before { content: "\E999"; }
+.ms-Icon--CharticulatorArrangePolar:before { content: "\E632"; }
+.ms-Icon--CharticulatorArrangePolarAngles:before { content: "\E633"; }
+.ms-Icon--CharticulatorBand:before { content: "\E634"; }
+.ms-Icon--CharticulatorGuideCoordinator:before { content: "\E635"; }
+.ms-Icon--CharticulatorGuideX:before { content: "\E636"; }
+.ms-Icon--CharticulatorGuideY:before { content: "\E637"; }
+.ms-Icon--CharticulatorLegend:before { content: "\E638"; }
+.ms-Icon--CharticulatorLine:before { content: "\E639"; }
+.ms-Icon--CharticulatorLineStyleDashed:before { content: "\E63A"; }
+.ms-Icon--CharticulatorLineStyleDotted:before { content: "\E63B"; }
+.ms-Icon--CharticulatorLinkingData:before { content: "\E63C"; }
+.ms-Icon--CharticulatorLinkingSequence:before { content: "\E63D"; }
+.ms-Icon--CharticulatorOrderColumn:before { content: "\E63E"; }
+.ms-Icon--CharticulatorOrderRow:before { content: "\E63F"; }
+.ms-Icon--CharticulatorPlotCartesian:before { content: "\E640"; }
+.ms-Icon--CharticulatorPlotCurve:before { content: "\E641"; }
+.ms-Icon--CharticulatorPolarCoordinates:before { content: "\E642"; }
+.ms-Icon--CharticulatorSpiral:before { content: "\E643"; }
+.ms-Icon--CharticulatorStackRadial:before { content: "\E644"; }
+.ms-Icon--CharticulatorStackY:before { content: "\E645"; }
+.ms-Icon--ChartSeries:before { content: "\F513"; }
+.ms-Icon--ChartTemplate:before { content: "\F812"; }
+.ms-Icon--ChartXAngle:before { content: "\F514"; }
+.ms-Icon--ChartYAngle:before { content: "\F515"; }
+.ms-Icon--Chat:before { content: "\E901"; }
+.ms-Icon--ChatBot:before { content: "\F08B"; }
+.ms-Icon--ChatInviteFriend:before { content: "\ECFE"; }
+.ms-Icon--ChatSettings:before { content: "\E600"; }
+.ms-Icon--ChatSolid:before { content: "\F344"; }
+.ms-Icon--Checkbox:before { content: "\E739"; }
+.ms-Icon--CheckboxComposite:before { content: "\E73A"; }
+.ms-Icon--CheckboxCompositeReversed:before { content: "\E73D"; }
+.ms-Icon--CheckboxFill:before { content: "\E73B"; }
+.ms-Icon--CheckboxIndeterminate:before { content: "\E73C"; }
+.ms-Icon--CheckboxIndeterminateCombo:before { content: "\F16E"; }
+.ms-Icon--CheckedOutByOther12:before { content: "\F630"; }
+.ms-Icon--CheckedOutByYou12:before { content: "\F631"; }
+.ms-Icon--CheckList:before { content: "\E9D5"; }
+.ms-Icon--CheckListCheck:before { content: "\F7A9"; }
+.ms-Icon--CheckListCheckMirrored:before { content: "\F7AB"; }
+.ms-Icon--CheckListText:before { content: "\F7A8"; }
+.ms-Icon--CheckListTextMirrored:before { content: "\F7AA"; }
+.ms-Icon--CheckMark:before { content: "\E73E"; }
+.ms-Icon--ChevronDown:before { content: "\E70D"; }
+.ms-Icon--ChevronDownEnd:before { content: "\F5E4"; }
+.ms-Icon--ChevronDownEnd6:before { content: "\F36F"; }
+.ms-Icon--ChevronDownMed:before { content: "\E972"; }
+.ms-Icon--ChevronDownSmall:before { content: "\E96E"; }
+.ms-Icon--ChevronFold10:before { content: "\F36A"; }
+.ms-Icon--ChevronLeft:before { content: "\E76B"; }
+.ms-Icon--ChevronLeftEnd6:before { content: "\F371"; }
+.ms-Icon--ChevronLeftMed:before { content: "\E973"; }
+.ms-Icon--ChevronLeftSmall:before { content: "\E96F"; }
+.ms-Icon--ChevronRight:before { content: "\E76C"; }
+.ms-Icon--ChevronRightEnd6:before { content: "\F372"; }
+.ms-Icon--ChevronRightMed:before { content: "\E974"; }
+.ms-Icon--ChevronRightSmall:before { content: "\E970"; }
+.ms-Icon--ChevronUnfold10:before { content: "\F369"; }
+.ms-Icon--ChevronUp:before { content: "\E70E"; }
+.ms-Icon--ChevronUpEnd:before { content: "\E55B"; }
+.ms-Icon--ChevronUpEnd6:before { content: "\F370"; }
+.ms-Icon--ChevronUpMed:before { content: "\E971"; }
+.ms-Icon--ChevronUpSmall:before { content: "\E96D"; }
+.ms-Icon--Childof:before { content: "\F82D"; }
+.ms-Icon--ChoiceColumn:before { content: "\E4AE"; }
+.ms-Icon--Chopsticks:before { content: "\F4A2"; }

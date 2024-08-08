@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-18",
+  "fontFamilyName": "FabricMDL2Icons-18",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "SettingsSecure",
+      "unicode": "E4D2"
+    },
+    {
+      "name": "SettingsSync",
+      "unicode": "E359"
+    },
+    {
+      "name": "ShakeDevice",
+      "unicode": "F80A"
+    },
+    {
+      "name": "Shapes",
+      "unicode": "EC7C"
+    },
+    {
+      "name": "ShapeSolid",
+      "unicode": "E422"
+    },
+    {
+      "name": "Share",
+      "unicode": "E72D"
+    },
+    {
+      "name": "SharedDatabase",
+      "unicode": "E3D9"
+    },
+    {
+      "name": "SharedNotes",
+      "unicode": "F481"
+    },
+    {
+      "name": "ShareiOS",
+      "unicode": "EF79"
+    },
+    {
+      "name": "Sharepoint2013LogoInverse",
+      "unicode": "E480"
+    },
+    {
+      "name": "SharepointAppIcon16",
+      "unicode": "E365"
+    },
+    {
+      "name": "SharepointLogo",
+      "unicode": "F27E"
+    },
+    {
+      "name": "SharepointLogoInverse",
+      "unicode": "ED18"
+    },
+    {
+      "name": "Shield",
+      "unicode": "EA18"
+    },
+    {
+      "name": "ShieldAlert",
+      "unicode": "F7D7"
+    },
+    {
+      "name": "ShieldSolid",
+      "unicode": "F340"
+    },
+    {
+      "name": "Shirt",
+      "unicode": "ED00"
+    },
+    {
+      "name": "Shop",
+      "unicode": "E719"
+    },
+    {
+      "name": "ShopBrand",
+      "unicode": "F478"
+    },
+    {
+      "name": "ShoppingCart",
+      "unicode": "E7BF"
+    },
+    {
+      "name": "ShoppingCartSolid",
+      "unicode": "F342"
+    },
+    {
+      "name": "ShopServer",
+      "unicode": "F2B6"
+    },
+    {
+      "name": "Showers",
+      "unicode": "E46C"
+    },
+    {
+      "name": "ShowGrid",
+      "unicode": "F7DE"
+    },
+    {
+      "name": "ShowResults",
+      "unicode": "E8BC"
+    },
+    {
+      "name": "ShowResultsMirrored",
+      "unicode": "EA65"
+    },
+    {
+      "name": "ShowTimeAs",
+      "unicode": "F787"
+    },
+    {
+      "name": "ShowVisualFilter",
+      "unicode": "F4DE"
+    },
+    {
+      "name": "SidePanel",
+      "unicode": "EF52"
+    },
+    {
+      "name": "SidePanelMirrored",
+      "unicode": "F221"
+    },
+    {
+      "name": "Signin",
+      "unicode": "F286"
+    },
+    {
+      "name": "SignOut",
+      "unicode": "F3B1"
+    },
+    {
+      "name": "SimplifiedView",
+      "unicode": "E5C1"
+    },
+    {
+      "name": "SingleBookmark",
+      "unicode": "EDFF"
+    },
+    {
+      "name": "SingleBookmarkSolid",
+      "unicode": "EE00"
+    },
+    {
+      "name": "SingleColumn",
+      "unicode": "F1D3"
+    },
+    {
+      "name": "SingleColumnEdit",
+      "unicode": "F321"
+    },
+    {
+      "name": "SIPMove",
+      "unicode": "E759"
+    },
+    {
+      "name": "SiteScan",
+      "unicode": "EBEC"
+    },
+    {
+      "name": "SizeLegacy",
+      "unicode": "E2B2"
+    },
+    {
+      "name": "SkipBack10",
+      "unicode": "ED3C"
+    },
+    {
+      "name": "SkipForward30",
+      "unicode": "ED3D"
+    },
+    {
+      "name": "SkiResorts",
+      "unicode": "EB45"
+    },
+    {
+      "name": "SkypeArrow",
+      "unicode": "F748"
+    },
+    {
+      "name": "SkypeCheck",
+      "unicode": "EF80"
+    },
+    {
+      "name": "SkypeCircleArrow",
+      "unicode": "F747"
+    },
+    {
+      "name": "SkypeCircleCheck",
+      "unicode": "EF7D"
+    },
+    {
+      "name": "SkypeCircleClock",
+      "unicode": "EF7E"
+    },
+    {
+      "name": "SkypeCircleMinus",
+      "unicode": "EF7F"
+    },
+    {
+      "name": "SkypeCircleSlash",
+      "unicode": "F825"
+    },
+    {
+      "name": "SkypeClock",
+      "unicode": "EF81"
+    },
+    {
+      "name": "SkypeForBusinessLogo",
+      "unicode": "F0FC"
+    },
+    {
+      "name": "SkypeForBusinessLogo16",
+      "unicode": "F40F"
+    },
+    {
+      "name": "SkypeForBusinessLogoFill",
+      "unicode": "F27D"
+    },
+    {
+      "name": "SkypeForBusinessLogoFill16",
+      "unicode": "F410"
+    },
+    {
+      "name": "SkypeLogo",
+      "unicode": "EB6F"
+    },
+    {
+      "name": "SkypeLogo16",
+      "unicode": "F40E"
+    },
+    {
+      "name": "SkypeMessage",
+      "unicode": "EF83"
+    },
+    {
+      "name": "SkypeMinus",
+      "unicode": "EF82"
+    },
+    {
+      "name": "SkypeSlash",
+      "unicode": "F826"
+    },
+    {
+      "name": "Sleet",
+      "unicode": "E474"
+    },
+    {
+      "name": "Slider",
+      "unicode": "F527"
+    },
+    {
+      "name": "SliderHandleSize",
+      "unicode": "F528"
+    },
+    {
+      "name": "SliderThumb",
+      "unicode": "EC13"
+    },
+    {
+      "name": "Slideshow",
+      "unicode": "E786"
+    },
+    {
+      "name": "SmartGlassRemote",
+      "unicode": "F80B"
+    },
+    {
+      "name": "SnapToGrid",
+      "unicode": "F7E4"
+    },
+    {
+      "name": "Snooze",
+      "unicode": "F4BD"
+    },
+    {
+      "name": "Snow",
+      "unicode": "E9C8"
+    },
+    {
+      "name": "Snowflake",
+      "unicode": "EB46"
+    },
+    {
+      "name": "SnowShowerDay",
+      "unicode": "E9FD"
+    },
+    {
+      "name": "SnowShowerNight",
+      "unicode": "EA11"
+    },
+    {
+      "name": "Soccer",
+      "unicode": "EB21"
+    },
+    {
+      "name": "SocialListeningLogo",
+      "unicode": "ED7C"
+    },
+    {
+      "name": "Sort",
+      "unicode": "E8CB"
+    },
+    {
+      "name": "SortDown",
+      "unicode": "EE69"
+    },
+    {
+      "name": "SortLines",
+      "unicode": "E9D0"
+    },
+    {
+      "name": "SortLinesAscending",
+      "unicode": "E43A"
+    },
+    {
+      "name": "SortUp",
+      "unicode": "EE68"
+    },
+    {
+      "name": "Source",
+      "unicode": "EB1B"
+    },
+    {
+      "name": "Spacer",
+      "unicode": "F40D"
+    },
+    {
+      "name": "Speakers",
+      "unicode": "E7F5"
+    },
+    {
+      "name": "SpecialEvent",
+      "unicode": "F536"
+    },
+    {
+      "name": "Speech",
+      "unicode": "EFA9"
+    },
+    {
+      "name": "SpeechOff",
+      "unicode": "F8BA"
+    },
+    {
+      "name": "SpeedHigh",
+      "unicode": "EC4A"
+    },
+    {
+      "name": "Spelling",
+      "unicode": "F87B"
+    },
+    {
+      "name": "Split",
+      "unicode": "EDBC"
+    },
+    {
+      "name": "SplitObject",
+      "unicode": "F547"
+    },
+    {
+      "name": "Sprint",
+      "unicode": "F3B0"
+    },
+    {
+      "name": "SQLAnalyticsPool",
+      "unicode": "E434"
+    },
+    {
+      "name": "SQLServerLogo",
+      "unicode": "E61A"
+    },
+    {
+      "name": "Squalls",
+      "unicode": "E9CC"
+    },
+    {
+      "name": "SquareShape",
+      "unicode": "F1A6"
+    },
+    {
+      "name": "SquareShapeSolid",
+      "unicode": "F63D"
+    },
+    {
+      "name": "SSLCertificate",
+      "unicode": "F4CB"
+    },
+    {
+      "name": "Stack",
+      "unicode": "F26F"
+    },
+    {
+      "name": "StackColumnChart",
+      "unicode": "E9FC"
+    },
+    {
+      "name": "StackedBarChart",
+      "unicode": "F24D"
+    },
+    {
+      "name": "StackedBarChartFull",
+      "unicode": "F668"
+    }
+  ]
+}

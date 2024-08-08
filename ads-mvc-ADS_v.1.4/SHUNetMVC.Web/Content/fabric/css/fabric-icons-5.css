@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-5';
+  src: url('../fonts/fabric-icons-5-accd4f4b.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-5';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--CommentUrgent:before { content: "\F307"; }
+.ms-Icon--Commitments:before { content: "\EC4D"; }
+.ms-Icon--CommonDataServiceCDS:before { content: "\E377"; }
+.ms-Icon--CommunicationDetails:before { content: "\E4CF"; }
+.ms-Icon--CommunicationDetailsMirrored:before { content: "\E4D0"; }
+.ms-Icon--Communications:before { content: "\E95A"; }
+.ms-Icon--CompactColumnList:before { content: "\F1EE"; }
+.ms-Icon--CompactViewList:before { content: "\F1EA"; }
+.ms-Icon--CompanyDirectory:before { content: "\EF0D"; }
+.ms-Icon--CompanyDirectoryMirrored:before { content: "\EF2B"; }
+.ms-Icon--Compare:before { content: "\F057"; }
+.ms-Icon--CompareUneven:before { content: "\E42E"; }
+.ms-Icon--CompassNW:before { content: "\E942"; }
+.ms-Icon--Completed:before { content: "\E930"; }
+.ms-Icon--Completed12:before { content: "\E559"; }
+.ms-Icon--CompletedSolid:before { content: "\EC61"; }
+.ms-Icon--ComplianceAudit:before { content: "\E369"; }
+.ms-Icon--ConfigurationSolid:before { content: "\F334"; }
+.ms-Icon--ConfirmEvent:before { content: "\E680"; }
+.ms-Icon--ConnectContacts:before { content: "\EFD4"; }
+.ms-Icon--ConnectVirtualMachine:before { content: "\EE9D"; }
+.ms-Icon--ConstructionCone:before { content: "\E98F"; }
+.ms-Icon--ConstructionConeSolid:before { content: "\F339"; }
+.ms-Icon--Contact:before { content: "\E77B"; }
+.ms-Icon--ContactCard:before { content: "\EEBD"; }
+.ms-Icon--ContactCardSettings:before { content: "\F556"; }
+.ms-Icon--ContactCardSettingsMirrored:before { content: "\F557"; }
+.ms-Icon--ContactHeart:before { content: "\F862"; }
+.ms-Icon--ContactInfo:before { content: "\E779"; }
+.ms-Icon--ContactInfoMirrored:before { content: "\EA4A"; }
+.ms-Icon--ContactLink:before { content: "\F25F"; }
+.ms-Icon--ContactList:before { content: "\F7E5"; }
+.ms-Icon--ContactLock:before { content: "\F400"; }
+.ms-Icon--ContentFeed:before { content: "\E428"; }
+.ms-Icon--ContentSettings:before { content: "\F647"; }
+.ms-Icon--ContentUnderstandingApp:before { content: "\E4FB"; }
+.ms-Icon--ContextMenu:before { content: "\F37C"; }
+.ms-Icon--Contrast:before { content: "\E7A1"; }
+.ms-Icon--Copy:before { content: "\E8C8"; }
+.ms-Icon--CopyEdit:before { content: "\E464"; }
+.ms-Icon--CopyPath:before { content: "\E62F"; }
+.ms-Icon--CortanaLogoBeckonInner:before { content: "\F4C6"; }
+.ms-Icon--CortanaLogoBeckonOuter:before { content: "\F4C7"; }
+.ms-Icon--CortanaLogoInner:before { content: "\E832"; }
+.ms-Icon--CortanaLogoOuter:before { content: "\E831"; }
+.ms-Icon--CortanaLogoReadyInner:before { content: "\F4C8"; }
+.ms-Icon--CortanaLogoReadyOuter:before { content: "\F4C9"; }
+.ms-Icon--CostContralLedgerAdmin:before { content: "\F208"; }
+.ms-Icon--CostControl:before { content: "\F207"; }
+.ms-Icon--Cotton:before { content: "\EAF3"; }
+.ms-Icon--Count:before { content: "\E9EE"; }
+.ms-Icon--Coupon:before { content: "\F7BC"; }
+.ms-Icon--CPlusPlus:before { content: "\F2F4"; }
+.ms-Icon--CPlusPlusLanguage:before { content: "\F2F3"; }
+.ms-Icon--CreateMailRule:before { content: "\F67A"; }
+.ms-Icon--CreditCardBill:before { content: "\ECD6"; }
+.ms-Icon--Cricket:before { content: "\EB1E"; }
+.ms-Icon--CriticalErrorSolid:before { content: "\F5C9"; }
+.ms-Icon--CRMLead:before { content: "\EFD6"; }
+.ms-Icon--CRMProcesses:before { content: "\EFB1"; }
+.ms-Icon--CRMReport:before { content: "\EFFE"; }
+.ms-Icon--CRMResourceOptimizationApp32:before { content: "\F6EF"; }
+.ms-Icon--CRMServices:before { content: "\EFD2"; }
+.ms-Icon--Crop:before { content: "\E7A8"; }
+.ms-Icon--Crown:before { content: "\ED01"; }
+.ms-Icon--CrownSolid:before { content: "\F336"; }
+.ms-Icon--CSharp:before { content: "\F2F0"; }
+.ms-Icon--CSharpLanguage:before { content: "\F2EF"; }
+.ms-Icon--CSS:before { content: "\EBEF"; }
+.ms-Icon--CtrlButton:before { content: "\E4B8"; }
+.ms-Icon--CubeShape:before { content: "\F1AA"; }
+.ms-Icon--CubeShapeSolid:before { content: "\E421"; }
+.ms-Icon--Currency:before { content: "\EAF5"; }
+.ms-Icon--CustomActivity:before { content: "\EFF0"; }
+.ms-Icon--CustomEntity:before { content: "\EFF7"; }
+.ms-Icon--CustomerAssets:before { content: "\F426"; }
+.ms-Icon--CustomizeToolbar:before { content: "\F828"; }
+.ms-Icon--CustomList:before { content: "\EEBE"; }
+.ms-Icon--CustomListMirrored:before { content: "\EEBF"; }
+.ms-Icon--Cut:before { content: "\E8C6"; }
+.ms-Icon--Cycling:before { content: "\EAC7"; }
+.ms-Icon--D365BusinessCentral:before { content: "\F833"; }
+.ms-Icon--D365CoreHR:before { content: "\F6BD"; }
+.ms-Icon--D365CustomerInsights:before { content: "\F3C8"; }
+.ms-Icon--D365CustomerVoiceApp:before { content: "\E4F7"; }
+.ms-Icon--D365ProjectOperations:before { content: "\E432"; }
+.ms-Icon--D365TalentInsight:before { content: "\F6BC"; }
+.ms-Icon--D365TalentLearn:before { content: "\F6BB"; }
+.ms-Icon--DashboardAdd:before { content: "\F52D"; }
+.ms-Icon--DataAnalysis:before { content: "\F731"; }
+.ms-Icon--Database:before { content: "\EFC7"; }
+.ms-Icon--DatabaseActivity:before { content: "\E670"; }
+.ms-Icon--DatabaseBlock:before { content: "\E617"; }
+.ms-Icon--DatabaseRefresh:before { content: "\E67F"; }
+.ms-Icon--DatabaseSource:before { content: "\E30A"; }
+.ms-Icon--DatabaseSwap:before { content: "\E671"; }
+.ms-Icon--DatabaseSync:before { content: "\F842"; }
+.ms-Icon--DatabaseView:before { content: "\E437"; }
+.ms-Icon--DataConnectionLibrary:before { content: "\EEB7"; }
+.ms-Icon--DataEnrichment:before { content: "\E4F5"; }

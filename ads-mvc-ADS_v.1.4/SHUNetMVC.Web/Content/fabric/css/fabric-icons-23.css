@@ -1,0 +1,31 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-23';
+  src: url('../fonts/fabric-icons-23-f471823a.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-23';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--World:before { content: "\E909"; }
+.ms-Icon--WorldClock:before { content: "\E918"; }
+.ms-Icon--XPowerY:before { content: "\F7CA"; }
+.ms-Icon--XRay:before { content: "\E551"; }
+.ms-Icon--YammerLogo:before { content: "\ED19"; }
+.ms-Icon--ZeroDayCalendar:before { content: "\E547"; }
+.ms-Icon--ZeroDayPatch:before { content: "\E665"; }
+.ms-Icon--ZipFolder:before { content: "\F012"; }
+.ms-Icon--Zoom:before { content: "\E71E"; }
+.ms-Icon--ZoomIn:before { content: "\E8A3"; }
+.ms-Icon--ZoomOut:before { content: "\E71F"; }
+.ms-Icon--ZoomToFit:before { content: "\F649"; }
+.ms-Icon--ZoomToFitAlt:before { content: "\E693"; }

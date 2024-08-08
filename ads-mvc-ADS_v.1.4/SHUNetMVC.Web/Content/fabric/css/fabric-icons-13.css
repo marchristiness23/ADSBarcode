@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-13';
+  src: url('../fonts/fabric-icons-13-739e2787.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-13';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--NewTeamProject:before { content: "\F2B2"; }
+.ms-Icon--Next:before { content: "\E893"; }
+.ms-Icon--NormalWeight:before { content: "\F4EF"; }
+.ms-Icon--NoteForward:before { content: "\ED99"; }
+.ms-Icon--NotePinned:before { content: "\ED9A"; }
+.ms-Icon--NoteReply:before { content: "\ED98"; }
+.ms-Icon--NotExecuted:before { content: "\F440"; }
+.ms-Icon--NotImpactedSolid:before { content: "\F441"; }
+.ms-Icon--NugetLogo:before { content: "\F44C"; }
+.ms-Icon--NUIFace:before { content: "\EB68"; }
+.ms-Icon--Number:before { content: "\F691"; }
+.ms-Icon--NumberedList:before { content: "\EA1C"; }
+.ms-Icon--NumberedListMirrored:before { content: "\E398"; }
+.ms-Icon--NumberedListNumber:before { content: "\F797"; }
+.ms-Icon--NumberedListNumberMirrored:before { content: "\F799"; }
+.ms-Icon--NumberedListText:before { content: "\F796"; }
+.ms-Icon--NumberedListTextMirrored:before { content: "\F798"; }
+.ms-Icon--NumberField:before { content: "\EDC4"; }
+.ms-Icon--NumberSequence:before { content: "\F52A"; }
+.ms-Icon--NumberSymbol:before { content: "\F7AC"; }
+.ms-Icon--Oauth:before { content: "\E5C3"; }
+.ms-Icon--ObjectRecognition:before { content: "\E4EE"; }
+.ms-Icon--Octagon:before { content: "\F4FD"; }
+.ms-Icon--ODLink:before { content: "\E4BB"; }
+.ms-Icon--ODLink12:before { content: "\E4BC"; }
+.ms-Icon--ODSharedChannel:before { content: "\E649"; }
+.ms-Icon--ODSharedChannel12:before { content: "\E64A"; }
+.ms-Icon--OEM:before { content: "\E74C"; }
+.ms-Icon--OfficeAddinsLogo:before { content: "\EEC7"; }
+.ms-Icon--OfficeAssistantLogo:before { content: "\EDCE"; }
+.ms-Icon--OfficeCatchUp:before { content: "\E490"; }
+.ms-Icon--OfficeChat:before { content: "\F70F"; }
+.ms-Icon--OfficeChatSolid:before { content: "\F710"; }
+.ms-Icon--OfficeFormsLogo:before { content: "\F434"; }
+.ms-Icon--OfficeFormsLogo16:before { content: "\F436"; }
+.ms-Icon--OfficeFormsLogo24:before { content: "\F43B"; }
+.ms-Icon--OfficeFormsLogoInverse:before { content: "\EF86"; }
+.ms-Icon--OfficeFormsLogoInverse16:before { content: "\F433"; }
+.ms-Icon--OfficeFormsLogoInverse24:before { content: "\F43A"; }
+.ms-Icon--OfficeLogo:before { content: "\EB6E"; }
+.ms-Icon--OfficeStoreLogo:before { content: "\EDCF"; }
+.ms-Icon--OfficeVideoLogo:before { content: "\F282"; }
+.ms-Icon--OfficeVideoLogoFill:before { content: "\F283"; }
+.ms-Icon--OfficeVideoLogoInverse:before { content: "\ED7A"; }
+.ms-Icon--OfflineOneDriveParachute:before { content: "\EEC8"; }
+.ms-Icon--OfflineOneDriveParachuteDisabled:before { content: "\EEC9"; }
+.ms-Icon--OfflineStorage:before { content: "\EC8C"; }
+.ms-Icon--OfflineStorageSolid:before { content: "\F34E"; }
+.ms-Icon--Onboarding:before { content: "\F3BA"; }
+.ms-Icon--OneDriveAdd:before { content: "\EF32"; }
+.ms-Icon--OneDriveFolder16:before { content: "\F53B"; }
+.ms-Icon--OneDriveLogo:before { content: "\E941"; }
+.ms-Icon--OneNoteDocType:before { content: "\F04F"; }
+.ms-Icon--OneNoteEduLogoInverse:before { content: "\EDD0"; }
+.ms-Icon--OneNoteLogo:before { content: "\F1E7"; }
+.ms-Icon--OneNoteLogo16:before { content: "\F39A"; }
+.ms-Icon--OneNoteLogoInverse:before { content: "\EC0D"; }
+.ms-Icon--OneNoteLogoInverse16:before { content: "\F399"; }
+.ms-Icon--OpenEnrollment:before { content: "\EF1C"; }
+.ms-Icon--OpenFile:before { content: "\E8E5"; }
+.ms-Icon--OpenFolderHorizontal:before { content: "\ED25"; }
+.ms-Icon--OpenInNewTab:before { content: "\F6AB"; }
+.ms-Icon--OpenInNewWindow:before { content: "\E8A7"; }
+.ms-Icon--OpenPane:before { content: "\E8A0"; }
+.ms-Icon--OpenPaneMirrored:before { content: "\EA5B"; }
+.ms-Icon--OpenSource:before { content: "\EBC2"; }
+.ms-Icon--OpenWith:before { content: "\E7AC"; }
+.ms-Icon--OpenWithMirrored:before { content: "\EA5C"; }
+.ms-Icon--Opportunities:before { content: "\F05F"; }
+.ms-Icon--OrderLock:before { content: "\E4CB"; }
+.ms-Icon--Org:before { content: "\ECA6"; }
+.ms-Icon--Orientation:before { content: "\E8B4"; }
+.ms-Icon--Orientation2:before { content: "\F7E1"; }
+.ms-Icon--OutlookLogo:before { content: "\F1E9"; }
+.ms-Icon--OutlookLogo16:before { content: "\F39D"; }
+.ms-Icon--OutlookLogoInverse:before { content: "\EB6D"; }
+.ms-Icon--OutlookLogoInverse16:before { content: "\F39C"; }
+.ms-Icon--OutlookSpacesBucket:before { content: "\E481"; }
+.ms-Icon--OutOfOffice:before { content: "\ED34"; }
+.ms-Icon--PAAction:before { content: "\E60B"; }
+.ms-Icon--Package:before { content: "\E7B8"; }
+.ms-Icon--Packages:before { content: "\F318"; }
+.ms-Icon--Padding:before { content: "\F518"; }
+.ms-Icon--PaddingBottom:before { content: "\F51A"; }
+.ms-Icon--PaddingLeft:before { content: "\F51B"; }
+.ms-Icon--PaddingRight:before { content: "\F51C"; }
+.ms-Icon--PaddingTop:before { content: "\F519"; }
+.ms-Icon--Page:before { content: "\E7C3"; }
+.ms-Icon--PageAdd:before { content: "\EA1A"; }
+.ms-Icon--PageArrowRight:before { content: "\EFB8"; }
+.ms-Icon--PageBlock:before { content: "\EFB5"; }
+.ms-Icon--PageCheckedin:before { content: "\F104"; }
+.ms-Icon--PageCheckedOut:before { content: "\F02C"; }
+.ms-Icon--PageData:before { content: "\E31C"; }
+.ms-Icon--PageEdit:before { content: "\EFB6"; }
+.ms-Icon--PageHeader:before { content: "\ECEE"; }
+.ms-Icon--PageHeaderEdit:before { content: "\E31D"; }
+.ms-Icon--PageLeft:before { content: "\E760"; }
+.ms-Icon--PageLink:before { content: "\E302"; }
+.ms-Icon--PageList:before { content: "\F106"; }

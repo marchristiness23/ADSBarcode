@@ -1,0 +1,166 @@
+﻿
+<style>
+    .k-grid .k-grid-search {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+        width: max-content;
+    }
+
+    .k-grid-header, .k-grid-header .k-header {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+    }
+
+    .k-grid-toolbar {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .k-button-text {
+        background-color: transparent;
+    }
+
+    .k-button-solid-base {
+        border-radius: 4px;
+    }
+
+    .k-grid.k-grid-display-block {
+        display: block;
+        border: none;
+    }
+
+    .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+        color: #ADB5BD;
+        pointer-events: none;
+        background-color: #E9ECEF;
+        border-color: #ADB5BD;
+        cursor: not-allowed;
+    }
+
+    .k-button-md.k-icon-button > .k-button-icon {
+        min-width: 1.5rem;
+        min-height: 0rem;
+    }
+</style>
+<div class="header-page">
+    Master Data Employee Kendo
+</div>
+<br />
+<div class="container" style=" float: inline-start; padding: 0 2%; max-width: 100%">
+    <button class="btn btn-primary" style="border-radius: 4px; float: right" onclick="directToCreate()"><span><i class="fa fa-plus"></i>&nbsp;Add New Employee</span></button>
+</div>
+<br />
+<div class="container" style=" float: inline-start; padding: 0 2%; max-width: 100%">
+    <br />
+    <div style="float: inline-start; width: 100%">
+        @(Html.Kendo().Grid<SHUNetMVC.Abstraction.Model.Dto.EmployeeDto>()
+    .Name("gridEmployeeKendo")
+    .Columns(columns => {
+        columns.Command(command =>
+        {
+            command.Custom("view").Click("onClickViewData").Text(" ").IconClass("fas fa-eye").HtmlAttributes(new { @class = "btn btn-sm btn-outline-primary" });
+            command.Custom("editData").Click("onClickView").Text(" ").IconClass("fas fa-pencil").HtmlAttributes(new { @class = "btn btn-sm btn-outline-success" });
+            //command.Custom("delete").Click("onClickDelete").Text(" ").IconClass("fas fa-trash").HtmlAttributes(new { @class = "btn btn-sm btn-outline-danger delete-button" });
+
+
+        })
+            .Title("Action").HeaderHtmlAttributes(new { style = "text-align:center;" }).HtmlAttributes(new { style = "text-align: center;" }).Width(170).Sticky(true);
+        columns.Command(command => { command.Destroy(); }).Width(150);
+        columns.Bound(p => p.EmpId).Hidden();
+        columns.Bound(p => p.EmpName).Width(150).Title("Name");
+        columns.Bound(p => p.EmpPosition).Width(150).Title("Position");
+        columns.Bound(p => p.DepartementName).Width(200).Title("Department");
+        columns.Bound(p => p.Birthdate).Width(150).Format("{0:dd MMM yyyy}");
+
+        columns.Bound(p => p.OrgUnitId).Width(150);
+        columns.Bound(p => p.Score).Width(100);
+        columns.Bound(p => p.City).Width(150);
+        columns.Bound(p => p.Address).Width(150);
+        columns.Bound(p => p.PostalCode).Width(150);
+        columns.Bound(p => p.Phone).Width(150);
+        columns.Bound(p => p.Email).Width(250);
+        //columns.Command(command =>
+        //{
+        //    command.Custom("viewData").Click("onClickViewData").Text(" ").IconClass("fa-solid fa-file").HtmlAttributes(new { @class = "btn btn-sm btn-outline-primary" });
+        //})
+        //    .Title("View").HeaderHtmlAttributes(new { style = "text-align:center;" }).HtmlAttributes(new { style = "text-align: center;" }).Width(100);
+    })
+    .ToolBar(t => { t.Search(); t.Excel(); })
+    .Pageable(pageable => pageable.PageSizes(true))
+    .Sortable()
+    .Scrollable()
+    .Filterable()
+    .Resizable(resizable => resizable.Columns(true))
+    .Height(580)
+    .DataSource(dataSource => dataSource
+        .Ajax()
+        .PageSize(10)
+        .Read(read => read.Action("GetAllEmployeeKendo", "EmployeeKendo"))
+        .Destroy(destroy => destroy.Action("DeleteEmployeeKendo", "EmployeeKendo"))
+         .Model(model =>
+         {
+             model.Id(Z => Z.EmpId);
+             model.Field(Z => Z.EmpId).Editable(true);
+         })
+     )
+    .Events(events => events.DataBound("onDataBound"))
+)
+    </div>
+</div>
+<script>
+
+    function onClickView(e) {
+        e.preventDefault();
+        var dataItem = this.dataItem($(e.currentTarget).closest("tr"));
+        let EmpId = dataItem.EmpId;
+        
+        var url = '@Url.Action("ViewForm", "EmployeeKendo", new { EmpId = "id"})'.replace("id", EmpId);
+
+        window.location.href = url;
+    }
+    function onClickViewData(e) {
+        e.preventDefault();
+        var dataItem = this.dataItem($(e.currentTarget).closest("tr"));
+        let EmpId = dataItem.EmpId;
+        var url = '@Url.Action("ViewData", "EmployeeKendo", new { EmpId = "id" })'.replace("id", EmpId);
+        window.location.href = url;
+    }
+    function onClickEdit(e) {
+        debugger;
+        e.preventDefault();
+        var dataItem = this.dataItem($(e.currentTarget).closest("tr"));
+        let EmpId = dataItem.EmpId;
+        var url = '@Url.Action("EditForm", "EmployeeKendo", new { EmpId = "id" })'.replace("id", EmpId);
+        window.location.href = url;
+    }
+    function onClickDelete(e) {
+        //e.preventDefault();
+
+        //debugger;
+
+        //var dataItem = this.dataItem($(e.currentTarget).closest("tr"));
+        //alert("Custom command clicked for " + dataItem.EmpName);
+
+        //    if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
+        //        grid.removeRow(dataItem);
+        //    }
+
+
+        // Add your custom command logic here
+    }
+    function onDataBound(e) {
+        var grid = this;
+        grid.tbody.find(".k-button.delete-button").each(function () {
+            var dataItem = grid.dataItem($(this).closest("tr"));
+
+            if (dataItem.EmpPosition === "Analyst") {
+                $(this).prop("disabled", true); // Disable the button
+            }
+        });
+    }
+    function directToCreate() {
+        var url = '@Url.Action("CreateForm", "EmployeeKendo")';
+         window.location.href = url;
+    }
+</script>

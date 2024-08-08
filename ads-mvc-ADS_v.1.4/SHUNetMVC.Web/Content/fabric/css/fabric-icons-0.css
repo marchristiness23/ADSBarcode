@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-0';
+  src: url('../fonts/fabric-icons-0-0f4c4510.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-0';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--12PointStar:before { content: "\F505"; }
+.ms-Icon--6PointStar:before { content: "\F504"; }
+.ms-Icon--AADLogo:before { content: "\ED68"; }
+.ms-Icon--Accept:before { content: "\E8FB"; }
+.ms-Icon--AcceptMedium:before { content: "\F78C"; }
+.ms-Icon--AccessibiltyChecker:before { content: "\F835"; }
+.ms-Icon--AccessLogo:before { content: "\ED69"; }
+.ms-Icon--AccountActivity:before { content: "\EFF4"; }
+.ms-Icon--AccountBrowser:before { content: "\F652"; }
+.ms-Icon--AccountManagement:before { content: "\F55C"; }
+.ms-Icon--Accounts:before { content: "\E910"; }
+.ms-Icon--ActionCenter:before { content: "\E91C"; }
+.ms-Icon--ActivateOrders:before { content: "\EFE0"; }
+.ms-Icon--ActivityFeed:before { content: "\F056"; }
+.ms-Icon--Add:before { content: "\E710"; }
+.ms-Icon--AddBookmark:before { content: "\F5B7"; }
+.ms-Icon--AddConnection:before { content: "\F4E1"; }
+.ms-Icon--AddEvent:before { content: "\EEB5"; }
+.ms-Icon--AddFavorite:before { content: "\F0C8"; }
+.ms-Icon--AddFavoriteFill:before { content: "\F0C9"; }
+.ms-Icon--AddField:before { content: "\E4C7"; }
+.ms-Icon--AddFriend:before { content: "\E8FA"; }
+.ms-Icon--AddGroup:before { content: "\EE3D"; }
+.ms-Icon--AddHome:before { content: "\F17B"; }
+.ms-Icon--AddIn:before { content: "\F775"; }
+.ms-Icon--AddLink:before { content: "\E35E"; }
+.ms-Icon--AddMedium:before { content: "\ECA1"; }
+.ms-Icon--AddMultiple:before { content: "\E9C5"; }
+.ms-Icon--AddNotes:before { content: "\EAE3"; }
+.ms-Icon--AddOnlineMeeting:before { content: "\ED8E"; }
+.ms-Icon--AddPhone:before { content: "\ED96"; }
+.ms-Icon--AddReaction:before { content: "\F85D"; }
+.ms-Icon--AddSpaceAfter:before { content: "\E3DF"; }
+.ms-Icon--AddSpaceBefore:before { content: "\E3DE"; }
+.ms-Icon--AddTable:before { content: "\E4C6"; }
+.ms-Icon--AddTo:before { content: "\ECC8"; }
+.ms-Icon--AddToShoppingList:before { content: "\EA9A"; }
+.ms-Icon--AddWork:before { content: "\F17C"; }
+.ms-Icon--Admin:before { content: "\E7EF"; }
+.ms-Icon--AdminALogo32:before { content: "\F4BA"; }
+.ms-Icon--AdminALogoFill32:before { content: "\F4BB"; }
+.ms-Icon--AdminALogoInverse32:before { content: "\ED6A"; }
+.ms-Icon--AdminCLogoInverse32:before { content: "\ED6B"; }
+.ms-Icon--AdminDLogoInverse32:before { content: "\ED6C"; }
+.ms-Icon--AdminELogoInverse32:before { content: "\ED6D"; }
+.ms-Icon--AdminLLogoInverse32:before { content: "\ED6E"; }
+.ms-Icon--AdminMLogoInverse32:before { content: "\ED6F"; }
+.ms-Icon--AdminOLogoInverse32:before { content: "\ED70"; }
+.ms-Icon--AdminPLogoInverse32:before { content: "\ED71"; }
+.ms-Icon--AdminSLogoInverse32:before { content: "\ED72"; }
+.ms-Icon--AdminYLogoInverse32:before { content: "\ED73"; }
+.ms-Icon--Airplane:before { content: "\E709"; }
+.ms-Icon--AirplaneSolid:before { content: "\EB4C"; }
+.ms-Icon--AirTickets:before { content: "\EF7A"; }
+.ms-Icon--AlarmClock:before { content: "\E919"; }
+.ms-Icon--Album:before { content: "\E7AB"; }
+.ms-Icon--AlbumRemove:before { content: "\EC62"; }
+.ms-Icon--AlertSettings:before { content: "\F8B6"; }
+.ms-Icon--AlertSolid:before { content: "\F331"; }
+.ms-Icon--AlignCenter:before { content: "\E8E3"; }
+.ms-Icon--AlignHorizontalCenter:before { content: "\F4F4"; }
+.ms-Icon--AlignHorizontalLeft:before { content: "\F4F3"; }
+.ms-Icon--AlignHorizontalRight:before { content: "\F4F5"; }
+.ms-Icon--AlignJustify:before { content: "\F51E"; }
+.ms-Icon--AlignLeft:before { content: "\E8E4"; }
+.ms-Icon--AlignRight:before { content: "\E8E2"; }
+.ms-Icon--AlignVerticalBottom:before { content: "\F4F8"; }
+.ms-Icon--AlignVerticalCenter:before { content: "\F4F7"; }
+.ms-Icon--AlignVerticalTop:before { content: "\F4F6"; }
+.ms-Icon--AllApps:before { content: "\E71D"; }
+.ms-Icon--AllAppsMirrored:before { content: "\EA40"; }
+.ms-Icon--AllCurrency:before { content: "\EAE4"; }
+.ms-Icon--AltText:before { content: "\E397"; }
+.ms-Icon--AnalyticsLogo:before { content: "\F1DE"; }
+.ms-Icon--AnalyticsQuery:before { content: "\F1DF"; }
+.ms-Icon--AnalyticsReport:before { content: "\F1E1"; }
+.ms-Icon--AnalyticsView:before { content: "\F5F1"; }
+.ms-Icon--AnchorLock:before { content: "\F511"; }
+.ms-Icon--Annotation:before { content: "\E924"; }
+.ms-Icon--AppIconDefault:before { content: "\ECAA"; }
+.ms-Icon--AppIconDefaultAdd:before { content: "\EFDA"; }
+.ms-Icon--AppIconDefaultEdit:before { content: "\EFDC"; }
+.ms-Icon--AppIconDefaultList:before { content: "\EFDE"; }
+.ms-Icon--AppIconSecure:before { content: "\E657"; }
+.ms-Icon--AppsContent:before { content: "\EE54"; }
+.ms-Icon--Archive:before { content: "\F03F"; }
+.ms-Icon--ArchiveUndo:before { content: "\E3A1"; }
+.ms-Icon--AreaChart:before { content: "\E9D2"; }
+.ms-Icon--ArrangeBringForward:before { content: "\F509"; }
+.ms-Icon--ArrangeBringToFront:before { content: "\F506"; }
+.ms-Icon--ArrangeByFrom:before { content: "\F678"; }
+.ms-Icon--ArrangeSendBackward:before { content: "\F508"; }
+.ms-Icon--ArrangeSendToBack:before { content: "\F507"; }
+.ms-Icon--Arrivals:before { content: "\EB34"; }
+.ms-Icon--ArrowDownRight8:before { content: "\EED5"; }
+.ms-Icon--ArrowDownRightMirrored8:before { content: "\EEF0"; }
+.ms-Icon--ArrowTallDownLeft:before { content: "\F2BF"; }
+.ms-Icon--ArrowTallDownRight:before { content: "\F2C0"; }
+.ms-Icon--ArrowTallUpLeft:before { content: "\F2BD"; }
+.ms-Icon--ArrowTallUpRight:before { content: "\F2BE"; }

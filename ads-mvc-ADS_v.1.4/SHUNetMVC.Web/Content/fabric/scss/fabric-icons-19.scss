@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-19';
+  src: url('../fonts/fabric-icons-19-8536d0fb.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-19';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--StackedBarChartFullSettings { content: "\F1E6"; }
+@mixin ms-Icon--StackedColumnChart2 { content: "\F666"; }
+@mixin ms-Icon--StackedColumnChart2Fill { content: "\F831"; }
+@mixin ms-Icon--StackedLineChart { content: "\F24E"; }
+@mixin ms-Icon--StackIndicator { content: "\E7FF"; }
+@mixin ms-Icon--StaffNotebookLogo16 { content: "\F48E"; }
+@mixin ms-Icon--StaffNotebookLogo32 { content: "\F48C"; }
+@mixin ms-Icon--StaffNotebookLogoFill16 { content: "\F48F"; }
+@mixin ms-Icon--StaffNotebookLogoFill32 { content: "\F48D"; }
+@mixin ms-Icon--StaffNotebookLogoInverted16 { content: "\F491"; }
+@mixin ms-Icon--StaffNotebookLogoInverted32 { content: "\F490"; }
+@mixin ms-Icon--Starburst { content: "\EF78"; }
+@mixin ms-Icon--StarburstSolid { content: "\F33C"; }
+@mixin ms-Icon--StatusCircleBlock { content: "\F140"; }
+@mixin ms-Icon--StatusCircleBlock2 { content: "\F141"; }
+@mixin ms-Icon--StatusCircleCheckmark { content: "\F13E"; }
+@mixin ms-Icon--StatusCircleErrorX { content: "\F13D"; }
+@mixin ms-Icon--StatusCircleExclamation { content: "\F13C"; }
+@mixin ms-Icon--StatusCircleInfo { content: "\F13F"; }
+@mixin ms-Icon--StatusCircleInner { content: "\F137"; }
+@mixin ms-Icon--StatusCircleOuter { content: "\F136"; }
+@mixin ms-Icon--StatusCircleQuestionMark { content: "\F142"; }
+@mixin ms-Icon--StatusCircleRing { content: "\F138"; }
+@mixin ms-Icon--StatusCircleSync { content: "\F143"; }
+@mixin ms-Icon--StatusErrorFull { content: "\EB90"; }
+@mixin ms-Icon--StatusTriangle { content: "\EA82"; }
+@mixin ms-Icon--StatusTriangleExclamation { content: "\F13B"; }
+@mixin ms-Icon--StatusTriangleInner { content: "\F13A"; }
+@mixin ms-Icon--StatusTriangleOuter { content: "\F139"; }
+@mixin ms-Icon--Step { content: "\F241"; }
+@mixin ms-Icon--StepBackward { content: "\E68E"; }
+@mixin ms-Icon--StepInsert { content: "\F242"; }
+@mixin ms-Icon--StepInto { content: "\E690"; }
+@mixin ms-Icon--StepOut { content: "\E691"; }
+@mixin ms-Icon--StepOver { content: "\E68F"; }
+@mixin ms-Icon--StepShared { content: "\F243"; }
+@mixin ms-Icon--StepSharedAdd { content: "\F244"; }
+@mixin ms-Icon--StepSharedInsert { content: "\F245"; }
+@mixin ms-Icon--StickyNotesOutlineAppIcon { content: "\E36A"; }
+@mixin ms-Icon--StickyNotesSolidAppIcon { content: "\E36B"; }
+@mixin ms-Icon--StockDown { content: "\EB0F"; }
+@mixin ms-Icon--StockUp { content: "\EB11"; }
+@mixin ms-Icon--Stop { content: "\E71A"; }
+@mixin ms-Icon--StopSolid { content: "\EE95"; }
+@mixin ms-Icon--Stopwatch { content: "\E916"; }
+@mixin ms-Icon--StorageAcount { content: "\E435"; }
+@mixin ms-Icon--StorageOptical { content: "\E958"; }
+@mixin ms-Icon--StoreLogo16 { content: "\EA96"; }
+@mixin ms-Icon--StoreLogoMed20 { content: "\EA04"; }
+@mixin ms-Icon--Storyboard { content: "\F308"; }
+@mixin ms-Icon--StreamDiscover { content: "\F7D9"; }
+@mixin ms-Icon--Streaming { content: "\E93E"; }
+@mixin ms-Icon--StreamingDataflow { content: "\E668"; }
+@mixin ms-Icon--StreamingDataset { content: "\E667"; }
+@mixin ms-Icon--StreamingOff { content: "\F2BB"; }
+@mixin ms-Icon--StreamLogo { content: "\F329"; }
+@mixin ms-Icon--StreamPlaylist { content: "\E669"; }
+@mixin ms-Icon--Street { content: "\E913"; }
+@mixin ms-Icon--StreetsideSplitMinimize { content: "\E802"; }
+@mixin ms-Icon--Strikethrough { content: "\EDE0"; }
+@mixin ms-Icon--StrikethroughKorean { content: "\E5D4"; }
+@mixin ms-Icon--Subscribe { content: "\EDA1"; }
+@mixin ms-Icon--Subscript { content: "\EDDF"; }
+@mixin ms-Icon--SubstitutionsIn { content: "\EB31"; }
+@mixin ms-Icon--SubtractShape { content: "\F8FC"; }
+@mixin ms-Icon--Suitcase { content: "\EDD3"; }
+@mixin ms-Icon--SummaryChart { content: "\E9FE"; }
+@mixin ms-Icon--SunAdd { content: "\EF69"; }
+@mixin ms-Icon--Sunny { content: "\E9BD"; }
+@mixin ms-Icon--SunQuestionMark { content: "\EF6A"; }
+@mixin ms-Icon--Superscript { content: "\EDDE"; }
+@mixin ms-Icon--SurveyQuestionResponse { content: "\E4F2"; }
+@mixin ms-Icon--SurveyQuestions { content: "\F01B"; }
+@mixin ms-Icon--SwayLogo16 { content: "\F484"; }
+@mixin ms-Icon--SwayLogo32 { content: "\F482"; }
+@mixin ms-Icon--SwayLogoFill16 { content: "\F485"; }
+@mixin ms-Icon--SwayLogoFill32 { content: "\F483"; }
+@mixin ms-Icon--SwayLogoInverse { content: "\ED29"; }
+@mixin ms-Icon--Switch { content: "\E8AB"; }
+@mixin ms-Icon--SwitcherStartEnd { content: "\E810"; }
+@mixin ms-Icon--SwitchUser { content: "\E748"; }
+@mixin ms-Icon--Sync { content: "\E895"; }
+@mixin ms-Icon--SyncError { content: "\EA6A"; }
+@mixin ms-Icon--SyncFolder { content: "\E8F7"; }
+@mixin ms-Icon--SyncOccurence { content: "\F4A3"; }
+@mixin ms-Icon--SyncOccurenceCancel { content: "\F7E7"; }
+@mixin ms-Icon--SyncStatus { content: "\F751"; }
+@mixin ms-Icon--SyncStatusSolid { content: "\F752"; }
+@mixin ms-Icon--SyncToPC { content: "\EE6E"; }
+@mixin ms-Icon--System { content: "\E770"; }
+@mixin ms-Icon--Tab { content: "\E7E9"; }
+@mixin ms-Icon--TabCenter { content: "\F100"; }
+@mixin ms-Icon--Table { content: "\ED86"; }
+@mixin ms-Icon--TableBrandedColumn { content: "\E3F1"; }
+@mixin ms-Icon--TableBrandedRow { content: "\E3EE"; }
+@mixin ms-Icon--TableColumn { content: "\E4BD"; }
+@mixin ms-Icon--TableComputed { content: "\F8F5"; }
+@mixin ms-Icon--TableFirstColumn { content: "\E3EF"; }
+@mixin ms-Icon--TableGroup { content: "\F6D9"; }
+@mixin ms-Icon--TableHeaderRow { content: "\E3EC"; }
+
+
+// Classes
+.ms-Icon--StackedBarChartFullSettings:before { @include ms-Icon--StackedBarChartFullSettings }
+.ms-Icon--StackedColumnChart2:before { @include ms-Icon--StackedColumnChart2 }
+.ms-Icon--StackedColumnChart2Fill:before { @include ms-Icon--StackedColumnChart2Fill }
+.ms-Icon--StackedLineChart:before { @include ms-Icon--StackedLineChart }
+.ms-Icon--StackIndicator:before { @include ms-Icon--StackIndicator }
+.ms-Icon--StaffNotebookLogo16:before { @include ms-Icon--StaffNotebookLogo16 }
+.ms-Icon--StaffNotebookLogo32:before { @include ms-Icon--StaffNotebookLogo32 }
+.ms-Icon--StaffNotebookLogoFill16:before { @include ms-Icon--StaffNotebookLogoFill16 }
+.ms-Icon--StaffNotebookLogoFill32:before { @include ms-Icon--StaffNotebookLogoFill32 }
+.ms-Icon--StaffNotebookLogoInverted16:before { @include ms-Icon--StaffNotebookLogoInverted16 }
+.ms-Icon--StaffNotebookLogoInverted32:before { @include ms-Icon--StaffNotebookLogoInverted32 }
+.ms-Icon--Starburst:before { @include ms-Icon--Starburst }
+.ms-Icon--StarburstSolid:before { @include ms-Icon--StarburstSolid }
+.ms-Icon--StatusCircleBlock:before { @include ms-Icon--StatusCircleBlock }
+.ms-Icon--StatusCircleBlock2:before { @include ms-Icon--StatusCircleBlock2 }
+.ms-Icon--StatusCircleCheckmark:before { @include ms-Icon--StatusCircleCheckmark }
+.ms-Icon--StatusCircleErrorX:before { @include ms-Icon--StatusCircleErrorX }
+.ms-Icon--StatusCircleExclamation:before { @include ms-Icon--StatusCircleExclamation }
+.ms-Icon--StatusCircleInfo:before { @include ms-Icon--StatusCircleInfo }
+.ms-Icon--StatusCircleInner:before { @include ms-Icon--StatusCircleInner }
+.ms-Icon--StatusCircleOuter:before { @include ms-Icon--StatusCircleOuter }
+.ms-Icon--StatusCircleQuestionMark:before { @include ms-Icon--StatusCircleQuestionMark }
+.ms-Icon--StatusCircleRing:before { @include ms-Icon--StatusCircleRing }
+.ms-Icon--StatusCircleSync:before { @include ms-Icon--StatusCircleSync }
+.ms-Icon--StatusErrorFull:before { @include ms-Icon--StatusErrorFull }
+.ms-Icon--StatusTriangle:before { @include ms-Icon--StatusTriangle }
+.ms-Icon--StatusTriangleExclamation:before { @include ms-Icon--StatusTriangleExclamation }
+.ms-Icon--StatusTriangleInner:before { @include ms-Icon--StatusTriangleInner }
+.ms-Icon--StatusTriangleOuter:before { @include ms-Icon--StatusTriangleOuter }
+.ms-Icon--Step:before { @include ms-Icon--Step }
+.ms-Icon--StepBackward:before { @include ms-Icon--StepBackward }
+.ms-Icon--StepInsert:before { @include ms-Icon--StepInsert }
+.ms-Icon--StepInto:before { @include ms-Icon--StepInto }
+.ms-Icon--StepOut:before { @include ms-Icon--StepOut }
+.ms-Icon--StepOver:before { @include ms-Icon--StepOver }
+.ms-Icon--StepShared:before { @include ms-Icon--StepShared }
+.ms-Icon--StepSharedAdd:before { @include ms-Icon--StepSharedAdd }
+.ms-Icon--StepSharedInsert:before { @include ms-Icon--StepSharedInsert }
+.ms-Icon--StickyNotesOutlineAppIcon:before { @include ms-Icon--StickyNotesOutlineAppIcon }
+.ms-Icon--StickyNotesSolidAppIcon:before { @include ms-Icon--StickyNotesSolidAppIcon }
+.ms-Icon--StockDown:before { @include ms-Icon--StockDown }
+.ms-Icon--StockUp:before { @include ms-Icon--StockUp }
+.ms-Icon--Stop:before { @include ms-Icon--Stop }
+.ms-Icon--StopSolid:before { @include ms-Icon--StopSolid }
+.ms-Icon--Stopwatch:before { @include ms-Icon--Stopwatch }
+.ms-Icon--StorageAcount:before { @include ms-Icon--StorageAcount }
+.ms-Icon--StorageOptical:before { @include ms-Icon--StorageOptical }
+.ms-Icon--StoreLogo16:before { @include ms-Icon--StoreLogo16 }
+.ms-Icon--StoreLogoMed20:before { @include ms-Icon--StoreLogoMed20 }
+.ms-Icon--Storyboard:before { @include ms-Icon--Storyboard }
+.ms-Icon--StreamDiscover:before { @include ms-Icon--StreamDiscover }
+.ms-Icon--Streaming:before { @include ms-Icon--Streaming }
+.ms-Icon--StreamingDataflow:before { @include ms-Icon--StreamingDataflow }
+.ms-Icon--StreamingDataset:before { @include ms-Icon--StreamingDataset }
+.ms-Icon--StreamingOff:before { @include ms-Icon--StreamingOff }
+.ms-Icon--StreamLogo:before { @include ms-Icon--StreamLogo }
+.ms-Icon--StreamPlaylist:before { @include ms-Icon--StreamPlaylist }
+.ms-Icon--Street:before { @include ms-Icon--Street }
+.ms-Icon--StreetsideSplitMinimize:before { @include ms-Icon--StreetsideSplitMinimize }
+.ms-Icon--Strikethrough:before { @include ms-Icon--Strikethrough }
+.ms-Icon--StrikethroughKorean:before { @include ms-Icon--StrikethroughKorean }
+.ms-Icon--Subscribe:before { @include ms-Icon--Subscribe }
+.ms-Icon--Subscript:before { @include ms-Icon--Subscript }
+.ms-Icon--SubstitutionsIn:before { @include ms-Icon--SubstitutionsIn }
+.ms-Icon--SubtractShape:before { @include ms-Icon--SubtractShape }
+.ms-Icon--Suitcase:before { @include ms-Icon--Suitcase }
+.ms-Icon--SummaryChart:before { @include ms-Icon--SummaryChart }
+.ms-Icon--SunAdd:before { @include ms-Icon--SunAdd }
+.ms-Icon--Sunny:before { @include ms-Icon--Sunny }
+.ms-Icon--SunQuestionMark:before { @include ms-Icon--SunQuestionMark }
+.ms-Icon--Superscript:before { @include ms-Icon--Superscript }
+.ms-Icon--SurveyQuestionResponse:before { @include ms-Icon--SurveyQuestionResponse }
+.ms-Icon--SurveyQuestions:before { @include ms-Icon--SurveyQuestions }
+.ms-Icon--SwayLogo16:before { @include ms-Icon--SwayLogo16 }
+.ms-Icon--SwayLogo32:before { @include ms-Icon--SwayLogo32 }
+.ms-Icon--SwayLogoFill16:before { @include ms-Icon--SwayLogoFill16 }
+.ms-Icon--SwayLogoFill32:before { @include ms-Icon--SwayLogoFill32 }
+.ms-Icon--SwayLogoInverse:before { @include ms-Icon--SwayLogoInverse }
+.ms-Icon--Switch:before { @include ms-Icon--Switch }
+.ms-Icon--SwitcherStartEnd:before { @include ms-Icon--SwitcherStartEnd }
+.ms-Icon--SwitchUser:before { @include ms-Icon--SwitchUser }
+.ms-Icon--Sync:before { @include ms-Icon--Sync }
+.ms-Icon--SyncError:before { @include ms-Icon--SyncError }
+.ms-Icon--SyncFolder:before { @include ms-Icon--SyncFolder }
+.ms-Icon--SyncOccurence:before { @include ms-Icon--SyncOccurence }
+.ms-Icon--SyncOccurenceCancel:before { @include ms-Icon--SyncOccurenceCancel }
+.ms-Icon--SyncStatus:before { @include ms-Icon--SyncStatus }
+.ms-Icon--SyncStatusSolid:before { @include ms-Icon--SyncStatusSolid }
+.ms-Icon--SyncToPC:before { @include ms-Icon--SyncToPC }
+.ms-Icon--System:before { @include ms-Icon--System }
+.ms-Icon--Tab:before { @include ms-Icon--Tab }
+.ms-Icon--TabCenter:before { @include ms-Icon--TabCenter }
+.ms-Icon--Table:before { @include ms-Icon--Table }
+.ms-Icon--TableBrandedColumn:before { @include ms-Icon--TableBrandedColumn }
+.ms-Icon--TableBrandedRow:before { @include ms-Icon--TableBrandedRow }
+.ms-Icon--TableColumn:before { @include ms-Icon--TableColumn }
+.ms-Icon--TableComputed:before { @include ms-Icon--TableComputed }
+.ms-Icon--TableFirstColumn:before { @include ms-Icon--TableFirstColumn }
+.ms-Icon--TableGroup:before { @include ms-Icon--TableGroup }
+.ms-Icon--TableHeaderRow:before { @include ms-Icon--TableHeaderRow }
+

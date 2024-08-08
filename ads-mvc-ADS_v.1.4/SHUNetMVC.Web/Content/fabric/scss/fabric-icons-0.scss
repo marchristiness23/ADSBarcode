@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-0';
+  src: url('../fonts/fabric-icons-0-0f4c4510.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-0';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--12PointStar { content: "\F505"; }
+@mixin ms-Icon--6PointStar { content: "\F504"; }
+@mixin ms-Icon--AADLogo { content: "\ED68"; }
+@mixin ms-Icon--Accept { content: "\E8FB"; }
+@mixin ms-Icon--AcceptMedium { content: "\F78C"; }
+@mixin ms-Icon--AccessibiltyChecker { content: "\F835"; }
+@mixin ms-Icon--AccessLogo { content: "\ED69"; }
+@mixin ms-Icon--AccountActivity { content: "\EFF4"; }
+@mixin ms-Icon--AccountBrowser { content: "\F652"; }
+@mixin ms-Icon--AccountManagement { content: "\F55C"; }
+@mixin ms-Icon--Accounts { content: "\E910"; }
+@mixin ms-Icon--ActionCenter { content: "\E91C"; }
+@mixin ms-Icon--ActivateOrders { content: "\EFE0"; }
+@mixin ms-Icon--ActivityFeed { content: "\F056"; }
+@mixin ms-Icon--Add { content: "\E710"; }
+@mixin ms-Icon--AddBookmark { content: "\F5B7"; }
+@mixin ms-Icon--AddConnection { content: "\F4E1"; }
+@mixin ms-Icon--AddEvent { content: "\EEB5"; }
+@mixin ms-Icon--AddFavorite { content: "\F0C8"; }
+@mixin ms-Icon--AddFavoriteFill { content: "\F0C9"; }
+@mixin ms-Icon--AddField { content: "\E4C7"; }
+@mixin ms-Icon--AddFriend { content: "\E8FA"; }
+@mixin ms-Icon--AddGroup { content: "\EE3D"; }
+@mixin ms-Icon--AddHome { content: "\F17B"; }
+@mixin ms-Icon--AddIn { content: "\F775"; }
+@mixin ms-Icon--AddLink { content: "\E35E"; }
+@mixin ms-Icon--AddMedium { content: "\ECA1"; }
+@mixin ms-Icon--AddMultiple { content: "\E9C5"; }
+@mixin ms-Icon--AddNotes { content: "\EAE3"; }
+@mixin ms-Icon--AddOnlineMeeting { content: "\ED8E"; }
+@mixin ms-Icon--AddPhone { content: "\ED96"; }
+@mixin ms-Icon--AddReaction { content: "\F85D"; }
+@mixin ms-Icon--AddSpaceAfter { content: "\E3DF"; }
+@mixin ms-Icon--AddSpaceBefore { content: "\E3DE"; }
+@mixin ms-Icon--AddTable { content: "\E4C6"; }
+@mixin ms-Icon--AddTo { content: "\ECC8"; }
+@mixin ms-Icon--AddToShoppingList { content: "\EA9A"; }
+@mixin ms-Icon--AddWork { content: "\F17C"; }
+@mixin ms-Icon--Admin { content: "\E7EF"; }
+@mixin ms-Icon--AdminALogo32 { content: "\F4BA"; }
+@mixin ms-Icon--AdminALogoFill32 { content: "\F4BB"; }
+@mixin ms-Icon--AdminALogoInverse32 { content: "\ED6A"; }
+@mixin ms-Icon--AdminCLogoInverse32 { content: "\ED6B"; }
+@mixin ms-Icon--AdminDLogoInverse32 { content: "\ED6C"; }
+@mixin ms-Icon--AdminELogoInverse32 { content: "\ED6D"; }
+@mixin ms-Icon--AdminLLogoInverse32 { content: "\ED6E"; }
+@mixin ms-Icon--AdminMLogoInverse32 { content: "\ED6F"; }
+@mixin ms-Icon--AdminOLogoInverse32 { content: "\ED70"; }
+@mixin ms-Icon--AdminPLogoInverse32 { content: "\ED71"; }
+@mixin ms-Icon--AdminSLogoInverse32 { content: "\ED72"; }
+@mixin ms-Icon--AdminYLogoInverse32 { content: "\ED73"; }
+@mixin ms-Icon--Airplane { content: "\E709"; }
+@mixin ms-Icon--AirplaneSolid { content: "\EB4C"; }
+@mixin ms-Icon--AirTickets { content: "\EF7A"; }
+@mixin ms-Icon--AlarmClock { content: "\E919"; }
+@mixin ms-Icon--Album { content: "\E7AB"; }
+@mixin ms-Icon--AlbumRemove { content: "\EC62"; }
+@mixin ms-Icon--AlertSettings { content: "\F8B6"; }
+@mixin ms-Icon--AlertSolid { content: "\F331"; }
+@mixin ms-Icon--AlignCenter { content: "\E8E3"; }
+@mixin ms-Icon--AlignHorizontalCenter { content: "\F4F4"; }
+@mixin ms-Icon--AlignHorizontalLeft { content: "\F4F3"; }
+@mixin ms-Icon--AlignHorizontalRight { content: "\F4F5"; }
+@mixin ms-Icon--AlignJustify { content: "\F51E"; }
+@mixin ms-Icon--AlignLeft { content: "\E8E4"; }
+@mixin ms-Icon--AlignRight { content: "\E8E2"; }
+@mixin ms-Icon--AlignVerticalBottom { content: "\F4F8"; }
+@mixin ms-Icon--AlignVerticalCenter { content: "\F4F7"; }
+@mixin ms-Icon--AlignVerticalTop { content: "\F4F6"; }
+@mixin ms-Icon--AllApps { content: "\E71D"; }
+@mixin ms-Icon--AllAppsMirrored { content: "\EA40"; }
+@mixin ms-Icon--AllCurrency { content: "\EAE4"; }
+@mixin ms-Icon--AltText { content: "\E397"; }
+@mixin ms-Icon--AnalyticsLogo { content: "\F1DE"; }
+@mixin ms-Icon--AnalyticsQuery { content: "\F1DF"; }
+@mixin ms-Icon--AnalyticsReport { content: "\F1E1"; }
+@mixin ms-Icon--AnalyticsView { content: "\F5F1"; }
+@mixin ms-Icon--AnchorLock { content: "\F511"; }
+@mixin ms-Icon--Annotation { content: "\E924"; }
+@mixin ms-Icon--AppIconDefault { content: "\ECAA"; }
+@mixin ms-Icon--AppIconDefaultAdd { content: "\EFDA"; }
+@mixin ms-Icon--AppIconDefaultEdit { content: "\EFDC"; }
+@mixin ms-Icon--AppIconDefaultList { content: "\EFDE"; }
+@mixin ms-Icon--AppIconSecure { content: "\E657"; }
+@mixin ms-Icon--AppsContent { content: "\EE54"; }
+@mixin ms-Icon--Archive { content: "\F03F"; }
+@mixin ms-Icon--ArchiveUndo { content: "\E3A1"; }
+@mixin ms-Icon--AreaChart { content: "\E9D2"; }
+@mixin ms-Icon--ArrangeBringForward { content: "\F509"; }
+@mixin ms-Icon--ArrangeBringToFront { content: "\F506"; }
+@mixin ms-Icon--ArrangeByFrom { content: "\F678"; }
+@mixin ms-Icon--ArrangeSendBackward { content: "\F508"; }
+@mixin ms-Icon--ArrangeSendToBack { content: "\F507"; }
+@mixin ms-Icon--Arrivals { content: "\EB34"; }
+@mixin ms-Icon--ArrowDownRight8 { content: "\EED5"; }
+@mixin ms-Icon--ArrowDownRightMirrored8 { content: "\EEF0"; }
+@mixin ms-Icon--ArrowTallDownLeft { content: "\F2BF"; }
+@mixin ms-Icon--ArrowTallDownRight { content: "\F2C0"; }
+@mixin ms-Icon--ArrowTallUpLeft { content: "\F2BD"; }
+@mixin ms-Icon--ArrowTallUpRight { content: "\F2BE"; }
+
+
+// Classes
+.ms-Icon--12PointStar:before { @include ms-Icon--12PointStar }
+.ms-Icon--6PointStar:before { @include ms-Icon--6PointStar }
+.ms-Icon--AADLogo:before { @include ms-Icon--AADLogo }
+.ms-Icon--Accept:before { @include ms-Icon--Accept }
+.ms-Icon--AcceptMedium:before { @include ms-Icon--AcceptMedium }
+.ms-Icon--AccessibiltyChecker:before { @include ms-Icon--AccessibiltyChecker }
+.ms-Icon--AccessLogo:before { @include ms-Icon--AccessLogo }
+.ms-Icon--AccountActivity:before { @include ms-Icon--AccountActivity }
+.ms-Icon--AccountBrowser:before { @include ms-Icon--AccountBrowser }
+.ms-Icon--AccountManagement:before { @include ms-Icon--AccountManagement }
+.ms-Icon--Accounts:before { @include ms-Icon--Accounts }
+.ms-Icon--ActionCenter:before { @include ms-Icon--ActionCenter }
+.ms-Icon--ActivateOrders:before { @include ms-Icon--ActivateOrders }
+.ms-Icon--ActivityFeed:before { @include ms-Icon--ActivityFeed }
+.ms-Icon--Add:before { @include ms-Icon--Add }
+.ms-Icon--AddBookmark:before { @include ms-Icon--AddBookmark }
+.ms-Icon--AddConnection:before { @include ms-Icon--AddConnection }
+.ms-Icon--AddEvent:before { @include ms-Icon--AddEvent }
+.ms-Icon--AddFavorite:before { @include ms-Icon--AddFavorite }
+.ms-Icon--AddFavoriteFill:before { @include ms-Icon--AddFavoriteFill }
+.ms-Icon--AddField:before { @include ms-Icon--AddField }
+.ms-Icon--AddFriend:before { @include ms-Icon--AddFriend }
+.ms-Icon--AddGroup:before { @include ms-Icon--AddGroup }
+.ms-Icon--AddHome:before { @include ms-Icon--AddHome }
+.ms-Icon--AddIn:before { @include ms-Icon--AddIn }
+.ms-Icon--AddLink:before { @include ms-Icon--AddLink }
+.ms-Icon--AddMedium:before { @include ms-Icon--AddMedium }
+.ms-Icon--AddMultiple:before { @include ms-Icon--AddMultiple }
+.ms-Icon--AddNotes:before { @include ms-Icon--AddNotes }
+.ms-Icon--AddOnlineMeeting:before { @include ms-Icon--AddOnlineMeeting }
+.ms-Icon--AddPhone:before { @include ms-Icon--AddPhone }
+.ms-Icon--AddReaction:before { @include ms-Icon--AddReaction }
+.ms-Icon--AddSpaceAfter:before { @include ms-Icon--AddSpaceAfter }
+.ms-Icon--AddSpaceBefore:before { @include ms-Icon--AddSpaceBefore }
+.ms-Icon--AddTable:before { @include ms-Icon--AddTable }
+.ms-Icon--AddTo:before { @include ms-Icon--AddTo }
+.ms-Icon--AddToShoppingList:before { @include ms-Icon--AddToShoppingList }
+.ms-Icon--AddWork:before { @include ms-Icon--AddWork }
+.ms-Icon--Admin:before { @include ms-Icon--Admin }
+.ms-Icon--AdminALogo32:before { @include ms-Icon--AdminALogo32 }
+.ms-Icon--AdminALogoFill32:before { @include ms-Icon--AdminALogoFill32 }
+.ms-Icon--AdminALogoInverse32:before { @include ms-Icon--AdminALogoInverse32 }
+.ms-Icon--AdminCLogoInverse32:before { @include ms-Icon--AdminCLogoInverse32 }
+.ms-Icon--AdminDLogoInverse32:before { @include ms-Icon--AdminDLogoInverse32 }
+.ms-Icon--AdminELogoInverse32:before { @include ms-Icon--AdminELogoInverse32 }
+.ms-Icon--AdminLLogoInverse32:before { @include ms-Icon--AdminLLogoInverse32 }
+.ms-Icon--AdminMLogoInverse32:before { @include ms-Icon--AdminMLogoInverse32 }
+.ms-Icon--AdminOLogoInverse32:before { @include ms-Icon--AdminOLogoInverse32 }
+.ms-Icon--AdminPLogoInverse32:before { @include ms-Icon--AdminPLogoInverse32 }
+.ms-Icon--AdminSLogoInverse32:before { @include ms-Icon--AdminSLogoInverse32 }
+.ms-Icon--AdminYLogoInverse32:before { @include ms-Icon--AdminYLogoInverse32 }
+.ms-Icon--Airplane:before { @include ms-Icon--Airplane }
+.ms-Icon--AirplaneSolid:before { @include ms-Icon--AirplaneSolid }
+.ms-Icon--AirTickets:before { @include ms-Icon--AirTickets }
+.ms-Icon--AlarmClock:before { @include ms-Icon--AlarmClock }
+.ms-Icon--Album:before { @include ms-Icon--Album }
+.ms-Icon--AlbumRemove:before { @include ms-Icon--AlbumRemove }
+.ms-Icon--AlertSettings:before { @include ms-Icon--AlertSettings }
+.ms-Icon--AlertSolid:before { @include ms-Icon--AlertSolid }
+.ms-Icon--AlignCenter:before { @include ms-Icon--AlignCenter }
+.ms-Icon--AlignHorizontalCenter:before { @include ms-Icon--AlignHorizontalCenter }
+.ms-Icon--AlignHorizontalLeft:before { @include ms-Icon--AlignHorizontalLeft }
+.ms-Icon--AlignHorizontalRight:before { @include ms-Icon--AlignHorizontalRight }
+.ms-Icon--AlignJustify:before { @include ms-Icon--AlignJustify }
+.ms-Icon--AlignLeft:before { @include ms-Icon--AlignLeft }
+.ms-Icon--AlignRight:before { @include ms-Icon--AlignRight }
+.ms-Icon--AlignVerticalBottom:before { @include ms-Icon--AlignVerticalBottom }
+.ms-Icon--AlignVerticalCenter:before { @include ms-Icon--AlignVerticalCenter }
+.ms-Icon--AlignVerticalTop:before { @include ms-Icon--AlignVerticalTop }
+.ms-Icon--AllApps:before { @include ms-Icon--AllApps }
+.ms-Icon--AllAppsMirrored:before { @include ms-Icon--AllAppsMirrored }
+.ms-Icon--AllCurrency:before { @include ms-Icon--AllCurrency }
+.ms-Icon--AltText:before { @include ms-Icon--AltText }
+.ms-Icon--AnalyticsLogo:before { @include ms-Icon--AnalyticsLogo }
+.ms-Icon--AnalyticsQuery:before { @include ms-Icon--AnalyticsQuery }
+.ms-Icon--AnalyticsReport:before { @include ms-Icon--AnalyticsReport }
+.ms-Icon--AnalyticsView:before { @include ms-Icon--AnalyticsView }
+.ms-Icon--AnchorLock:before { @include ms-Icon--AnchorLock }
+.ms-Icon--Annotation:before { @include ms-Icon--Annotation }
+.ms-Icon--AppIconDefault:before { @include ms-Icon--AppIconDefault }
+.ms-Icon--AppIconDefaultAdd:before { @include ms-Icon--AppIconDefaultAdd }
+.ms-Icon--AppIconDefaultEdit:before { @include ms-Icon--AppIconDefaultEdit }
+.ms-Icon--AppIconDefaultList:before { @include ms-Icon--AppIconDefaultList }
+.ms-Icon--AppIconSecure:before { @include ms-Icon--AppIconSecure }
+.ms-Icon--AppsContent:before { @include ms-Icon--AppsContent }
+.ms-Icon--Archive:before { @include ms-Icon--Archive }
+.ms-Icon--ArchiveUndo:before { @include ms-Icon--ArchiveUndo }
+.ms-Icon--AreaChart:before { @include ms-Icon--AreaChart }
+.ms-Icon--ArrangeBringForward:before { @include ms-Icon--ArrangeBringForward }
+.ms-Icon--ArrangeBringToFront:before { @include ms-Icon--ArrangeBringToFront }
+.ms-Icon--ArrangeByFrom:before { @include ms-Icon--ArrangeByFrom }
+.ms-Icon--ArrangeSendBackward:before { @include ms-Icon--ArrangeSendBackward }
+.ms-Icon--ArrangeSendToBack:before { @include ms-Icon--ArrangeSendToBack }
+.ms-Icon--Arrivals:before { @include ms-Icon--Arrivals }
+.ms-Icon--ArrowDownRight8:before { @include ms-Icon--ArrowDownRight8 }
+.ms-Icon--ArrowDownRightMirrored8:before { @include ms-Icon--ArrowDownRightMirrored8 }
+.ms-Icon--ArrowTallDownLeft:before { @include ms-Icon--ArrowTallDownLeft }
+.ms-Icon--ArrowTallDownRight:before { @include ms-Icon--ArrowTallDownRight }
+.ms-Icon--ArrowTallUpLeft:before { @include ms-Icon--ArrowTallUpLeft }
+.ms-Icon--ArrowTallUpRight:before { @include ms-Icon--ArrowTallUpRight }
+

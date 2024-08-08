@@ -1,0 +1,42 @@
+﻿@model SHUNetMVC.Abstraction.Model.Entities.Employee
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmpPosition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmpPosition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Departement.DepartementName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Departement.DepartementName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EmpId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

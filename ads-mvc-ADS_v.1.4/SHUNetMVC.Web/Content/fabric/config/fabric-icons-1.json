@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-1",
+  "fontFamilyName": "FabricMDL2Icons-1",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "ArrowUpRight",
+      "unicode": "F069"
+    },
+    {
+      "name": "ArrowUpRight8",
+      "unicode": "EED4"
+    },
+    {
+      "name": "ArrowUpRightMirrored8",
+      "unicode": "EEEF"
+    },
+    {
+      "name": "Articles",
+      "unicode": "EAC1"
+    },
+    {
+      "name": "Ascending",
+      "unicode": "EDC0"
+    },
+    {
+      "name": "AspectRatio",
+      "unicode": "E799"
+    },
+    {
+      "name": "AssessmentGroup",
+      "unicode": "F31A"
+    },
+    {
+      "name": "AssessmentGroupTemplate",
+      "unicode": "F2B1"
+    },
+    {
+      "name": "AssetLibrary",
+      "unicode": "EEB6"
+    },
+    {
+      "name": "Assign",
+      "unicode": "E9D3"
+    },
+    {
+      "name": "AssignPolicy",
+      "unicode": "E461"
+    },
+    {
+      "name": "Asterisk",
+      "unicode": "EA38"
+    },
+    {
+      "name": "AsteriskSolid",
+      "unicode": "F34D"
+    },
+    {
+      "name": "ATPLogo",
+      "unicode": "EF85"
+    },
+    {
+      "name": "Attach",
+      "unicode": "E723"
+    },
+    {
+      "name": "AustralianRules",
+      "unicode": "EE70"
+    },
+    {
+      "name": "AuthenticatorApp",
+      "unicode": "F6B1"
+    },
+    {
+      "name": "AutoDeploySettings",
+      "unicode": "F3FA"
+    },
+    {
+      "name": "AutoEnhanceOff",
+      "unicode": "E78E"
+    },
+    {
+      "name": "AutoEnhanceOn",
+      "unicode": "E78D"
+    },
+    {
+      "name": "AutoFillTemplate",
+      "unicode": "F313"
+    },
+    {
+      "name": "AutoFitContents",
+      "unicode": "E3E8"
+    },
+    {
+      "name": "AutoFitWindow",
+      "unicode": "E3E9"
+    },
+    {
+      "name": "AutoHeight",
+      "unicode": "F512"
+    },
+    {
+      "name": "AutomateFlow",
+      "unicode": "E3F5"
+    },
+    {
+      "name": "AutoRacing",
+      "unicode": "EB24"
+    },
+    {
+      "name": "AwayStatus",
+      "unicode": "EE6A"
+    },
+    {
+      "name": "AzureAPIManagement",
+      "unicode": "F37F"
+    },
+    {
+      "name": "AzureDataExplorer",
+      "unicode": "E439"
+    },
+    {
+      "name": "AzureIcon",
+      "unicode": "EB6A"
+    },
+    {
+      "name": "AzureKeyVault",
+      "unicode": "F3B4"
+    },
+    {
+      "name": "AzureServiceEndpoint",
+      "unicode": "F380"
+    },
+    {
+      "name": "Back",
+      "unicode": "E72B"
+    },
+    {
+      "name": "BackgroundColor",
+      "unicode": "F42B"
+    },
+    {
+      "name": "Backlog",
+      "unicode": "F2AC"
+    },
+    {
+      "name": "BacklogBoard",
+      "unicode": "F444"
+    },
+    {
+      "name": "BacklogList",
+      "unicode": "F6BF"
+    },
+    {
+      "name": "BackToWindow",
+      "unicode": "E73F"
+    },
+    {
+      "name": "Badge",
+      "unicode": "EC1B"
+    },
+    {
+      "name": "Balloons",
+      "unicode": "ED7E"
+    },
+    {
+      "name": "Bank",
+      "unicode": "E825"
+    },
+    {
+      "name": "BankSolid",
+      "unicode": "F34F"
+    },
+    {
+      "name": "BarChart3",
+      "unicode": "EAE6"
+    },
+    {
+      "name": "BarChart3One",
+      "unicode": "E68C"
+    },
+    {
+      "name": "BarChart3Two",
+      "unicode": "E68D"
+    },
+    {
+      "name": "BarChart3Zero",
+      "unicode": "E68B"
+    },
+    {
+      "name": "BarChart4",
+      "unicode": "EAE7"
+    },
+    {
+      "name": "BarChartHorizontal",
+      "unicode": "E9EB"
+    },
+    {
+      "name": "BarChartVertical",
+      "unicode": "E9EC"
+    },
+    {
+      "name": "BarChartVerticalEdit",
+      "unicode": "F89D"
+    },
+    {
+      "name": "BarChartVerticalFill",
+      "unicode": "F830"
+    },
+    {
+      "name": "BarChartVerticalFilter",
+      "unicode": "F77E"
+    },
+    {
+      "name": "BarChartVerticalFilterSolid",
+      "unicode": "F77F"
+    },
+    {
+      "name": "Baseball",
+      "unicode": "EB20"
+    },
+    {
+      "name": "BeerMug",
+      "unicode": "F49E"
+    },
+    {
+      "name": "BIDashboard",
+      "unicode": "F543"
+    },
+    {
+      "name": "BidiLtr",
+      "unicode": "E9AA"
+    },
+    {
+      "name": "Bidirectional",
+      "unicode": "E688"
+    },
+    {
+      "name": "BidiRtl",
+      "unicode": "E9AB"
+    },
+    {
+      "name": "Bill",
+      "unicode": "E5FA"
+    },
+    {
+      "name": "BingLogo",
+      "unicode": "EB6B"
+    },
+    {
+      "name": "BirthdayCake",
+      "unicode": "EF8D"
+    },
+    {
+      "name": "BlobStorage",
+      "unicode": "E436"
+    },
+    {
+      "name": "BlockContact",
+      "unicode": "E8F8"
+    },
+    {
+      "name": "Blocked",
+      "unicode": "E733"
+    },
+    {
+      "name": "Blocked12",
+      "unicode": "F62E"
+    },
+    {
+      "name": "Blocked2",
+      "unicode": "ECE4"
+    },
+    {
+      "name": "Blocked2Solid",
+      "unicode": "F737"
+    },
+    {
+      "name": "BlockedSite",
+      "unicode": "E72F"
+    },
+    {
+      "name": "BlockedSiteSolid12",
+      "unicode": "F70A"
+    },
+    {
+      "name": "BlockedSolid",
+      "unicode": "F531"
+    },
+    {
+      "name": "Blog",
+      "unicode": "F22B"
+    },
+    {
+      "name": "BlowingSnow",
+      "unicode": "E9C9"
+    },
+    {
+      "name": "Blur",
+      "unicode": "F28E"
+    },
+    {
+      "name": "Boards",
+      "unicode": "EF68"
+    },
+    {
+      "name": "Bold",
+      "unicode": "E8DD"
+    },
+    {
+      "name": "BoldBulgarian",
+      "unicode": "E5C5"
+    },
+    {
+      "name": "BoldF",
+      "unicode": "E5B5"
+    },
+    {
+      "name": "BoldG",
+      "unicode": "E5B3"
+    },
+    {
+      "name": "BoldK",
+      "unicode": "E5C6"
+    },
+    {
+      "name": "BoldKazakh",
+      "unicode": "E5C9"
+    },
+    {
+      "name": "BoldKorean",
+      "unicode": "E5BD"
+    },
+    {
+      "name": "BoldN",
+      "unicode": "E5B7"
+    },
+    {
+      "name": "BoldP",
+      "unicode": "E5C7"
+    },
+    {
+      "name": "BoldRussion",
+      "unicode": "E5B9"
+    },
+    {
+      "name": "BoldSerbian",
+      "unicode": "E5CA"
+    },
+    {
+      "name": "BoldT",
+      "unicode": "E5C8"
+    },
+    {
+      "name": "BookAnswers",
+      "unicode": "F8A4"
+    },
+    {
+      "name": "BookingsLogo",
+      "unicode": "EDC7"
+    },
+    {
+      "name": "BookmarkReport",
+      "unicode": "F76B"
+    },
+    {
+      "name": "Bookmarks",
+      "unicode": "E8A4"
+    },
+    {
+      "name": "BookmarksMirrored",
+      "unicode": "EA41"
+    },
+    {
+      "name": "BooleanData",
+      "unicode": "E678"
+    },
+    {
+      "name": "BorderAll",
+      "unicode": "E5F4"
+    },
+    {
+      "name": "BorderDash",
+      "unicode": "F50A"
+    },
+    {
+      "name": "BorderDot",
+      "unicode": "F50B"
+    },
+    {
+      "name": "BorderInside",
+      "unicode": "E5F3"
+    },
+    {
+      "name": "BorderInsideHorizontal",
+      "unicode": "E5F2"
+    },
+    {
+      "name": "BorderInsideVertical",
+      "unicode": "E5F1"
+    },
+    {
+      "name": "BorderNone",
+      "unicode": "E5F0"
+    }
+  ]
+}

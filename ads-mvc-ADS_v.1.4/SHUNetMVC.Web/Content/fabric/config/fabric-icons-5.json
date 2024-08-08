@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-5",
+  "fontFamilyName": "FabricMDL2Icons-5",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "CommentUrgent",
+      "unicode": "F307"
+    },
+    {
+      "name": "Commitments",
+      "unicode": "EC4D"
+    },
+    {
+      "name": "CommonDataServiceCDS",
+      "unicode": "E377"
+    },
+    {
+      "name": "CommunicationDetails",
+      "unicode": "E4CF"
+    },
+    {
+      "name": "CommunicationDetailsMirrored",
+      "unicode": "E4D0"
+    },
+    {
+      "name": "Communications",
+      "unicode": "E95A"
+    },
+    {
+      "name": "CompactColumnList",
+      "unicode": "F1EE"
+    },
+    {
+      "name": "CompactViewList",
+      "unicode": "F1EA"
+    },
+    {
+      "name": "CompanyDirectory",
+      "unicode": "EF0D"
+    },
+    {
+      "name": "CompanyDirectoryMirrored",
+      "unicode": "EF2B"
+    },
+    {
+      "name": "Compare",
+      "unicode": "F057"
+    },
+    {
+      "name": "CompareUneven",
+      "unicode": "E42E"
+    },
+    {
+      "name": "CompassNW",
+      "unicode": "E942"
+    },
+    {
+      "name": "Completed",
+      "unicode": "E930"
+    },
+    {
+      "name": "Completed12",
+      "unicode": "E559"
+    },
+    {
+      "name": "CompletedSolid",
+      "unicode": "EC61"
+    },
+    {
+      "name": "ComplianceAudit",
+      "unicode": "E369"
+    },
+    {
+      "name": "ConfigurationSolid",
+      "unicode": "F334"
+    },
+    {
+      "name": "ConfirmEvent",
+      "unicode": "E680"
+    },
+    {
+      "name": "ConnectContacts",
+      "unicode": "EFD4"
+    },
+    {
+      "name": "ConnectVirtualMachine",
+      "unicode": "EE9D"
+    },
+    {
+      "name": "ConstructionCone",
+      "unicode": "E98F"
+    },
+    {
+      "name": "ConstructionConeSolid",
+      "unicode": "F339"
+    },
+    {
+      "name": "Contact",
+      "unicode": "E77B"
+    },
+    {
+      "name": "ContactCard",
+      "unicode": "EEBD"
+    },
+    {
+      "name": "ContactCardSettings",
+      "unicode": "F556"
+    },
+    {
+      "name": "ContactCardSettingsMirrored",
+      "unicode": "F557"
+    },
+    {
+      "name": "ContactHeart",
+      "unicode": "F862"
+    },
+    {
+      "name": "ContactInfo",
+      "unicode": "E779"
+    },
+    {
+      "name": "ContactInfoMirrored",
+      "unicode": "EA4A"
+    },
+    {
+      "name": "ContactLink",
+      "unicode": "F25F"
+    },
+    {
+      "name": "ContactList",
+      "unicode": "F7E5"
+    },
+    {
+      "name": "ContactLock",
+      "unicode": "F400"
+    },
+    {
+      "name": "ContentFeed",
+      "unicode": "E428"
+    },
+    {
+      "name": "ContentSettings",
+      "unicode": "F647"
+    },
+    {
+      "name": "ContentUnderstandingApp",
+      "unicode": "E4FB"
+    },
+    {
+      "name": "ContextMenu",
+      "unicode": "F37C"
+    },
+    {
+      "name": "Contrast",
+      "unicode": "E7A1"
+    },
+    {
+      "name": "Copy",
+      "unicode": "E8C8"
+    },
+    {
+      "name": "CopyEdit",
+      "unicode": "E464"
+    },
+    {
+      "name": "CopyPath",
+      "unicode": "E62F"
+    },
+    {
+      "name": "CortanaLogoBeckonInner",
+      "unicode": "F4C6"
+    },
+    {
+      "name": "CortanaLogoBeckonOuter",
+      "unicode": "F4C7"
+    },
+    {
+      "name": "CortanaLogoInner",
+      "unicode": "E832"
+    },
+    {
+      "name": "CortanaLogoOuter",
+      "unicode": "E831"
+    },
+    {
+      "name": "CortanaLogoReadyInner",
+      "unicode": "F4C8"
+    },
+    {
+      "name": "CortanaLogoReadyOuter",
+      "unicode": "F4C9"
+    },
+    {
+      "name": "CostContralLedgerAdmin",
+      "unicode": "F208"
+    },
+    {
+      "name": "CostControl",
+      "unicode": "F207"
+    },
+    {
+      "name": "Cotton",
+      "unicode": "EAF3"
+    },
+    {
+      "name": "Count",
+      "unicode": "E9EE"
+    },
+    {
+      "name": "Coupon",
+      "unicode": "F7BC"
+    },
+    {
+      "name": "CPlusPlus",
+      "unicode": "F2F4"
+    },
+    {
+      "name": "CPlusPlusLanguage",
+      "unicode": "F2F3"
+    },
+    {
+      "name": "CreateMailRule",
+      "unicode": "F67A"
+    },
+    {
+      "name": "CreditCardBill",
+      "unicode": "ECD6"
+    },
+    {
+      "name": "Cricket",
+      "unicode": "EB1E"
+    },
+    {
+      "name": "CriticalErrorSolid",
+      "unicode": "F5C9"
+    },
+    {
+      "name": "CRMLead",
+      "unicode": "EFD6"
+    },
+    {
+      "name": "CRMProcesses",
+      "unicode": "EFB1"
+    },
+    {
+      "name": "CRMReport",
+      "unicode": "EFFE"
+    },
+    {
+      "name": "CRMResourceOptimizationApp32",
+      "unicode": "F6EF"
+    },
+    {
+      "name": "CRMServices",
+      "unicode": "EFD2"
+    },
+    {
+      "name": "Crop",
+      "unicode": "E7A8"
+    },
+    {
+      "name": "Crown",
+      "unicode": "ED01"
+    },
+    {
+      "name": "CrownSolid",
+      "unicode": "F336"
+    },
+    {
+      "name": "CSharp",
+      "unicode": "F2F0"
+    },
+    {
+      "name": "CSharpLanguage",
+      "unicode": "F2EF"
+    },
+    {
+      "name": "CSS",
+      "unicode": "EBEF"
+    },
+    {
+      "name": "CtrlButton",
+      "unicode": "E4B8"
+    },
+    {
+      "name": "CubeShape",
+      "unicode": "F1AA"
+    },
+    {
+      "name": "CubeShapeSolid",
+      "unicode": "E421"
+    },
+    {
+      "name": "Currency",
+      "unicode": "EAF5"
+    },
+    {
+      "name": "CustomActivity",
+      "unicode": "EFF0"
+    },
+    {
+      "name": "CustomEntity",
+      "unicode": "EFF7"
+    },
+    {
+      "name": "CustomerAssets",
+      "unicode": "F426"
+    },
+    {
+      "name": "CustomizeToolbar",
+      "unicode": "F828"
+    },
+    {
+      "name": "CustomList",
+      "unicode": "EEBE"
+    },
+    {
+      "name": "CustomListMirrored",
+      "unicode": "EEBF"
+    },
+    {
+      "name": "Cut",
+      "unicode": "E8C6"
+    },
+    {
+      "name": "Cycling",
+      "unicode": "EAC7"
+    },
+    {
+      "name": "D365BusinessCentral",
+      "unicode": "F833"
+    },
+    {
+      "name": "D365CoreHR",
+      "unicode": "F6BD"
+    },
+    {
+      "name": "D365CustomerInsights",
+      "unicode": "F3C8"
+    },
+    {
+      "name": "D365CustomerVoiceApp",
+      "unicode": "E4F7"
+    },
+    {
+      "name": "D365ProjectOperations",
+      "unicode": "E432"
+    },
+    {
+      "name": "D365TalentInsight",
+      "unicode": "F6BC"
+    },
+    {
+      "name": "D365TalentLearn",
+      "unicode": "F6BB"
+    },
+    {
+      "name": "DashboardAdd",
+      "unicode": "F52D"
+    },
+    {
+      "name": "DataAnalysis",
+      "unicode": "F731"
+    },
+    {
+      "name": "Database",
+      "unicode": "EFC7"
+    },
+    {
+      "name": "DatabaseActivity",
+      "unicode": "E670"
+    },
+    {
+      "name": "DatabaseBlock",
+      "unicode": "E617"
+    },
+    {
+      "name": "DatabaseRefresh",
+      "unicode": "E67F"
+    },
+    {
+      "name": "DatabaseSource",
+      "unicode": "E30A"
+    },
+    {
+      "name": "DatabaseSwap",
+      "unicode": "E671"
+    },
+    {
+      "name": "DatabaseSync",
+      "unicode": "F842"
+    },
+    {
+      "name": "DatabaseView",
+      "unicode": "E437"
+    },
+    {
+      "name": "DataConnectionLibrary",
+      "unicode": "EEB7"
+    },
+    {
+      "name": "DataEnrichment",
+      "unicode": "E4F5"
+    }
+  ]
+}

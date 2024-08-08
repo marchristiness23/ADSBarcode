@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-21';
+  src: url('../fonts/fabric-icons-21-9afe3665.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-21';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--Touch { content: "\E815"; }
+@mixin ms-Icon--TouchPointer { content: "\E7C9"; }
+@mixin ms-Icon--Trackers { content: "\EADF"; }
+@mixin ms-Icon--TrackersMirrored { content: "\EE92"; }
+@mixin ms-Icon--Train { content: "\E7C0"; }
+@mixin ms-Icon--TrainSolid { content: "\EB4D"; }
+@mixin ms-Icon--TransferCall { content: "\ED95"; }
+@mixin ms-Icon--Transition { content: "\F3BC"; }
+@mixin ms-Icon--TransitionEffect { content: "\F5B4"; }
+@mixin ms-Icon--TransitionPop { content: "\F5B2"; }
+@mixin ms-Icon--TransitionPush { content: "\F5B3"; }
+@mixin ms-Icon--Translate { content: "\E7B2"; }
+@mixin ms-Icon--Transportation { content: "\EBF1"; }
+@mixin ms-Icon--Trending12 { content: "\F62D"; }
+@mixin ms-Icon--TriangleDown12 { content: "\EED1"; }
+@mixin ms-Icon--TriangleLeft12 { content: "\EED2"; }
+@mixin ms-Icon--TriangleRight12 { content: "\EED3"; }
+@mixin ms-Icon--TriangleShape { content: "\F1A7"; }
+@mixin ms-Icon--TriangleShapeSolid { content: "\F63E"; }
+@mixin ms-Icon--TriangleSolid { content: "\EA08"; }
+@mixin ms-Icon--TriangleSolidDown12 { content: "\EECD"; }
+@mixin ms-Icon--TriangleSolidLeft12 { content: "\EECE"; }
+@mixin ms-Icon--TriangleSolidRight12 { content: "\EECF"; }
+@mixin ms-Icon--TriangleSolidUp12 { content: "\EECC"; }
+@mixin ms-Icon--TriangleUp12 { content: "\EED0"; }
+@mixin ms-Icon--TriggerApproval { content: "\F3B2"; }
+@mixin ms-Icon--TriggerAuto { content: "\F24A"; }
+@mixin ms-Icon--TriggerPhrase { content: "\E5FF"; }
+@mixin ms-Icon--TriggerUser { content: "\F24B"; }
+@mixin ms-Icon--Trim { content: "\E78A"; }
+@mixin ms-Icon--TrimEnd { content: "\F8BC"; }
+@mixin ms-Icon--TrimStart { content: "\F8BB"; }
+@mixin ms-Icon--TripleColumn { content: "\F1D5"; }
+@mixin ms-Icon--TripleColumnEdit { content: "\F323"; }
+@mixin ms-Icon--TripleColumnWide { content: "\F66E"; }
+@mixin ms-Icon--Trophy { content: "\ED3F"; }
+@mixin ms-Icon--Trophy2 { content: "\F1AE"; }
+@mixin ms-Icon--Trophy2Solid { content: "\F337"; }
+@mixin ms-Icon--TurnRight { content: "\E7DB"; }
+@mixin ms-Icon--TurnUserLeft { content: "\F269"; }
+@mixin ms-Icon--TVMonitor { content: "\E7F4"; }
+@mixin ms-Icon--TVMonitorSelected { content: "\EC77"; }
+@mixin ms-Icon--TypeScriptLanguage { content: "\F2F7"; }
+@mixin ms-Icon--Umbrella { content: "\EC04"; }
+@mixin ms-Icon--UnavailableOffline { content: "\E545"; }
+@mixin ms-Icon--Underline { content: "\E8DC"; }
+@mixin ms-Icon--UnderlineA { content: "\E5CC"; }
+@mixin ms-Icon--UnderlineKorean { content: "\E5BB"; }
+@mixin ms-Icon--UnderlineP { content: "\E5CD"; }
+@mixin ms-Icon--UnderlineRussian { content: "\E5B8"; }
+@mixin ms-Icon--UnderlineS { content: "\E5B4"; }
+@mixin ms-Icon--UnderlineSerbian { content: "\E5CB"; }
+@mixin ms-Icon--Undo { content: "\E7A7"; }
+@mixin ms-Icon--Uneditable { content: "\ED1D"; }
+@mixin ms-Icon--Uneditable2 { content: "\F876"; }
+@mixin ms-Icon--Uneditable2Mirrored { content: "\F877"; }
+@mixin ms-Icon--UneditableMirrored { content: "\F4B9"; }
+@mixin ms-Icon--UneditableSolid12 { content: "\F4B7"; }
+@mixin ms-Icon--UneditableSolidMirrored12 { content: "\F4B8"; }
+@mixin ms-Icon--Unfavorite { content: "\E8D9"; }
+@mixin ms-Icon--UngroupObject { content: "\F4F2"; }
+@mixin ms-Icon--UniteShape { content: "\F8FB"; }
+@mixin ms-Icon--Unknown { content: "\E9CE"; }
+@mixin ms-Icon--UnknownCall { content: "\ED97"; }
+@mixin ms-Icon--UnknownMirrored { content: "\F22E"; }
+@mixin ms-Icon--UnknownMirroredSolid { content: "\F2E2"; }
+@mixin ms-Icon--UnknownSolid { content: "\F2E1"; }
+@mixin ms-Icon--Unlock { content: "\E785"; }
+@mixin ms-Icon--UnlockSolid { content: "\F304"; }
+@mixin ms-Icon--Unpin { content: "\E77A"; }
+@mixin ms-Icon--UnpublishContent { content: "\E31F"; }
+@mixin ms-Icon--UnSetColor { content: "\F3F9"; }
+@mixin ms-Icon--UnstackSelected { content: "\E7FE"; }
+@mixin ms-Icon--Unsubscribe { content: "\EDA0"; }
+@mixin ms-Icon--UnsyncFolder { content: "\E8F6"; }
+@mixin ms-Icon--UnsyncOccurence { content: "\F4A4"; }
+@mixin ms-Icon--Untag { content: "\F60B"; }
+@mixin ms-Icon--Up { content: "\E74A"; }
+@mixin ms-Icon--UpdateRestore { content: "\E777"; }
+@mixin ms-Icon--UpgradeAnalysis { content: "\EA0B"; }
+@mixin ms-Icon--UpKey { content: "\F3E0"; }
+@mixin ms-Icon--Upload { content: "\E898"; }
+@mixin ms-Icon--UpperCase { content: "\E5ED"; }
+@mixin ms-Icon--URLBlock { content: "\E3FE"; }
+@mixin ms-Icon--USB { content: "\E88E"; }
+@mixin ms-Icon--UserClapper { content: "\E666"; }
+@mixin ms-Icon--UserEvent { content: "\F69C"; }
+@mixin ms-Icon--UserFollowed { content: "\F25C"; }
+@mixin ms-Icon--UserGauge { content: "\F6ED"; }
+@mixin ms-Icon--UserOptional { content: "\F767"; }
+@mixin ms-Icon--UserPause { content: "\F2BA"; }
+@mixin ms-Icon--UserRemove { content: "\F69B"; }
+@mixin ms-Icon--UserSync { content: "\F2B9"; }
+@mixin ms-Icon--UserWarning { content: "\E368"; }
+@mixin ms-Icon--UserWindow { content: "\E4ED"; }
+@mixin ms-Icon--Vacation { content: "\F49F"; }
+@mixin ms-Icon--Vaccination { content: "\EAE0"; }
+@mixin ms-Icon--VaccinationRecent { content: "\E550"; }
+@mixin ms-Icon--Variable { content: "\F305"; }
+@mixin ms-Icon--Variable2 { content: "\F86D"; }
+
+
+// Classes
+.ms-Icon--Touch:before { @include ms-Icon--Touch }
+.ms-Icon--TouchPointer:before { @include ms-Icon--TouchPointer }
+.ms-Icon--Trackers:before { @include ms-Icon--Trackers }
+.ms-Icon--TrackersMirrored:before { @include ms-Icon--TrackersMirrored }
+.ms-Icon--Train:before { @include ms-Icon--Train }
+.ms-Icon--TrainSolid:before { @include ms-Icon--TrainSolid }
+.ms-Icon--TransferCall:before { @include ms-Icon--TransferCall }
+.ms-Icon--Transition:before { @include ms-Icon--Transition }
+.ms-Icon--TransitionEffect:before { @include ms-Icon--TransitionEffect }
+.ms-Icon--TransitionPop:before { @include ms-Icon--TransitionPop }
+.ms-Icon--TransitionPush:before { @include ms-Icon--TransitionPush }
+.ms-Icon--Translate:before { @include ms-Icon--Translate }
+.ms-Icon--Transportation:before { @include ms-Icon--Transportation }
+.ms-Icon--Trending12:before { @include ms-Icon--Trending12 }
+.ms-Icon--TriangleDown12:before { @include ms-Icon--TriangleDown12 }
+.ms-Icon--TriangleLeft12:before { @include ms-Icon--TriangleLeft12 }
+.ms-Icon--TriangleRight12:before { @include ms-Icon--TriangleRight12 }
+.ms-Icon--TriangleShape:before { @include ms-Icon--TriangleShape }
+.ms-Icon--TriangleShapeSolid:before { @include ms-Icon--TriangleShapeSolid }
+.ms-Icon--TriangleSolid:before { @include ms-Icon--TriangleSolid }
+.ms-Icon--TriangleSolidDown12:before { @include ms-Icon--TriangleSolidDown12 }
+.ms-Icon--TriangleSolidLeft12:before { @include ms-Icon--TriangleSolidLeft12 }
+.ms-Icon--TriangleSolidRight12:before { @include ms-Icon--TriangleSolidRight12 }
+.ms-Icon--TriangleSolidUp12:before { @include ms-Icon--TriangleSolidUp12 }
+.ms-Icon--TriangleUp12:before { @include ms-Icon--TriangleUp12 }
+.ms-Icon--TriggerApproval:before { @include ms-Icon--TriggerApproval }
+.ms-Icon--TriggerAuto:before { @include ms-Icon--TriggerAuto }
+.ms-Icon--TriggerPhrase:before { @include ms-Icon--TriggerPhrase }
+.ms-Icon--TriggerUser:before { @include ms-Icon--TriggerUser }
+.ms-Icon--Trim:before { @include ms-Icon--Trim }
+.ms-Icon--TrimEnd:before { @include ms-Icon--TrimEnd }
+.ms-Icon--TrimStart:before { @include ms-Icon--TrimStart }
+.ms-Icon--TripleColumn:before { @include ms-Icon--TripleColumn }
+.ms-Icon--TripleColumnEdit:before { @include ms-Icon--TripleColumnEdit }
+.ms-Icon--TripleColumnWide:before { @include ms-Icon--TripleColumnWide }
+.ms-Icon--Trophy:before { @include ms-Icon--Trophy }
+.ms-Icon--Trophy2:before { @include ms-Icon--Trophy2 }
+.ms-Icon--Trophy2Solid:before { @include ms-Icon--Trophy2Solid }
+.ms-Icon--TurnRight:before { @include ms-Icon--TurnRight }
+.ms-Icon--TurnUserLeft:before { @include ms-Icon--TurnUserLeft }
+.ms-Icon--TVMonitor:before { @include ms-Icon--TVMonitor }
+.ms-Icon--TVMonitorSelected:before { @include ms-Icon--TVMonitorSelected }
+.ms-Icon--TypeScriptLanguage:before { @include ms-Icon--TypeScriptLanguage }
+.ms-Icon--Umbrella:before { @include ms-Icon--Umbrella }
+.ms-Icon--UnavailableOffline:before { @include ms-Icon--UnavailableOffline }
+.ms-Icon--Underline:before { @include ms-Icon--Underline }
+.ms-Icon--UnderlineA:before { @include ms-Icon--UnderlineA }
+.ms-Icon--UnderlineKorean:before { @include ms-Icon--UnderlineKorean }
+.ms-Icon--UnderlineP:before { @include ms-Icon--UnderlineP }
+.ms-Icon--UnderlineRussian:before { @include ms-Icon--UnderlineRussian }
+.ms-Icon--UnderlineS:before { @include ms-Icon--UnderlineS }
+.ms-Icon--UnderlineSerbian:before { @include ms-Icon--UnderlineSerbian }
+.ms-Icon--Undo:before { @include ms-Icon--Undo }
+.ms-Icon--Uneditable:before { @include ms-Icon--Uneditable }
+.ms-Icon--Uneditable2:before { @include ms-Icon--Uneditable2 }
+.ms-Icon--Uneditable2Mirrored:before { @include ms-Icon--Uneditable2Mirrored }
+.ms-Icon--UneditableMirrored:before { @include ms-Icon--UneditableMirrored }
+.ms-Icon--UneditableSolid12:before { @include ms-Icon--UneditableSolid12 }
+.ms-Icon--UneditableSolidMirrored12:before { @include ms-Icon--UneditableSolidMirrored12 }
+.ms-Icon--Unfavorite:before { @include ms-Icon--Unfavorite }
+.ms-Icon--UngroupObject:before { @include ms-Icon--UngroupObject }
+.ms-Icon--UniteShape:before { @include ms-Icon--UniteShape }
+.ms-Icon--Unknown:before { @include ms-Icon--Unknown }
+.ms-Icon--UnknownCall:before { @include ms-Icon--UnknownCall }
+.ms-Icon--UnknownMirrored:before { @include ms-Icon--UnknownMirrored }
+.ms-Icon--UnknownMirroredSolid:before { @include ms-Icon--UnknownMirroredSolid }
+.ms-Icon--UnknownSolid:before { @include ms-Icon--UnknownSolid }
+.ms-Icon--Unlock:before { @include ms-Icon--Unlock }
+.ms-Icon--UnlockSolid:before { @include ms-Icon--UnlockSolid }
+.ms-Icon--Unpin:before { @include ms-Icon--Unpin }
+.ms-Icon--UnpublishContent:before { @include ms-Icon--UnpublishContent }
+.ms-Icon--UnSetColor:before { @include ms-Icon--UnSetColor }
+.ms-Icon--UnstackSelected:before { @include ms-Icon--UnstackSelected }
+.ms-Icon--Unsubscribe:before { @include ms-Icon--Unsubscribe }
+.ms-Icon--UnsyncFolder:before { @include ms-Icon--UnsyncFolder }
+.ms-Icon--UnsyncOccurence:before { @include ms-Icon--UnsyncOccurence }
+.ms-Icon--Untag:before { @include ms-Icon--Untag }
+.ms-Icon--Up:before { @include ms-Icon--Up }
+.ms-Icon--UpdateRestore:before { @include ms-Icon--UpdateRestore }
+.ms-Icon--UpgradeAnalysis:before { @include ms-Icon--UpgradeAnalysis }
+.ms-Icon--UpKey:before { @include ms-Icon--UpKey }
+.ms-Icon--Upload:before { @include ms-Icon--Upload }
+.ms-Icon--UpperCase:before { @include ms-Icon--UpperCase }
+.ms-Icon--URLBlock:before { @include ms-Icon--URLBlock }
+.ms-Icon--USB:before { @include ms-Icon--USB }
+.ms-Icon--UserClapper:before { @include ms-Icon--UserClapper }
+.ms-Icon--UserEvent:before { @include ms-Icon--UserEvent }
+.ms-Icon--UserFollowed:before { @include ms-Icon--UserFollowed }
+.ms-Icon--UserGauge:before { @include ms-Icon--UserGauge }
+.ms-Icon--UserOptional:before { @include ms-Icon--UserOptional }
+.ms-Icon--UserPause:before { @include ms-Icon--UserPause }
+.ms-Icon--UserRemove:before { @include ms-Icon--UserRemove }
+.ms-Icon--UserSync:before { @include ms-Icon--UserSync }
+.ms-Icon--UserWarning:before { @include ms-Icon--UserWarning }
+.ms-Icon--UserWindow:before { @include ms-Icon--UserWindow }
+.ms-Icon--Vacation:before { @include ms-Icon--Vacation }
+.ms-Icon--Vaccination:before { @include ms-Icon--Vaccination }
+.ms-Icon--VaccinationRecent:before { @include ms-Icon--VaccinationRecent }
+.ms-Icon--Variable:before { @include ms-Icon--Variable }
+.ms-Icon--Variable2:before { @include ms-Icon--Variable2 }
+

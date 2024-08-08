@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-20",
+  "fontFamilyName": "FabricMDL2Icons-20",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "TableLastColumn",
+      "unicode": "E3F0"
+    },
+    {
+      "name": "TableLink",
+      "unicode": "F77A"
+    },
+    {
+      "name": "TablePermission",
+      "unicode": "E619"
+    },
+    {
+      "name": "Tablet",
+      "unicode": "E70A"
+    },
+    {
+      "name": "TabletMode",
+      "unicode": "EBFC"
+    },
+    {
+      "name": "TableTotalRow",
+      "unicode": "E3ED"
+    },
+    {
+      "name": "TabletSelected",
+      "unicode": "EC74"
+    },
+    {
+      "name": "TabOneColumn",
+      "unicode": "F849"
+    },
+    {
+      "name": "TabThreeColumn",
+      "unicode": "F84B"
+    },
+    {
+      "name": "TabTwoColumn",
+      "unicode": "F84A"
+    },
+    {
+      "name": "Tag",
+      "unicode": "E8EC"
+    },
+    {
+      "name": "TagGroup",
+      "unicode": "E3F6"
+    },
+    {
+      "name": "TagSolid",
+      "unicode": "F70E"
+    },
+    {
+      "name": "TagUnknown",
+      "unicode": "F6DF"
+    },
+    {
+      "name": "TagUnknown12",
+      "unicode": "F6E1"
+    },
+    {
+      "name": "TagUnknown12Mirror",
+      "unicode": "F6E2"
+    },
+    {
+      "name": "TagUnknownMirror",
+      "unicode": "F6E0"
+    },
+    {
+      "name": "Task",
+      "unicode": "F7EC"
+    },
+    {
+      "name": "TaskAdd",
+      "unicode": "E4FD"
+    },
+    {
+      "name": "Taskboard",
+      "unicode": "F1C2"
+    },
+    {
+      "name": "TaskGroup",
+      "unicode": "F2AE"
+    },
+    {
+      "name": "TaskGroupMirrored",
+      "unicode": "F2AF"
+    },
+    {
+      "name": "TaskList",
+      "unicode": "E3B6"
+    },
+    {
+      "name": "TaskLogo",
+      "unicode": "F493"
+    },
+    {
+      "name": "TaskManager",
+      "unicode": "EDB7"
+    },
+    {
+      "name": "TaskManagerMirrored",
+      "unicode": "EDB8"
+    },
+    {
+      "name": "TaskSolid",
+      "unicode": "F333"
+    },
+    {
+      "name": "Taxi",
+      "unicode": "F4A1"
+    },
+    {
+      "name": "TeamFavorite",
+      "unicode": "F2AD"
+    },
+    {
+      "name": "TeamsLogo",
+      "unicode": "F27B"
+    },
+    {
+      "name": "TeamsLogo16",
+      "unicode": "F40A"
+    },
+    {
+      "name": "TeamsLogoInverse",
+      "unicode": "F27A"
+    },
+    {
+      "name": "Teamwork",
+      "unicode": "EA12"
+    },
+    {
+      "name": "Teeth",
+      "unicode": "F4A0"
+    },
+    {
+      "name": "Telemarketer",
+      "unicode": "E7B9"
+    },
+    {
+      "name": "TemporaryAccessPass",
+      "unicode": "E4AD"
+    },
+    {
+      "name": "TemporaryUser",
+      "unicode": "EE58"
+    },
+    {
+      "name": "Tennis",
+      "unicode": "EB33"
+    },
+    {
+      "name": "TestAdd",
+      "unicode": "E4DC"
+    },
+    {
+      "name": "TestAutoSolid",
+      "unicode": "F3A8"
+    },
+    {
+      "name": "TestBeaker",
+      "unicode": "F3A5"
+    },
+    {
+      "name": "TestBeakerSolid",
+      "unicode": "F3A6"
+    },
+    {
+      "name": "TestCase",
+      "unicode": "F3AF"
+    },
+    {
+      "name": "TestExploreSolid",
+      "unicode": "F3A7"
+    },
+    {
+      "name": "TestImpactSolid",
+      "unicode": "F3AA"
+    },
+    {
+      "name": "TestParameter",
+      "unicode": "F3AD"
+    },
+    {
+      "name": "TestPlan",
+      "unicode": "F3AB"
+    },
+    {
+      "name": "TestRemove",
+      "unicode": "E4E1"
+    },
+    {
+      "name": "TestStep",
+      "unicode": "F3AC"
+    },
+    {
+      "name": "TestSuite",
+      "unicode": "F3AE"
+    },
+    {
+      "name": "TestUserSolid",
+      "unicode": "F3A9"
+    },
+    {
+      "name": "TextAlignBottom",
+      "unicode": "E3E2"
+    },
+    {
+      "name": "TextAlignMiddle",
+      "unicode": "E3E1"
+    },
+    {
+      "name": "TextAlignTop",
+      "unicode": "E3E0"
+    },
+    {
+      "name": "TextBox",
+      "unicode": "EDC2"
+    },
+    {
+      "name": "TextCallout",
+      "unicode": "F2A2"
+    },
+    {
+      "name": "TextDocument",
+      "unicode": "F029"
+    },
+    {
+      "name": "TextDocumentEdit",
+      "unicode": "E43B"
+    },
+    {
+      "name": "TextDocumentSettings",
+      "unicode": "E4AA"
+    },
+    {
+      "name": "TextDocumentShared",
+      "unicode": "F02B"
+    },
+    {
+      "name": "TextField",
+      "unicode": "EDC3"
+    },
+    {
+      "name": "TextOverflow",
+      "unicode": "F51F"
+    },
+    {
+      "name": "TextParagraphOption",
+      "unicode": "E3E3"
+    },
+    {
+      "name": "TextRecognition",
+      "unicode": "E394"
+    },
+    {
+      "name": "TextRotate270Degrees",
+      "unicode": "E3E7"
+    },
+    {
+      "name": "TextRotate90Degrees",
+      "unicode": "E3E6"
+    },
+    {
+      "name": "TextRotateHorizontal",
+      "unicode": "E3E5"
+    },
+    {
+      "name": "TextRotation",
+      "unicode": "E3E4"
+    },
+    {
+      "name": "TFVCLogo",
+      "unicode": "F44D"
+    },
+    {
+      "name": "ThisPC",
+      "unicode": "EC4E"
+    },
+    {
+      "name": "ThreeQuarterCircle",
+      "unicode": "F503"
+    },
+    {
+      "name": "ThumbnailView",
+      "unicode": "E7B6"
+    },
+    {
+      "name": "ThumbnailViewMirrored",
+      "unicode": "EA67"
+    },
+    {
+      "name": "Thunderstorms",
+      "unicode": "E9C6"
+    },
+    {
+      "name": "Ticket",
+      "unicode": "EB54"
+    },
+    {
+      "name": "Tiles",
+      "unicode": "ECA5"
+    },
+    {
+      "name": "Tiles2",
+      "unicode": "EF7C"
+    },
+    {
+      "name": "TimeEntry",
+      "unicode": "EF95"
+    },
+    {
+      "name": "TimeEntryTemplate",
+      "unicode": "F635"
+    },
+    {
+      "name": "Timeline",
+      "unicode": "ED9C"
+    },
+    {
+      "name": "TimelineDelivery",
+      "unicode": "F2AB"
+    },
+    {
+      "name": "TimelineMatrixView",
+      "unicode": "F361"
+    },
+    {
+      "name": "TimelineProgress",
+      "unicode": "F2AA"
+    },
+    {
+      "name": "TimePicker",
+      "unicode": "E367"
+    },
+    {
+      "name": "Timer",
+      "unicode": "E91E"
+    },
+    {
+      "name": "TimeSheet",
+      "unicode": "EA05"
+    },
+    {
+      "name": "Title",
+      "unicode": "F23B"
+    },
+    {
+      "name": "TitleMirrored",
+      "unicode": "F23C"
+    },
+    {
+      "name": "ToDoLogoBottom",
+      "unicode": "F4B3"
+    },
+    {
+      "name": "ToDoLogoInverse",
+      "unicode": "F4BC"
+    },
+    {
+      "name": "ToDoLogoOutline",
+      "unicode": "F75B"
+    },
+    {
+      "name": "ToDoLogoTop",
+      "unicode": "F4B4"
+    },
+    {
+      "name": "ToggleBorder",
+      "unicode": "EC12"
+    },
+    {
+      "name": "ToggleFilled",
+      "unicode": "EC11"
+    },
+    {
+      "name": "ToggleLeft",
+      "unicode": "F19E"
+    },
+    {
+      "name": "ToggleRight",
+      "unicode": "F19F"
+    },
+    {
+      "name": "ToggleThumb",
+      "unicode": "EC14"
+    },
+    {
+      "name": "Toll",
+      "unicode": "F160"
+    },
+    {
+      "name": "Toolbox",
+      "unicode": "ECED"
+    },
+    {
+      "name": "Total",
+      "unicode": "E9DF"
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-8",
+  "fontFamilyName": "FabricMDL2Icons-8",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "ExportMirrored",
+      "unicode": "EDE2"
+    },
+    {
+      "name": "ExpressRouteCircuits",
+      "unicode": "E557"
+    },
+    {
+      "name": "ExternalBuild",
+      "unicode": "F445"
+    },
+    {
+      "name": "ExternalTFVC",
+      "unicode": "F446"
+    },
+    {
+      "name": "ExternalUser",
+      "unicode": "E4CA"
+    },
+    {
+      "name": "ExternalXAML",
+      "unicode": "F447"
+    },
+    {
+      "name": "Eyedropper",
+      "unicode": "EF3C"
+    },
+    {
+      "name": "EyeShadow",
+      "unicode": "F7EB"
+    },
+    {
+      "name": "F12DevTools",
+      "unicode": "EBEE"
+    },
+    {
+      "name": "FabricAssetLibrary",
+      "unicode": "F09C"
+    },
+    {
+      "name": "FabricChannelFolder",
+      "unicode": "E4FA"
+    },
+    {
+      "name": "FabricDataConnectionLibrary",
+      "unicode": "F09D"
+    },
+    {
+      "name": "FabricDocLibrary",
+      "unicode": "F09E"
+    },
+    {
+      "name": "FabricFolder",
+      "unicode": "F0A9"
+    },
+    {
+      "name": "FabricFolderConfirm",
+      "unicode": "F7FF"
+    },
+    {
+      "name": "FabricFolderFill",
+      "unicode": "F0AA"
+    },
+    {
+      "name": "FabricFolderLink",
+      "unicode": "E45C"
+    },
+    {
+      "name": "FabricFolderSearch",
+      "unicode": "F0A4"
+    },
+    {
+      "name": "FabricFolderUpload",
+      "unicode": "E3AC"
+    },
+    {
+      "name": "FabricFormLibrary",
+      "unicode": "F09F"
+    },
+    {
+      "name": "FabricFormLibraryMirrored",
+      "unicode": "F0A0"
+    },
+    {
+      "name": "FabricMovetoFolder",
+      "unicode": "F0A5"
+    },
+    {
+      "name": "FabricNetworkFolder",
+      "unicode": "F5E6"
+    },
+    {
+      "name": "FabricNewFolder",
+      "unicode": "F0AB"
+    },
+    {
+      "name": "FabricOpenFolderHorizontal",
+      "unicode": "F0A8"
+    },
+    {
+      "name": "FabricPictureLibrary",
+      "unicode": "F0AC"
+    },
+    {
+      "name": "FabricPublicFolder",
+      "unicode": "F0A3"
+    },
+    {
+      "name": "FabricReportLibrary",
+      "unicode": "F0A1"
+    },
+    {
+      "name": "FabricReportLibraryMirrored",
+      "unicode": "F0A2"
+    },
+    {
+      "name": "FabricSyncFolder",
+      "unicode": "F0A7"
+    },
+    {
+      "name": "FabricTextHighlight",
+      "unicode": "F79C"
+    },
+    {
+      "name": "FabricTextHighlightComposite",
+      "unicode": "F7DA"
+    },
+    {
+      "name": "FabricUnsyncFolder",
+      "unicode": "F0A6"
+    },
+    {
+      "name": "FabricUserFolder",
+      "unicode": "F5E5"
+    },
+    {
+      "name": "Factory",
+      "unicode": "E60E"
+    },
+    {
+      "name": "Family",
+      "unicode": "EBDA"
+    },
+    {
+      "name": "FangBody",
+      "unicode": "ECEB"
+    },
+    {
+      "name": "FastForward",
+      "unicode": "EB9D"
+    },
+    {
+      "name": "FastForwardEightX",
+      "unicode": "E443"
+    },
+    {
+      "name": "FastForwardFourX",
+      "unicode": "E442"
+    },
+    {
+      "name": "FastForwardOneFiveX",
+      "unicode": "E440"
+    },
+    {
+      "name": "FastForwardOneX",
+      "unicode": "E43F"
+    },
+    {
+      "name": "FastForwardPointFiveX",
+      "unicode": "E43E"
+    },
+    {
+      "name": "FastForwardTwoX",
+      "unicode": "E441"
+    },
+    {
+      "name": "FastMode",
+      "unicode": "F19A"
+    },
+    {
+      "name": "Favicon",
+      "unicode": "E737"
+    },
+    {
+      "name": "FavoriteBlock",
+      "unicode": "E67E"
+    },
+    {
+      "name": "FavoriteList",
+      "unicode": "E728"
+    },
+    {
+      "name": "FavoriteStar",
+      "unicode": "E734"
+    },
+    {
+      "name": "FavoriteStarFill",
+      "unicode": "E735"
+    },
+    {
+      "name": "Fax",
+      "unicode": "EF5C"
+    },
+    {
+      "name": "Feedback",
+      "unicode": "ED15"
+    },
+    {
+      "name": "FeedbackRequestMirroredSolid",
+      "unicode": "F35A"
+    },
+    {
+      "name": "FeedbackRequestSolid",
+      "unicode": "F359"
+    },
+    {
+      "name": "FeedbackResponseSolid",
+      "unicode": "F35B"
+    },
+    {
+      "name": "Ferry",
+      "unicode": "E7E3"
+    },
+    {
+      "name": "FerrySolid",
+      "unicode": "EB48"
+    },
+    {
+      "name": "FieldChanged",
+      "unicode": "F2C3"
+    },
+    {
+      "name": "FieldEmpty",
+      "unicode": "F2C1"
+    },
+    {
+      "name": "FieldFilled",
+      "unicode": "F2C2"
+    },
+    {
+      "name": "FieldNotChanged",
+      "unicode": "F2C4"
+    },
+    {
+      "name": "FieldReadOnly",
+      "unicode": "F442"
+    },
+    {
+      "name": "FieldRequired",
+      "unicode": "F443"
+    },
+    {
+      "name": "FileASPX",
+      "unicode": "F2E9"
+    },
+    {
+      "name": "FileBug",
+      "unicode": "F30D"
+    },
+    {
+      "name": "FileCode",
+      "unicode": "F30E"
+    },
+    {
+      "name": "FileComment",
+      "unicode": "F30F"
+    },
+    {
+      "name": "FileCSS",
+      "unicode": "F2EA"
+    },
+    {
+      "name": "FileHTML",
+      "unicode": "F2ED"
+    },
+    {
+      "name": "FileImage",
+      "unicode": "F311"
+    },
+    {
+      "name": "FileJAVA",
+      "unicode": "F2E8"
+    },
+    {
+      "name": "FileLess",
+      "unicode": "F2EC"
+    },
+    {
+      "name": "FileOff",
+      "unicode": "E3FC"
+    },
+    {
+      "name": "FilePDB",
+      "unicode": "F2E5"
+    },
+    {
+      "name": "FileRequest",
+      "unicode": "F789"
+    },
+    {
+      "name": "FileSass",
+      "unicode": "F2EB"
+    },
+    {
+      "name": "FileSQL",
+      "unicode": "F2E7"
+    },
+    {
+      "name": "FileSymlink",
+      "unicode": "F312"
+    },
+    {
+      "name": "FileSystem",
+      "unicode": "E433"
+    },
+    {
+      "name": "FileTemplate",
+      "unicode": "F2E6"
+    },
+    {
+      "name": "FileTypeSolution",
+      "unicode": "F387"
+    },
+    {
+      "name": "FileYML",
+      "unicode": "F5DA"
+    },
+    {
+      "name": "Filter",
+      "unicode": "E71C"
+    },
+    {
+      "name": "FilterAscending",
+      "unicode": "F21A"
+    },
+    {
+      "name": "FilterDescending",
+      "unicode": "F21B"
+    },
+    {
+      "name": "Filters",
+      "unicode": "E795"
+    },
+    {
+      "name": "FilterSettings",
+      "unicode": "F76C"
+    },
+    {
+      "name": "FilterSolid",
+      "unicode": "F412"
+    },
+    {
+      "name": "FiltersSolid",
+      "unicode": "F353"
+    },
+    {
+      "name": "Financial",
+      "unicode": "E7BB"
+    },
+    {
+      "name": "FinancialMirroredSolid",
+      "unicode": "F347"
+    },
+    {
+      "name": "FinancialSolid",
+      "unicode": "F346"
+    },
+    {
+      "name": "Fingerprint",
+      "unicode": "E928"
+    },
+    {
+      "name": "FitPage",
+      "unicode": "E9A6"
+    },
+    {
+      "name": "FitWidth",
+      "unicode": "E9A7"
+    },
+    {
+      "name": "FiveTileGrid",
+      "unicode": "F274"
+    },
+    {
+      "name": "FixedAssetManagement",
+      "unicode": "EF93"
+    },
+    {
+      "name": "FixedColumnWidth",
+      "unicode": "E3EA"
+    },
+    {
+      "name": "Flag",
+      "unicode": "E7C1"
+    },
+    {
+      "name": "FlameSolid",
+      "unicode": "F1F3"
+    }
+  ]
+}

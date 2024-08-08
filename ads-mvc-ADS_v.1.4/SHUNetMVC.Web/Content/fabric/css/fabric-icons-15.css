@@ -1,0 +1,118 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-15';
+  src: url('../fonts/fabric-icons-15-c816b3df.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-15';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+.ms-Icon--PinToTab:before { content: "\E5E5"; }
+.ms-Icon--PivotChart:before { content: "\F24C"; }
+.ms-Icon--PlainText:before { content: "\F834"; }
+.ms-Icon--PlannerLogo:before { content: "\EDD1"; }
+.ms-Icon--PlanView:before { content: "\F360"; }
+.ms-Icon--Play:before { content: "\E768"; }
+.ms-Icon--PlaybackRate1x:before { content: "\EC57"; }
+.ms-Icon--PlayerSettings:before { content: "\EF58"; }
+.ms-Icon--PlaylistMusic:before { content: "\E93F"; }
+.ms-Icon--PlayResume:before { content: "\F2C6"; }
+.ms-Icon--PlayReverse:before { content: "\F3E5"; }
+.ms-Icon--PlayReverseResume:before { content: "\F3E4"; }
+.ms-Icon--PlaySolid:before { content: "\F5B0"; }
+.ms-Icon--Plug:before { content: "\F300"; }
+.ms-Icon--PlugConnected:before { content: "\F302"; }
+.ms-Icon--PlugDisconnected:before { content: "\F303"; }
+.ms-Icon--PlugSolid:before { content: "\F301"; }
+.ms-Icon--POI:before { content: "\ECAF"; }
+.ms-Icon--POISolid:before { content: "\F2D1"; }
+.ms-Icon--PollResults:before { content: "\F8A0"; }
+.ms-Icon--PopExpand:before { content: "\E49A"; }
+.ms-Icon--PortalAppTemplate32:before { content: "\E5FC"; }
+.ms-Icon--PostUpdate:before { content: "\E8F3"; }
+.ms-Icon--PowerApps:before { content: "\EDD2"; }
+.ms-Icon--PowerApps2Logo:before { content: "\F092"; }
+.ms-Icon--PowerAppsLogo:before { content: "\F091"; }
+.ms-Icon--PowerAppsTemplate:before { content: "\E4AC"; }
+.ms-Icon--PowerAutomateLogo:before { content: "\F4B1"; }
+.ms-Icon--PowerBILogo:before { content: "\EA1E"; }
+.ms-Icon--PowerBILogo16:before { content: "\F790"; }
+.ms-Icon--PowerBILogoBackplate16:before { content: "\F791"; }
+.ms-Icon--PowerButton:before { content: "\E7E8"; }
+.ms-Icon--PowerPointDocument:before { content: "\EF72"; }
+.ms-Icon--PowerPointLogo:before { content: "\F1EB"; }
+.ms-Icon--PowerPointLogo16:before { content: "\F394"; }
+.ms-Icon--PowerPointLogoInverse:before { content: "\EC2A"; }
+.ms-Icon--PowerPointLogoInverse16:before { content: "\F393"; }
+.ms-Icon--PowerShell:before { content: "\F1FD"; }
+.ms-Icon--PowerShell2:before { content: "\F730"; }
+.ms-Icon--PowerStandby:before { content: "\E55C"; }
+.ms-Icon--PowerVirtualAgentsLogo:before { content: "\E484"; }
+.ms-Icon--Precipitation:before { content: "\E9CF"; }
+.ms-Icon--PresenceChickletVideo:before { content: "\E979"; }
+.ms-Icon--Presentation:before { content: "\F6E4"; }
+.ms-Icon--Presentation12:before { content: "\F6E5"; }
+.ms-Icon--Preview:before { content: "\E8FF"; }
+.ms-Icon--PreviewBelow:before { content: "\E5D5"; }
+.ms-Icon--PreviewLink:before { content: "\E8A1"; }
+.ms-Icon--PreviewSideBySide:before { content: "\E5D6"; }
+.ms-Icon--Previous:before { content: "\E892"; }
+.ms-Icon--PrimaryCalendar:before { content: "\F4AE"; }
+.ms-Icon--Print:before { content: "\E749"; }
+.ms-Icon--PrintfaxPrinterFile:before { content: "\E956"; }
+.ms-Icon--Priority:before { content: "\E8D0"; }
+.ms-Icon--Process:before { content: "\E9F3"; }
+.ms-Icon--ProcessAdvisor:before { content: "\E5E4"; }
+.ms-Icon--Processing:before { content: "\E9F5"; }
+.ms-Icon--ProcessingCancel:before { content: "\E403"; }
+.ms-Icon--ProcessingPause:before { content: "\E405"; }
+.ms-Icon--ProcessingRun:before { content: "\E404"; }
+.ms-Icon--ProcessMap:before { content: "\E9F6"; }
+.ms-Icon--ProcessMetaTask:before { content: "\F290"; }
+.ms-Icon--Product:before { content: "\ECDC"; }
+.ms-Icon--ProductCatalog:before { content: "\EFE8"; }
+.ms-Icon--ProductionFloorManagement:before { content: "\EE29"; }
+.ms-Icon--ProductList:before { content: "\E31E"; }
+.ms-Icon--ProductRelease:before { content: "\EE2E"; }
+.ms-Icon--ProductVariant:before { content: "\EE30"; }
+.ms-Icon--ProductWarning:before { content: "\E5C0"; }
+.ms-Icon--ProfileSearch:before { content: "\EF35"; }
+.ms-Icon--ProFootball:before { content: "\EB27"; }
+.ms-Icon--ProgressLoopInner:before { content: "\ECDE"; }
+.ms-Icon--ProgressLoopOuter:before { content: "\ECDF"; }
+.ms-Icon--ProgressRing5:before { content: "\EDF6"; }
+.ms-Icon--ProgressRingDots:before { content: "\F16A"; }
+.ms-Icon--ProHockey:before { content: "\EB28"; }
+.ms-Icon--ProjectCollection:before { content: "\F363"; }
+.ms-Icon--ProjectDocument:before { content: "\F759"; }
+.ms-Icon--ProjectLogo16:before { content: "\F480"; }
+.ms-Icon--ProjectLogo32:before { content: "\F47E"; }
+.ms-Icon--ProjectLogoInverse:before { content: "\EDD4"; }
+.ms-Icon--ProjectManagement:before { content: "\E9DE"; }
+.ms-Icon--PromotedDatabase:before { content: "\F77D"; }
+.ms-Icon--Pronouns:before { content: "\E556"; }
+.ms-Icon--ProtectedDocument:before { content: "\E8A6"; }
+.ms-Icon--ProtectionCenterLogo32:before { content: "\F494"; }
+.ms-Icon--ProtectRestrict:before { content: "\F22A"; }
+.ms-Icon--ProvisioningPackage:before { content: "\E835"; }
+.ms-Icon--PublicCalendar:before { content: "\EF6D"; }
+.ms-Icon--PublicContactCard:before { content: "\EF6E"; }
+.ms-Icon--PublicContactCardMirrored:before { content: "\F230"; }
+.ms-Icon--PublicEmail:before { content: "\EF6F"; }
+.ms-Icon--PublicFolder:before { content: "\EF70"; }
+.ms-Icon--PublishContent:before { content: "\F0D4"; }
+.ms-Icon--PublishCourse:before { content: "\F699"; }
+.ms-Icon--PublisherLogo:before { content: "\F1ED"; }
+.ms-Icon--PublisherLogo16:before { content: "\F3A0"; }
+.ms-Icon--PublisherLogoInverse16:before { content: "\F39F"; }
+.ms-Icon--Puzzle:before { content: "\EA86"; }
+.ms-Icon--PY:before { content: "\F2F9"; }

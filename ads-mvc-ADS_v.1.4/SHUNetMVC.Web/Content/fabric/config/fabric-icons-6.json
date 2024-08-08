@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-6",
+  "fontFamilyName": "FabricMDL2Icons-6",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "DataFilter",
+      "unicode": "E68A"
+    },
+    {
+      "name": "DataFlow",
+      "unicode": "E577"
+    },
+    {
+      "name": "Dataflows",
+      "unicode": "F7DD"
+    },
+    {
+      "name": "DataflowsLink",
+      "unicode": "E366"
+    },
+    {
+      "name": "DataManagementSettings",
+      "unicode": "EFC8"
+    },
+    {
+      "name": "DatamartExternal",
+      "unicode": "E69B"
+    },
+    {
+      "name": "Dataverse",
+      "unicode": "E659"
+    },
+    {
+      "name": "DateTime",
+      "unicode": "EC92"
+    },
+    {
+      "name": "DateTime12",
+      "unicode": "F38F"
+    },
+    {
+      "name": "DateTime2",
+      "unicode": "EA17"
+    },
+    {
+      "name": "DateTimeMirrored",
+      "unicode": "EE93"
+    },
+    {
+      "name": "DeactivateOrders",
+      "unicode": "EFE1"
+    },
+    {
+      "name": "Debug",
+      "unicode": "F395"
+    },
+    {
+      "name": "DebugAll",
+      "unicode": "F398"
+    },
+    {
+      "name": "Decimals",
+      "unicode": "F218"
+    },
+    {
+      "name": "DecisionSolid",
+      "unicode": "F350"
+    },
+    {
+      "name": "DeclineCall",
+      "unicode": "F405"
+    },
+    {
+      "name": "DecreaseIndent",
+      "unicode": "E39B"
+    },
+    {
+      "name": "DecreaseIndentArrow",
+      "unicode": "F7A3"
+    },
+    {
+      "name": "DecreaseIndentArrowMirrored",
+      "unicode": "F7A7"
+    },
+    {
+      "name": "DecreaseIndentMirrored",
+      "unicode": "E39C"
+    },
+    {
+      "name": "DecreaseIndentText",
+      "unicode": "F7A2"
+    },
+    {
+      "name": "DecreaseIndentTextMirrored",
+      "unicode": "F7A6"
+    },
+    {
+      "name": "DefaultRatio",
+      "unicode": "F529"
+    },
+    {
+      "name": "DefaultSettings",
+      "unicode": "F648"
+    },
+    {
+      "name": "DefectSolid",
+      "unicode": "F449"
+    },
+    {
+      "name": "DefenderApp",
+      "unicode": "E83D"
+    },
+    {
+      "name": "DefenderBadge12",
+      "unicode": "F0FB"
+    },
+    {
+      "name": "DefenderTVM",
+      "unicode": "F6B3"
+    },
+    {
+      "name": "Delete",
+      "unicode": "E74D"
+    },
+    {
+      "name": "DeleteColumns",
+      "unicode": "F64E"
+    },
+    {
+      "name": "DeleteRows",
+      "unicode": "F64F"
+    },
+    {
+      "name": "DeleteRowsMirrored",
+      "unicode": "F650"
+    },
+    {
+      "name": "DeleteTable",
+      "unicode": "F651"
+    },
+    {
+      "name": "DeliveryTruck",
+      "unicode": "EBF4"
+    },
+    {
+      "name": "DelveAnalytics",
+      "unicode": "EEEE"
+    },
+    {
+      "name": "DelveAnalyticsLogo",
+      "unicode": "EDCA"
+    },
+    {
+      "name": "DelveLogo",
+      "unicode": "F280"
+    },
+    {
+      "name": "DelveLogoFill",
+      "unicode": "F281"
+    },
+    {
+      "name": "DelveLogoInverse",
+      "unicode": "ED76"
+    },
+    {
+      "name": "DensityComfy",
+      "unicode": "E4BA"
+    },
+    {
+      "name": "DensityDefault",
+      "unicode": "E4B9"
+    },
+    {
+      "name": "DependencyAdd",
+      "unicode": "E344"
+    },
+    {
+      "name": "DependencyRemove",
+      "unicode": "E345"
+    },
+    {
+      "name": "Deploy",
+      "unicode": "F29D"
+    },
+    {
+      "name": "Descending",
+      "unicode": "EDC1"
+    },
+    {
+      "name": "Design",
+      "unicode": "EB3C"
+    },
+    {
+      "name": "DesktopFlow",
+      "unicode": "E4F3"
+    },
+    {
+      "name": "DesktopScreenshot",
+      "unicode": "F5D9"
+    },
+    {
+      "name": "DeveloperTools",
+      "unicode": "EC7A"
+    },
+    {
+      "name": "DeviceBug",
+      "unicode": "E424"
+    },
+    {
+      "name": "DeviceOff",
+      "unicode": "E402"
+    },
+    {
+      "name": "DeviceRun",
+      "unicode": "E401"
+    },
+    {
+      "name": "Devices2",
+      "unicode": "E975"
+    },
+    {
+      "name": "Devices3",
+      "unicode": "EA6C"
+    },
+    {
+      "name": "Devices4",
+      "unicode": "EB66"
+    },
+    {
+      "name": "Diagnostic",
+      "unicode": "E9D9"
+    },
+    {
+      "name": "DiagnosticDataBar",
+      "unicode": "F633"
+    },
+    {
+      "name": "DiagnosticDataBarTooltip",
+      "unicode": "F7DF"
+    },
+    {
+      "name": "DiagnosticDataViewerApp",
+      "unicode": "F568"
+    },
+    {
+      "name": "Dialpad",
+      "unicode": "E75F"
+    },
+    {
+      "name": "DialShape1",
+      "unicode": "F156"
+    },
+    {
+      "name": "DialShape3",
+      "unicode": "F158"
+    },
+    {
+      "name": "Diamond",
+      "unicode": "ED02"
+    },
+    {
+      "name": "DiamondSolid",
+      "unicode": "F34C"
+    },
+    {
+      "name": "DiamondUser",
+      "unicode": "E4F9"
+    },
+    {
+      "name": "Dictionary",
+      "unicode": "E82D"
+    },
+    {
+      "name": "DictionaryRemove",
+      "unicode": "F69A"
+    },
+    {
+      "name": "DietPlanNotebook",
+      "unicode": "EAC8"
+    },
+    {
+      "name": "DiffInline",
+      "unicode": "F309"
+    },
+    {
+      "name": "DiffSideBySide",
+      "unicode": "F30A"
+    },
+    {
+      "name": "Diploma",
+      "unicode": "F320"
+    },
+    {
+      "name": "DisableUpdates",
+      "unicode": "E8D8"
+    },
+    {
+      "name": "DisconnectVirtualMachine",
+      "unicode": "F873"
+    },
+    {
+      "name": "Dislike",
+      "unicode": "E8E0"
+    },
+    {
+      "name": "DislikeSolid",
+      "unicode": "F3C0"
+    },
+    {
+      "name": "Distance",
+      "unicode": "ECAE"
+    },
+    {
+      "name": "DistributeDown",
+      "unicode": "F76A"
+    },
+    {
+      "name": "DockLeft",
+      "unicode": "E90C"
+    },
+    {
+      "name": "DockLeftMirrored",
+      "unicode": "EA4C"
+    },
+    {
+      "name": "DockRight",
+      "unicode": "E90D"
+    },
+    {
+      "name": "DocLibrary",
+      "unicode": "EEB8"
+    },
+    {
+      "name": "DocsLogoInverse",
+      "unicode": "EDCB"
+    },
+    {
+      "name": "Document",
+      "unicode": "E8A5"
+    },
+    {
+      "name": "DocumentApproval",
+      "unicode": "F28B"
+    },
+    {
+      "name": "Documentation",
+      "unicode": "EC17"
+    },
+    {
+      "name": "DocumentManagement",
+      "unicode": "EFFC"
+    },
+    {
+      "name": "DocumentReply",
+      "unicode": "EF57"
+    },
+    {
+      "name": "DocumentSearch",
+      "unicode": "EF6C"
+    },
+    {
+      "name": "DocumentSet",
+      "unicode": "EED6"
+    },
+    {
+      "name": "DOM",
+      "unicode": "EC8D"
+    },
+    {
+      "name": "DonutChart",
+      "unicode": "F368"
+    },
+    {
+      "name": "Door",
+      "unicode": "EB75"
+    },
+    {
+      "name": "DoubleBookmark",
+      "unicode": "EB8F"
+    },
+    {
+      "name": "DoubleChevronDown",
+      "unicode": "EE04"
+    },
+    {
+      "name": "DoubleChevronDown12",
+      "unicode": "EE97"
+    },
+    {
+      "name": "DoubleChevronDown8",
+      "unicode": "F36B"
+    },
+    {
+      "name": "DoubleChevronLeft",
+      "unicode": "EDBE"
+    },
+    {
+      "name": "DoubleChevronLeft12",
+      "unicode": "EE98"
+    },
+    {
+      "name": "DoubleChevronLeft8",
+      "unicode": "F36D"
+    }
+  ]
+}

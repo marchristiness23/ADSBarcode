@@ -1,0 +1,410 @@
+{
+  "fontName": "fabric-icons-10",
+  "fontFamilyName": "FabricMDL2Icons-10",
+  "excludeGlyphs": true,
+  "excludeThirdPartyIcons": false,
+  "chunkSubsets": true,
+  "hashFontFileName": true,
+  "glyphs": [
+    {
+      "name": "HailDay",
+      "unicode": "EA00"
+    },
+    {
+      "name": "HailNight",
+      "unicode": "EA13"
+    },
+    {
+      "name": "HalfAlpha",
+      "unicode": "E97E"
+    },
+    {
+      "name": "HalfCircle",
+      "unicode": "F501"
+    },
+    {
+      "name": "HandsFree",
+      "unicode": "EAD0"
+    },
+    {
+      "name": "Handwriting",
+      "unicode": "E929"
+    },
+    {
+      "name": "HardDrive",
+      "unicode": "EDA2"
+    },
+    {
+      "name": "HardDriveGroup",
+      "unicode": "F18F"
+    },
+    {
+      "name": "HardDriveLock",
+      "unicode": "F55A"
+    },
+    {
+      "name": "HardDriveUnlock",
+      "unicode": "F55B"
+    },
+    {
+      "name": "HazyDay",
+      "unicode": "E46B"
+    },
+    {
+      "name": "HazyNight",
+      "unicode": "E479"
+    },
+    {
+      "name": "Header",
+      "unicode": "F82F"
+    },
+    {
+      "name": "Header1",
+      "unicode": "EA19"
+    },
+    {
+      "name": "Header2",
+      "unicode": "EF36"
+    },
+    {
+      "name": "Header3",
+      "unicode": "EF37"
+    },
+    {
+      "name": "Header4",
+      "unicode": "EF38"
+    },
+    {
+      "name": "Headset",
+      "unicode": "E95B"
+    },
+    {
+      "name": "HeadsetSolid",
+      "unicode": "F348"
+    },
+    {
+      "name": "Health",
+      "unicode": "E95E"
+    },
+    {
+      "name": "HealthRefresh",
+      "unicode": "E3BD"
+    },
+    {
+      "name": "HealthSolid",
+      "unicode": "F33F"
+    },
+    {
+      "name": "Heart",
+      "unicode": "EB51"
+    },
+    {
+      "name": "HeartBroken",
+      "unicode": "EA92"
+    },
+    {
+      "name": "HeartFill",
+      "unicode": "EB52"
+    },
+    {
+      "name": "Help",
+      "unicode": "E897"
+    },
+    {
+      "name": "HelpMirrored",
+      "unicode": "EA51"
+    },
+    {
+      "name": "HexaditeInvestigation",
+      "unicode": "E3F8"
+    },
+    {
+      "name": "HexaditeInvestigationCancel",
+      "unicode": "E3F9"
+    },
+    {
+      "name": "HexaditeInvestigationSemiAuto",
+      "unicode": "E3FA"
+    },
+    {
+      "name": "Hexagon",
+      "unicode": "F4FE"
+    },
+    {
+      "name": "Hide",
+      "unicode": "ED1A"
+    },
+    {
+      "name": "Hide2",
+      "unicode": "EF89"
+    },
+    {
+      "name": "Hide3",
+      "unicode": "F6AC"
+    },
+    {
+      "name": "HideVisualFilter",
+      "unicode": "F403"
+    },
+    {
+      "name": "Highlight",
+      "unicode": "E7E6"
+    },
+    {
+      "name": "HighlightMappedShapes",
+      "unicode": "F2A1"
+    },
+    {
+      "name": "HintText",
+      "unicode": "F50F"
+    },
+    {
+      "name": "HistoricalWeather",
+      "unicode": "EB43"
+    },
+    {
+      "name": "History",
+      "unicode": "E81C"
+    },
+    {
+      "name": "Home",
+      "unicode": "E80F"
+    },
+    {
+      "name": "HomeDropdown",
+      "unicode": "E427"
+    },
+    {
+      "name": "HomeGroup",
+      "unicode": "EC26"
+    },
+    {
+      "name": "HomeSolid",
+      "unicode": "EA8A"
+    },
+    {
+      "name": "HomeVerify",
+      "unicode": "F00E"
+    },
+    {
+      "name": "HorizontalDistributeCenter",
+      "unicode": "F4F9"
+    },
+    {
+      "name": "HorizontalTabKey",
+      "unicode": "E7FD"
+    },
+    {
+      "name": "Hospital",
+      "unicode": "E91D"
+    },
+    {
+      "name": "Hot",
+      "unicode": "ECE2"
+    },
+    {
+      "name": "Hotel",
+      "unicode": "E824"
+    },
+    {
+      "name": "HourGlass",
+      "unicode": "EA03"
+    },
+    {
+      "name": "Ice",
+      "unicode": "E473"
+    },
+    {
+      "name": "IconSetsFlag",
+      "unicode": "F2A4"
+    },
+    {
+      "name": "IDBadge",
+      "unicode": "F427"
+    },
+    {
+      "name": "IgnoreConversation",
+      "unicode": "E372"
+    },
+    {
+      "name": "ImageCrosshair",
+      "unicode": "F2C9"
+    },
+    {
+      "name": "ImageDiff",
+      "unicode": "F30B"
+    },
+    {
+      "name": "ImageInAR",
+      "unicode": "E420"
+    },
+    {
+      "name": "ImagePixel",
+      "unicode": "F30C"
+    },
+    {
+      "name": "ImageSearch",
+      "unicode": "F4E8"
+    },
+    {
+      "name": "Import",
+      "unicode": "E8B5"
+    },
+    {
+      "name": "ImportAllMirrored",
+      "unicode": "EA53"
+    },
+    {
+      "name": "Important",
+      "unicode": "E8C9"
+    },
+    {
+      "name": "ImportMirrored",
+      "unicode": "EA52"
+    },
+    {
+      "name": "Inbox",
+      "unicode": "F41C"
+    },
+    {
+      "name": "InboxActive",
+      "unicode": "E497"
+    },
+    {
+      "name": "InboxCheck",
+      "unicode": "EF64"
+    },
+    {
+      "name": "IncidentTriangle",
+      "unicode": "E814"
+    },
+    {
+      "name": "IncomingCall",
+      "unicode": "E77E"
+    },
+    {
+      "name": "IncreaseIndent",
+      "unicode": "E399"
+    },
+    {
+      "name": "IncreaseIndentArrow",
+      "unicode": "F7A1"
+    },
+    {
+      "name": "IncreaseIndentArrowMirrored",
+      "unicode": "F7A5"
+    },
+    {
+      "name": "IncreaseIndentHanging",
+      "unicode": "E39D"
+    },
+    {
+      "name": "IncreaseIndentHangingMirrored",
+      "unicode": "E39E"
+    },
+    {
+      "name": "IncreaseIndentMirrored",
+      "unicode": "E39A"
+    },
+    {
+      "name": "IncreaseIndentText",
+      "unicode": "F7A0"
+    },
+    {
+      "name": "IncreaseIndentTextMirrored",
+      "unicode": "F7A4"
+    },
+    {
+      "name": "IndentFirstLine",
+      "unicode": "E3DD"
+    },
+    {
+      "name": "Info",
+      "unicode": "E946"
+    },
+    {
+      "name": "Info12",
+      "unicode": "E55A"
+    },
+    {
+      "name": "Info2",
+      "unicode": "EA1F"
+    },
+    {
+      "name": "InformationBarriers",
+      "unicode": "F803"
+    },
+    {
+      "name": "InfoSolid",
+      "unicode": "F167"
+    },
+    {
+      "name": "InkingTool",
+      "unicode": "E76D"
+    },
+    {
+      "name": "InputAddress",
+      "unicode": "E41E"
+    },
+    {
+      "name": "Insert",
+      "unicode": "F278"
+    },
+    {
+      "name": "InsertColumnsLeft",
+      "unicode": "F64A"
+    },
+    {
+      "name": "InsertColumnsRight",
+      "unicode": "F64B"
+    },
+    {
+      "name": "InsertRowsAbove",
+      "unicode": "F64C"
+    },
+    {
+      "name": "InsertRowsBelow",
+      "unicode": "F64D"
+    },
+    {
+      "name": "InsertSignatureLine",
+      "unicode": "F677"
+    },
+    {
+      "name": "InsertTextBox",
+      "unicode": "EC7D"
+    },
+    {
+      "name": "InsertTextBoxKorean",
+      "unicode": "E5D3"
+    },
+    {
+      "name": "Insights",
+      "unicode": "E3AF"
+    },
+    {
+      "name": "Installation",
+      "unicode": "E311"
+    },
+    {
+      "name": "InstallToDrive",
+      "unicode": "F28D"
+    },
+    {
+      "name": "IntermittentCloudsDay",
+      "unicode": "E46A"
+    },
+    {
+      "name": "IntermittentCloudsNight",
+      "unicode": "E478"
+    },
+    {
+      "name": "InternalInvestigation",
+      "unicode": "F854"
+    },
+    {
+      "name": "InternetSharing",
+      "unicode": "E704"
+    }
+  ]
+}

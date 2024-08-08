@@ -1,0 +1,120 @@
+﻿﻿@model Kataandi.Models.dto.MD_Aset
+
+@{
+    ViewData["Title"] = "Edit Asset";
+}
+
+<h2>Edit Asset</h2>
+
+<h4>Aset</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Edit" method="post">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="AsetNo" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AsetNo" class="control-label"></label>
+                <input asp-for="AsetNo" class="form-control" />
+                <span asp-validation-for="AsetNo" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LineNo" class="control-label"></label>
+                <input asp-for="LineNo" class="form-control" />
+                <span asp-validation-for="LineNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LocationId" class="control-label"></label>
+                <input asp-for="LocationId" class="form-control" />
+                <span asp-validation-for="LocationId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NomorAsetMySAP" class="control-label"></label>
+                <input asp-for="NomorAsetMySAP" class="form-control" />
+                <span asp-validation-for="NomorAsetMySAP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MySAPLineNo" class="control-label"></label>
+                <input asp-for="MySAPLineNo" class="form-control" />
+                <span asp-validation-for="MySAPLineNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HarmoniNo" class="control-label"></label>
+                <input asp-for="HarmoniNo" class="form-control" />
+                <span asp-validation-for="HarmoniNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SinasNo" class="control-label"></label>
+                <input asp-for="SinasNo" class="form-control" />
+                <span asp-validation-for="SinasNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Deskripsi" class="control-label"></label>
+                <input asp-for="Deskripsi" class="form-control" />
+                <span asp-validation-for="Deskripsi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Merk" class="control-label"></label>
+                <input asp-for="Merk" class="form-control" />
+                <span asp-validation-for="Merk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KategoriAset" class="control-label"></label>
+                <input asp-for="KategoriAset" class="form-control" />
+                <span asp-validation-for="KategoriAset" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TahunPerolehan" class="control-label"></label>
+                <input asp-for="TahunPerolehan" class="form-control" />
+                <span asp-validation-for="TahunPerolehan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusPenggunaan" class="control-label"></label>
+                <input asp-for="StatusPenggunaan" class="form-control" />
+                <span asp-validation-for="StatusPenggunaan" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Level" class="control-label"></label>
+                <input asp-for="Level" class="form-control" />
+                <span asp-validation-for="Level" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="KondisiAset" class="control-label"></label>
+                <input asp-for="KondisiAset" class="form-control" />
+                <span asp-validation-for="KondisiAset" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LokasiAset" class="control-label"></label>
+                <input asp-for="LokasiAset" class="form-control" />
+                <span asp-validation-for="LokasiAset" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PathFotoTagging" class="control-label"></label>
+                <input asp-for="PathFotoTagging" class="form-control" />
+                <span asp-validation-for="PathFotoTagging" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PathFotoKeseluruhan" class="control-label"></label>
+                <input asp-for="PathFotoKeseluruhan" class="form-control" />
+                <span asp-validation-for="PathFotoKeseluruhan" class="text-danger"></span>
+            </div>
+
+            <input asp-action="EditConfirmation" method="post" type="submit" value="Save" class="btn btn-primary" /> |
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

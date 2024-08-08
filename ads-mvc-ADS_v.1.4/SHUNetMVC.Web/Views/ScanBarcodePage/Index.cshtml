@@ -1,0 +1,164 @@
+﻿
+<style>
+    .k-grid .k-grid-search {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+        width: max-content;
+    }
+
+    .k-grid-header, .k-grid-header .k-header {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+    }
+
+    .k-grid-toolbar {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .k-button-text {
+        background-color: transparent;
+    }
+
+    .k-button-solid-base {
+        border-radius: 4px;
+    }
+
+    .k-grid.k-grid-display-block {
+        display: block;
+        border: none;
+    }
+
+    .btn.disabled, .btn:disabled, fieldset:disabled .btn {
+        color: #ADB5BD;
+        pointer-events: none;
+        background-color: #E9ECEF;
+        border-color: #ADB5BD;
+        cursor: not-allowed;
+    }
+
+    .k-button-md.k-icon-button > .k-button-icon {
+        min-width: 1.5rem;
+        min-height: 0rem;
+    }
+    /*ScanBarcodePage*/
+</style>
+
+
+﻿@model List<Kataandi.Models.dto.Aset>
+
+@{
+    ViewBag.Title = "Barcode Scanner with Geolocation";
+}
+
+<h2>Scan Barcode</h2>
+
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Aset No</th>
+                <th>Nomor Aset MySAP</th>
+                <th>Deskripsi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var scan in Model)
+            {
+                <tr>
+                    <td>@scan.Aset_No</td>
+                    <td>@scan.Nomor_Aset_MySAP</td>
+                    <td>@scan.Deskripsi</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Belum ada barcode yang discan.</p>
+}
+
+<div id="scanner-container"></div>
+<button id="get-location" class="btn btn-secondary">Dapatkan Lokasi</button>
+<button id="start-scan" class="btn btn-primary" disabled>Mulai Scan</button>
+
+<form id="barcode-form" asp-action="Scan" asp-controller="BarcodeScanner" method="post">
+    <input type="hidden" name="Aset_No" id="Aset_No" />
+    <input type="hidden" name="Latitude" id="Latitude" />
+    <input type="hidden" name="Longitude" id="Longitude" />
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/quagga/0.12.1/quagga.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    document.getElementById('get-location').addEventListener('click', function () {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function (position) {
+                document.getElementById('Latitude').value = position.coords.latitude;
+                document.getElementById('Longitude').value = position.coords.longitude;
+                alert("Location obtained: Latitude " + position.coords.latitude + ", Longitude " + position.coords.longitude);
+
+                // Enable the start scan button after getting the location
+                document.getElementById('start-scan').disabled = false;
+            }, function (error) {
+                alert("Geolocation error: " + error.message);
+            });
+        } else {
+            alert("Geolocation is not supported by this browser.");
+        }
+    });
+
+    document.getElementById('start-scan').addEventListener('click', function () {
+        Quagga.init({
+            inputStream: {
+                type: "LiveStream",
+                target: document.querySelector('#scanner-container'),
+                constraints: {
+                    width: 640,
+                    height: 480,
+                    facingMode: "environment"
+                }
+            },
+            decoder: {
+                readers: ["code_128_reader"]
+            }
+        }, function (err) {
+            if (err) {
+                console.log(err);
+                return;
+            }
+            console.log("Initialization finished. Ready to start");
+            Quagga.start();
+        });
+
+        Quagga.onDetected(function (data) {
+            console.log("AnusunA")
+            var code = data.codeResult.code;
+            document.getElementById('').value = code;
+            document.getElementById('barcode-form').submit();
+            Quagga.stop();
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function (position) {
+                    document.getElementById('Latitude').value = position.coords.latitude;
+                    document.getElementById('Longitude').value = position.coords.longitude;
+                    alert("Location obtained: Latitude " + position.coords.latitude + ", Longitude " + position.coords.longitude);
+
+                    // Enable the start scan button after getting the location
+                    document.getElementById('start-scan').disabled = false;
+                }, function (error) {
+                    alert("Geolocation error: " + error.message);
+                });
+            } else {
+                alert("Geolocation is not supported by this browser.");
+            }
+        });
+    });
+</script>
+
+
+

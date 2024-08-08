@@ -1,0 +1,55 @@
+﻿@model  SHUNetMVC.Abstraction.Model.Dto.EmployeeDto
+@{
+    ViewBag.Title = "View Data";
+}
+
+<div style="text-align:left;margin:10px">
+    <span class="fa-solid fa-chevron-left" style="cursor: pointer;" onclick="redirectIndex()"> <strong>Back</strong></span>
+</div>
+<br />
+
+<div class="header-page">
+    Employee Information
+</div>
+<br />
+<div class="container">
+    <div>
+        <a class="btn btn-outline-dark" style="border-radius: 4px; float: right" href="@Url.Action("ExportPdf", "EmployeeKendo", new { EmpId = Model.EmpId})"><span><i class="fa-solid fa-file-pdf"></i>&nbsp;Export Pdf</span></a>
+    </div>
+    <br />
+    <br />
+    <div class="border-bottom" style="margin-bottom: 1%;"></div>
+    <div class="row">
+        <div class="col-sm-2">
+            <label>Employee Name</label>
+        </div>
+        <div class="col-sm-10">
+            : @Model.EmpName
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            <label>Employee Position</label>
+        </div>
+        <div class="col-sm-10">
+            : @Model.EmpPosition
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-2">
+            <label>Departement</label>
+        </div>
+        <div class="col-sm-10">
+            : @Model.DepartementName
+        </div>
+    </div>
+    <br />
+    <div class="border-bottom" style="margin-bottom: 1%;"></div>
+</div>
+
+<script>
+     function redirectIndex() {
+     var url = '@Url.Action("Index", "EmployeeKendo")';
+     window.location.href = url;
+ }
+</script>

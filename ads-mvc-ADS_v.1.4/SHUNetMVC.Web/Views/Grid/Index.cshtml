@@ -1,0 +1,498 @@
+﻿@using Kendo.Mvc.UI
+@using SHUNetMVC.Abstraction.Model.View;
+@model FormDefinition
+@{
+    string CurrentControllerName = Convert.ToString(HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"]);
+    var formUrl = CurrentControllerName;
+    var modalTitle = $"Add New {Model.Title}";
+    if (Model.State == FormState.Create)
+    {
+        formUrl = Model.Title + "/Create";
+    }
+    else
+    {
+        modalTitle = $"Edit {Model.Title}";
+        formUrl = Model.Title + "/Edit";
+    }
+
+}
+<style>
+    .k-grid-header, .k-grid-header .k-header {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+    }
+
+    .k-grid-toolbar {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+    }
+
+    .k-button {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+        transition-duration: 0.4s;
+    }
+
+        .k-button:hover {
+            background-color: #8fa2b1;
+            border-color: #A5CAE6;
+        }
+
+    .k-grid .k-grid-content, .k-grid .k-grid-content-locked, .k-grid .k-grid-header-locked, .k-grid td {
+        border-color: #0003;
+        border-left: none;
+        background-color: #fff;
+        border-bottom: #dee2e600;
+        border-bottom: solid 0.1px #00000033;
+    }
+
+    .k-grid .k-grid-search {
+        display: flex;
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .k-grid-toolbar {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .k-grid.k-grid-display-block {
+        display: block;
+        border: none;
+    }
+
+    .gridPopUp .k-grid-toolbar .k-button {
+        background-color: #D6E7F3;
+        border-color: #A5CAE6;
+        transition-duration: 0.4s;
+        /*display: none;*/
+    }
+
+    .modal-body {
+        padding: 0.3px
+    }
+
+    .k-badge-solid-success {
+        border: none;
+        background-color: #EFF3D5;
+        color: #ADC52D;
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .k-badge-solid-error {
+        border: none;
+        background-color: #FEF2F3;
+        color: #B00020;
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .k-badge-solid-warning {
+        border: none;
+        background-color: #FFFDEA;
+        color: #E28400;
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .k-badge-solid-info {
+        border: none;
+        background-color: #F0F8FE;
+        color: #3083DC;
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    .k-badge-solid-dark {
+        border: none;
+        background-color: #EFF1FE;
+        color: #5039B2;
+        font-weight: bold;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+
+    #externalButton {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .custom-edit-form-container {
+        /* Gaya CSS untuk container form edit kustom */
+        width: 400px;
+    }
+
+    .custom-edit-label {
+        /* Gaya CSS untuk label dalam form edit kustom */
+        font-weight: bold;
+    }
+
+    .custom-edit-input {
+        /* Gaya CSS untuk input dalam form edit kustom */
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .table-title .heading-Text {
+        height: max-content;
+    }
+    .externalButton {
+        float: right;
+        width: 50%;
+        padding-top: 50px;
+    }
+
+    .k-grid .k-command-cell > .k-button {
+        border-radius: 10px;
+    }
+
+</style>
+<form action="@formUrl" method="post" onsubmit="event.preventDefault()" form-state="@Model.State">
+    <div class="table-title" style="width: 50%;float: left;">
+        <div class="heading-Text" style="min-height:max-content">
+            <h1>Worker</h1>
+        </div>
+        <div class="table-subtitle">
+            This is the list of Worker
+        </div>
+
+    </div>
+
+    <div id="externalButton" class ="externalButton">
+        <div style="float: right;padding-right: 20px;">
+            @(Html.Kendo().Button()
+            .Name("add")
+            .Icon("plus")
+            .Content("Add New Content"))
+            @(Html.Kendo().Button()
+            .Name("edit")
+            .Icon("edit")
+            .Content("Edit Content"))
+            @(Html.Kendo().Button()
+            .Name("delete")
+            .Icon("delete")
+            .Content("Delete Content"))
+            @(Html.Kendo().Button()
+            .Name("excel")
+            .Icon("excel")
+            .Content("Export to Excel"))
+            @(Html.Kendo().Button()
+            .Name("pdf")
+            .Icon("pdf")
+            .Content("Export to PDF"))
+        </div>
+    </div>
+    <div style="float: inline-start;">
+        @(Html.Kendo().TabStrip()
+          .Name("tabstrip-images")
+          .Events(events=>events.Activate("onSelect"))
+          .Items(tabstrip =>
+          {
+          tabstrip.Add().Text("Inline Editing")
+              .Content(@<div class="modal-body">
+        <div>
+            @(Html.Kendo().Grid<SHUNetMVC.Abstraction.Model.Dto.WorkerDto>()
+                      .Name("grid")
+                      .Columns(columns =>
+                      {
+                          columns.Bound(p => p.EmployeeID);
+                          columns.Bound(p => p.LastName);
+                          columns.Bound(p => p.FirstName);
+                          columns.Bound(p => p.Title);
+                          columns.Bound(p => p.TitleOfCourtesy);
+                          columns.Bound(p => p.BirthDate).Width(300);
+                          columns.Bound(p => p.HireDate).Width(300);
+                          columns.Bound(p => p.EmployeeStatus).Width(100).ClientTemplate("<span id='badge_#=EmployeeID#' class='badgeTemplate'></span>").HtmlAttributes(new { style = "text-align: center;" });
+                          columns.Command(command => command.Custom("View").Click("")).Width(150);
+
+                      })
+                .ToolBar(toolBar =>
+                {
+                    toolBar.Create();
+                    toolBar.Save();
+                    toolBar.Excel();
+                    toolBar.Pdf();
+                    toolBar.Search();
+                })
+                .Search(s =>
+                {
+                    s.Field(o => o.LastName, "contains");
+                    s.Field(o => o.FirstName, "contains");
+                })
+                .Pdf(pdf => pdf
+                    .AllPages()
+                    .AvoidLinks()
+                    .PaperSize("A4")
+                    .Scale(0.8)
+                    .Margin("2cm", "1cm", "1cm", "1cm")
+                    .Landscape()
+                    .RepeatHeaders()
+                    .TemplateId("page-template")
+                    .FileName("Kendo UI Grid Export.pdf")
+                    .ProxyURL(Url.Action("Pdf_Export_Save", "Grid"))
+                )
+                .Editable(editable => editable.Mode(GridEditMode.InCell))
+                .Pageable()
+                .Sortable()
+                .Scrollable()
+                .Events(events => events.DataBound("onDataBound"))
+                 .Excel(excel => excel
+                        .FileName("Kendo UI Grid Export.xlsx")
+                        .Filterable(true)
+                        .ProxyURL(Url.Action("Excel_Export_Save", "Grid"))
+                )
+                .Filterable(ftb => ftb.Mode(GridFilterMode.Menu))
+                .HtmlAttributes(new { style = "height:500px;" })
+                .DataSource(dataSource => dataSource
+                    .Ajax()
+                    .Batch(true)
+                    .ServerOperation(false)
+                    .Events(events => events.Error("error_handler"))
+                    .Model(model =>
+                    {
+                        model.Id(p => p.EmployeeID);
+                        model.Field(p => p.EmployeeID);
+                    })
+                    .PageSize(5)
+                    .Read(read => read.Action("EditingCustom_Read", "Grid"))
+                    .Create(create => create.Action("EditingCustom_Create", "Grid"))
+                    .Update(update => update.Action("EditingCustom_Update", "Grid"))
+                    .Destroy(destroy => destroy.Action("EditingCustom_Destroy", "Grid"))
+                )
+            )
+        </div>
+    </div>);
+
+              tabstrip.Add().Text("Pop Up Editing")
+                  .Content(@<div class="modal-body">
+        <div class="gridPopUp">
+            @(Html.Kendo().Grid<SHUNetMVC.Abstraction.Model.Dto.WorkerDtoPopUp>()
+                .Name("grid1")
+                .Columns(columns =>
+                {
+                    columns.Bound(p => p.EmployeeID);
+                    columns.Bound(p => p.LastName);
+                    columns.Bound(p => p.FirstName);
+                    columns.Bound(p => p.Title);
+                    columns.Bound(p => p.TitleOfCourtesy);
+                    columns.Bound(p => p.BirthDate).Width(300);
+                    columns.Bound(p => p.HireDate).Width(300);
+                    columns.Bound(p => p.EmployeeStatus).Width(100).ClientTemplate("<span id='badge_#=EmployeeID#' class='badgeTemplate'></span>").HtmlAttributes(new { style = "text-align: center;" });
+                    columns.Command(command => { command.Destroy(); }).Width(150);
+                })
+                .ToolBar(toolBar =>
+                {
+                    toolBar.Search();
+                })
+                .Search(s =>
+                {
+                    s.Field(o => o.LastName, "contains");
+                    s.Field(o => o.FirstName, "contains");
+                })
+                .Pdf(pdf => pdf
+                    .AllPages()
+                    .AvoidLinks()
+                    .PaperSize("A4")
+                    .Scale(0.8)
+                    .Margin("2cm", "1cm", "1cm", "1cm")
+                    .Landscape()
+                    .RepeatHeaders()
+                    .TemplateId("page-template")
+                    .FileName("Kendo UI Grid Export.pdf")
+                    .ProxyURL(Url.Action("Pdf_Export_Save", "Grid"))
+                )
+                .Editable(e => e.Mode(GridEditMode.PopUp).TemplateName("customTemplate")) /*--> Custom Template Harus di dalam folder  View/Shared/EditorsTemplate */
+                .Pageable()
+                .Sortable()
+                .Scrollable()
+                .Selectable()
+                .Events(events => events.DataBound("onDataBound"))
+                 .Excel(excel => excel
+                        .FileName("Kendo UI Grid Export.xlsx")
+                        .Filterable(true)
+                        .ProxyURL(Url.Action("Excel_Export_Save", "Grid"))
+                )
+                .Filterable(ftb => ftb.Mode(GridFilterMode.Menu))
+                .HtmlAttributes(new { style = "height:500px;" })
+                .DataSource(d =>
+                {
+                    d.Ajax()
+                    .ServerOperation(false)
+                    .Events(events => events.Error("error_handler"))
+                    .Model(model =>
+                    {
+                        model.Id(product => product.EmployeeID);
+                        model.Field(product => product.EmployeeID).Editable(false);
+                    })
+                        .PageSize(5)
+                        .Read(read => read.Action("EditingCustom_Read", "Grid"))
+                        .Create(create => create.Action("EditingCustom_Create", "Grid"))
+                        .Update(update => update.Action("EditingCustom_Update", "Grid"))
+                        .Destroy(destroy => destroy.Action("EditingCustom_Destroy", "Grid"))
+                        ;
+                })
+            )
+        </div>
+    </div>);
+
+              tabstrip.Add().Text("Swimming")
+                  .Content(@<text>
+Swimming has been recorded since prehistoric times; the earliest recording of swimming dates back to Stone Age paintings from around 7,000 years ago. Written references date from 2000 BC. Some of the earliest references to swimming include the Gilgamesh, the Iliad, the Odyssey, the Bible, Beowulf, and other sagas. In 1578, Nikolaus Wynmann, a German professor of languages, wrote the first swimming book, The Swimmer or A Dialogue on the Art of Swimming (Der Schwimmer oder ein Zwiegespräch über die Schwimmkunst). Competitive swimming in Europe started around 1800, mostly using breaststroke.
+                  </text>);
+
+          })
+          .SelectedIndex(0)
+    )
+    </div>
+</form>
+<script type="text/javascript">
+
+    function onSelect(e) {
+        var tabstrip = $("#tabstrip-images").data("kendoTabStrip");
+        var selectedIndex = tabstrip.select().index();
+        var externalButton = document.getElementById("externalButton");
+
+        if (selectedIndex == 1) {
+            externalButton.style.opacity = "1";
+            externalButton.style.visibility = "visible";
+        }
+        else {
+            externalButton.style.opacity = "0";
+            externalButton.style.visibility = "hidden";
+        }
+    }
+
+    function error_handler(e) {
+        if (e.errors) {
+            var message = "Errors:\n";
+            $.each(e.errors, function (key, value) {
+                if ('errors' in value) {
+                    $.each(value.errors, function () {
+                        message += this + "\n";
+                    });
+                }
+            });
+            alert(message);
+        }
+    }
+
+    function employeeIDHandler(e) {
+        var dataItem = e.model;
+        var isEditable = true;
+        e.container.find("input[name=EmployeeID]").prop("disabled", !isEditable);
+    }
+
+    function onDataBound(e) {
+        var grid = this;
+        grid.table.find("tr").each(function () {
+            var dataItem = grid.dataItem(this);
+            var themeColor = '';
+            var text = dataItem.EmployeeStatus;
+
+            if (dataItem.EmployeeStatus == 'Resign') {
+                themeColor = 'dark'
+            }
+            else if (dataItem.EmployeeStatus == 'Dipecat') {
+                themeColor = 'error'
+            }
+            else if (dataItem.EmployeeStatus == 'Aktif') {
+                themeColor = 'success'
+            }
+            else if (dataItem.EmployeeStatus == 'Pensiun') {
+                themeColor = 'warning'
+            }
+            else {
+                themeColor = 'info'
+            }
+
+            $(this).find('script').each(function () {
+                eval($(this).html());
+            });
+
+            $(this).find(".badgeTemplate").kendoBadge({
+                themeColor: themeColor,
+                text: text,
+            });
+
+
+            kendo.bind($(this), dataItem);
+        });
+    }
+
+    $("#add").kendoButton({
+        themeColor: "success",
+        click: function () {
+            var grid = $("#grid1").data("kendoGrid");
+            grid.addRow();
+        }
+    });
+    $("#edit").kendoButton({
+        themeColor: "primary",
+        click: function () {
+            var grid = $("#grid1").data("kendoGrid");
+            var selectedRow = grid.select();
+            if (selectedRow.length > 0) {
+                grid.editRow(selectedRow);
+            } else {
+                alert("Pilih baris yang ingin diedit.");
+            }
+        }
+    });
+    $("#delete").kendoButton({
+        themeColor: "primary",
+        click: function () {
+            var grid = $("#grid1").data("kendoGrid");
+            var selectedRow = grid.select();
+            if (selectedRow.length > 0) {
+                if (confirm("Apakah Anda yakin ingin menghapus data ini?")) {
+                    grid.removeRow(selectedRow);
+                }
+            } else {
+                alert("Pilih baris yang ingin di Delete.");
+            }
+        }
+    });
+    $("#excel").click(function (e) {
+        var grid = $("#grid1").data("kendoGrid");
+        grid.saveAsExcel();
+    });
+    $("#pdf").click(function (e) {
+        var grid = $("#grid1").data("kendoGrid");
+        grid.saveAsPDF();
+    });
+
+    $("#grid1").kendoGrid({
+        // Konfigurasi Kendo Grid lainnya di sini
+        // ...
+
+        // Menambahkan event handler untuk menangani penutupan popup
+        edit: function (e) {
+            // Event handler untuk menangani penutupan popup saat mode edit selesai
+            e.container.data("kendoWindow").bind("close", function (e) {
+                // Memanggil fungsi reloadGrid setelah jendela popup ditutup
+                reloadGrid();
+            });
+        }
+    });
+
+    // Fungsi untuk mereload grid
+    function reloadGrid() {
+        debugger;
+        // Gantilah '#namaGrid' dengan ID dari grid Anda
+        var grid = $("#grid1").data("kendoGrid");
+
+        if (grid) {
+            // Memuat data kembali ke dalam grid
+            grid.dataSource.read();
+        }
+    }
+    </script>
+<script>
+</script>

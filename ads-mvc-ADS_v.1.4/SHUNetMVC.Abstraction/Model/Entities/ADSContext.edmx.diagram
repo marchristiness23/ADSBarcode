@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="399f3f8d27a54fe78f892c970909187b" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Customer" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Departement" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Employee" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.EmployeeEducation" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Project" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Region" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Territory" Width="1.5" PointX="8" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Worker" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="DB_PHE_ADSModel.FK_Employee_Departement" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_PHE_ADSModel.FK_EmployeeEducation_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_PHE_ADSModel.FK_Territories_Region" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DB_PHE_ADSModel.Student" Width="1.5" PointX="5.375" PointY="8.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

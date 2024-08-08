@@ -1,0 +1,223 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at https://aka.ms/fabric-assets-license
+*/
+@font-face {
+  font-family: 'FabricMDL2Icons-4';
+  src: url('../fonts/fabric-icons-4-8ff945c2.woff') format('woff');
+}
+
+.ms-Icon {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-family: 'FabricMDL2Icons-4';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+}
+
+// Mixins
+@mixin ms-Icon--ChromeBack { content: "\E830"; }
+@mixin ms-Icon--ChromeBackMirrored { content: "\EA47"; }
+@mixin ms-Icon--ChromeClose { content: "\E8BB"; }
+@mixin ms-Icon--ChromeFullScreen { content: "\E92D"; }
+@mixin ms-Icon--ChromeMinimize { content: "\E921"; }
+@mixin ms-Icon--ChromeRestore { content: "\E923"; }
+@mixin ms-Icon--CircleAddition { content: "\F2E3"; }
+@mixin ms-Icon--CircleAdditionSolid { content: "\F2E4"; }
+@mixin ms-Icon--CircleDollar { content: "\EAED"; }
+@mixin ms-Icon--CircleFill { content: "\EA3B"; }
+@mixin ms-Icon--CircleHalfFull { content: "\ED9E"; }
+@mixin ms-Icon--CirclePause { content: "\F2D9"; }
+@mixin ms-Icon--CirclePauseSolid { content: "\F2D8"; }
+@mixin ms-Icon--CirclePlus { content: "\EAEE"; }
+@mixin ms-Icon--CircleRing { content: "\EA3A"; }
+@mixin ms-Icon--CircleShape { content: "\F1A5"; }
+@mixin ms-Icon--CircleShapeSolid { content: "\F63C"; }
+@mixin ms-Icon--CircleStop { content: "\F2DC"; }
+@mixin ms-Icon--CircleStopSolid { content: "\F2DB"; }
+@mixin ms-Icon--CityNext { content: "\EC06"; }
+@mixin ms-Icon--CityNext2 { content: "\EC07"; }
+@mixin ms-Icon--ClassNotebookLogo16 { content: "\F488"; }
+@mixin ms-Icon--ClassNotebookLogo32 { content: "\F486"; }
+@mixin ms-Icon--ClassNotebookLogoFill16 { content: "\F489"; }
+@mixin ms-Icon--ClassNotebookLogoFill32 { content: "\F487"; }
+@mixin ms-Icon--ClassNotebookLogoInverse { content: "\EDC8"; }
+@mixin ms-Icon--ClassNotebookLogoInverse16 { content: "\F48B"; }
+@mixin ms-Icon--ClassNotebookLogoInverse32 { content: "\F48A"; }
+@mixin ms-Icon--ClassroomLogo { content: "\EF75"; }
+@mixin ms-Icon--Clear { content: "\E894"; }
+@mixin ms-Icon--ClearFilter { content: "\EF8F"; }
+@mixin ms-Icon--ClearFormatting { content: "\EDDD"; }
+@mixin ms-Icon--ClearFormattingA { content: "\F79D"; }
+@mixin ms-Icon--ClearFormattingEraser { content: "\F79E"; }
+@mixin ms-Icon--ClearNight { content: "\E9C2"; }
+@mixin ms-Icon--ClearSelection { content: "\E8E6"; }
+@mixin ms-Icon--ClearSelectionMirrored { content: "\EA48"; }
+@mixin ms-Icon--Clicked { content: "\F268"; }
+@mixin ms-Icon--ClinicalImpression { content: "\E54B"; }
+@mixin ms-Icon--Clipboard { content: "\ED22"; }
+@mixin ms-Icon--ClipboardList { content: "\F0E3"; }
+@mixin ms-Icon--ClipboardListAdd { content: "\E4EF"; }
+@mixin ms-Icon--ClipboardListMirrored { content: "\F0E4"; }
+@mixin ms-Icon--ClipboardListQuestion { content: "\E4F0"; }
+@mixin ms-Icon--ClipboardListReply { content: "\E4F1"; }
+@mixin ms-Icon--ClipboardSolid { content: "\F5DC"; }
+@mixin ms-Icon--Clock { content: "\E917"; }
+@mixin ms-Icon--CloneToDesktop { content: "\F28C"; }
+@mixin ms-Icon--ClosedCaption { content: "\EF84"; }
+@mixin ms-Icon--ClosePane { content: "\E89F"; }
+@mixin ms-Icon--ClosePaneMirrored { content: "\EA49"; }
+@mixin ms-Icon--Cloud { content: "\E753"; }
+@mixin ms-Icon--CloudAdd { content: "\ECA9"; }
+@mixin ms-Icon--CloudDownload { content: "\EBD3"; }
+@mixin ms-Icon--CloudEdit { content: "\E4C8"; }
+@mixin ms-Icon--CloudFlow { content: "\E5EA"; }
+@mixin ms-Icon--CloudImportExport { content: "\EE55"; }
+@mixin ms-Icon--CloudLink { content: "\E4C9"; }
+@mixin ms-Icon--CloudNotSynced { content: "\EC9C"; }
+@mixin ms-Icon--CloudPrinter { content: "\EDA6"; }
+@mixin ms-Icon--CloudSearch { content: "\EDE4"; }
+@mixin ms-Icon--CloudSecure { content: "\E4D5"; }
+@mixin ms-Icon--CloudUpload { content: "\EC8E"; }
+@mixin ms-Icon--CloudWeather { content: "\E9BE"; }
+@mixin ms-Icon--Cloudy { content: "\E9BF"; }
+@mixin ms-Icon--Cocktails { content: "\EA9D"; }
+@mixin ms-Icon--Code { content: "\E943"; }
+@mixin ms-Icon--CodeEdit { content: "\F544"; }
+@mixin ms-Icon--Coffee { content: "\EAEF"; }
+@mixin ms-Icon--CoffeeScript { content: "\F2FA"; }
+@mixin ms-Icon--CollapseAll { content: "\F85A"; }
+@mixin ms-Icon--CollapseContent { content: "\F165"; }
+@mixin ms-Icon--CollapseContentSingle { content: "\F166"; }
+@mixin ms-Icon--CollapseMenu { content: "\EF66"; }
+@mixin ms-Icon--CollegeFootball { content: "\EB26"; }
+@mixin ms-Icon--CollegeHoops { content: "\EB25"; }
+@mixin ms-Icon--Color { content: "\E790"; }
+@mixin ms-Icon--ColorSolid { content: "\F354"; }
+@mixin ms-Icon--Column { content: "\E438"; }
+@mixin ms-Icon--ColumnFunction { content: "\E4C2"; }
+@mixin ms-Icon--ColumnLeftTwoThirds { content: "\F1D6"; }
+@mixin ms-Icon--ColumnLeftTwoThirdsEdit { content: "\F324"; }
+@mixin ms-Icon--ColumnList { content: "\F1EC"; }
+@mixin ms-Icon--ColumnOptions { content: "\F317"; }
+@mixin ms-Icon--ColumnQuestion { content: "\E4C0"; }
+@mixin ms-Icon--ColumnQuestionMirrored { content: "\E4C1"; }
+@mixin ms-Icon--ColumnRightTwoThirds { content: "\F1D7"; }
+@mixin ms-Icon--ColumnRightTwoThirdsEdit { content: "\F325"; }
+@mixin ms-Icon--ColumnSigma { content: "\E4BF"; }
+@mixin ms-Icon--ColumnVerticalSection { content: "\F81E"; }
+@mixin ms-Icon--ColumnVerticalSectionEdit { content: "\F806"; }
+@mixin ms-Icon--Combine { content: "\EDBB"; }
+@mixin ms-Icon--Combobox { content: "\F516"; }
+@mixin ms-Icon--CommandPrompt { content: "\E756"; }
+@mixin ms-Icon--Comment { content: "\E90A"; }
+@mixin ms-Icon--CommentActive { content: "\F804"; }
+@mixin ms-Icon--CommentAdd { content: "\F2B3"; }
+@mixin ms-Icon--CommentNext { content: "\F2B4"; }
+@mixin ms-Icon--CommentPrevious { content: "\F2B5"; }
+@mixin ms-Icon--CommentSolid { content: "\E30E"; }
+
+
+// Classes
+.ms-Icon--ChromeBack:before { @include ms-Icon--ChromeBack }
+.ms-Icon--ChromeBackMirrored:before { @include ms-Icon--ChromeBackMirrored }
+.ms-Icon--ChromeClose:before { @include ms-Icon--ChromeClose }
+.ms-Icon--ChromeFullScreen:before { @include ms-Icon--ChromeFullScreen }
+.ms-Icon--ChromeMinimize:before { @include ms-Icon--ChromeMinimize }
+.ms-Icon--ChromeRestore:before { @include ms-Icon--ChromeRestore }
+.ms-Icon--CircleAddition:before { @include ms-Icon--CircleAddition }
+.ms-Icon--CircleAdditionSolid:before { @include ms-Icon--CircleAdditionSolid }
+.ms-Icon--CircleDollar:before { @include ms-Icon--CircleDollar }
+.ms-Icon--CircleFill:before { @include ms-Icon--CircleFill }
+.ms-Icon--CircleHalfFull:before { @include ms-Icon--CircleHalfFull }
+.ms-Icon--CirclePause:before { @include ms-Icon--CirclePause }
+.ms-Icon--CirclePauseSolid:before { @include ms-Icon--CirclePauseSolid }
+.ms-Icon--CirclePlus:before { @include ms-Icon--CirclePlus }
+.ms-Icon--CircleRing:before { @include ms-Icon--CircleRing }
+.ms-Icon--CircleShape:before { @include ms-Icon--CircleShape }
+.ms-Icon--CircleShapeSolid:before { @include ms-Icon--CircleShapeSolid }
+.ms-Icon--CircleStop:before { @include ms-Icon--CircleStop }
+.ms-Icon--CircleStopSolid:before { @include ms-Icon--CircleStopSolid }
+.ms-Icon--CityNext:before { @include ms-Icon--CityNext }
+.ms-Icon--CityNext2:before { @include ms-Icon--CityNext2 }
+.ms-Icon--ClassNotebookLogo16:before { @include ms-Icon--ClassNotebookLogo16 }
+.ms-Icon--ClassNotebookLogo32:before { @include ms-Icon--ClassNotebookLogo32 }
+.ms-Icon--ClassNotebookLogoFill16:before { @include ms-Icon--ClassNotebookLogoFill16 }
+.ms-Icon--ClassNotebookLogoFill32:before { @include ms-Icon--ClassNotebookLogoFill32 }
+.ms-Icon--ClassNotebookLogoInverse:before { @include ms-Icon--ClassNotebookLogoInverse }
+.ms-Icon--ClassNotebookLogoInverse16:before { @include ms-Icon--ClassNotebookLogoInverse16 }
+.ms-Icon--ClassNotebookLogoInverse32:before { @include ms-Icon--ClassNotebookLogoInverse32 }
+.ms-Icon--ClassroomLogo:before { @include ms-Icon--ClassroomLogo }
+.ms-Icon--Clear:before { @include ms-Icon--Clear }
+.ms-Icon--ClearFilter:before { @include ms-Icon--ClearFilter }
+.ms-Icon--ClearFormatting:before { @include ms-Icon--ClearFormatting }
+.ms-Icon--ClearFormattingA:before { @include ms-Icon--ClearFormattingA }
+.ms-Icon--ClearFormattingEraser:before { @include ms-Icon--ClearFormattingEraser }
+.ms-Icon--ClearNight:before { @include ms-Icon--ClearNight }
+.ms-Icon--ClearSelection:before { @include ms-Icon--ClearSelection }
+.ms-Icon--ClearSelectionMirrored:before { @include ms-Icon--ClearSelectionMirrored }
+.ms-Icon--Clicked:before { @include ms-Icon--Clicked }
+.ms-Icon--ClinicalImpression:before { @include ms-Icon--ClinicalImpression }
+.ms-Icon--Clipboard:before { @include ms-Icon--Clipboard }
+.ms-Icon--ClipboardList:before { @include ms-Icon--ClipboardList }
+.ms-Icon--ClipboardListAdd:before { @include ms-Icon--ClipboardListAdd }
+.ms-Icon--ClipboardListMirrored:before { @include ms-Icon--ClipboardListMirrored }
+.ms-Icon--ClipboardListQuestion:before { @include ms-Icon--ClipboardListQuestion }
+.ms-Icon--ClipboardListReply:before { @include ms-Icon--ClipboardListReply }
+.ms-Icon--ClipboardSolid:before { @include ms-Icon--ClipboardSolid }
+.ms-Icon--Clock:before { @include ms-Icon--Clock }
+.ms-Icon--CloneToDesktop:before { @include ms-Icon--CloneToDesktop }
+.ms-Icon--ClosedCaption:before { @include ms-Icon--ClosedCaption }
+.ms-Icon--ClosePane:before { @include ms-Icon--ClosePane }
+.ms-Icon--ClosePaneMirrored:before { @include ms-Icon--ClosePaneMirrored }
+.ms-Icon--Cloud:before { @include ms-Icon--Cloud }
+.ms-Icon--CloudAdd:before { @include ms-Icon--CloudAdd }
+.ms-Icon--CloudDownload:before { @include ms-Icon--CloudDownload }
+.ms-Icon--CloudEdit:before { @include ms-Icon--CloudEdit }
+.ms-Icon--CloudFlow:before { @include ms-Icon--CloudFlow }
+.ms-Icon--CloudImportExport:before { @include ms-Icon--CloudImportExport }
+.ms-Icon--CloudLink:before { @include ms-Icon--CloudLink }
+.ms-Icon--CloudNotSynced:before { @include ms-Icon--CloudNotSynced }
+.ms-Icon--CloudPrinter:before { @include ms-Icon--CloudPrinter }
+.ms-Icon--CloudSearch:before { @include ms-Icon--CloudSearch }
+.ms-Icon--CloudSecure:before { @include ms-Icon--CloudSecure }
+.ms-Icon--CloudUpload:before { @include ms-Icon--CloudUpload }
+.ms-Icon--CloudWeather:before { @include ms-Icon--CloudWeather }
+.ms-Icon--Cloudy:before { @include ms-Icon--Cloudy }
+.ms-Icon--Cocktails:before { @include ms-Icon--Cocktails }
+.ms-Icon--Code:before { @include ms-Icon--Code }
+.ms-Icon--CodeEdit:before { @include ms-Icon--CodeEdit }
+.ms-Icon--Coffee:before { @include ms-Icon--Coffee }
+.ms-Icon--CoffeeScript:before { @include ms-Icon--CoffeeScript }
+.ms-Icon--CollapseAll:before { @include ms-Icon--CollapseAll }
+.ms-Icon--CollapseContent:before { @include ms-Icon--CollapseContent }
+.ms-Icon--CollapseContentSingle:before { @include ms-Icon--CollapseContentSingle }
+.ms-Icon--CollapseMenu:before { @include ms-Icon--CollapseMenu }
+.ms-Icon--CollegeFootball:before { @include ms-Icon--CollegeFootball }
+.ms-Icon--CollegeHoops:before { @include ms-Icon--CollegeHoops }
+.ms-Icon--Color:before { @include ms-Icon--Color }
+.ms-Icon--ColorSolid:before { @include ms-Icon--ColorSolid }
+.ms-Icon--Column:before { @include ms-Icon--Column }
+.ms-Icon--ColumnFunction:before { @include ms-Icon--ColumnFunction }
+.ms-Icon--ColumnLeftTwoThirds:before { @include ms-Icon--ColumnLeftTwoThirds }
+.ms-Icon--ColumnLeftTwoThirdsEdit:before { @include ms-Icon--ColumnLeftTwoThirdsEdit }
+.ms-Icon--ColumnList:before { @include ms-Icon--ColumnList }
+.ms-Icon--ColumnOptions:before { @include ms-Icon--ColumnOptions }
+.ms-Icon--ColumnQuestion:before { @include ms-Icon--ColumnQuestion }
+.ms-Icon--ColumnQuestionMirrored:before { @include ms-Icon--ColumnQuestionMirrored }
+.ms-Icon--ColumnRightTwoThirds:before { @include ms-Icon--ColumnRightTwoThirds }
+.ms-Icon--ColumnRightTwoThirdsEdit:before { @include ms-Icon--ColumnRightTwoThirdsEdit }
+.ms-Icon--ColumnSigma:before { @include ms-Icon--ColumnSigma }
+.ms-Icon--ColumnVerticalSection:before { @include ms-Icon--ColumnVerticalSection }
+.ms-Icon--ColumnVerticalSectionEdit:before { @include ms-Icon--ColumnVerticalSectionEdit }
+.ms-Icon--Combine:before { @include ms-Icon--Combine }
+.ms-Icon--Combobox:before { @include ms-Icon--Combobox }
+.ms-Icon--CommandPrompt:before { @include ms-Icon--CommandPrompt }
+.ms-Icon--Comment:before { @include ms-Icon--Comment }
+.ms-Icon--CommentActive:before { @include ms-Icon--CommentActive }
+.ms-Icon--CommentAdd:before { @include ms-Icon--CommentAdd }
+.ms-Icon--CommentNext:before { @include ms-Icon--CommentNext }
+.ms-Icon--CommentPrevious:before { @include ms-Icon--CommentPrevious }
+.ms-Icon--CommentSolid:before { @include ms-Icon--CommentSolid }
+

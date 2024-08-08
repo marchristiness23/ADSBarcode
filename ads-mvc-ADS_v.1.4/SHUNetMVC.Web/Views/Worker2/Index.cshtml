@@ -1,0 +1,38 @@
+﻿ 
+@using SHUNetMVC.Abstraction.Model.View
+    @model CrudPage
+
+ @Scripts.Render("~/bundles/jquery")
+
+    @{
+        ViewBag.Title = "Worker";
+        Model.Title = "Worker";
+        Model.SubTitle = "Create, Read, Update, Delete Workers";
+        Model.GridParam.FilterList.OrderBy = "FirstName asc";
+
+    }
+
+    @Html.Partial("Component/CrudPage/Crud", Model)
+
+
+    @{
+        if (ViewBag.Message != null)
+        {
+            <div>
+                @ViewBag.Message
+            </div>
+        }
+    }
+
+
+
+    @Styles.Render("~/Styles/GridList.css")
+
+    <hr />
+    <br />
+
+    @*@{Html.RenderAction("Index", "Grid");}*@
+
+    @section scripts {
+        @Html.Partial("Component/CrudPage/CrudScript", Model)
+    }
